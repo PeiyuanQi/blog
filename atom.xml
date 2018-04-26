@@ -6,7 +6,7 @@
   <link href="/blog//atom.xml" rel="self"/>
   
   <link href="http://peiyuanqi.me/blog/"/>
-  <updated>2018-04-12T06:29:17.712Z</updated>
+  <updated>2018-04-26T03:03:03.751Z</updated>
   <id>http://peiyuanqi.me/blog/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Percona-Toolkit pt-table-checksum &quot;Waiting for the —replicate table&quot; Error</title>
+    <link href="http://peiyuanqi.me/blog/2018/04/26/percona-toolkit-wait-for-slave-error/"/>
+    <id>http://peiyuanqi.me/blog/2018/04/26/percona-toolkit-wait-for-slave-error/</id>
+    <published>2018-04-26T02:42:36.000Z</published>
+    <updated>2018-04-26T03:03:03.751Z</updated>
+    
+    <content type="html"><![CDATA[<p>Percona-Toolkit is a useful DBA toolkit, one of the most useful tool is <code>pt-table-checksum</code>.</p><p>Here is the general steps:</p><ul><li><p>Configure same users with same passwords for Master and Slaves databases;</p></li><li><p>Grand necessary privileges for Master database and Slave databases with proper master host ip:</p><ul><li><p>Master</p><ul><li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">GRANT SELECT, PROCESS, SUPER, REPLICATION SLAVE,CREATE,DELETE,INSERT,UPDATE ON *.* TO &apos;percona&apos;@MASTER_HOST identified by &apos;password&apos;;</span><br><span class="line">flush privileges;</span><br></pre></td></tr></table></figure></li></ul></li><li><p>Slaves</p><ul><li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; GRANT SELECT, PROCESS, SUPER, REPLICATION SLAVE ON  *.* TO &apos;percona&apos;@MASTER_HOST IDENTIFIED BY &apos;password&apos;;</span><br><span class="line">mysql&gt; flush privileges;</span><br></pre></td></tr></table></figure></li></ul></li></ul></li></ul><p>Then just execute <code>pt-table-checksum</code> on your master, here is a quick reference for options:</p><blockquote><p>–nocheck-replication-filters ：not check filter, required if want to use –databases<br>–no-check-binlog-format : do not check replicate binlog mode, if it is ROW, report error<br>–replicate-check-only : only show not synced info<br>–replicate= ：checksums info storage location, e.g. database.table, <strong>it should be replicated by slaves!</strong><br>–databases= ：databases to check, separate with “,”<br>–tables= : tables to check, separate with “,”<br>h= : Master IP<br>u= : database username<br>p= : password<br>P= : database port</p></blockquote><p>And the example command is</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pt-table-checksum --nocheck-replication-filters --no-check-binlog-format --replicate=MasterChecksums.checksums --create-replicate-table h=MASTER_HOST,u=percona,p=password,P=3306</span><br></pre></td></tr></table></figure><p>If you get the error that getting stuck in the loop of  “Waiting for the —replicate table to replicate to \<replicant name\="">“</replicant></p><p>It is caused by the checksums table not synced by slaves.</p><p>Add the database contains checksums tables into the <code>my.cnf</code> of Master, then restart the mysql service.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Percona-Toolkit is a useful DBA toolkit, one of the most useful tool is &lt;code&gt;pt-table-checksum&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Here is the general steps:
+      
+    
+    </summary>
+    
+      <category term="Tech" scheme="http://peiyuanqi.me/blog/categories/Tech/"/>
+    
+    
+      <category term="DBA" scheme="http://peiyuanqi.me/blog/tags/DBA/"/>
+    
+      <category term="Percona" scheme="http://peiyuanqi.me/blog/tags/Percona/"/>
+    
+  </entry>
   
   <entry>
     <title>Install Open Source Mano THREE on Google Cloud</title>
