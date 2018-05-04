@@ -152,9 +152,9 @@
       <category term="Topic" scheme="http://peiyuanqi.me/blog/categories/Topic/"/>
     
     
-      <category term="Humanity" scheme="http://peiyuanqi.me/blog/tags/Humanity/"/>
-    
       <category term="Quotation" scheme="http://peiyuanqi.me/blog/tags/Quotation/"/>
+    
+      <category term="Humanity" scheme="http://peiyuanqi.me/blog/tags/Humanity/"/>
     
   </entry>
   
@@ -386,11 +386,11 @@
     
       <category term="Humanity" scheme="http://peiyuanqi.me/blog/tags/Humanity/"/>
     
-      <category term="Society" scheme="http://peiyuanqi.me/blog/tags/Society/"/>
-    
       <category term="Movies" scheme="http://peiyuanqi.me/blog/tags/Movies/"/>
     
       <category term="Sci-Fi" scheme="http://peiyuanqi.me/blog/tags/Sci-Fi/"/>
+    
+      <category term="Society" scheme="http://peiyuanqi.me/blog/tags/Society/"/>
     
   </entry>
   
