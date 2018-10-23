@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2018-10-22T19:42:08.388Z</updated>
+  <updated>2018-10-23T21:39:24.390Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Design-Patterns</title>
+    <link href="https://blog.peiyuanqi.me/2018/10/22/Design-Patterns/"/>
+    <id>https://blog.peiyuanqi.me/2018/10/22/Design-Patterns/</id>
+    <published>2018-10-23T06:39:24.000Z</published>
+    <updated>2018-10-23T21:39:24.390Z</updated>
+    
+    <content type="html"><![CDATA[<p>This post contains some Design Pattern questions. Updating…</p><p>在此收录一些常见的设计模式问题。更新中…</p><h3 id="Design-Pattern-Principles"><a href="#Design-Pattern-Principles" class="headerlink" title="Design Pattern Principles"></a>Design Pattern Principles</h3><ul><li><a href="https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#single-responsibility-principle" target="_blank" rel="noopener"><strong>S</strong>ingle Responsibility Principle</a></li><li><a href="https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#open/closed-principle" target="_blank" rel="noopener"><strong>O</strong>pen/Closed Principle</a></li><li><a href="https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#liskov-substitution-principle" target="_blank" rel="noopener"><strong>L</strong>iskov Substitution Principle</a></li><li><a href="https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#interface-segregation-principle" target="_blank" rel="noopener"><strong>I</strong>nterface Segregation Principle</a></li><li><a href="https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#dependency-inversion-principle" target="_blank" rel="noopener"><strong>D</strong>ependency Inversion Principle</a></li></ul><h3 id="Design-Patterns"><a href="#Design-Patterns" class="headerlink" title="Design Patterns"></a>Design Patterns</h3><h4 id="Singleton-单例模式"><a href="#Singleton-单例模式" class="headerlink" title="Singleton 单例模式"></a>Singleton 单例模式</h4><ul><li>Each class has one single instance.</li></ul><h4 id="Simple-Factory-Pattern-简单工厂模式"><a href="#Simple-Factory-Pattern-简单工厂模式" class="headerlink" title="Simple Factory Pattern 简单工厂模式"></a>Simple Factory Pattern 简单工厂模式</h4><ul><li>Split creating instance and using instance to achieve decoupling.</li><li>Violated The Open Closed Principle.</li></ul><h4 id="Adapter-Pattern-适配器模式"><a href="#Adapter-Pattern-适配器模式" class="headerlink" title="Adapter Pattern 适配器模式"></a>Adapter Pattern 适配器模式</h4><ul><li>Simple as its name.</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;This post contains some Design Pattern questions. Updating…&lt;/p&gt;
+&lt;p&gt;在此收录一些常见的设计模式问题。更新中…&lt;/p&gt;
+&lt;h3 id=&quot;Design-Pattern-Principles&quot;&gt;&lt;a href=&quot;#
+      
+    
+    </summary>
+    
+      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+      <category term="Design Patterns" scheme="https://blog.peiyuanqi.me/tags/Design-Patterns/"/>
+    
+  </entry>
   
   <entry>
     <title>PAKE, A Cryptographic Key Exchange Protocol</title>
@@ -383,9 +410,9 @@
       <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
     
     
-      <category term="Quotation" scheme="https://blog.peiyuanqi.me/tags/Quotation/"/>
-    
       <category term="Humanity" scheme="https://blog.peiyuanqi.me/tags/Humanity/"/>
+    
+      <category term="Quotation" scheme="https://blog.peiyuanqi.me/tags/Quotation/"/>
     
   </entry>
   
@@ -555,36 +582,6 @@
       <category term="macOS" scheme="https://blog.peiyuanqi.me/tags/macOS/"/>
     
       <category term="swift3" scheme="https://blog.peiyuanqi.me/tags/swift3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>How to Use MultipeerConnectivity Framework</title>
-    <link href="https://blog.peiyuanqi.me/2017/04/10/how-to-use-multipeerconnectivity-framework/"/>
-    <id>https://blog.peiyuanqi.me/2017/04/10/how-to-use-multipeerconnectivity-framework/</id>
-    <published>2017-04-11T00:57:50.000Z</published>
-    <updated>2018-02-14T13:21:03.483Z</updated>
-    
-    <content type="html"><![CDATA[<p>Here is a great tutorial about how to establish the connection using MultipeerConnectivity framwork. Updated in 2017.2</p><p><a href="https://www.ralfebert.de/tutorials/ios-swift-multipeer-connectivity/" target="_blank" rel="noopener">https://www.ralfebert.de/tutorials/ios-swift-multipeer-connectivity/</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Here is a great tutorial about how to establish the connection using MultipeerConnectivity framwork. Updated in 2017.2&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;ht
-      
-    
-    </summary>
-    
-      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
-    
-    
-      <category term="iOS" scheme="https://blog.peiyuanqi.me/tags/iOS/"/>
-    
-      <category term="MultipeerConnectivity" scheme="https://blog.peiyuanqi.me/tags/MultipeerConnectivity/"/>
-    
-      <category term="Swift" scheme="https://blog.peiyuanqi.me/tags/Swift/"/>
     
   </entry>
   
