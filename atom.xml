@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2018-10-23T21:54:23.775Z</updated>
+  <updated>2018-10-25T19:23:21.309Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Computer Systems</title>
+    <link href="https://blog.peiyuanqi.me/2018/10/24/computer-arch/"/>
+    <id>https://blog.peiyuanqi.me/2018/10/24/computer-arch/</id>
+    <published>2018-10-25T04:23:21.000Z</published>
+    <updated>2018-10-25T19:23:21.309Z</updated>
+    
+    <content type="html"><![CDATA[<p>This post contains some relative lower layer Computer System questions. Updating…</p><p>在此收录一些关于比较底层的计算机系统问题。更新中…<a id="more"></a></p><h4 id="CPU-Cache-高速缓存"><a href="#CPU-Cache-高速缓存" class="headerlink" title="CPU Cache 高速缓存"></a>CPU Cache 高速缓存</h4><ul><li></li></ul><h4 id="TLB"><a href="#TLB" class="headerlink" title="TLB"></a>TLB</h4><ul><li>Store cached translation of Virtual Address to Physical Address.</li></ul><h4 id="MMU-Memory-Management-Unit"><a href="#MMU-Memory-Management-Unit" class="headerlink" title="MMU (Memory Management Unit)"></a>MMU (Memory Management Unit)</h4><ul><li><p>Translate virtual address to physical address in hardware way.</p></li><li><p>Might have Virtual Address Cache and Physical Address Cache to speed up the look up.</p></li></ul><h4 id="Memory-Management-内存管理"><a href="#Memory-Management-内存管理" class="headerlink" title="Memory Management 内存管理"></a>Memory Management 内存管理</h4><ul><li>Shared Memory.</li><li>Copy on Write.</li></ul><h4 id="Page-Table-页表"><a href="#Page-Table-页表" class="headerlink" title="Page Table 页表"></a>Page Table 页表</h4><ul><li>What is Page Table?</li><li>Page Table is in memory.</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This post contains some relative lower layer Computer System questions. Updating…&lt;/p&gt;
+&lt;p&gt;在此收录一些关于比较底层的计算机系统问题。更新中…
+    
+    </summary>
+    
+      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+      <category term="Computer Architecture" scheme="https://blog.peiyuanqi.me/tags/Computer-Architecture/"/>
+    
+      <category term="Computer System" scheme="https://blog.peiyuanqi.me/tags/Computer-System/"/>
+    
+  </entry>
   
   <entry>
     <title>Design-Patterns</title>
@@ -137,9 +162,9 @@
       <category term="Story" scheme="https://blog.peiyuanqi.me/categories/Story/"/>
     
     
-      <category term="Writing Practice" scheme="https://blog.peiyuanqi.me/tags/Writing-Practice/"/>
-    
       <category term="Play" scheme="https://blog.peiyuanqi.me/tags/Play/"/>
+    
+      <category term="Writing Practice" scheme="https://blog.peiyuanqi.me/tags/Writing-Practice/"/>
     
   </entry>
   
@@ -163,9 +188,9 @@
       <category term="Story" scheme="https://blog.peiyuanqi.me/categories/Story/"/>
     
     
-      <category term="Scene" scheme="https://blog.peiyuanqi.me/tags/Scene/"/>
-    
       <category term="Writing Practice" scheme="https://blog.peiyuanqi.me/tags/Writing-Practice/"/>
+    
+      <category term="Scene" scheme="https://blog.peiyuanqi.me/tags/Scene/"/>
     
   </entry>
   
@@ -533,35 +558,6 @@
       <category term="Network" scheme="https://blog.peiyuanqi.me/tags/Network/"/>
     
       <category term="socket" scheme="https://blog.peiyuanqi.me/tags/socket/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>How to Mask Multiple Keys in Swift 3</title>
-    <link href="https://blog.peiyuanqi.me/2017/04/18/how-to-mask-multiple-keys-in-swift-3/"/>
-    <id>https://blog.peiyuanqi.me/2017/04/18/how-to-mask-multiple-keys-in-swift-3/</id>
-    <published>2017-04-18T19:30:50.000Z</published>
-    <updated>2018-02-14T13:21:03.483Z</updated>
-    
-    <content type="html"><![CDATA[<p>When you need to use CGEvent to create Quartz Event to mimic keyboard input for your macOS program, if you need to mimic the function of <code>shift, control, command, option</code>, then you need to set flag for CGEvent instance’s <code>flag</code> property. Meanwhile, if you want to set more than one flag, then you should or the <code>rawvalue</code> of flag together.</p><p>The example is shown here:</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> opt1d = <span class="type">CGEvent</span>(keyboardEventSource: src, virtualKey: kVK_Option), keyDown: <span class="literal">true</span>)</span><br><span class="line"><span class="keyword">let</span> opt1u = <span class="type">CGEvent</span>(keyboardEventSource: src, virtualKey: kVK_Option), keyDown: <span class="literal">false</span>)</span><br><span class="line"><span class="keyword">let</span> opt2d = <span class="type">CGEvent</span>(keyboardEventSource: src, virtualKey: kVK_Command), keyDown: <span class="literal">true</span>)</span><br><span class="line"><span class="keyword">let</span> opt2u = <span class="type">CGEvent</span>(keyboardEventSource: src, virtualKey: kVK_Command), keyDown: <span class="literal">false</span>)</span><br><span class="line"><span class="keyword">let</span> opt3d = <span class="type">CGEvent</span>(keyboardEventSource: src, virtualKey: kVK_ANSI_D), keyDown: <span class="literal">true</span>)</span><br><span class="line"><span class="keyword">let</span> opt3u = <span class="type">CGEvent</span>(keyboardEventSource: src, virtualKey: kVK_ANSI_D), keyDown: <span class="literal">false</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> flagRaw : <span class="type">UInt64</span> = <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">switch</span> keys[<span class="number">0</span>] &#123;</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Command&amp;quot;:</span><br><span class="line">        flagRaw = <span class="type">CGEventFlags</span>.maskCommand.rawValue</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Shift&amp;quot;:</span><br><span class="line">        flagRaw = <span class="type">CGEventFlags</span>.maskShift.rawValue</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Control&amp;quot;:</span><br><span class="line">        flagRaw = <span class="type">CGEventFlags</span>.maskControl.rawValue</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Option&amp;quot;:</span><br><span class="line">        flagRaw = <span class="type">CGEventFlags</span>.maskAlternate.rawValue</span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="keyword">switch</span> keys[<span class="number">1</span>] &#123;</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Command&amp;quot;:</span><br><span class="line">        opt3d?.flags = <span class="type">CGEventFlags</span>(rawValue: <span class="type">CGEventFlags</span>.maskCommand.rawValue | flagRaw)</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Shift&amp;quot;:</span><br><span class="line">        opt3d?.flags = <span class="type">CGEventFlags</span>(rawValue: <span class="type">CGEventFlags</span>.maskShift.rawValue | flagRaw)</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Control&amp;quot;:</span><br><span class="line">        opt3d?.flags = <span class="type">CGEventFlags</span>(rawValue: <span class="type">CGEventFlags</span>.maskControl.rawValue | flagRaw)</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Option&amp;quot;:</span><br><span class="line">        opt3d?.flags = <span class="type">CGEventFlags</span>(rawValue: <span class="type">CGEventFlags</span>.maskAlternate.rawValue | flagRaw)</span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">opt1d?.post(tap: loc)</span><br><span class="line">opt2d?.post(tap: loc)</span><br><span class="line">opt3d?.post(tap: loc)</span><br><span class="line">opt3u?.post(tap: loc)</span><br><span class="line">opt2u?.post(tap: loc)</span><br><span class="line">opt1u?.post(tap: loc)</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;When you need to use CGEvent to create Quartz Event to mimic keyboard input for your macOS program, if you need to mimic the function of 
-      
-    
-    </summary>
-    
-      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
-    
-    
-      <category term="iOS" scheme="https://blog.peiyuanqi.me/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://blog.peiyuanqi.me/tags/macOS/"/>
-    
-      <category term="swift3" scheme="https://blog.peiyuanqi.me/tags/swift3/"/>
     
   </entry>
   
