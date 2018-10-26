@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2018-10-25T19:23:21.309Z</updated>
+  <updated>2018-10-26T18:41:47.620Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>The Italian Wars 1494 - 1495</title>
+    <link href="https://blog.peiyuanqi.me/2018/10/25/The-Italian-Wars-1494/"/>
+    <id>https://blog.peiyuanqi.me/2018/10/25/The-Italian-Wars-1494/</id>
+    <published>2018-10-26T03:41:47.000Z</published>
+    <updated>2018-10-26T18:41:47.620Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在协助校对 The Italian Wars 1494 - 1559，看到了一些有趣的故事，特此记录一下第一阶段的一些有趣的事情。</p><p>法王查理八世在15世纪末就能实现闪电战了，从8月自里昂出征到次年2月攻陷那不勒斯城，总共过程不超过半年。当然中间很关键的一点是许多意大利王国保持了中立，并提供了军事通行的便利。</p><p>法妖在中世纪到文艺复兴时期率先实现统一民族国家的优势是十分明显的。以全意大利之力不可能无法阻止法军的入侵，但是彼时意大利确实被分裂成多块，拥有背景和自己的计划，其中米兰公爵想借法军之力来实现自己的权力轨迹可谓是关键因素。</p><p>日常嘲讽意大利人，就是不想打仗。也不想给隔壁邻居卖命。</p><p>那不勒斯王国的国王阿方索六世坑的一手好儿子，先期积极组织抵抗，但毫无成效，于是见势就带着财产退位跑去西西里度假了。留着儿子面对法军。不过儿子运气不错还是跑回了西西里岛。</p><p>法军在日后遭到了严重的打击，但是这又是后话了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近在协助校对 The Italian Wars 1494 - 1559，看到了一些有趣的故事，特此记录一下第一阶段的一些有趣的事情。&lt;/p&gt;
+&lt;p&gt;法王查理八世在15世纪末就能实现闪电战了，从8月自里昂出征到次年2月攻陷那不勒斯城，总共过程不超过半年。当然中间很关键的一点
+      
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="History" scheme="https://blog.peiyuanqi.me/tags/History/"/>
+    
+      <category term="The Italian Wars" scheme="https://blog.peiyuanqi.me/tags/The-Italian-Wars/"/>
+    
+  </entry>
   
   <entry>
     <title>Computer Systems</title>
@@ -107,9 +135,9 @@
       <category term="Story" scheme="https://blog.peiyuanqi.me/categories/Story/"/>
     
     
-      <category term="Writing Practice" scheme="https://blog.peiyuanqi.me/tags/Writing-Practice/"/>
-    
       <category term="Flash Fiction" scheme="https://blog.peiyuanqi.me/tags/Flash-Fiction/"/>
+    
+      <category term="Writing Practice" scheme="https://blog.peiyuanqi.me/tags/Writing-Practice/"/>
     
   </entry>
   
@@ -162,9 +190,9 @@
       <category term="Story" scheme="https://blog.peiyuanqi.me/categories/Story/"/>
     
     
-      <category term="Play" scheme="https://blog.peiyuanqi.me/tags/Play/"/>
-    
       <category term="Writing Practice" scheme="https://blog.peiyuanqi.me/tags/Writing-Practice/"/>
+    
+      <category term="Play" scheme="https://blog.peiyuanqi.me/tags/Play/"/>
     
   </entry>
   
@@ -529,35 +557,6 @@
       <category term="perl module" scheme="https://blog.peiyuanqi.me/tags/perl-module/"/>
     
       <category term="Programming" scheme="https://blog.peiyuanqi.me/tags/Programming/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Understand backlog Argument in listen() Command of Linux</title>
-    <link href="https://blog.peiyuanqi.me/2017/04/25/understand-backlog-argument-in-listen-command-of-linux/"/>
-    <id>https://blog.peiyuanqi.me/2017/04/25/understand-backlog-argument-in-listen-command-of-linux/</id>
-    <published>2017-04-25T13:54:06.000Z</published>
-    <updated>2018-02-14T13:21:03.483Z</updated>
-    
-    <content type="html"><![CDATA[<p>In linux system, <code>backlog</code> specify the accepted queue size (the number of established status packets). If the accepted queue is full, further <strong>SYN RECEIVED</strong> packets will be ignored. If you are using <strong>TCP</strong>, then <strong>TCP</strong> will simply resend this packet, for the sender does not receive <strong>ACK</strong>. But for <strong>UDP</strong>, you will deal with it in another way.</p><p>For further reading, here is a good <a href="http://veithen.github.io/2014/01/01/how-tcp-backlog-works-in-linux.html" target="_blank" rel="noopener">blog post</a>.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;In linux system, &lt;code&gt;backlog&lt;/code&gt; specify the accepted queue size (the number of established status packets). If the accepted queue i
-      
-    
-    </summary>
-    
-      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
-    
-    
-      <category term="backlog" scheme="https://blog.peiyuanqi.me/tags/backlog/"/>
-    
-      <category term="Network" scheme="https://blog.peiyuanqi.me/tags/Network/"/>
-    
-      <category term="socket" scheme="https://blog.peiyuanqi.me/tags/socket/"/>
     
   </entry>
   
