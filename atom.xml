@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2018-10-26T18:43:18.468Z</updated>
+  <updated>2018-10-26T21:15:39.665Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RobinHood - A Solution for Tail Latency</title>
+    <link href="https://blog.peiyuanqi.me/2018/10/25/robinhood-tail-latency/"/>
+    <id>https://blog.peiyuanqi.me/2018/10/25/robinhood-tail-latency/</id>
+    <published>2018-10-26T05:40:35.000Z</published>
+    <updated>2018-10-26T21:15:39.665Z</updated>
+    
+    <content type="html"><![CDATA[<p>You could find original post at <a href="https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/" target="_blank" rel="noopener">The Morning Paper</a>. 本文主要是对<a href="https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/" target="_blank" rel="noopener">The Morning Paper</a>的翻译。</p><p>在 <a href="https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/" target="_blank" rel="noopener">The Morning Paper</a> 上介绍了一篇来自OSDI‘18的最新文章。文章提出了一种针对Tail Latency的解决方案，使用Dynamic Cache的方法针对性的解决Tail Latency。这套系统被命名为RobinHood。</p><p>不知道的看了标题还以为这是Robinhood提出来的解决方案=-= <a id="more"></a></p><h4 id="Tail-Latency"><a href="#Tail-Latency" class="headerlink" title="Tail Latency"></a>Tail Latency</h4><img src="/2018/10/25/robinhood-tail-latency/taillatency.jpeg" title="Cause of Tail Latency (The Morning Paper)"><p>对于那些Frequency比较低的访问数据，我们就会看到如图的Tail, 而对这个Tail里面的数据的访问都会导致非常高的延迟，是为Tail Latency。</p><p>传统解决方案一般有使用冗余的请求，合理使用Scheduling，auto-scaling 和 容量供给，和近似计算。</p><p>而RobinHood使用了Cache来解决Tail Latency。</p><h4 id="RobinHood"><a href="#RobinHood" class="headerlink" title="RobinHood"></a>RobinHood</h4><img src="/2018/10/25/robinhood-tail-latency/robinhood.jpeg" title="Comparison of P99 Request Latency"><p>RobinHood将额外的Cache空间分配给正在遭受高Tail Latency的后端服务器。</p><p>由于Tail Latency是不断变化的，受多种因素的影响，所以我们不能简单的静态的分配多余的Cache。</p><p>RobinHood具体的分配方法是：每5秒的时间段向每一个后端抽取1%的Cache空间。并重新分配给Cache不足的后端。在每个时间段中，它会追踪每一个Request的Latency，并会记录下来时间最长的后端ID。在每一个时间段的最后，RobinHood计算每一个后端的</p><blockquote><p>Request blocking count (RBC) - the number of times it was responsible for the slowest query.</p></blockquote><p>有的后端利用新的Cache的速度很慢，RobinHood还会监控分配Cache和使用的Cache之间的差距，如果超过30%，则会忽视对应后端的RBC。</p><p>利用Load Balancing，RobinHood保证分配决定对每个服务器是locally的。RobinHood的控制器之间相互交换RBC数据来放置Cache分配不能够收敛。对于5秒的时间段，实验收敛实践为30min。</p><p>大概就是这样=-=</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;You could find original post at &lt;a href=&quot;https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;The Morning Paper&lt;/a&gt;. 本文主要是对&lt;a href=&quot;https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;The Morning Paper&lt;/a&gt;的翻译。&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&quot;https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;The Morning Paper&lt;/a&gt; 上介绍了一篇来自OSDI‘18的最新文章。文章提出了一种针对Tail Latency的解决方案，使用Dynamic Cache的方法针对性的解决Tail Latency。这套系统被命名为RobinHood。&lt;/p&gt;
+&lt;p&gt;不知道的看了标题还以为这是Robinhood提出来的解决方案=-=
+    
+    </summary>
+    
+      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+      <category term="Tail Latency" scheme="https://blog.peiyuanqi.me/tags/Tail-Latency/"/>
+    
+  </entry>
   
   <entry>
     <title>The Italian Wars 1494 - 1495</title>
@@ -525,38 +549,6 @@
       <category term="Git" scheme="https://blog.peiyuanqi.me/tags/Git/"/>
     
       <category term="Submodule" scheme="https://blog.peiyuanqi.me/tags/Submodule/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>How to Write Perl in Objective Oriented Way without Moose</title>
-    <link href="https://blog.peiyuanqi.me/2017/08/21/how-to-write-perl-in-objective-oriented-way-without-moose/"/>
-    <id>https://blog.peiyuanqi.me/2017/08/21/how-to-write-perl-in-objective-oriented-way-without-moose/</id>
-    <published>2017-08-21T13:52:01.000Z</published>
-    <updated>2018-02-14T13:21:03.483Z</updated>
-    
-    <content type="html"><![CDATA[<p>Since I am new to perl and here are some notes for writing perl in OOP without using package without using Moose module. </p><p>It is recommended to include<br><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">use</span> strict;</span><br><span class="line"><span class="keyword">use</span> warning;</span><br></pre></td></tr></table></figure></p><p>at the very beginning of your code to make your code easier for others to read and understand.</p><p>So class in perl is basically a module. With the constructor subroutine and <code>bless</code>, it is easy to act like a class.</p><p>First of all, put your class in the file &lt;classname&gt;.pm . It is the module for the implementation of your class. </p><p>This module will have a constructor and some methods:<br><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> &lt;classname&gt;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">use</span> strict;</span><br><span class="line"><span class="keyword">use</span> warning;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">sub</span> <span class="title">new</span> </span>&#123;</span><br><span class="line">    <span class="keyword">my</span> ($self, $class, $arguments) = @_; </span><br><span class="line">    <span class="keyword">bless</span> $self, $class;</span><br><span class="line">    $self-&gt;init($arguments);</span><br><span class="line">    <span class="keyword">return</span> $self;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">sub</span> <span class="title">init</span> </span>&#123;</span><br><span class="line">    <span class="comment"># initialize with $arguments</span></span><br><span class="line">    <span class="comment"># here is a example</span></span><br><span class="line">    <span class="keyword">my</span> ($self, $options) = @_;</span><br><span class="line">    %&#123;$self&#125; = %&#123;$options&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">sub</span> <span class="title">aMethod</span> </span>&#123;</span><br><span class="line">    <span class="comment">#implementation of method here</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="number">1</span>;</span><br></pre></td></tr></table></figure></p><p>The constructor subroutine is not necessary to be named <code>new</code>.<br>In your perl file, after include this module with <code>use &lt;classname&gt;;</code>, you could create a new class instance in the following way and call its methods:<br><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">my</span> $instance = &lt;classname&gt; -&gt; new ( \%args );</span><br><span class="line">$instance -&gt; aMethod ();</span><br></pre></td></tr></table></figure></p><p>For above codes, an class instance is created by <code>new ( \%args );</code>. It returns a handler and store in <code>$instance</code>. Actually, it is a hash in perl. All subroutines can be called in the way of <code>$classname -&gt; subroutineName()</code> like methods of class. All the attributes are stored in the hash, which is binded to <code>$class</code> by <code>bless</code>. You can directly access the attributes by <code>$class -&gt; {$key}</code>, which is not recommended.</p><p>That is all about writing perl in OOP.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Since I am new to perl and here are some notes for writing perl in OOP without using package without using Moose module. &lt;/p&gt;
-&lt;p&gt;It is re
-      
-    
-    </summary>
-    
-      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
-    
-    
-      <category term="Objective Oriented" scheme="https://blog.peiyuanqi.me/tags/Objective-Oriented/"/>
-    
-      <category term="perl" scheme="https://blog.peiyuanqi.me/tags/perl/"/>
-    
-      <category term="perl module" scheme="https://blog.peiyuanqi.me/tags/perl-module/"/>
-    
-      <category term="Programming" scheme="https://blog.peiyuanqi.me/tags/Programming/"/>
     
   </entry>
   
