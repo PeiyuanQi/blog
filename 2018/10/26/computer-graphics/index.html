@@ -6,20 +6,26 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://blog.peiyuanqi.me">
-  <title>computer-graphics | Peiyuan&#39;s Blog</title>
+  <title>Computer Graphics | Peiyuan&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="This post contains some knowledges of Computer Graphics. Updating… 在此收录一些关于计算机图形学的问题。更新中…">
 <meta name="keywords" content="Computer Graphics">
 <meta property="og:type" content="article">
-<meta property="og:title" content="computer-graphics">
+<meta property="og:title" content="Computer Graphics">
 <meta property="og:url" content="https://blog.peiyuanqi.me/2018/10/26/computer-graphics/index.html">
 <meta property="og:site_name" content="Peiyuan&#39;s Blog">
 <meta property="og:description" content="This post contains some knowledges of Computer Graphics. Updating… 在此收录一些关于计算机图形学的问题。更新中…">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-10-26T22:25:43.088Z">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2018/10/26/computer-graphics/lineEq.png">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2018/10/26/computer-graphics/lineEq2.png">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2018/10/26/computer-graphics/lineEq3.png">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2018/10/26/computer-graphics/lineEq4.png">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2018/10/26/computer-graphics/lineEq5.png">
+<meta property="og:updated_time" content="2018-10-26T22:36:52.924Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="computer-graphics">
+<meta name="twitter:title" content="Computer Graphics">
 <meta name="twitter:description" content="This post contains some knowledges of Computer Graphics. Updating… 在此收录一些关于计算机图形学的问题。更新中…">
+<meta name="twitter:image" content="https://blog.peiyuanqi.me/2018/10/26/computer-graphics/lineEq.png">
   
     <link rel="alternative" href="https://blog.peiyuanqi.me/atom.xml" title="Peiyuan&#39;s Blog" type="application/atom+xml">
   
@@ -193,7 +199,7 @@ ga('send', 'pageview');
         
   
     <h1 class="article-title" itemprop="name">
-      computer-graphics
+      Computer Graphics
     </h1>
   
 
@@ -216,8 +222,17 @@ ga('send', 'pageview');
 <p>在此收录一些关于计算机图形学的问题。更新中…<a id="more"></a></p>
 <h4 id="Line-Segment-Intersection-线段交点"><a href="#Line-Segment-Intersection-线段交点" class="headerlink" title="Line Segment Intersection 线段交点"></a>Line Segment Intersection 线段交点</h4><p>Line Segment $AB$ has $A(x_a, y_a)$ and $B(x_b, y_b)$.</p>
 <p>Line Segment $CD$ has $C(x_c, y_c)$ and $C(x_c, y_c)$.</p>
-<p>Line Equations:<br>$$<br>\begin{equation}<br>\left{<br>             \begin{array}{lr}<br>             x=x_a+\lambda(x_b-x_a), &amp;  \<br>             y=y_a+\lambda(y_b-y_a), &amp;<br>             \end{array}<br>\right.<br>\end{equation}</p>
-<p>$$</p>
+<p>Line Equations:</p>
+<img src="/2018/10/26/computer-graphics/lineEq.png" title="Line Equations">
+<p>Combine Equations:</p>
+<img src="/2018/10/26/computer-graphics/lineEq2.png" title="Getting Intersection">
+<img src="/2018/10/26/computer-graphics/lineEq3.png" title="Getting Intersection">
+<p>And if the Determinant is 0:</p>
+<img src="/2018/10/26/computer-graphics/lineEq4.png" title="Determinant">
+<p>It means line segment overlap or parallel.</p>
+<p>If not 0:</p>
+<img src="/2018/10/26/computer-graphics/lineEq5.png" title="Getting Intersection">
+<p>Only when $0\le \lambda \le 1, 0\le \mu \le 1$, two line segments have real intersection, otherwise, the intersection is on their extension.</p>
 
       
 

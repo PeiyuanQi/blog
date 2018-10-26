@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2018-10-26T22:25:43.088Z</updated>
+  <updated>2018-10-26T22:36:52.924Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>computer-graphics</title>
+    <title>Computer Graphics</title>
     <link href="https://blog.peiyuanqi.me/2018/10/26/computer-graphics/"/>
     <id>https://blog.peiyuanqi.me/2018/10/26/computer-graphics/</id>
     <published>2018-10-26T07:18:29.000Z</published>
-    <updated>2018-10-26T22:25:43.088Z</updated>
+    <updated>2018-10-26T22:36:52.924Z</updated>
     
-    <content type="html"><![CDATA[<p>This post contains some knowledges of Computer Graphics. Updating…</p><p>在此收录一些关于计算机图形学的问题。更新中…<a id="more"></a></p><h4 id="Line-Segment-Intersection-线段交点"><a href="#Line-Segment-Intersection-线段交点" class="headerlink" title="Line Segment Intersection 线段交点"></a>Line Segment Intersection 线段交点</h4><p>Line Segment $AB$ has $A(x_a, y_a)$ and $B(x_b, y_b)$.</p><p>Line Segment $CD$ has $C(x_c, y_c)$ and $C(x_c, y_c)$.</p><p>Line Equations:<br>$$<br>\begin{equation}<br>\left{<br>             \begin{array}{lr}<br>             x=x_a+\lambda(x_b-x_a), &amp;  \<br>             y=y_a+\lambda(y_b-y_a), &amp;<br>             \end{array}<br>\right.<br>\end{equation}</p><p>$$</p>]]></content>
+    <content type="html"><![CDATA[<p>This post contains some knowledges of Computer Graphics. Updating…</p><p>在此收录一些关于计算机图形学的问题。更新中…<a id="more"></a></p><h4 id="Line-Segment-Intersection-线段交点"><a href="#Line-Segment-Intersection-线段交点" class="headerlink" title="Line Segment Intersection 线段交点"></a>Line Segment Intersection 线段交点</h4><p>Line Segment $AB$ has $A(x_a, y_a)$ and $B(x_b, y_b)$.</p><p>Line Segment $CD$ has $C(x_c, y_c)$ and $C(x_c, y_c)$.</p><p>Line Equations:</p><img src="/2018/10/26/computer-graphics/lineEq.png" title="Line Equations"><p>Combine Equations:</p><img src="/2018/10/26/computer-graphics/lineEq2.png" title="Getting Intersection"><img src="/2018/10/26/computer-graphics/lineEq3.png" title="Getting Intersection"><p>And if the Determinant is 0:</p><img src="/2018/10/26/computer-graphics/lineEq4.png" title="Determinant"><p>It means line segment overlap or parallel.</p><p>If not 0:</p><img src="/2018/10/26/computer-graphics/lineEq5.png" title="Getting Intersection"><p>Only when $0\le \lambda \le 1, 0\le \mu \le 1$, two line segments have real intersection, otherwise, the intersection is on their extension.</p>]]></content>
     
     <summary type="html">
     
