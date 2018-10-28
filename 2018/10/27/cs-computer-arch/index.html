@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="Peiyuan&#39;s Blog">
 <meta property="og:description" content="This post contains some relative lower layer Computer System questions. Updating… 在此收录一些关于比较底层的计算机系统问题。更新中…">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-10-28T23:41:16.173Z">
+<meta property="og:updated_time" content="2018-10-28T23:45:28.375Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Computer Systems">
 <meta name="twitter:description" content="This post contains some relative lower layer Computer System questions. Updating… 在此收录一些关于比较底层的计算机系统问题。更新中…">
@@ -217,32 +217,37 @@ ga('send', 'pageview');
 <div class="toc">
 
 <!-- toc -->
+<ul>
+<li><a href="#cpu-cache-gao-su-huan-cun">CPU Cache 高速缓存</a></li>
+<li><a href="#tlb">TLB</a></li>
+<li><a href="#mmu-memory-management-unit">MMU (Memory Management Unit)</a></li>
+<li><a href="#memory-management-nei-cun-guan-li">Memory Management 内存管理</a></li>
+<li><a href="#page-table-ye-biao">Page Table 页表</a></li>
+<li><a href="#segment-fault-duan-cuo-wu">Segment Fault 段错误</a></li>
+</ul>
 <!-- tocstop -->
 </div>
 
 
 
-<h4><span id="cpu-cache-gao-su-huan-cun">CPU Cache 高速缓存</span><a href="#cpu-cache-gao-su-huan-cun" class="header-anchor">#</a></h4><ul>
-<li></li>
-</ul>
-<h4><span id="tlb">TLB</span><a href="#tlb" class="header-anchor">#</a></h4><ul>
+<h4><span id="cpu-cache-gao-su-huan-cun">CPU Cache 高速缓存</span><a href="#cpu-cache-gao-su-huan-cun" class="header-anchor"></a></h4><h4><span id="tlb">TLB</span><a href="#tlb" class="header-anchor"></a></h4><ul>
 <li>Store cached translation of Virtual Address to Physical Address.</li>
 </ul>
-<h4><span id="mmu-memory-management-unit">MMU (Memory Management Unit)</span><a href="#mmu-memory-management-unit" class="header-anchor">#</a></h4><ul>
+<h4><span id="mmu-memory-management-unit">MMU (Memory Management Unit)</span><a href="#mmu-memory-management-unit" class="header-anchor"></a></h4><ul>
 <li><p>Translate virtual address to physical address in hardware way.</p>
 </li>
 <li><p>Might have Virtual Address Cache and Physical Address Cache to speed up the look up.</p>
 </li>
 </ul>
-<h4><span id="memory-management-nei-cun-guan-li">Memory Management 内存管理</span><a href="#memory-management-nei-cun-guan-li" class="header-anchor">#</a></h4><ul>
+<h4><span id="memory-management-nei-cun-guan-li">Memory Management 内存管理</span><a href="#memory-management-nei-cun-guan-li" class="header-anchor"></a></h4><ul>
 <li>Shared Memory.</li>
 <li>Copy on Write.</li>
 </ul>
-<h4><span id="page-table-ye-biao">Page Table 页表</span><a href="#page-table-ye-biao" class="header-anchor">#</a></h4><ul>
+<h4><span id="page-table-ye-biao">Page Table 页表</span><a href="#page-table-ye-biao" class="header-anchor"></a></h4><ul>
 <li>What is Page Table?</li>
 <li>Page Table is in memory.</li>
 </ul>
-<h4><span id="segment-fault-duan-cuo-wu">Segment Fault 段错误</span><a href="#segment-fault-duan-cuo-wu" class="header-anchor">#</a></h4><ul>
+<h4><span id="segment-fault-duan-cuo-wu">Segment Fault 段错误</span><a href="#segment-fault-duan-cuo-wu" class="header-anchor"></a></h4><ul>
 <li>A fault raised by hardware with memory protection, notifying an OS the software has attempted to access a restricted area of memory (a memory access violation). On standard x86 computers, this is a form of <strong>general protection fault</strong>. The OS kernel will, in response, usually perform some corrective action, generally passing the fault on to the offending process by sending the process a signal. Processes can in some cases install a custom signal handler, allowing them to recover on their own, but otherwise the OS default signal handler is used, generally causing abnormal termination of the process (a program crash), and sometimes a core dump.</li>
 </ul>
 
