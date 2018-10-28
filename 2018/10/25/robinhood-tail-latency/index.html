@@ -218,11 +218,11 @@ ga('send', 'pageview');
         <p>You could find original post at <a href="https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/" target="_blank" rel="noopener">The Morning Paper</a>. 本文主要是对<a href="https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/" target="_blank" rel="noopener">The Morning Paper</a>的翻译。</p>
 <p>在 <a href="https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/" target="_blank" rel="noopener">The Morning Paper</a> 上介绍了一篇来自OSDI‘18的最新文章。文章提出了一种针对Tail Latency的解决方案，使用Dynamic Cache的方法针对性的解决Tail Latency。这套系统被命名为RobinHood。</p>
 <p>不知道的看了标题还以为这是Robinhood提出来的解决方案=-= <a id="more"></a></p>
-<h4><span id="tail-latency">Tail Latency</span><a href="#tail-latency" class="header-anchor">#</a></h4><img src="/2018/10/25/robinhood-tail-latency/taillatency.jpeg" title="Cause of Tail Latency (The Morning Paper)">
+<h4><span id="tail-latency">Tail Latency</span><a href="#tail-latency" class="header-anchor"></a></h4><img src="/2018/10/25/robinhood-tail-latency/taillatency.jpeg" title="Cause of Tail Latency (The Morning Paper)">
 <p>对于那些Frequency比较低的访问数据，我们就会看到如图的Tail, 而对这个Tail里面的数据的访问都会导致非常高的延迟，是为Tail Latency。</p>
 <p>传统解决方案一般有使用冗余的请求，合理使用Scheduling，auto-scaling 和 容量供给，和近似计算。</p>
 <p>而RobinHood使用了Cache来解决Tail Latency。</p>
-<h4><span id="robinhood">RobinHood</span><a href="#robinhood" class="header-anchor">#</a></h4><img src="/2018/10/25/robinhood-tail-latency/robinhood.jpeg" title="Comparison of P99 Request Latency">
+<h4><span id="robinhood">RobinHood</span><a href="#robinhood" class="header-anchor"></a></h4><img src="/2018/10/25/robinhood-tail-latency/robinhood.jpeg" title="Comparison of P99 Request Latency">
 <p>RobinHood将额外的Cache空间分配给正在遭受高Tail Latency的后端服务器。</p>
 <p>由于Tail Latency是不断变化的，受多种因素的影响，所以我们不能简单的静态的分配多余的Cache。</p>
 <p>RobinHood具体的分配方法是：每5秒的时间段向每一个后端抽取1%的Cache空间。并重新分配给Cache不足的后端。在每个时间段中，它会追踪每一个Request的Latency，并会记录下来时间最长的后端ID。在每一个时间段的最后，RobinHood计算每一个后端的</p>
@@ -504,14 +504,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">cpp</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Programing Language</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Java</a>
               </li>
              
@@ -520,7 +512,15 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">想法</a>
+                <a href="javascript:void(0)" class="js-tag color4">cpp</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">Programing Language</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Internship</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -528,7 +528,19 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Internship</a>
+                <a href="javascript:void(0)" class="js-tag color3">想法</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Humanity</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Philosophy</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Society</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -560,15 +572,19 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Humanity</a>
+                <a href="javascript:void(0)" class="js-tag color3">Computer Graphics</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Philosophy</a>
+                <a href="javascript:void(0)" class="js-tag color5">Quotation</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Society</a>
+                <a href="javascript:void(0)" class="js-tag color2">Movies</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Sci-Fi</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -576,7 +592,11 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Computer Graphics</a>
+                <a href="javascript:void(0)" class="js-tag color4">Git</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">Submodule</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -596,39 +616,11 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Quotation</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Movies</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Sci-Fi</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Git</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Submodule</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">MultipeerConnectivity</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">Swift</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">PAKE</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">passwords</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -656,14 +648,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">DBA</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Percona</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Open Source Mano</a>
               </li>
              
@@ -673,6 +657,22 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Tutorial</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">PAKE</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">passwords</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">DBA</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Percona</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -704,18 +704,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">契约</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">道德</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">合同</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">科研</a>
               </li>
              
@@ -725,6 +713,18 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">人物</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">契约</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">道德</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">合同</a>
               </li>
              
               <li class="article-tag-list-item">

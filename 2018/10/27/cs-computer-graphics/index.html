@@ -224,14 +224,21 @@ ga('send', 'pageview');
 
 <!-- toc -->
 <ul>
-<li><a href="#common-questions-chang-jian-wen-ti">Common Questions 常见问题</a></li>
-<li><a href="#basic-knowledge-ji-chu-gai-nian">Basic Knowledge 基础概念</a></li>
+<li><a href="#common-questions-chang-jian-wen-ti">Common Questions 常见问题</a><ul>
+<li><a href="#line-segment-intersection-xian-duan-jiao-dian">Line Segment Intersection 线段交点</a></li>
+<li><a href="#point-in-triangle-pan-duan-dian-zai-san-jiao-xing-zhong">Point in Triangle 判断点在三角形中</a></li>
+</ul>
+</li>
+<li><a href="#basic-knowledge-ji-chu-gai-nian">Basic Knowledge 基础概念</a><ul>
+<li><a href="#barycentric-coordinate-chong-xin-zuo-biao">Barycentric Coordinate 重心坐标</a></li>
+</ul>
+</li>
 </ul>
 <!-- tocstop -->
 </div>
 
 
-<h3><span id="common-questions-chang-jian-wen-ti">Common Questions 常见问题</span><a href="#common-questions-chang-jian-wen-ti" class="header-anchor">#</a></h3><h4><span id="line-segment-intersection-xian-duan-jiao-dian">Line Segment Intersection 线段交点</span><a href="#line-segment-intersection-xian-duan-jiao-dian" class="header-anchor">#</a></h4><p>Line Segment $AB$ has $A(x_a, y_a)$ and $B(x_b, y_b)$.</p>
+<h3><span id="common-questions-chang-jian-wen-ti">Common Questions 常见问题</span><a href="#common-questions-chang-jian-wen-ti" class="header-anchor"></a></h3><h4><span id="line-segment-intersection-xian-duan-jiao-dian">Line Segment Intersection 线段交点</span><a href="#line-segment-intersection-xian-duan-jiao-dian" class="header-anchor"></a></h4><p>Line Segment $AB$ has $A(x_a, y_a)$ and $B(x_b, y_b)$.</p>
 <p>Line Segment $CD​$ has $C(x_c, y_c)​$ and $C(x_c, y_c)​$.</p>
 <p>Line Equations:</p>
 <img src="/2018/10/27/cs-computer-graphics/lineEq.png" title="Line Equations">
@@ -244,20 +251,20 @@ ga('send', 'pageview');
 <p>If not 0:</p>
 <img src="/2018/10/27/cs-computer-graphics/lineEq5.png" title="Getting Intersection">
 <p>Only when $0\le \lambda \le 1, 0\le \mu \le 1$, two line segments have real intersection, otherwise, the intersection is on their extension.</p>
-<h4><span id="point-in-triangle-pan-duan-dian-zai-san-jiao-xing-zhong">Point in Triangle 判断点在三角形中</span><a href="#point-in-triangle-pan-duan-dian-zai-san-jiao-xing-zhong" class="header-anchor">#</a></h4><p>Reference:</p>
+<h4><span id="point-in-triangle-pan-duan-dian-zai-san-jiao-xing-zhong">Point in Triangle 判断点在三角形中</span><a href="#point-in-triangle-pan-duan-dian-zai-san-jiao-xing-zhong" class="header-anchor"></a></h4><p>Reference:</p>
 <p><a href="https://www.gamedev.net/forums/topic/295943-is-this-a-better-point-in-triangle-test-2d/" target="_blank" rel="noopener">GameDev</a></p>
 <p><a href="https://stackoverflow.com/questions/2049582/how-to-determine-if-a-point-is-in-a-2d-triangle" target="_blank" rel="noopener">StackOverflow</a></p>
 <p><a href="http://totologic.blogspot.com/2014/01/accurate-point-in-triangle-test.html" target="_blank" rel="noopener">Totologic</a></p>
-<h5><span id="method-1">Method 1</span><a href="#method-1" class="header-anchor">#</a></h5><p>The idea is checking the relative position of point to line plane. If all of them have positive, then it is in the triangle.</p>
+<h5><span id="method-1">Method 1</span><a href="#method-1" class="header-anchor"></a></h5><p>The idea is checking the relative position of point to line plane. If all of them have positive, then it is in the triangle.</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">IsPointInTri</span><span class="params">(Point p, Point v1, Point v2, Point v3)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (Sign(p, v1, v2) &lt; <span class="number">0.0f</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">if</span> (Sign(p, v2, v3) &lt; <span class="number">0.0f</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">if</span> (Sign(p, v3, v1) &lt; <span class="number">0.0f</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="comment">// Or &gt; 0.0f in case of opposite winding</span></span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">float</span> <span class="title">Sign</span><span class="params">(Point v1, Point v2, Point v3)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">return</span> (v1-&gt;x - v3-&gt;x) * (v2-&gt;y - v3-&gt;y) - (v2-&gt;x - v3-&gt;x) * (v1-&gt;y - v3-&gt;y);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h5><span id="method-2">Method 2</span><a href="#method-2" class="header-anchor">#</a></h5><p>Using Barycentric Coordinate System:</p>
+<h5><span id="method-2">Method 2</span><a href="#method-2" class="header-anchor"></a></h5><p>Using Barycentric Coordinate System:</p>
 <p>$x=a\times x_1 + b \times x_2 + c \times x_3$</p>
 <p>$y = a \times y_1 + b \times y_2 + c \times y_3$</p>
 <p>$a + b + c = 1$</p>
 <p>$$<br>a = \frac{((y_2 - y_3)\times(x - x_3) + (x_3 - x_2)\times(y - y_3))}{((y_2 - y_3)\times(x_1 - x_3) + (x_3 - x_2)\times(y_1 - y_3))}<br>$$</p>
 <p>$$<br>b = \frac{((y_3 - y_1)\times(x - x_3) + (x_1 - x_3)\times(y - y_3))}{((y_2 - y_3)\times(x_1 - x_3) + (x_3 - x_2)\times(y_1 - y_3))}<br>$$</p>
 <p>$$<br>c = 1 - a - b<br>$$<br><em>p</em> lies in <em>T</em> if and only if $0 \le a \le 1$ and $0 \le b \le 1$ and $0 \le c \le 1$.</p>
-<h3><span id="basic-knowledge-ji-chu-gai-nian">Basic Knowledge 基础概念</span><a href="#basic-knowledge-ji-chu-gai-nian" class="header-anchor">#</a></h3><h4><span id="barycentric-coordinate-chong-xin-zuo-biao">Barycentric Coordinate 重心坐标</span><a href="#barycentric-coordinate-chong-xin-zuo-biao" class="header-anchor">#</a></h4><p>Let  $x_1, …, x_n$ be the vertices of a simplex in an affine space $A$. If, for some point  $p$ in $A$,<br>$$<br>(\lambda_1 + \cdots + \lambda_n)p = \lambda_1 x_1 + \cdots +\lambda_n x_n<br>$$<br>and at least one of $\lambda_1,…,\lambda_n$ does not vanish then we say the coefficients $\lambda_1,…,\lambda_n$ are barycentric coordinates of $p$ with respect to $x_1, …, x_n$.</p>
+<h3><span id="basic-knowledge-ji-chu-gai-nian">Basic Knowledge 基础概念</span><a href="#basic-knowledge-ji-chu-gai-nian" class="header-anchor"></a></h3><h4><span id="barycentric-coordinate-chong-xin-zuo-biao">Barycentric Coordinate 重心坐标</span><a href="#barycentric-coordinate-chong-xin-zuo-biao" class="header-anchor"></a></h4><p>Let  $x_1, …, x_n$ be the vertices of a simplex in an affine space $A$. If, for some point  $p$ in $A$,<br>$$<br>(\lambda_1 + \cdots + \lambda_n)p = \lambda_1 x_1 + \cdots +\lambda_n x_n<br>$$<br>and at least one of $\lambda_1,…,\lambda_n$ does not vanish then we say the coefficients $\lambda_1,…,\lambda_n$ are barycentric coordinates of $p$ with respect to $x_1, …, x_n$.</p>
 <p>Barycentric Coordinate is not unique:</p>
 <p>$b\lambda_1,…,b\lambda_n$ where $b \ne 0$.</p>
 
@@ -532,14 +539,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">cpp</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Programing Language</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Java</a>
               </li>
              
@@ -548,7 +547,15 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">想法</a>
+                <a href="javascript:void(0)" class="js-tag color4">cpp</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">Programing Language</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Internship</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -556,7 +563,19 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Internship</a>
+                <a href="javascript:void(0)" class="js-tag color3">想法</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Humanity</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Philosophy</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Society</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -588,15 +607,19 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Humanity</a>
+                <a href="javascript:void(0)" class="js-tag color3">Computer Graphics</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Philosophy</a>
+                <a href="javascript:void(0)" class="js-tag color5">Quotation</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Society</a>
+                <a href="javascript:void(0)" class="js-tag color2">Movies</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Sci-Fi</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -604,7 +627,11 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Computer Graphics</a>
+                <a href="javascript:void(0)" class="js-tag color4">Git</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">Submodule</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -624,39 +651,11 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Quotation</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Movies</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Sci-Fi</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Git</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Submodule</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">MultipeerConnectivity</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">Swift</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">PAKE</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">passwords</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -684,14 +683,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">DBA</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Percona</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Open Source Mano</a>
               </li>
              
@@ -701,6 +692,22 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Tutorial</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">PAKE</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">passwords</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">DBA</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Percona</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -732,18 +739,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">契约</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">道德</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">合同</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">科研</a>
               </li>
              
@@ -753,6 +748,18 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">人物</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">契约</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">道德</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">合同</a>
               </li>
              
               <li class="article-tag-list-item">
