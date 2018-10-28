@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://blog.peiyuanqi.me">
-  <title>Computer Systems | Peiyuan&#39;s Blog</title>
+  <title>Design-Patterns | Peiyuan&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This post contains some relative lower layer Computer System questions. Updating… 在此收录一些关于比较底层的计算机系统问题。更新中…">
-<meta name="keywords" content="Computer Architecture,Computer System">
+  <meta name="description" content="This post contains some Design Pattern questions. Updating… 在此收录一些常见的设计模式问题。更新中…">
+<meta name="keywords" content="Design Patterns">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Computer Systems">
-<meta property="og:url" content="https://blog.peiyuanqi.me/2018/10/24/computer-arch/index.html">
+<meta property="og:title" content="Design-Patterns">
+<meta property="og:url" content="https://blog.peiyuanqi.me/2018/10/22/cs-Design-Patterns/index.html">
 <meta property="og:site_name" content="Peiyuan&#39;s Blog">
-<meta property="og:description" content="This post contains some relative lower layer Computer System questions. Updating… 在此收录一些关于比较底层的计算机系统问题。更新中…">
+<meta property="og:description" content="This post contains some Design Pattern questions. Updating… 在此收录一些常见的设计模式问题。更新中…">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-10-25T19:23:21.309Z">
+<meta property="og:updated_time" content="2018-10-28T18:16:48.511Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Computer Systems">
-<meta name="twitter:description" content="This post contains some relative lower layer Computer System questions. Updating… 在此收录一些关于比较底层的计算机系统问题。更新中…">
+<meta name="twitter:title" content="Design-Patterns">
+<meta name="twitter:description" content="This post contains some Design Pattern questions. Updating… 在此收录一些常见的设计模式问题。更新中…">
   
     <link rel="alternative" href="https://blog.peiyuanqi.me/atom.xml" title="Peiyuan&#39;s Blog" type="application/atom+xml">
   
@@ -186,24 +186,24 @@ ga('send', 'pageview');
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-computer-arch" class="article article-type-post " itemscope="" itemprop="blogPost">
+            <article id="post-cs-Design-Patterns" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Computer Systems
+      Design-Patterns
     </h1>
   
 
         
-        <a href="/2018/10/24/computer-arch/" class="archive-article-date">
-  	<time datetime="2018-10-25T04:23:21.000Z" itemprop="datePublished">
+        <a href="/2018/10/22/cs-Design-Patterns/" class="archive-article-date">
+  	<time datetime="2018-10-23T06:39:24.000Z" itemprop="datePublished">
 		<i class="icon-calendar icon"></i>
 		
 		
-		2018-10-25
+		2018-10-23
 		
 	</time>
 </a>
@@ -212,27 +212,35 @@ ga('send', 'pageview');
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>This post contains some relative lower layer Computer System questions. Updating…</p>
-<p>在此收录一些关于比较底层的计算机系统问题。更新中…<a id="more"></a></p>
-<h4 id="CPU-Cache-高速缓存"><a href="#CPU-Cache-高速缓存" class="headerlink" title="CPU Cache 高速缓存"></a>CPU Cache 高速缓存</h4><ul>
-<li></li>
+        <p>This post contains some Design Pattern questions. Updating…</p>
+<p>在此收录一些常见的设计模式问题。更新中…<a id="more"></a></p>
+<!-- toc -->
+<ul>
+<li><a href="#design-pattern-principles">Design Pattern Principles</a></li>
+<li><a href="#design-patterns">Design Patterns</a><ul>
+<li><a href="#singleton-单例模式">Singleton 单例模式</a></li>
+<li><a href="#simple-factory-pattern-简单工厂模式">Simple Factory Pattern 简单工厂模式</a></li>
+<li><a href="#adapter-pattern-适配器模式">Adapter Pattern 适配器模式</a></li>
 </ul>
-<h4 id="TLB"><a href="#TLB" class="headerlink" title="TLB"></a>TLB</h4><ul>
-<li>Store cached translation of Virtual Address to Physical Address.</li>
-</ul>
-<h4 id="MMU-Memory-Management-Unit"><a href="#MMU-Memory-Management-Unit" class="headerlink" title="MMU (Memory Management Unit)"></a>MMU (Memory Management Unit)</h4><ul>
-<li><p>Translate virtual address to physical address in hardware way.</p>
-</li>
-<li><p>Might have Virtual Address Cache and Physical Address Cache to speed up the look up.</p>
 </li>
 </ul>
-<h4 id="Memory-Management-内存管理"><a href="#Memory-Management-内存管理" class="headerlink" title="Memory Management 内存管理"></a>Memory Management 内存管理</h4><ul>
-<li>Shared Memory.</li>
-<li>Copy on Write.</li>
+<!-- tocstop -->
+<h3><span id="design-pattern-principles">Design Pattern Principles</span></h3><ul>
+<li><a href="https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#single-responsibility-principle" target="_blank" rel="noopener"><strong>S</strong>ingle Responsibility Principle</a></li>
+<li><a href="https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#open/closed-principle" target="_blank" rel="noopener"><strong>O</strong>pen/Closed Principle</a></li>
+<li><a href="https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#liskov-substitution-principle" target="_blank" rel="noopener"><strong>L</strong>iskov Substitution Principle</a></li>
+<li><a href="https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#interface-segregation-principle" target="_blank" rel="noopener"><strong>I</strong>nterface Segregation Principle</a></li>
+<li><a href="https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#dependency-inversion-principle" target="_blank" rel="noopener"><strong>D</strong>ependency Inversion Principle</a></li>
 </ul>
-<h4 id="Page-Table-页表"><a href="#Page-Table-页表" class="headerlink" title="Page Table 页表"></a>Page Table 页表</h4><ul>
-<li>What is Page Table?</li>
-<li>Page Table is in memory.</li>
+<h3><span id="design-patterns">Design Patterns</span></h3><h4><span id="singleton-单例模式">Singleton 单例模式</span></h4><ul>
+<li>Each class has one single instance.</li>
+</ul>
+<h4><span id="simple-factory-pattern-简单工厂模式">Simple Factory Pattern 简单工厂模式</span></h4><ul>
+<li>Split creating instance and using instance to achieve decoupling.</li>
+<li>Violated The Open Closed Principle.</li>
+</ul>
+<h4><span id="adapter-pattern-适配器模式">Adapter Pattern 适配器模式</span></h4><ul>
+<li>Simple as its name.</li>
 </ul>
 
       
@@ -247,11 +255,7 @@ ga('send', 'pageview');
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Computer Architecture</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Computer System</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Design Patterns</a>
         		</li>
       		
 		</ul>
@@ -318,7 +322,7 @@ ga('send', 'pageview');
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2018/10/24/computer-arch/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2018/10/22/cs-Design-Patterns/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -332,18 +336,18 @@ ga('send', 'pageview');
   
 <nav id="article-nav">
   
-    <a href="/2018/10/25/The-Italian-Wars-1494/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2018/10/24/cs-computer-arch/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          The Italian Wars 1494 - 1495
+          Computer Systems
         
       </div>
     </a>
   
   
-    <a href="/2018/10/22/Design-Patterns/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Design-Patterns</div>
+    <a href="/2018/10/21/pake/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">PAKE, A Cryptographic Key Exchange Protocol</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -558,10 +562,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Design Patterns</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">History</a>
               </li>
              
@@ -570,7 +570,7 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Computer Graphics</a>
+                <a href="javascript:void(0)" class="js-tag color1">Design Patterns</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -579,6 +579,10 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">Computer System</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Computer Graphics</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -622,14 +626,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">MultipeerConnectivity</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Swift</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Objective Oriented</a>
               </li>
              
@@ -643,6 +639,14 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Programming</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">MultipeerConnectivity</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Swift</a>
               </li>
              
               <li class="article-tag-list-item">
