@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="Peiyuan&#39;s Blog">
 <meta property="og:description" content="This post contains some relative lower layer Computer System questions. Updating… 在此收录一些关于比较底层的计算机系统问题。更新中…">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-10-29T06:49:47.772Z">
+<meta property="og:updated_time" content="2018-11-06T17:22:01.879Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Computer Systems">
 <meta name="twitter:description" content="This post contains some relative lower layer Computer System questions. Updating… 在此收录一些关于比较底层的计算机系统问题。更新中…">
@@ -222,7 +222,14 @@ ga('send', 'pageview');
 <li><a href="#tlb">TLB</a></li>
 <li><a href="#mmu-memory-management-unit">MMU (Memory Management Unit)</a></li>
 <li><a href="#memory-management-nei-cun-guan-li">Memory Management 内存管理</a></li>
-<li><a href="#page-table-ye-biao">Page Table 页表</a></li>
+<li><a href="#page-table-ye-biao">Page Table 页表</a><ul>
+<li><a href="#process-jin-cheng">Process 进程</a></li>
+</ul>
+</li>
+<li><a href="#daemon-process-shou-hu-jin-cheng">Daemon Process 守护进程</a></li>
+<li><a href="#fork-exec"><code>fork()</code> &amp; <code>exec()</code></a></li>
+<li><a href="#orphan-process-gu-er-jin-cheng">Orphan Process 孤儿进程</a></li>
+<li><a href="#zombie-process-jiang-shi-jin-cheng">Zombie Process 僵尸进程</a></li>
 <li><a href="#segment-fault-duan-cuo-wu">Segment Fault 段错误</a></li>
 </ul>
 <!-- tocstop -->
@@ -230,14 +237,13 @@ ga('send', 'pageview');
 
 
 
-<h4><span id="cpu-cache-gao-su-huan-cun">CPU Cache 高速缓存</span><a href="#cpu-cache-gao-su-huan-cun" class="header-anchor"></a></h4><h4><span id="tlb">TLB</span><a href="#tlb" class="header-anchor"></a></h4><ul>
+<h4><span id="cpu-cache-gao-su-huan-cun">CPU Cache 高速缓存</span><a href="#cpu-cache-gao-su-huan-cun" class="header-anchor"></a></h4><p><a href="http://www.cs.utexas.edu/users/mckinley/352/lectures/16.pdf" target="_blank" rel="noopener">Cache Memories</a></p>
+<h4><span id="tlb">TLB</span><a href="#tlb" class="header-anchor"></a></h4><ul>
 <li>Store cached translation of Virtual Address to Physical Address.</li>
 </ul>
 <h4><span id="mmu-memory-management-unit">MMU (Memory Management Unit)</span><a href="#mmu-memory-management-unit" class="header-anchor"></a></h4><ul>
-<li><p>Translate virtual address to physical address in hardware way.</p>
-</li>
-<li><p>Might have Virtual Address Cache and Physical Address Cache to speed up the look up.</p>
-</li>
+<li>Translate virtual address to physical address in hardware way.</li>
+<li>Might have Virtual Address Cache and Physical Address Cache to speed up the look up.</li>
 </ul>
 <h4><span id="memory-management-nei-cun-guan-li">Memory Management 内存管理</span><a href="#memory-management-nei-cun-guan-li" class="header-anchor"></a></h4><ul>
 <li>Shared Memory.</li>
@@ -246,6 +252,30 @@ ga('send', 'pageview');
 <h4><span id="page-table-ye-biao">Page Table 页表</span><a href="#page-table-ye-biao" class="header-anchor"></a></h4><ul>
 <li>What is Page Table?</li>
 <li>Page Table is in memory.</li>
+</ul>
+<h3><span id="process-jin-cheng">Process 进程</span><a href="#process-jin-cheng" class="header-anchor"></a></h3><h4><span id="daemon-process-shou-hu-jin-cheng">Daemon Process 守护进程</span><a href="#daemon-process-shou-hu-jin-cheng" class="header-anchor"></a></h4><ul>
+<li>It could detach from terminal and run in background.</li>
+<li>Not exit with the exit of created terminal.</li>
+</ul>
+<h4><span id="fork-amp-exec"><code>fork()</code> &amp; <code>exec()</code></span><a href="#fork-amp-exec" class="header-anchor"></a></h4><ul>
+<li>First <code>fork()</code> then <code>exec()</code> to avoid lost the current state of process.<ul>
+<li>Caused by history problem of original computer only has terminal shell to access.</li>
+</ul>
+</li>
+<li>Linux uses copy-on-write to optimize the large process <code>fork()</code>.</li>
+</ul>
+<h4><span id="orphan-process-gu-er-jin-cheng">Orphan Process 孤儿进程</span><a href="#orphan-process-gu-er-jin-cheng" class="header-anchor"></a></h4><ul>
+<li>Parent process terminated or crashed, creating orphan process</li>
+<li>Re-parenting will assign orphan process to <strong>init</strong> process  in most UNIX os.</li>
+<li>The process group mechanism in most Unix-like operating systems can be used to help protect against accidental orphaning<ul>
+<li>in coordination with the user’s shell will try to terminate all the child processes with the “hangup” signal (SIGHUP), rather than letting them continue to run as orphans. </li>
+<li>precisely, as part of job control, when the shell exits, because it is the “session leader” (its session id equals its process id), the corresponding login session ends, and the shell sends SIGHUP to all its jobs (internal representation of process groups).</li>
+</ul>
+</li>
+</ul>
+<h4><span id="zombie-process-jiang-shi-jin-cheng">Zombie Process 僵尸进程</span><a href="#zombie-process-jiang-shi-jin-cheng" class="header-anchor"></a></h4><ul>
+<li>A zombie process or defunct process is a process that has completed execution (via the exit system call) but still has an entry in the process table: it is a process in the “Terminated state”. This occurs for child processes, where the entry is still needed to allow the parent process to read its child’s exit status: once the exit status is read via the wait system call, the zombie’s entry is removed from the process table and it is said to be “reaped”.</li>
+<li>Might result in no available process id.</li>
 </ul>
 <h4><span id="segment-fault-duan-cuo-wu">Segment Fault 段错误</span><a href="#segment-fault-duan-cuo-wu" class="header-anchor"></a></h4><ul>
 <li>A fault raised by hardware with memory protection, notifying an OS the software has attempted to access a restricted area of memory (a memory access violation). On standard x86 computers, this is a form of <strong>general protection fault</strong>. The OS kernel will, in response, usually perform some corrective action, generally passing the fault on to the offending process by sending the process a signal. Processes can in some cases install a custom signal handler, allowing them to recover on their own, but otherwise the OS default signal handler is used, generally causing abnormal termination of the process (a program crash), and sometimes a core dump.</li>
@@ -505,11 +535,23 @@ MathJax.Hub.Queue(function() {
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Java</a>
+                <a href="javascript:void(0)" class="js-tag color4">cpp</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Interview</a>
+                <a href="javascript:void(0)" class="js-tag color5">Programing Language</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Belief Propagation</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">场景描写</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">想法</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -525,39 +567,11 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">cpp</a>
+                <a href="javascript:void(0)" class="js-tag color5">Java</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Programing Language</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">想法</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Internship</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">VPS</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Internet</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">场景描写</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">History</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">The Italian Wars</a>
+                <a href="javascript:void(0)" class="js-tag color5">Interview</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -573,11 +587,23 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Design Patterns</a>
+                <a href="javascript:void(0)" class="js-tag color4">VPS</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Internet</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">Computer Graphics</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">History</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">The Italian Wars</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -586,6 +612,18 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">Computer System</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Design Patterns</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Movies</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Sci-Fi</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -613,6 +651,10 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">WordPress</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">MultipeerConnectivity</a>
               </li>
              
@@ -622,14 +664,6 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">大学</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Movies</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Sci-Fi</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -649,7 +683,11 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">WordPress</a>
+                <a href="javascript:void(0)" class="js-tag color4">DBA</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Percona</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -658,14 +696,6 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">公众号</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">DBA</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Percona</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -685,10 +715,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Scene</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Open Source Mano</a>
               </li>
              
@@ -701,15 +727,15 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Play</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">架空世界</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Tail Latency</a>
+                <a href="javascript:void(0)" class="js-tag color1">Scene</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">Play</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -717,15 +743,7 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">科研</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">时代</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">人物</a>
+                <a href="javascript:void(0)" class="js-tag color3">Tail Latency</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -738,6 +756,18 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">socket</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">科研</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">时代</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">人物</a>
               </li>
              
               <li class="article-tag-list-item">
