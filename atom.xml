@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2018-11-06T17:22:01.879Z</updated>
+  <updated>2018-11-28T20:07:55.601Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>随笔#1 找实习过程中的几个致命错误</title>
+    <link href="https://blog.peiyuanqi.me/2018/11/27/sketch-1/"/>
+    <id>https://blog.peiyuanqi.me/2018/11/27/sketch-1/</id>
+    <published>2018-11-28T04:00:49.000Z</published>
+    <updated>2018-11-28T20:07:55.601Z</updated>
+    
+    <content type="html"><![CDATA[<h4><span id="bu-duan-zheng-tai-du">不端正态度</span><a href="#bu-duan-zheng-tai-du" class="header-anchor"></a></h4><p>从8月底发出第一份简历开始，简历上的错误就没少过</p><ul><li>写错学位</li><li>写错电话</li><li>重复的Bulletin Points</li><li>项目名Typo</li></ul><p>直接导致投了许多无效简历，浪费了一些内推。</p><h4><span id="guo-yu-cong-mang">过于匆忙</span><a href="#guo-yu-cong-mang" class="header-anchor"></a></h4><p>急着回HR邮件，导致犯下的几个错误：</p><ul><li>看错了约Onsite的时间，不过HR对此比较宽容</li><li>送错了一份不完整的成绩单，大概间接导致后面直接被刷了</li></ul><h4><span id="bei-fu-de-li-shi-zui-ze">背负的历史罪责</span><a href="#bei-fu-de-li-shi-zui-ze" class="header-anchor"></a></h4><ul><li>考砸的VE281 Data Structure and Algorithm</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4&gt;&lt;span id=&quot;bu-duan-zheng-tai-du&quot;&gt;不端正态度&lt;/span&gt;&lt;a href=&quot;#bu-duan-zheng-tai-du&quot; class=&quot;header-anchor&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;从8月底发出第一份简历开始，简历上的错误就没少过&lt;/
+      
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="实习" scheme="https://blog.peiyuanqi.me/tags/%E5%AE%9E%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>Computer Systems</title>
@@ -518,33 +543,6 @@
     
     
       <category term="杂谈" scheme="https://blog.peiyuanqi.me/tags/%E6%9D%82%E8%B0%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>微信上的那些公众号</title>
-    <link href="https://blog.peiyuanqi.me/2018/02/15/opinions-of-tech-official-accounts-on-wechat/"/>
-    <id>https://blog.peiyuanqi.me/2018/02/15/opinions-of-tech-official-accounts-on-wechat/</id>
-    <published>2018-02-16T03:19:57.000Z</published>
-    <updated>2018-02-16T05:45:30.752Z</updated>
-    
-    <content type="html"><![CDATA[<p>虽然一直知道很多公众号是拿钱办事或者为钱办事，但总觉得那几个业内著名公众号也许会为了自己未来钱途总会对自己的内容有所把关。直到近来目睹了如何将一个口胡出来的排行榜推上各大著名科技公众号的主推内容里，才恍然大悟为何这么多公众号能够每天发布一些看起来非常有道理的所谓干货。</p><p>痛定思痛，立马取关，新的一年，安静的自我学习 =-= 提升自我</p><p>乖巧.jpg</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;虽然一直知道很多公众号是拿钱办事或者为钱办事，但总觉得那几个业内著名公众号也许会为了自己未来钱途总会对自己的内容有所把关。直到近来目睹了如何将一个口胡出来的排行榜推上各大著名科技公众号的主推内容里，才恍然大悟为何这么多公众号能够每天发布一些看起来非常有道理的所谓干货。&lt;/p
-      
-    
-    </summary>
-    
-      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-      <category term="微信" scheme="https://blog.peiyuanqi.me/tags/%E5%BE%AE%E4%BF%A1/"/>
-    
-      <category term="公众号" scheme="https://blog.peiyuanqi.me/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/"/>
     
   </entry>
   
