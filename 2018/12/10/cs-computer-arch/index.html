@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://blog.peiyuanqi.me">
-  <title>Design-Patterns | Peiyuan&#39;s Blog</title>
+  <title>Computer Systems | Peiyuan&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This post contains some Design Pattern questions. Updating… 在此收录一些常见的设计模式问题。更新中…">
-<meta name="keywords" content="Design Patterns">
+  <meta name="description" content="This post contains some relative lower layer Computer System questions. Updating… 在此收录一些关于比较底层的计算机系统问题。更新中…">
+<meta name="keywords" content="Computer Architecture,Computer System">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Design-Patterns">
-<meta property="og:url" content="https://blog.peiyuanqi.me/2018/10/22/cs-Design-Patterns/index.html">
+<meta property="og:title" content="Computer Systems">
+<meta property="og:url" content="https://blog.peiyuanqi.me/2018/12/10/cs-computer-arch/index.html">
 <meta property="og:site_name" content="Peiyuan&#39;s Blog">
-<meta property="og:description" content="This post contains some Design Pattern questions. Updating… 在此收录一些常见的设计模式问题。更新中…">
+<meta property="og:description" content="This post contains some relative lower layer Computer System questions. Updating… 在此收录一些关于比较底层的计算机系统问题。更新中…">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-10-28T18:16:48.511Z">
+<meta property="og:updated_time" content="2018-12-12T17:28:51.620Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Design-Patterns">
-<meta name="twitter:description" content="This post contains some Design Pattern questions. Updating… 在此收录一些常见的设计模式问题。更新中…">
+<meta name="twitter:title" content="Computer Systems">
+<meta name="twitter:description" content="This post contains some relative lower layer Computer System questions. Updating… 在此收录一些关于比较底层的计算机系统问题。更新中…">
   
     <link rel="alternative" href="https://blog.peiyuanqi.me/atom.xml" title="Peiyuan&#39;s Blog" type="application/atom+xml">
   
@@ -186,24 +186,24 @@ ga('send', 'pageview');
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-cs-Design-Patterns" class="article article-type-post " itemscope="" itemprop="blogPost">
+            <article id="post-cs-computer-arch" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Design-Patterns
+      Computer Systems
     </h1>
   
 
         
-        <a href="/2018/10/22/cs-Design-Patterns/" class="archive-article-date">
-  	<time datetime="2018-10-23T06:39:24.000Z" itemprop="datePublished">
+        <a href="/2018/12/10/cs-computer-arch/" class="archive-article-date">
+  	<time datetime="2018-12-11T04:23:21.000Z" itemprop="datePublished">
 		<i class="icon-calendar icon"></i>
 		
 		
-		2018-10-23
+		2018-12-11
 		
 	</time>
 </a>
@@ -212,41 +212,73 @@ ga('send', 'pageview');
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>This post contains some Design Pattern questions. Updating…</p>
-<p>在此收录一些常见的设计模式问题。更新中…<a id="more"></a></p>
+        <p>This post contains some relative lower layer Computer System questions. Updating…</p>
+<p>在此收录一些关于比较底层的计算机系统问题。更新中…<a id="more"></a></p>
 <div class="toc">
 
 <!-- toc -->
 <ul>
-<li><a href="#design-pattern-principles">Design Pattern Principles</a></li>
-<li><a href="#design-patterns">Design Patterns</a><ul>
-<li><a href="#singleton-dan-li-mo-shi">Singleton 单例模式</a></li>
-<li><a href="#simple-factory-pattern-jian-dan-gong-han-mo-shi">Simple Factory Pattern 简单工厂模式</a></li>
-<li><a href="#adapter-pattern-gua-pei-qi-mo-shi">Adapter Pattern 适配器模式</a></li>
+<li><a href="#cpu-cache-gao-su-huan-cun">CPU Cache 高速缓存</a></li>
+<li><a href="#tlb">TLB</a></li>
+<li><a href="#mmu-memory-management-unit">MMU (Memory Management Unit)</a></li>
+<li><a href="#memory-management-nei-cun-guan-li">Memory Management 内存管理</a></li>
+<li><a href="#page-table-ye-biao">Page Table 页表</a><ul>
+<li><a href="#process-jin-cheng">Process 进程</a></li>
 </ul>
 </li>
+<li><a href="#daemon-process-shou-hu-jin-cheng">Daemon Process 守护进程</a></li>
+<li><a href="#fork-exec"><code>fork()</code> &amp; <code>exec()</code></a></li>
+<li><a href="#orphan-process-gu-er-jin-cheng">Orphan Process 孤儿进程</a></li>
+<li><a href="#zombie-process-jiang-shi-jin-cheng">Zombie Process 僵尸进程</a></li>
+<li><a href="#segment-fault-duan-cuo-wu">Segment Fault 段错误</a></li>
 </ul>
 <!-- tocstop -->
 </div>
 
 
 
-<h3><span id="design-pattern-principles">Design Pattern Principles</span><a href="#design-pattern-principles" class="header-anchor"></a></h3><ul>
-<li><a href="https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#single-responsibility-principle" target="_blank" rel="noopener"><strong>S</strong>ingle Responsibility Principle</a></li>
-<li><a href="https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#open/closed-principle" target="_blank" rel="noopener"><strong>O</strong>pen/Closed Principle</a></li>
-<li><a href="https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#liskov-substitution-principle" target="_blank" rel="noopener"><strong>L</strong>iskov Substitution Principle</a></li>
-<li><a href="https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#interface-segregation-principle" target="_blank" rel="noopener"><strong>I</strong>nterface Segregation Principle</a></li>
-<li><a href="https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#dependency-inversion-principle" target="_blank" rel="noopener"><strong>D</strong>ependency Inversion Principle</a></li>
+<h4><span id="cpu-cache-gao-su-huan-cun">CPU Cache 高速缓存</span><a href="#cpu-cache-gao-su-huan-cun" class="header-anchor"></a></h4><p><a href="http://www.cs.utexas.edu/users/mckinley/352/lectures/16.pdf" target="_blank" rel="noopener">Cache Memories</a></p>
+<h4><span id="tlb">TLB</span><a href="#tlb" class="header-anchor"></a></h4><ul>
+<li>Store cached translation of Virtual Address to Physical Address.</li>
 </ul>
-<h3><span id="design-patterns">Design Patterns</span><a href="#design-patterns" class="header-anchor"></a></h3><h4><span id="singleton-dan-li-mo-shi">Singleton 单例模式</span><a href="#singleton-dan-li-mo-shi" class="header-anchor"></a></h4><ul>
-<li>Each class has one single instance.</li>
+<h4><span id="mmu-memory-management-unit">MMU (Memory Management Unit)</span><a href="#mmu-memory-management-unit" class="header-anchor"></a></h4><ul>
+<li>Translate virtual address to physical address in hardware way.</li>
+<li>Might have Virtual Address Cache and Physical Address Cache to speed up the look up.</li>
 </ul>
-<h4><span id="simple-factory-pattern-jian-dan-gong-han-mo-shi">Simple Factory Pattern 简单工厂模式</span><a href="#simple-factory-pattern-jian-dan-gong-han-mo-shi" class="header-anchor"></a></h4><ul>
-<li>Split creating instance and using instance to achieve decoupling.</li>
-<li>Violated The Open Closed Principle.</li>
+<h4><span id="memory-management-nei-cun-guan-li">Memory Management 内存管理</span><a href="#memory-management-nei-cun-guan-li" class="header-anchor"></a></h4><ul>
+<li>Shared Memory.</li>
+<li>Copy on Write.</li>
 </ul>
-<h4><span id="adapter-pattern-gua-pei-qi-mo-shi">Adapter Pattern 适配器模式</span><a href="#adapter-pattern-gua-pei-qi-mo-shi" class="header-anchor"></a></h4><ul>
-<li>Simple as its name.</li>
+<h4><span id="page-table-ye-biao">Page Table 页表</span><a href="#page-table-ye-biao" class="header-anchor"></a></h4><ul>
+<li>What is Page Table?</li>
+<li>Page Table is in memory.</li>
+</ul>
+<h3><span id="process-jin-cheng">Process 进程</span><a href="#process-jin-cheng" class="header-anchor"></a></h3><h4><span id="daemon-process-shou-hu-jin-cheng">Daemon Process 守护进程</span><a href="#daemon-process-shou-hu-jin-cheng" class="header-anchor"></a></h4><ul>
+<li>It could detach from terminal and run in background.</li>
+<li>Not exit with the exit of created terminal.</li>
+</ul>
+<h4><span id="fork-amp-exec"><code>fork()</code> &amp; <code>exec()</code></span><a href="#fork-amp-exec" class="header-anchor"></a></h4><ul>
+<li>First <code>fork()</code> then <code>exec()</code> to avoid lost the current state of process.<ul>
+<li>Caused by history problem of original computer only has terminal shell to access.</li>
+</ul>
+</li>
+<li>Linux uses copy-on-write to optimize the large process <code>fork()</code>.</li>
+</ul>
+<h4><span id="orphan-process-gu-er-jin-cheng">Orphan Process 孤儿进程</span><a href="#orphan-process-gu-er-jin-cheng" class="header-anchor"></a></h4><ul>
+<li>Parent process terminated or crashed, creating orphan process</li>
+<li>Re-parenting will assign orphan process to <strong>init</strong> process  in most UNIX os.</li>
+<li>The process group mechanism in most Unix-like operating systems can be used to help protect against accidental orphaning<ul>
+<li>in coordination with the user’s shell will try to terminate all the child processes with the “hangup” signal (SIGHUP), rather than letting them continue to run as orphans. </li>
+<li>precisely, as part of job control, when the shell exits, because it is the “session leader” (its session id equals its process id), the corresponding login session ends, and the shell sends SIGHUP to all its jobs (internal representation of process groups).</li>
+</ul>
+</li>
+</ul>
+<h4><span id="zombie-process-jiang-shi-jin-cheng">Zombie Process 僵尸进程</span><a href="#zombie-process-jiang-shi-jin-cheng" class="header-anchor"></a></h4><ul>
+<li>A zombie process or defunct process is a process that has completed execution (via the exit system call) but still has an entry in the process table: it is a process in the “Terminated state”. This occurs for child processes, where the entry is still needed to allow the parent process to read its child’s exit status: once the exit status is read via the wait system call, the zombie’s entry is removed from the process table and it is said to be “reaped”.</li>
+<li>Might result in no available process id.</li>
+</ul>
+<h4><span id="segment-fault-duan-cuo-wu">Segment Fault 段错误</span><a href="#segment-fault-duan-cuo-wu" class="header-anchor"></a></h4><ul>
+<li>A fault raised by hardware with memory protection, notifying an OS the software has attempted to access a restricted area of memory (a memory access violation). On standard x86 computers, this is a form of <strong>general protection fault</strong>. The OS kernel will, in response, usually perform some corrective action, generally passing the fault on to the offending process by sending the process a signal. Processes can in some cases install a custom signal handler, allowing them to recover on their own, but otherwise the OS default signal handler is used, generally causing abnormal termination of the process (a program crash), and sometimes a core dump.</li>
 </ul>
 
       
@@ -261,7 +293,11 @@ ga('send', 'pageview');
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Design Patterns</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Computer Architecture</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Computer System</a>
         		</li>
       		
 		</ul>
@@ -328,7 +364,7 @@ ga('send', 'pageview');
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2018/10/22/cs-Design-Patterns/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2018/12/10/cs-computer-arch/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -342,18 +378,18 @@ ga('send', 'pageview');
   
 <nav id="article-nav">
   
-    <a href="/2018/10/25/The-Italian-Wars-1494/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2018/12/10/cs-Design-Patterns/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          The Italian Wars 1494 - 1495
+          Design-Patterns
         
       </div>
     </a>
   
   
-    <a href="/2018/10/21/pake/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">PAKE, A Cryptographic Key Exchange Protocol</div>
+    <a href="/2018/12/10/cs-computer-graphics/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Computer Graphics</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -544,19 +580,19 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">场景描写</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">想法</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Java</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Interview</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">场景描写</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">想法</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -576,7 +612,11 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Design Patterns</a>
+                <a href="javascript:void(0)" class="js-tag color4">VPS</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Internet</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -588,6 +628,10 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Design Patterns</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Computer Architecture</a>
               </li>
              
@@ -596,19 +640,7 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">VPS</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Internet</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">Computer Graphics</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Quotation</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -617,6 +649,14 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Sci-Fi</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">Quotation</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">大学</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -652,10 +692,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">大学</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Objective Oriented</a>
               </li>
              
@@ -672,6 +708,22 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">微信</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">公众号</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">PAKE</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">passwords</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Open Source Mano</a>
               </li>
              
@@ -681,14 +733,6 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Tutorial</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">PAKE</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">passwords</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -708,23 +752,11 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">微信</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">公众号</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">架空世界</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Play</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">实习</a>
+                <a href="javascript:void(0)" class="js-tag color5">架空世界</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -733,6 +765,26 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">Tail Latency</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">实习</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">杂谈</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">科研</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">时代</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">人物</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -752,10 +804,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">杂谈</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">backlog</a>
               </li>
              
@@ -765,18 +813,6 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">socket</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">科研</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">时代</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">人物</a>
               </li>
              
               <li class="article-tag-list-item">

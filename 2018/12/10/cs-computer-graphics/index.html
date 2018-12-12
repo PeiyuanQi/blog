@@ -6,20 +6,26 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://blog.peiyuanqi.me">
-  <title>Computer Systems | Peiyuan&#39;s Blog</title>
+  <title>Computer Graphics | Peiyuan&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This post contains some relative lower layer Computer System questions. Updating… 在此收录一些关于比较底层的计算机系统问题。更新中…">
-<meta name="keywords" content="Computer Architecture,Computer System">
+  <meta name="description" content="This post contains some knowledges of Computer Graphics. Updating… 在此收录一些关于计算机图形学的问题。更新中…">
+<meta name="keywords" content="Computer Graphics">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Computer Systems">
-<meta property="og:url" content="https://blog.peiyuanqi.me/2018/10/27/cs-computer-arch/index.html">
+<meta property="og:title" content="Computer Graphics">
+<meta property="og:url" content="https://blog.peiyuanqi.me/2018/12/10/cs-computer-graphics/index.html">
 <meta property="og:site_name" content="Peiyuan&#39;s Blog">
-<meta property="og:description" content="This post contains some relative lower layer Computer System questions. Updating… 在此收录一些关于比较底层的计算机系统问题。更新中…">
+<meta property="og:description" content="This post contains some knowledges of Computer Graphics. Updating… 在此收录一些关于计算机图形学的问题。更新中…">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-11-06T17:22:01.879Z">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2018/12/10/cs-computer-graphics/lineEq.png">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2018/12/10/cs-computer-graphics/lineEq2.png">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2018/12/10/cs-computer-graphics/lineEq3.png">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2018/12/10/cs-computer-graphics/lineEq4.png">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2018/12/10/cs-computer-graphics/lineEq5.png">
+<meta property="og:updated_time" content="2018-12-12T17:29:04.260Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Computer Systems">
-<meta name="twitter:description" content="This post contains some relative lower layer Computer System questions. Updating… 在此收录一些关于比较底层的计算机系统问题。更新中…">
+<meta name="twitter:title" content="Computer Graphics">
+<meta name="twitter:description" content="This post contains some knowledges of Computer Graphics. Updating… 在此收录一些关于计算机图形学的问题。更新中…">
+<meta name="twitter:image" content="https://blog.peiyuanqi.me/2018/12/10/cs-computer-graphics/lineEq.png">
   
     <link rel="alternative" href="https://blog.peiyuanqi.me/atom.xml" title="Peiyuan&#39;s Blog" type="application/atom+xml">
   
@@ -186,24 +192,24 @@ ga('send', 'pageview');
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-cs-computer-arch" class="article article-type-post " itemscope="" itemprop="blogPost">
+            <article id="post-cs-computer-graphics" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Computer Systems
+      Computer Graphics
     </h1>
   
 
         
-        <a href="/2018/10/27/cs-computer-arch/" class="archive-article-date">
-  	<time datetime="2018-10-28T04:23:21.000Z" itemprop="datePublished">
+        <a href="/2018/12/10/cs-computer-graphics/" class="archive-article-date">
+  	<time datetime="2018-12-11T02:31:29.000Z" itemprop="datePublished">
 		<i class="icon-calendar icon"></i>
 		
 		
-		2018-10-28
+		2018-12-11
 		
 	</time>
 </a>
@@ -212,74 +218,55 @@ ga('send', 'pageview');
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>This post contains some relative lower layer Computer System questions. Updating…</p>
-<p>在此收录一些关于比较底层的计算机系统问题。更新中…<a id="more"></a></p>
+        <p>This post contains some knowledges of Computer Graphics. Updating…</p>
+<p>在此收录一些关于计算机图形学的问题。更新中…<a id="more"></a></p>
 <div class="toc">
 
 <!-- toc -->
 <ul>
-<li><a href="#cpu-cache-gao-su-huan-cun">CPU Cache 高速缓存</a></li>
-<li><a href="#tlb">TLB</a></li>
-<li><a href="#mmu-memory-management-unit">MMU (Memory Management Unit)</a></li>
-<li><a href="#memory-management-nei-cun-guan-li">Memory Management 内存管理</a></li>
-<li><a href="#page-table-ye-biao">Page Table 页表</a><ul>
-<li><a href="#process-jin-cheng">Process 进程</a></li>
+<li><a href="#common-questions-chang-jian-wen-ti">Common Questions 常见问题</a><ul>
+<li><a href="#line-segment-intersection-xian-duan-jiao-dian">Line Segment Intersection 线段交点</a></li>
+<li><a href="#point-in-triangle-pan-duan-dian-zai-san-jiao-xing-zhong">Point in Triangle 判断点在三角形中</a></li>
 </ul>
 </li>
-<li><a href="#daemon-process-shou-hu-jin-cheng">Daemon Process 守护进程</a></li>
-<li><a href="#fork-exec"><code>fork()</code> &amp; <code>exec()</code></a></li>
-<li><a href="#orphan-process-gu-er-jin-cheng">Orphan Process 孤儿进程</a></li>
-<li><a href="#zombie-process-jiang-shi-jin-cheng">Zombie Process 僵尸进程</a></li>
-<li><a href="#segment-fault-duan-cuo-wu">Segment Fault 段错误</a></li>
+<li><a href="#basic-knowledge-ji-chu-gai-nian">Basic Knowledge 基础概念</a><ul>
+<li><a href="#barycentric-coordinate-chong-xin-zuo-biao">Barycentric Coordinate 重心坐标</a></li>
+</ul>
+</li>
 </ul>
 <!-- tocstop -->
 </div>
 
 
-
-<h4><span id="cpu-cache-gao-su-huan-cun">CPU Cache 高速缓存</span><a href="#cpu-cache-gao-su-huan-cun" class="header-anchor"></a></h4><p><a href="http://www.cs.utexas.edu/users/mckinley/352/lectures/16.pdf" target="_blank" rel="noopener">Cache Memories</a></p>
-<h4><span id="tlb">TLB</span><a href="#tlb" class="header-anchor"></a></h4><ul>
-<li>Store cached translation of Virtual Address to Physical Address.</li>
-</ul>
-<h4><span id="mmu-memory-management-unit">MMU (Memory Management Unit)</span><a href="#mmu-memory-management-unit" class="header-anchor"></a></h4><ul>
-<li>Translate virtual address to physical address in hardware way.</li>
-<li>Might have Virtual Address Cache and Physical Address Cache to speed up the look up.</li>
-</ul>
-<h4><span id="memory-management-nei-cun-guan-li">Memory Management 内存管理</span><a href="#memory-management-nei-cun-guan-li" class="header-anchor"></a></h4><ul>
-<li>Shared Memory.</li>
-<li>Copy on Write.</li>
-</ul>
-<h4><span id="page-table-ye-biao">Page Table 页表</span><a href="#page-table-ye-biao" class="header-anchor"></a></h4><ul>
-<li>What is Page Table?</li>
-<li>Page Table is in memory.</li>
-</ul>
-<h3><span id="process-jin-cheng">Process 进程</span><a href="#process-jin-cheng" class="header-anchor"></a></h3><h4><span id="daemon-process-shou-hu-jin-cheng">Daemon Process 守护进程</span><a href="#daemon-process-shou-hu-jin-cheng" class="header-anchor"></a></h4><ul>
-<li>It could detach from terminal and run in background.</li>
-<li>Not exit with the exit of created terminal.</li>
-</ul>
-<h4><span id="fork-amp-exec"><code>fork()</code> &amp; <code>exec()</code></span><a href="#fork-amp-exec" class="header-anchor"></a></h4><ul>
-<li>First <code>fork()</code> then <code>exec()</code> to avoid lost the current state of process.<ul>
-<li>Caused by history problem of original computer only has terminal shell to access.</li>
-</ul>
-</li>
-<li>Linux uses copy-on-write to optimize the large process <code>fork()</code>.</li>
-</ul>
-<h4><span id="orphan-process-gu-er-jin-cheng">Orphan Process 孤儿进程</span><a href="#orphan-process-gu-er-jin-cheng" class="header-anchor"></a></h4><ul>
-<li>Parent process terminated or crashed, creating orphan process</li>
-<li>Re-parenting will assign orphan process to <strong>init</strong> process  in most UNIX os.</li>
-<li>The process group mechanism in most Unix-like operating systems can be used to help protect against accidental orphaning<ul>
-<li>in coordination with the user’s shell will try to terminate all the child processes with the “hangup” signal (SIGHUP), rather than letting them continue to run as orphans. </li>
-<li>precisely, as part of job control, when the shell exits, because it is the “session leader” (its session id equals its process id), the corresponding login session ends, and the shell sends SIGHUP to all its jobs (internal representation of process groups).</li>
-</ul>
-</li>
-</ul>
-<h4><span id="zombie-process-jiang-shi-jin-cheng">Zombie Process 僵尸进程</span><a href="#zombie-process-jiang-shi-jin-cheng" class="header-anchor"></a></h4><ul>
-<li>A zombie process or defunct process is a process that has completed execution (via the exit system call) but still has an entry in the process table: it is a process in the “Terminated state”. This occurs for child processes, where the entry is still needed to allow the parent process to read its child’s exit status: once the exit status is read via the wait system call, the zombie’s entry is removed from the process table and it is said to be “reaped”.</li>
-<li>Might result in no available process id.</li>
-</ul>
-<h4><span id="segment-fault-duan-cuo-wu">Segment Fault 段错误</span><a href="#segment-fault-duan-cuo-wu" class="header-anchor"></a></h4><ul>
-<li>A fault raised by hardware with memory protection, notifying an OS the software has attempted to access a restricted area of memory (a memory access violation). On standard x86 computers, this is a form of <strong>general protection fault</strong>. The OS kernel will, in response, usually perform some corrective action, generally passing the fault on to the offending process by sending the process a signal. Processes can in some cases install a custom signal handler, allowing them to recover on their own, but otherwise the OS default signal handler is used, generally causing abnormal termination of the process (a program crash), and sometimes a core dump.</li>
-</ul>
+<h3><span id="common-questions-chang-jian-wen-ti">Common Questions 常见问题</span><a href="#common-questions-chang-jian-wen-ti" class="header-anchor"></a></h3><h4><span id="line-segment-intersection-xian-duan-jiao-dian">Line Segment Intersection 线段交点</span><a href="#line-segment-intersection-xian-duan-jiao-dian" class="header-anchor"></a></h4><p>Line Segment $AB$ has $A(x_a, y_a)$ and $B(x_b, y_b)$.</p>
+<p>Line Segment $CD​$ has $C(x_c, y_c)​$ and $C(x_c, y_c)​$.</p>
+<p>Line Equations:</p>
+<img src="/2018/12/10/cs-computer-graphics/lineEq.png" title="Line Equations">
+<p>Combine Equations:</p>
+<img src="/2018/12/10/cs-computer-graphics/lineEq2.png" title="Getting Intersection">
+<img src="/2018/12/10/cs-computer-graphics/lineEq3.png" title="Getting Intersection">
+<p>And if the Determinant is 0:</p>
+<img src="/2018/12/10/cs-computer-graphics/lineEq4.png" title="Determinant">
+<p>It means line segment overlap or parallel.</p>
+<p>If not 0:</p>
+<img src="/2018/12/10/cs-computer-graphics/lineEq5.png" title="Getting Intersection">
+<p>Only when $0\le \lambda \le 1, 0\le \mu \le 1$, two line segments have real intersection, otherwise, the intersection is on their extension.</p>
+<h4><span id="point-in-triangle-pan-duan-dian-zai-san-jiao-xing-zhong">Point in Triangle 判断点在三角形中</span><a href="#point-in-triangle-pan-duan-dian-zai-san-jiao-xing-zhong" class="header-anchor"></a></h4><p>Reference:</p>
+<p><a href="https://www.gamedev.net/forums/topic/295943-is-this-a-better-point-in-triangle-test-2d/" target="_blank" rel="noopener">GameDev</a></p>
+<p><a href="https://stackoverflow.com/questions/2049582/how-to-determine-if-a-point-is-in-a-2d-triangle" target="_blank" rel="noopener">StackOverflow</a></p>
+<p><a href="http://totologic.blogspot.com/2014/01/accurate-point-in-triangle-test.html" target="_blank" rel="noopener">Totologic</a></p>
+<h5><span id="method-1">Method 1</span><a href="#method-1" class="header-anchor"></a></h5><p>The idea is checking the relative position of point to line plane. If all of them have positive, then it is in the triangle.</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">IsPointInTri</span><span class="params">(Point p, Point v1, Point v2, Point v3)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (Sign(p, v1, v2) &lt; <span class="number">0.0f</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">if</span> (Sign(p, v2, v3) &lt; <span class="number">0.0f</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">if</span> (Sign(p, v3, v1) &lt; <span class="number">0.0f</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="comment">// Or &gt; 0.0f in case of opposite winding</span></span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">float</span> <span class="title">Sign</span><span class="params">(Point v1, Point v2, Point v3)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">return</span> (v1-&gt;x - v3-&gt;x) * (v2-&gt;y - v3-&gt;y) - (v2-&gt;x - v3-&gt;x) * (v1-&gt;y - v3-&gt;y);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h5><span id="method-2">Method 2</span><a href="#method-2" class="header-anchor"></a></h5><p>Using Barycentric Coordinate System:</p>
+<p>$x=a\times x_1 + b \times x_2 + c \times x_3$</p>
+<p>$y = a \times y_1 + b \times y_2 + c \times y_3$</p>
+<p>$a + b + c = 1$</p>
+<p>$$<br>a = \frac{((y_2 - y_3)\times(x - x_3) + (x_3 - x_2)\times(y - y_3))}{((y_2 - y_3)\times(x_1 - x_3) + (x_3 - x_2)\times(y_1 - y_3))}<br>$$</p>
+<p>$$<br>b = \frac{((y_3 - y_1)\times(x - x_3) + (x_1 - x_3)\times(y - y_3))}{((y_2 - y_3)\times(x_1 - x_3) + (x_3 - x_2)\times(y_1 - y_3))}<br>$$</p>
+<p>$$<br>c = 1 - a - b<br>$$<br><em>p</em> lies in <em>T</em> if and only if $0 \le a \le 1$ and $0 \le b \le 1$ and $0 \le c \le 1$.</p>
+<h3><span id="basic-knowledge-ji-chu-gai-nian">Basic Knowledge 基础概念</span><a href="#basic-knowledge-ji-chu-gai-nian" class="header-anchor"></a></h3><h4><span id="barycentric-coordinate-chong-xin-zuo-biao">Barycentric Coordinate 重心坐标</span><a href="#barycentric-coordinate-chong-xin-zuo-biao" class="header-anchor"></a></h4><p>Let  $x_1, …, x_n$ be the vertices of a simplex in an affine space $A$. If, for some point  $p$ in $A$,<br>$$<br>(\lambda_1 + \cdots + \lambda_n)p = \lambda_1 x_1 + \cdots +\lambda_n x_n<br>$$<br>and at least one of $\lambda_1,…,\lambda_n$ does not vanish then we say the coefficients $\lambda_1,…,\lambda_n$ are barycentric coordinates of $p$ with respect to $x_1, …, x_n$.</p>
+<p>Barycentric Coordinate is not unique:</p>
+<p>$b\lambda_1,…,b\lambda_n$ where $b \ne 0$.</p>
 
       
 
@@ -293,11 +280,7 @@ ga('send', 'pageview');
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Computer Architecture</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Computer System</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Computer Graphics</a>
         		</li>
       		
 		</ul>
@@ -364,7 +347,7 @@ ga('send', 'pageview');
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2018/10/27/cs-computer-arch/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2018/12/10/cs-computer-graphics/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -378,18 +361,18 @@ ga('send', 'pageview');
   
 <nav id="article-nav">
   
-    <a href="/2018/11/27/sketch-1/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2018/12/10/cs-computer-arch/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          随笔#1 找实习过程中的几个致命错误
+          Computer Systems
         
       </div>
     </a>
   
   
-    <a href="/2018/10/27/cs-computer-graphics/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Computer Graphics</div>
+    <a href="/2018/12/10/2018-Summary/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">2018年度总结</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -580,19 +563,19 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">场景描写</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">想法</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Java</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Interview</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">场景描写</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">想法</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -612,7 +595,11 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Design Patterns</a>
+                <a href="javascript:void(0)" class="js-tag color4">VPS</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Internet</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -624,6 +611,10 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Design Patterns</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Computer Architecture</a>
               </li>
              
@@ -632,19 +623,7 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">VPS</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Internet</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">Computer Graphics</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Quotation</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -653,6 +632,14 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Sci-Fi</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">Quotation</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">大学</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -688,10 +675,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">大学</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Objective Oriented</a>
               </li>
              
@@ -708,6 +691,22 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">微信</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">公众号</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">PAKE</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">passwords</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Open Source Mano</a>
               </li>
              
@@ -717,14 +716,6 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Tutorial</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">PAKE</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">passwords</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -744,23 +735,11 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">微信</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">公众号</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">架空世界</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Play</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">实习</a>
+                <a href="javascript:void(0)" class="js-tag color5">架空世界</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -769,6 +748,26 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">Tail Latency</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">实习</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">杂谈</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">科研</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">时代</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">人物</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -788,10 +787,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">杂谈</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">backlog</a>
               </li>
              
@@ -801,18 +796,6 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">socket</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">科研</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">时代</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">人物</a>
               </li>
              
               <li class="article-tag-list-item">
