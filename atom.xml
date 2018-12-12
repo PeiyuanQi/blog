@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2018-12-11T05:01:38.089Z</updated>
+  <updated>2018-12-12T17:09:47.871Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想法#5到底是能有多不专注</title>
+    <link href="https://blog.peiyuanqi.me/2018/12/11/thoughts-5/"/>
+    <id>https://blog.peiyuanqi.me/2018/12/11/thoughts-5/</id>
+    <published>2018-12-12T01:00:25.000Z</published>
+    <updated>2018-12-12T17:09:47.871Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天刚在群里看到有新入学的在问找工作情况</p><p>然后看到上一届的同学回了一句</p><blockquote><p>只能说努力找准备充分的话都有机会？</p></blockquote><p>这句话放在五个月前，我听了大概就是毫无感想 是啊 努力找 准备充分 多投简历 多找内推 多刷题</p><p>简洁明了 我觉得自己可以做到</p><p>然而五个月过去了 没有达成第一个学期找到实习的目标</p><p>感觉很多时候的危机感还是在比较中得出的吧，如果所有人都找不到实习，大概也不会感到慌乱，但事实是相反的</p><p>回到“只能说”的这句话，如果现在来反思过去一个学期我没有机会的原因，大概是说准备不够充分？</p><p>一个学期过去了 除了面经和一些佛脚，LC并没有什么长进，每天也貌似在充实的学习中度过的</p><p>准备充分，到什么程度才算充分呢？</p><p>我知道三遍纯手打LC全部题带上最优解和分析那肯定是充分的，但是这种暂时超出能力之外的事情，大概目前的状态下是做不到了。</p><p>想偷懒的时候总希望又个声音能够告诉你说 够了 在这个程度就够了 你及格了</p><p>想想几年前是最厌恶这种态度的，甚至可以说是鄙夷</p><p>不过看地里往年也都是7个月的找工作时间，大概现在能做的就是及时醒悟过来，变得专注一点，做好”充分准备“，继续“努力找“，在最后的一个多月里挣扎一下吧</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天刚在群里看到有新入学的在问找工作情况&lt;/p&gt;
+&lt;p&gt;然后看到上一届的同学回了一句&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;只能说努力找准备充分的话都有机会？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这句话放在五个月前，我听了大概就是毫无感想 是啊 努力找 准备充分 多
+      
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="找工作" scheme="https://blog.peiyuanqi.me/tags/%E6%89%BE%E5%B7%A5%E4%BD%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>2018年度总结</title>
@@ -519,35 +549,6 @@
       <category term="VPS" scheme="https://blog.peiyuanqi.me/tags/VPS/"/>
     
       <category term="Internet" scheme="https://blog.peiyuanqi.me/tags/Internet/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Elon Musk在SXSW上的讲话</title>
-    <link href="https://blog.peiyuanqi.me/2018/03/19/elon-musk-s-talk-on-sxsw/"/>
-    <id>https://blog.peiyuanqi.me/2018/03/19/elon-musk-s-talk-on-sxsw/</id>
-    <published>2018-03-20T05:32:27.000Z</published>
-    <updated>2018-03-20T05:34:17.983Z</updated>
-    
-    <content type="html"><![CDATA[<p>前两天看到Elon Musk在SXSW上的讲话，引用部分如下：</p><blockquote><p>Life cannot just be about solving one miserable problem after another. That cannot be the only thing. They need to be things that inspire you, that make you glad to wake up in the morning and be part of humanity.</p></blockquote><p>Elon Musk其人，六年前是极度轻视的。认为他想法过于保守，又自诩为理想主义者。然而六年过去了，大概自己成为了保守主义者，居然又开始崇敬起他来。</p><p>或者换句话说，六年前太过于幼稚，没有看到差距在哪里，而现在大概是发现了。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;前两天看到Elon Musk在SXSW上的讲话，引用部分如下：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Life cannot just be about solving one miserable problem after another. That cannot be
-      
-    
-    </summary>
-    
-      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-      <category term="Humanity" scheme="https://blog.peiyuanqi.me/tags/Humanity/"/>
-    
-      <category term="Quotation" scheme="https://blog.peiyuanqi.me/tags/Quotation/"/>
     
   </entry>
   
