@@ -12,20 +12,20 @@
 <meta name="keywords" content="Computer Graphics">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Computer Graphics">
-<meta property="og:url" content="https://blog.peiyuanqi.me/2018/12/11/cs-computer-graphics/index.html">
+<meta property="og:url" content="https://blog.peiyuanqi.me/2019/01/02/cs-computer-graphics/index.html">
 <meta property="og:site_name" content="Peiyuan&#39;s Blog">
 <meta property="og:description" content="This post contains some knowledges of Computer Graphics. Updating… 在此收录一些关于计算机图形学的问题。更新中…">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://blog.peiyuanqi.me/2018/12/11/cs-computer-graphics/lineEq.png">
-<meta property="og:image" content="https://blog.peiyuanqi.me/2018/12/11/cs-computer-graphics/lineEq2.png">
-<meta property="og:image" content="https://blog.peiyuanqi.me/2018/12/11/cs-computer-graphics/lineEq3.png">
-<meta property="og:image" content="https://blog.peiyuanqi.me/2018/12/11/cs-computer-graphics/lineEq4.png">
-<meta property="og:image" content="https://blog.peiyuanqi.me/2018/12/11/cs-computer-graphics/lineEq5.png">
-<meta property="og:updated_time" content="2018-12-12T17:29:04.260Z">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2019/01/02/cs-computer-graphics/lineEq.png">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2019/01/02/cs-computer-graphics/lineEq2.png">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2019/01/02/cs-computer-graphics/lineEq3.png">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2019/01/02/cs-computer-graphics/lineEq4.png">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2019/01/02/cs-computer-graphics/lineEq5.png">
+<meta property="og:updated_time" content="2019-01-02T11:38:52.658Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Computer Graphics">
 <meta name="twitter:description" content="This post contains some knowledges of Computer Graphics. Updating… 在此收录一些关于计算机图形学的问题。更新中…">
-<meta name="twitter:image" content="https://blog.peiyuanqi.me/2018/12/11/cs-computer-graphics/lineEq.png">
+<meta name="twitter:image" content="https://blog.peiyuanqi.me/2019/01/02/cs-computer-graphics/lineEq.png">
   
     <link rel="alternative" href="https://blog.peiyuanqi.me/atom.xml" title="Peiyuan&#39;s Blog" type="application/atom+xml">
   
@@ -204,12 +204,12 @@ ga('send', 'pageview');
   
 
         
-        <a href="/2018/12/11/cs-computer-graphics/" class="archive-article-date">
-  	<time datetime="2018-12-11T02:31:29.000Z" itemprop="datePublished">
+        <a href="/2019/01/02/cs-computer-graphics/" class="archive-article-date">
+  	<time datetime="2019-01-02T08:31:29.000Z" itemprop="datePublished">
 		<i class="icon-calendar icon"></i>
 		
 		
-		2018-12-11
+		Latest
 		
 	</time>
 </a>
@@ -231,6 +231,9 @@ ga('send', 'pageview');
 </li>
 <li><a href="#basic-knowledge-ji-chu-gai-nian">Basic Knowledge 基础概念</a><ul>
 <li><a href="#barycentric-coordinate-chong-xin-zuo-biao">Barycentric Coordinate 重心坐标</a></li>
+<li><a href="#line-sweep-technique-zhi-xian-sao-miao-zhuan-hua-suan-fa">Line Sweep Technique 直线扫描转化算法</a></li>
+<li><a href="#circle-sweep-technique-yuan-de-sao-miao-zhuan-huan-suan-fa">Circle Sweep Technique 圆的扫描转换算法</a></li>
+<li><a href="#duo-bian-xing-sao-miao-zhuan-hua-suan-fa">多边形扫描转化算法</a></li>
 </ul>
 </li>
 </ul>
@@ -241,15 +244,15 @@ ga('send', 'pageview');
 <h3><span id="common-questions-chang-jian-wen-ti">Common Questions 常见问题</span><a href="#common-questions-chang-jian-wen-ti" class="header-anchor"></a></h3><h4><span id="line-segment-intersection-xian-duan-jiao-dian">Line Segment Intersection 线段交点</span><a href="#line-segment-intersection-xian-duan-jiao-dian" class="header-anchor"></a></h4><p>Line Segment $AB$ has $A(x_a, y_a)$ and $B(x_b, y_b)$.</p>
 <p>Line Segment $CD​$ has $C(x_c, y_c)​$ and $C(x_c, y_c)​$.</p>
 <p>Line Equations:</p>
-<img src="/2018/12/11/cs-computer-graphics/lineEq.png" title="Line Equations">
+<img src="/2019/01/02/cs-computer-graphics/lineEq.png" title="Line Equations">
 <p>Combine Equations:</p>
-<img src="/2018/12/11/cs-computer-graphics/lineEq2.png" title="Getting Intersection">
-<img src="/2018/12/11/cs-computer-graphics/lineEq3.png" title="Getting Intersection">
+<img src="/2019/01/02/cs-computer-graphics/lineEq2.png" title="Getting Intersection">
+<img src="/2019/01/02/cs-computer-graphics/lineEq3.png" title="Getting Intersection">
 <p>And if the Determinant is 0:</p>
-<img src="/2018/12/11/cs-computer-graphics/lineEq4.png" title="Determinant">
+<img src="/2019/01/02/cs-computer-graphics/lineEq4.png" title="Determinant">
 <p>It means line segment overlap or parallel.</p>
 <p>If not 0:</p>
-<img src="/2018/12/11/cs-computer-graphics/lineEq5.png" title="Getting Intersection">
+<img src="/2019/01/02/cs-computer-graphics/lineEq5.png" title="Getting Intersection">
 <p>Only when $0\le \lambda \le 1, 0\le \mu \le 1$, two line segments have real intersection, otherwise, the intersection is on their extension.</p>
 <h4><span id="point-in-triangle-pan-duan-dian-zai-san-jiao-xing-zhong">Point in Triangle 判断点在三角形中</span><a href="#point-in-triangle-pan-duan-dian-zai-san-jiao-xing-zhong" class="header-anchor"></a></h4><p>Reference:</p>
 <p><a href="https://www.gamedev.net/forums/topic/295943-is-this-a-better-point-in-triangle-test-2d/" target="_blank" rel="noopener">GameDev</a></p>
@@ -267,7 +270,8 @@ ga('send', 'pageview');
 <h3><span id="basic-knowledge-ji-chu-gai-nian">Basic Knowledge 基础概念</span><a href="#basic-knowledge-ji-chu-gai-nian" class="header-anchor"></a></h3><h4><span id="barycentric-coordinate-chong-xin-zuo-biao">Barycentric Coordinate 重心坐标</span><a href="#barycentric-coordinate-chong-xin-zuo-biao" class="header-anchor"></a></h4><p>Let  $x_1, …, x_n$ be the vertices of a simplex in an affine space $A$. If, for some point  $p$ in $A$,<br>$$<br>(\lambda_1 + \cdots + \lambda_n)p = \lambda_1 x_1 + \cdots +\lambda_n x_n<br>$$<br>and at least one of $\lambda_1,…,\lambda_n$ does not vanish then we say the coefficients $\lambda_1,…,\lambda_n$ are barycentric coordinates of $p$ with respect to $x_1, …, x_n$.</p>
 <p>Barycentric Coordinate is not unique:</p>
 <p>$b\lambda_1,…,b\lambda_n$ where $b \ne 0$.</p>
-
+<h4><span id="line-sweep-technique-zhi-xian-sao-miao-zhuan-hua-suan-fa">Line Sweep Technique 直线扫描转化算法</span><a href="#line-sweep-technique-zhi-xian-sao-miao-zhuan-hua-suan-fa" class="header-anchor"></a></h4><h5><span id="dda-algorithm-shu-zhi-wei-fen-fa-digital-differential-analyzer">DDA Algorithm (数值微分法 Digital Differential Analyzer)</span><a href="#dda-algorithm-shu-zhi-wei-fen-fa-digital-differential-analyzer" class="header-anchor"></a></h5><h5><span id="zhong-dian-hua-xian-fa">中点画线法</span><a href="#zhong-dian-hua-xian-fa" class="header-anchor"></a></h5><h5><span id="bresenham-algorithm">Bresenham Algorithm</span><a href="#bresenham-algorithm" class="header-anchor"></a></h5><h4><span id="circle-sweep-technique-yuan-de-sao-miao-zhuan-huan-suan-fa">Circle Sweep Technique 圆的扫描转换算法</span><a href="#circle-sweep-technique-yuan-de-sao-miao-zhuan-huan-suan-fa" class="header-anchor"></a></h4><h5><span id="bresenham-algorithm">Bresenham Algorithm</span><a href="#bresenham-algorithm" class="header-anchor"></a></h5><p>####Flood Filling &amp; Scan Line Seed Filling</p>
+<h4><span id="duo-bian-xing-sao-miao-zhuan-hua-suan-fa">多边形扫描转化算法</span><a href="#duo-bian-xing-sao-miao-zhuan-hua-suan-fa" class="header-anchor"></a></h4>
       
 
       
@@ -347,7 +351,7 @@ ga('send', 'pageview');
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2018/12/11/cs-computer-graphics/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2019/01/02/cs-computer-graphics/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -361,18 +365,9 @@ ga('send', 'pageview');
   
 <nav id="article-nav">
   
-    <a href="/2018/12/11/cs-computer-arch/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          Computer Systems
-        
-      </div>
-    </a>
   
-  
-    <a href="/2018/12/10/2018-Summary/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">2018年度总结</div>
+    <a href="/2019/01/01/csci-555/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">CSCI 555 Advanced OS and MIT 6.828 OS Engineering Lab</div>
       <i class="icon-circle-right"></i>
     </a>
   
