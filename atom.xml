@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2019-01-02T11:38:52.658Z</updated>
+  <updated>2019-01-14T07:50:35.605Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs Literature Notes</title>
+    <link href="https://blog.peiyuanqi.me/2019/01/13/mapf-scheduling/"/>
+    <id>https://blog.peiyuanqi.me/2019/01/13/mapf-scheduling/</id>
+    <published>2019-01-13T15:50:35.000Z</published>
+    <updated>2019-01-14T07:50:35.605Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Roman Barták, Ji?í Švancara, and Marek Vlk. 2018. A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs. In <em>Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems</em> (AAMAS ‘18). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 748-756.</strong></p><p>The paper proposes a new approach for MAPF problem. Modeling the path finding problem into a scheduling problem, regarding the presence of an agent at a node as an activity to be scheduled allows solver to solve the problem in constraint programming way.</p><p>All the activities are optional and there are three types of activities:</p><p>$N[x,a]$, $N^{out}[x,a]$, and $N^{in}[x,a]$.</p><p>The length of each edge is regarded as unit length in single-layer model and then will be modified in further development.</p><p>With all constrains, the makespan of problem is the object to be minimized in the scheduling model.</p><p>Traditional solutions simplify the problem on length of edges and the times an agent could visit a node. To extend the original model for different lengths of edges and multiple visits to a node, they develop multi-layer model.</p><p>Transition between layers does not cost any time and going to different layers means multiple visits to the node. The maximum visits to a node is the number of layers in this situation.</p><p>The algorithm to solve this problem in this model is adding layers from 1 to estimated number. It speeds up the process to find proper sufficient layers, for the estimated method might give a pretty large estimated layer number.</p><p>Compared with traditional solver like SAT reduced method, the new scheduling based solver is more efficient for different lengths of edges between nodes, which is more realistic than the traditional models.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;Roman Barták, Ji?í Švancara, and Marek Vlk. 2018. A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capac
+      
+    
+    </summary>
+    
+      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+      <category term="Literature Notes" scheme="https://blog.peiyuanqi.me/tags/Literature-Notes/"/>
+    
+  </entry>
   
   <entry>
     <title>Computer Graphics</title>
@@ -507,30 +532,6 @@
       <category term="时代" scheme="https://blog.peiyuanqi.me/tags/%E6%97%B6%E4%BB%A3/"/>
     
       <category term="人物" scheme="https://blog.peiyuanqi.me/tags/%E4%BA%BA%E7%89%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Percona-Toolkit pt-table-checksum &quot;Waiting for the —replicate table&quot; Error</title>
-    <link href="https://blog.peiyuanqi.me/2018/04/25/percona-toolkit-wait-for-slave-error/"/>
-    <id>https://blog.peiyuanqi.me/2018/04/25/percona-toolkit-wait-for-slave-error/</id>
-    <published>2018-04-26T02:42:36.000Z</published>
-    <updated>2018-10-23T21:52:34.960Z</updated>
-    
-    <content type="html"><![CDATA[<p>Percona-Toolkit is a useful DBA toolkit, one of the most useful tool is <code>pt-table-checksum</code>.</p><a id="more"></a><p>Here is the general steps:</p><ul><li><p>Configure same users with same passwords for Master and Slaves databases;</p></li><li><p>Grand necessary privileges for Master database and Slave databases with proper master host ip:</p><ul><li><p>Master</p><ul><li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">GRANT SELECT, PROCESS, SUPER, REPLICATION SLAVE,CREATE,DELETE,INSERT,UPDATE ON *.* TO &apos;percona&apos;@MASTER_HOST identified by &apos;password&apos;;</span><br><span class="line">flush privileges;</span><br></pre></td></tr></table></figure></li></ul></li><li><p>Slaves</p><ul><li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; GRANT SELECT, PROCESS, SUPER, REPLICATION SLAVE ON  *.* TO &apos;percona&apos;@MASTER_HOST IDENTIFIED BY &apos;password&apos;;</span><br><span class="line">mysql&gt; flush privileges;</span><br></pre></td></tr></table></figure></li></ul></li></ul></li></ul><p>Then just execute <code>pt-table-checksum</code> on your master, here is a quick reference for options:</p><blockquote><p>–nocheck-replication-filters ：not check filter, required if want to use –databases<br>–no-check-binlog-format : do not check replicate binlog mode, if it is ROW, report error<br>–replicate-check-only : only show not synced info<br>–replicate= ：checksums info storage location, e.g. database.table, <strong>it should be replicated by slaves!</strong><br>–databases= ：databases to check, separate with “,”<br>–tables= : tables to check, separate with “,”<br>h= : Master IP<br>u= : database username<br>p= : password<br>P= : database port</p></blockquote><p>And the example command is</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pt-table-checksum --nocheck-replication-filters --no-check-binlog-format --replicate=MasterChecksums.checksums --create-replicate-table h=MASTER_HOST,u=percona,p=password,P=3306</span><br></pre></td></tr></table></figure><p>If you get the error that getting stuck in the loop of  “Waiting for the —replicate table to replicate to \<replicant name\="">“</replicant></p><p>It is caused by the checksums table not synced by slaves.</p><p>Add the database contains checksums tables into the <code>my.cnf</code> of Master, then restart the mysql service.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Percona-Toolkit is a useful DBA toolkit, one of the most useful tool is &lt;code&gt;pt-table-checksum&lt;/code&gt;.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
-    
-    
-      <category term="DBA" scheme="https://blog.peiyuanqi.me/tags/DBA/"/>
-    
-      <category term="Percona" scheme="https://blog.peiyuanqi.me/tags/Percona/"/>
     
   </entry>
   
