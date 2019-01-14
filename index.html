@@ -214,15 +214,9 @@ ga('send', 'pageview');
       
         <p><strong>Roman Barták, Jirí Švancara, and Marek Vlk. 2018. A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs. In <em>Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems</em> (AAMAS ‘18). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 748-756.</strong></p>
 <p>The paper proposes a new approach for MAPF problem. Modeling the path finding problem into a scheduling problem, regarding the presence of an agent at a node as an activity to be scheduled allows solver to solve the problem in constraint programming way.</p>
-<p>All the activities are optional and there are three types of activities:</p>
-<p>$N[x,a]$, $N^{out}[x,a]$, and $N^{in}[x,a]$.</p>
-<p>The length of each edge is regarded as unit length in single-layer model and then will be modified in further development.</p>
-<p>With all constrains, the makespan of problem is the object to be minimized in the scheduling model.</p>
-<p>Traditional solutions simplify the problem on length of edges and the times an agent could visit a node. To extend the original model for different lengths of edges and multiple visits to a node, they develop multi-layer model.</p>
-<p>Transition between layers does not cost any time and going to different layers means multiple visits to the node. The maximum visits to a node is the number of layers in this situation.</p>
-<p>The algorithm to solve this problem in this model is adding layers from 1 to estimated number. It speeds up the process to find proper sufficient layers, for the estimated method might give a pretty large estimated layer number.</p>
-<p>Compared with traditional solver like SAT reduced method, the new scheduling based solver is more efficient for different lengths of edges between nodes, which is more realistic than the traditional models.</p>
-
+        
+          <a class="article-more-a" href="/2019/01/13/mapf-scheduling/#more">more >></a>
+        
       
 
       
