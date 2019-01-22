@@ -21,7 +21,7 @@
 <meta property="og:image" content="https://blog.peiyuanqi.me/2019/01/02/cs-computer-graphics/lineEq3.png">
 <meta property="og:image" content="https://blog.peiyuanqi.me/2019/01/02/cs-computer-graphics/lineEq4.png">
 <meta property="og:image" content="https://blog.peiyuanqi.me/2019/01/02/cs-computer-graphics/lineEq5.png">
-<meta property="og:updated_time" content="2019-01-02T11:38:52.658Z">
+<meta property="og:updated_time" content="2019-01-22T23:44:33.579Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Computer Graphics">
 <meta name="twitter:description" content="This post contains some knowledges of Computer Graphics. Updating… 在此收录一些关于计算机图形学的问题。更新中…">
@@ -231,6 +231,7 @@ ga('send', 'pageview');
 </li>
 <li><a href="#basic-knowledge-ji-chu-gai-nian">Basic Knowledge 基础概念</a><ul>
 <li><a href="#barycentric-coordinate-chong-xin-zuo-biao">Barycentric Coordinate 重心坐标</a></li>
+<li><a href="#detect-collision-ce-shi-peng-zhuang">Detect Collision 测试碰撞</a></li>
 <li><a href="#line-sweep-technique-zhi-xian-sao-miao-zhuan-hua-suan-fa">Line Sweep Technique 直线扫描转化算法</a></li>
 <li><a href="#circle-sweep-technique-yuan-de-sao-miao-zhuan-huan-suan-fa">Circle Sweep Technique 圆的扫描转换算法</a></li>
 <li><a href="#duo-bian-xing-sao-miao-zhuan-hua-suan-fa">多边形扫描转化算法</a></li>
@@ -270,6 +271,7 @@ ga('send', 'pageview');
 <h3><span id="basic-knowledge-ji-chu-gai-nian">Basic Knowledge 基础概念</span><a href="#basic-knowledge-ji-chu-gai-nian" class="header-anchor"></a></h3><h4><span id="barycentric-coordinate-chong-xin-zuo-biao">Barycentric Coordinate 重心坐标</span><a href="#barycentric-coordinate-chong-xin-zuo-biao" class="header-anchor"></a></h4><p>Let  $x_1, …, x_n$ be the vertices of a simplex in an affine space $A$. If, for some point  $p$ in $A$,<br>$$<br>(\lambda_1 + \cdots + \lambda_n)p = \lambda_1 x_1 + \cdots +\lambda_n x_n<br>$$<br>and at least one of $\lambda_1,…,\lambda_n$ does not vanish then we say the coefficients $\lambda_1,…,\lambda_n$ are barycentric coordinates of $p$ with respect to $x_1, …, x_n$.</p>
 <p>Barycentric Coordinate is not unique:</p>
 <p>$b\lambda_1,…,b\lambda_n$ where $b \ne 0$.</p>
+<h4><span id="detect-collision-ce-shi-peng-zhuang">Detect Collision 测试碰撞</span><a href="#detect-collision-ce-shi-peng-zhuang" class="header-anchor"></a></h4><p>Minkowski difference and Minkowski sum.</p>
 <h4><span id="line-sweep-technique-zhi-xian-sao-miao-zhuan-hua-suan-fa">Line Sweep Technique 直线扫描转化算法</span><a href="#line-sweep-technique-zhi-xian-sao-miao-zhuan-hua-suan-fa" class="header-anchor"></a></h4><h5><span id="dda-algorithm-shu-zhi-wei-fen-fa-digital-differential-analyzer">DDA Algorithm (数值微分法 Digital Differential Analyzer)</span><a href="#dda-algorithm-shu-zhi-wei-fen-fa-digital-differential-analyzer" class="header-anchor"></a></h5><h5><span id="zhong-dian-hua-xian-fa">中点画线法</span><a href="#zhong-dian-hua-xian-fa" class="header-anchor"></a></h5><h5><span id="bresenham-algorithm">Bresenham Algorithm</span><a href="#bresenham-algorithm" class="header-anchor"></a></h5><h4><span id="circle-sweep-technique-yuan-de-sao-miao-zhuan-huan-suan-fa">Circle Sweep Technique 圆的扫描转换算法</span><a href="#circle-sweep-technique-yuan-de-sao-miao-zhuan-huan-suan-fa" class="header-anchor"></a></h4><h5><span id="bresenham-algorithm">Bresenham Algorithm</span><a href="#bresenham-algorithm" class="header-anchor"></a></h5><p>####Flood Filling &amp; Scan Line Seed Filling</p>
 <h4><span id="duo-bian-xing-sao-miao-zhuan-hua-suan-fa">多边形扫描转化算法</span><a href="#duo-bian-xing-sao-miao-zhuan-hua-suan-fa" class="header-anchor"></a></h4>
       
@@ -547,15 +549,15 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">Distributed Systems</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">cpp</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Programing Language</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Distributed Systems</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -603,6 +605,14 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Computer Architecture</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Computer System</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">History</a>
               </li>
              
@@ -615,19 +625,11 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Computer Architecture</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Computer System</a>
+                <a href="javascript:void(0)" class="js-tag color5">Quotation</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">Computer Graphics</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Quotation</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -663,15 +665,15 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">WordPress</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">MultipeerConnectivity</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">Swift</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">WordPress</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -739,11 +741,11 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Play</a>
+                <a href="javascript:void(0)" class="js-tag color5">架空世界</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">架空世界</a>
+                <a href="javascript:void(0)" class="js-tag color5">Play</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -760,6 +762,10 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">杂谈</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">找工作</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -784,10 +790,6 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">合同</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">找工作</a>
               </li>
              
               <li class="article-tag-list-item">
