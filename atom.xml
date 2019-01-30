@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2019-01-14T07:53:38.066Z</updated>
+  <updated>2019-01-30T04:05:43.210Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想法#6重拾成功学</title>
+    <link href="https://blog.peiyuanqi.me/2019/01/29/thoughts-6/"/>
+    <id>https://blog.peiyuanqi.me/2019/01/29/thoughts-6/</id>
+    <published>2019-01-29T12:05:43.000Z</published>
+    <updated>2019-01-30T04:05:43.210Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天在微博关注的一个政策大V文章里看到了一个大家都懂得道理，每个人的敌人也就三样：</p><p>懒惰、幻想、和被我忘了的第三个</p><p>重点是前两个，所以我就把第三个忘了😂</p><p>之前说要提高执行力，而执行力的最大阻碍就是懒惰。近日由于前段时间的松懈，不得不说执行力又掉回了去年的水平。</p><p>第二个缺点是幻想，一种让人失去充分前进动力，并极度浪费时间的事情。</p><p>适当的幻想，或者说场景预演，有利于：工作执行、学习计划、写作 🙄️</p><p>但是过度的话 就浪费时间，而且容易产生挫折感</p><p>如果说到自己最近的状态的话，还得加上一个一直没有改掉的三个老毛病：</p><ul><li>说”不”</li><li>自以为是</li><li>个人问题</li></ul><p>不会说”不”严重影响了自己专注于需要做的事情的时间和精力。</p><p>自以为是总是导致在需要展示某些能力的时候没有很好的展现相关能力</p><p>个人问题就不讨论了=-=</p><p>大概就是这样……</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天在微博关注的一个政策大V文章里看到了一个大家都懂得道理，每个人的敌人也就三样：&lt;/p&gt;
+&lt;p&gt;懒惰、幻想、和被我忘了的第三个&lt;/p&gt;
+&lt;p&gt;重点是前两个，所以我就把第三个忘了😂&lt;/p&gt;
+&lt;p&gt;之前说要提高执行力，而执行力的最大阻碍就是懒惰。近日由于前段时间的松懈，不得
+      
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs Literature Notes</title>
@@ -501,35 +529,6 @@
       <category term="道德" scheme="https://blog.peiyuanqi.me/tags/%E9%81%93%E5%BE%B7/"/>
     
       <category term="合同" scheme="https://blog.peiyuanqi.me/tags/%E5%90%88%E5%90%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#3-科研、时代、人物</title>
-    <link href="https://blog.peiyuanqi.me/2018/05/07/thoughts-3/"/>
-    <id>https://blog.peiyuanqi.me/2018/05/07/thoughts-3/</id>
-    <published>2018-05-07T15:53:23.000Z</published>
-    <updated>2018-10-23T21:51:48.392Z</updated>
-    
-    <content type="html"><![CDATA[<p>刚刚看到的两条不算新的新闻的想法</p><p>一来是如图一所示, 诚然确实有着逆天的项目, 如15的Minority Report, 但是大部分来说, 只能让人叹惋了吧. 而想起这些经费的来源, 就不由得变成了悲愤了.</p><img src="/2018/05/07/thoughts-3/pic.jpg" title="图一. 无题注"><p>二来是最近总是有一些竞赛相关的人物传记在朋友圈被转载, 感觉和周围大家都发现自己的年龄的增长而开始尝试抓取一些属于过去的这个年代的人特殊的记忆有关了吧. 而竞赛绝对是这一代学生很重要的记忆的一部分了.<a id="more"></a></p><p>于是先有了所谓对付云皓冠军归宿的传记, 进而产生了冠军对报道有了偏差的反击. 再到今天看到了一篇讨论ACM冠军们的(报道? 文章? 网文?). 这乍一看是网络媒体工作者对这些处于时代交替之时有着特长的人的追踪报道, 但是这些报道出现在了朋友圈当中, 大概也是因为这些故事触动了一些同学的想法吧.</p><p>想来也是十分有趣, 最早听到楼教主的名字的时候, 我就在发表着一些计算机全是泡沫的中二言论, 十年过去了, 大概泡沫指的就是我这被现实抽肿的脸里面飞溅出来的唾沫星子吧…</p><p>相比于他们具体的成就, 最让人触动的大概还是, 那些曾经没大几岁的人, 都已经进入了需要用自己的事业成就来衡量价值的地步了, 让人又不禁唏嘘起时间的流逝了.</p><p>所幸, 大概还有些许的时间容许试错与挥霍, 所以还是先把思考能力放在眼前的事物更有利于身心健康吧.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;刚刚看到的两条不算新的新闻的想法&lt;/p&gt;
-&lt;p&gt;一来是如图一所示, 诚然确实有着逆天的项目, 如15的Minority Report, 但是大部分来说, 只能让人叹惋了吧. 而想起这些经费的来源, 就不由得变成了悲愤了.&lt;/p&gt;
-&lt;img src=&quot;/2018/05/07/thoughts-3/pic.jpg&quot; title=&quot;图一. 无题注&quot;&gt;
-&lt;p&gt;二来是最近总是有一些竞赛相关的人物传记在朋友圈被转载, 感觉和周围大家都发现自己的年龄的增长而开始尝试抓取一些属于过去的这个年代的人特殊的记忆有关了吧. 而竞赛绝对是这一代学生很重要的记忆的一部分了.
-    
-    </summary>
-    
-      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-      <category term="科研" scheme="https://blog.peiyuanqi.me/tags/%E7%A7%91%E7%A0%94/"/>
-    
-      <category term="时代" scheme="https://blog.peiyuanqi.me/tags/%E6%97%B6%E4%BB%A3/"/>
-    
-      <category term="人物" scheme="https://blog.peiyuanqi.me/tags/%E4%BA%BA%E7%89%A9/"/>
     
   </entry>
   

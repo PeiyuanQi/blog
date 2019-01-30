@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://blog.peiyuanqi.me">
-  <title>Install Open Source Mano THREE on Google Cloud | Peiyuan&#39;s Blog</title>
+  <title>想法#6重拾成功学 | Peiyuan&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="When you try to install Open Source Mano on your Google Cloud Virtual Machine Instance following the Guide on OSM Wiki, you might met the problem of accessing UI, which is running in SO container and">
-<meta name="keywords" content="Open Source Mano,Google Cloud,Tutorial">
+  <meta name="description" content="今天在微博关注的一个政策大V文章里看到了一个大家都懂得道理，每个人的敌人也就三样： 懒惰、幻想、和被我忘了的第三个 重点是前两个，所以我就把第三个忘了😂 之前说要提高执行力，而执行力的最大阻碍就是懒惰。近日由于前段时间的松懈，不得不说执行力又掉回了去年的水平。 第二个缺点是幻想，一种让人失去充分前进动力，并极度浪费时间的事情。 适当的幻想，或者说场景预演，有利于：工作执行、学习计划、写作 🙄️">
+<meta name="keywords" content="想法">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Install Open Source Mano THREE on Google Cloud">
-<meta property="og:url" content="https://blog.peiyuanqi.me/2018/04/05/osm-on-google-cloud/index.html">
+<meta property="og:title" content="想法#6重拾成功学">
+<meta property="og:url" content="https://blog.peiyuanqi.me/2019/01/29/thoughts-6/index.html">
 <meta property="og:site_name" content="Peiyuan&#39;s Blog">
-<meta property="og:description" content="When you try to install Open Source Mano on your Google Cloud Virtual Machine Instance following the Guide on OSM Wiki, you might met the problem of accessing UI, which is running in SO container and">
+<meta property="og:description" content="今天在微博关注的一个政策大V文章里看到了一个大家都懂得道理，每个人的敌人也就三样： 懒惰、幻想、和被我忘了的第三个 重点是前两个，所以我就把第三个忘了😂 之前说要提高执行力，而执行力的最大阻碍就是懒惰。近日由于前段时间的松懈，不得不说执行力又掉回了去年的水平。 第二个缺点是幻想，一种让人失去充分前进动力，并极度浪费时间的事情。 适当的幻想，或者说场景预演，有利于：工作执行、学习计划、写作 🙄️">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-04-12T06:29:17.712Z">
+<meta property="og:updated_time" content="2019-01-30T04:05:43.210Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Install Open Source Mano THREE on Google Cloud">
-<meta name="twitter:description" content="When you try to install Open Source Mano on your Google Cloud Virtual Machine Instance following the Guide on OSM Wiki, you might met the problem of accessing UI, which is running in SO container and">
+<meta name="twitter:title" content="想法#6重拾成功学">
+<meta name="twitter:description" content="今天在微博关注的一个政策大V文章里看到了一个大家都懂得道理，每个人的敌人也就三样： 懒惰、幻想、和被我忘了的第三个 重点是前两个，所以我就把第三个忘了😂 之前说要提高执行力，而执行力的最大阻碍就是懒惰。近日由于前段时间的松懈，不得不说执行力又掉回了去年的水平。 第二个缺点是幻想，一种让人失去充分前进动力，并极度浪费时间的事情。 适当的幻想，或者说场景预演，有利于：工作执行、学习计划、写作 🙄️">
   
     <link rel="alternative" href="https://blog.peiyuanqi.me/atom.xml" title="Peiyuan&#39;s Blog" type="application/atom+xml">
   
@@ -186,24 +186,24 @@ ga('send', 'pageview');
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-osm-on-google-cloud" class="article article-type-post " itemscope="" itemprop="blogPost">
+            <article id="post-thoughts-6" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Install Open Source Mano THREE on Google Cloud
+      想法#6重拾成功学
     </h1>
   
 
         
-        <a href="/2018/04/05/osm-on-google-cloud/" class="archive-article-date">
-  	<time datetime="2018-04-06T05:57:37.000Z" itemprop="datePublished">
+        <a href="/2019/01/29/thoughts-6/" class="archive-article-date">
+  	<time datetime="2019-01-29T12:05:43.000Z" itemprop="datePublished">
 		<i class="icon-calendar icon"></i>
 		
 		
-		2018-04-06
+		2019-01-29
 		
 	</time>
 </a>
@@ -212,28 +212,23 @@ ga('send', 'pageview');
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>When you try to install Open Source Mano on your Google Cloud Virtual Machine Instance following <a href="https://osm.etsi.org/wikipub/index.php/OSM_Release_THREE" target="_blank" rel="noopener">the Guide</a> on OSM Wiki, you might met the problem of accessing UI, which is running in SO container and only has an local IP to access.</p>
-<p>Since Open Source Mano THREE apply the new authentication mechanism, you could not access the login page for UI. The detailed reason is explained in the Wiki:</p>
-<blockquote>
-<p>Please note that in OSM 3, authentication is performed using OpenIDConnect and OAuth2.0.<br>An identity provider has been added to the platform and provided as a service in the SO container running on port 8009.<br>This means both the browser and the UI server components (that run on the SO container) need to be able to access the SO container using identical URIs.<br>In short, the tuple of scheme://location:port needs to be reachable via both the browser accessing the system and the UI server running on the SO container (e.g. <a href="https://10.66.202.206:8009" target="_blank" rel="noopener">https://10.66.202.206:8009</a> for a sample deployment).<br>This means that if your SO container is behind a NAT that cannot reach the public address of the host, authentication and authorization will not be possible and you will not be able to proceed using the UI.</p>
-</blockquote>
-<p>To by pass this problem, the principle is make your local machine be able to access the network created by <code>lxd</code> on your Google Cloud Host.</p>
-<p>There are multiple ways to do that:</p>
+        <p>今天在微博关注的一个政策大V文章里看到了一个大家都懂得道理，每个人的敌人也就三样：</p>
+<p>懒惰、幻想、和被我忘了的第三个</p>
+<p>重点是前两个，所以我就把第三个忘了😂</p>
+<p>之前说要提高执行力，而执行力的最大阻碍就是懒惰。近日由于前段时间的松懈，不得不说执行力又掉回了去年的水平。</p>
+<p>第二个缺点是幻想，一种让人失去充分前进动力，并极度浪费时间的事情。</p>
+<p>适当的幻想，或者说场景预演，有利于：工作执行、学习计划、写作 🙄️</p>
+<p>但是过度的话 就浪费时间，而且容易产生挫折感</p>
+<p>如果说到自己最近的状态的话，还得加上一个一直没有改掉的三个老毛病：</p>
 <ul>
-<li>Using Google <a href="https://cloud.google.com/vpn/docs/concepts/overview" target="_blank" rel="noopener">Cloud VPN</a><ul>
-<li>Good choice but might be overkilled, if you just have a laptop as your local machine.</li>
+<li>说”不”</li>
+<li>自以为是</li>
+<li>个人问题</li>
 </ul>
-</li>
-<li>Setting up a VPN server on your Google Cloud Host<ul>
-<li>Not Elegant, but simple and easy to achieve<ul>
-<li>To set up an OpenVPN server and use your local machine to access it, check <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04" target="_blank" rel="noopener">this post</a>.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Then you are good to login the UI. </p>
-<p>I think this is a bug of OSM-THREE and hope they will fix it soon and then this post will finish its job and retired.</p>
+<p>不会说”不”严重影响了自己专注于需要做的事情的时间和精力。</p>
+<p>自以为是总是导致在需要展示某些能力的时候没有很好的展现相关能力</p>
+<p>个人问题就不讨论了=-=</p>
+<p>大概就是这样……</p>
 
       
 
@@ -247,15 +242,7 @@ ga('send', 'pageview');
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Open Source Mano</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Google Cloud</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Tutorial</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">想法</a>
         		</li>
       		
 		</ul>
@@ -267,7 +254,7 @@ ga('send', 'pageview');
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="/categories/Tech//" class="article-tag-list-link color5">Tech</a>
+        			<a href="/categories/Topic//" class="article-tag-list-link color1">Topic</a>
         		</li>
       		
 		</ul>
@@ -322,7 +309,7 @@ ga('send', 'pageview');
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2018/04/05/osm-on-google-cloud/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2019/01/29/thoughts-6/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -336,18 +323,9 @@ ga('send', 'pageview');
   
 <nav id="article-nav">
   
-    <a href="/2018/04/25/percona-toolkit-wait-for-slave-error/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          Percona-Toolkit pt-table-checksum &#34;Waiting for the —replicate table&#34; Error
-        
-      </div>
-    </a>
   
-  
-    <a href="/2018/04/05/thoughts-2/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">想法#2</div>
+    <a href="/2019/01/13/mapf-scheduling/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs Literature Notes</div>
       <i class="icon-circle-right"></i>
     </a>
   
