@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2019-02-01T06:50:26.965Z</updated>
+  <updated>2019-02-09T17:58:23.605Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Conflict-Based Search For Optimal Multi-Agent Path Finding</title>
+    <link href="https://blog.peiyuanqi.me/2019/02/08/conflict-based-search-for-mapf/"/>
+    <id>https://blog.peiyuanqi.me/2019/02/08/conflict-based-search-for-mapf/</id>
+    <published>2019-02-09T01:58:23.000Z</published>
+    <updated>2019-02-09T17:58:23.605Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>CBS is a two-level algorithm.</p><p>At the high level, a search is performed on a tree based on conflicts between agents. At the low level, a search is performed only for a single agent at a time.</p></blockquote><a id="more"></a><p>Unlike A*-search being exponential in the number of agents for MAPF problem, the high-level CBS is </p><blockquote><p>exponential in the number of conflicts encountered during the solving process.</p></blockquote><h4><span id="high-level">High Level</span><a href="#high-level" class="header-anchor"></a></h4><p>In high level, CBS construct binary tree named constrain tree. Each node has a set of constrains, a solution, and the total cost for this solution (a set of paths). </p><blockquote><p>If all agents reach their goal without any conflict, this CT node N is declared as the goal node.</p></blockquote><p>If there is a conflict, $C_n = (a_i, a_j, v, t)$. To guarantee optimality, one child add constrain $(a_i, v, t)$, the other add $(a_j, v, t)$.</p><h4><span id="low-level">Low Level</span><a href="#low-level" class="header-anchor"></a></h4><p>In low-level, each agent finds its own path disregarding other agents. Check low-level Conflict voidance table (CAT) to avoid conflicts. When two low-level states have same cost value, the state with smallest number of conflicts in CAT is preferred.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;CBS is a two-level algorithm.&lt;/p&gt;
+&lt;p&gt;At the high level, a search is performed on a tree based on conflicts between agents. At the low level, a search is performed only for a single agent at a time.&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+      <category term="Literature Notes" scheme="https://blog.peiyuanqi.me/tags/Literature-Notes/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#7以及鸡汤</title>
@@ -410,9 +435,9 @@
       <category term="Story" scheme="https://blog.peiyuanqi.me/categories/Story/"/>
     
     
-      <category term="Writing Practice" scheme="https://blog.peiyuanqi.me/tags/Writing-Practice/"/>
-    
       <category term="Flash Fiction" scheme="https://blog.peiyuanqi.me/tags/Flash-Fiction/"/>
+    
+      <category term="Writing Practice" scheme="https://blog.peiyuanqi.me/tags/Writing-Practice/"/>
     
   </entry>
   
@@ -465,9 +490,9 @@
       <category term="Story" scheme="https://blog.peiyuanqi.me/categories/Story/"/>
     
     
-      <category term="Play" scheme="https://blog.peiyuanqi.me/tags/Play/"/>
-    
       <category term="Writing Practice" scheme="https://blog.peiyuanqi.me/tags/Writing-Practice/"/>
+    
+      <category term="Play" scheme="https://blog.peiyuanqi.me/tags/Play/"/>
     
   </entry>
   
@@ -494,36 +519,6 @@
       <category term="Writing Practice" scheme="https://blog.peiyuanqi.me/tags/Writing-Practice/"/>
     
       <category term="Scene" scheme="https://blog.peiyuanqi.me/tags/Scene/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>场景描写练习 #1</title>
-    <link href="https://blog.peiyuanqi.me/2018/06/01/practice-scene-1/"/>
-    <id>https://blog.peiyuanqi.me/2018/06/01/practice-scene-1/</id>
-    <published>2018-06-01T14:29:04.000Z</published>
-    <updated>2018-09-11T04:59:40.918Z</updated>
-    
-    <content type="html"><![CDATA[<p><em>新模型的应用即将为代码生成速度提供…</em> 标记为已读? 确认.</p><p><em>诚招前端开发工程师…</em> 标记为已读? 确认。</p><p><em>画板2.3发布,首席JS工程师讲述…</em> 标记为已读? 确认.</p><p><em>Adobe Front Line, 拓展你的第七感…</em> 标记为已读? 确认</p><p>清空了收件箱, 手机就被他的右手随意地甩在了面前的办公桌上, 转了一圈半, 停了下来.</p><p>桌上凌乱地散放着刚从茶水间取来刚撕开就被放弃的能量棒, 一本毛边的笔记本, 画满设计草图的餐巾纸或者碎纸片.</p><p>茶水间的电视机还在以最大音量播报着最新的设计新闻.</p><p>听说以前新闻里只有关于科技的消息, 这也是非常可悲的了. 他想到这一点不经笑了出来.</p><p>并呷了一口茶.</p><p>但他忘记两分钟前他才将这个杯子装满热水.</p><p>十分钟以后当他在公司楼下的诊所里治疗烫伤时, 不禁在想, <em>它</em>这么强大, 为什么没有制作一款防烫伤茶杯呢?</p><p>叮, 新邮件.</p><p>边张着嘴接受者”牙膏枪”的注射, 他扫了一眼自己眼镜的右上角:</p><p>您订购的防烫伤茶杯已发货.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;em&gt;新模型的应用即将为代码生成速度提供…&lt;/em&gt; 标记为已读? 确认.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;诚招前端开发工程师…&lt;/em&gt; 标记为已读? 确认。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;画板2.3发布,首席JS工程师讲述…&lt;/em&gt; 标记为已读? 确认.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Ado
-      
-    
-    </summary>
-    
-      <category term="Story" scheme="https://blog.peiyuanqi.me/categories/Story/"/>
-    
-    
-      <category term="场景描写" scheme="https://blog.peiyuanqi.me/tags/%E5%9C%BA%E6%99%AF%E6%8F%8F%E5%86%99/"/>
-    
-      <category term="架空世界" scheme="https://blog.peiyuanqi.me/tags/%E6%9E%B6%E7%A9%BA%E4%B8%96%E7%95%8C/"/>
     
   </entry>
   
