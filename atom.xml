@@ -18,8 +18,8 @@
   
   <entry>
     <title>Conflict-Based Search For Optimal Multi-Agent Path Finding</title>
-    <link href="https://blog.peiyuanqi.me/2019/02/08/conflict-based-search-for-mapf/"/>
-    <id>https://blog.peiyuanqi.me/2019/02/08/conflict-based-search-for-mapf/</id>
+    <link href="https://blog.peiyuanqi.me/2019/02/08/cs-conflict-based-search-for-mapf/"/>
+    <id>https://blog.peiyuanqi.me/2019/02/08/cs-conflict-based-search-for-mapf/</id>
     <published>2019-02-09T01:58:23.000Z</published>
     <updated>2019-02-09T17:58:23.605Z</updated>
     
@@ -97,8 +97,8 @@
   
   <entry>
     <title>A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs Literature Notes</title>
-    <link href="https://blog.peiyuanqi.me/2019/01/13/mapf-scheduling/"/>
-    <id>https://blog.peiyuanqi.me/2019/01/13/mapf-scheduling/</id>
+    <link href="https://blog.peiyuanqi.me/2019/01/13/cs-mapf-scheduling/"/>
+    <id>https://blog.peiyuanqi.me/2019/01/13/cs-mapf-scheduling/</id>
     <published>2019-01-13T15:50:35.000Z</published>
     <updated>2019-01-14T07:53:38.066Z</updated>
     
@@ -143,8 +143,8 @@
   
   <entry>
     <title>CSCI 555 Advanced OS and MIT 6.828 OS Engineering Lab</title>
-    <link href="https://blog.peiyuanqi.me/2019/01/01/csci-555/"/>
-    <id>https://blog.peiyuanqi.me/2019/01/01/csci-555/</id>
+    <link href="https://blog.peiyuanqi.me/2019/01/01/cs-csci-555/"/>
+    <id>https://blog.peiyuanqi.me/2019/01/01/cs-csci-555/</id>
     <published>2019-01-01T15:20:04.000Z</published>
     <updated>2019-01-01T15:46:32.541Z</updated>
     
@@ -342,12 +342,12 @@
   
   <entry>
     <title>RobinHood - A Solution for Tail Latency</title>
-    <link href="https://blog.peiyuanqi.me/2018/10/25/robinhood-tail-latency/"/>
-    <id>https://blog.peiyuanqi.me/2018/10/25/robinhood-tail-latency/</id>
+    <link href="https://blog.peiyuanqi.me/2018/10/25/cs-robinhood-tail-latency/"/>
+    <id>https://blog.peiyuanqi.me/2018/10/25/cs-robinhood-tail-latency/</id>
     <published>2018-10-26T05:40:35.000Z</published>
     <updated>2018-10-26T21:15:39.665Z</updated>
     
-    <content type="html"><![CDATA[<p>You could find original post at <a href="https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/" target="_blank" rel="noopener">The Morning Paper</a>. 本文主要是对<a href="https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/" target="_blank" rel="noopener">The Morning Paper</a>的翻译。</p><p>在 <a href="https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/" target="_blank" rel="noopener">The Morning Paper</a> 上介绍了一篇来自OSDI‘18的最新文章。文章提出了一种针对Tail Latency的解决方案，使用Dynamic Cache的方法针对性的解决Tail Latency。这套系统被命名为RobinHood。</p><p>不知道的看了标题还以为这是Robinhood提出来的解决方案=-= <a id="more"></a></p><h4><span id="tail-latency">Tail Latency</span><a href="#tail-latency" class="header-anchor"></a></h4><img src="/2018/10/25/robinhood-tail-latency/taillatency.jpeg" title="Cause of Tail Latency (The Morning Paper)"><p>对于那些Frequency比较低的访问数据，我们就会看到如图的Tail, 而对这个Tail里面的数据的访问都会导致非常高的延迟，是为Tail Latency。</p><p>传统解决方案一般有使用冗余的请求，合理使用Scheduling，auto-scaling 和 容量供给，和近似计算。</p><p>而RobinHood使用了Cache来解决Tail Latency。</p><h4><span id="robinhood">RobinHood</span><a href="#robinhood" class="header-anchor"></a></h4><img src="/2018/10/25/robinhood-tail-latency/robinhood.jpeg" title="Comparison of P99 Request Latency"><p>RobinHood将额外的Cache空间分配给正在遭受高Tail Latency的后端服务器。</p><p>由于Tail Latency是不断变化的，受多种因素的影响，所以我们不能简单的静态的分配多余的Cache。</p><p>RobinHood具体的分配方法是：每5秒的时间段向每一个后端抽取1%的Cache空间。并重新分配给Cache不足的后端。在每个时间段中，它会追踪每一个Request的Latency，并会记录下来时间最长的后端ID。在每一个时间段的最后，RobinHood计算每一个后端的</p><blockquote><p>Request blocking count (RBC) - the number of times it was responsible for the slowest query.</p></blockquote><p>有的后端利用新的Cache的速度很慢，RobinHood还会监控分配Cache和使用的Cache之间的差距，如果超过30%，则会忽视对应后端的RBC。</p><p>利用Load Balancing，RobinHood保证分配决定对每个服务器是locally的。RobinHood的控制器之间相互交换RBC数据来放置Cache分配不能够收敛。对于5秒的时间段，实验收敛实践为30min。</p><p>大概就是这样=-=</p>]]></content>
+    <content type="html"><![CDATA[<p>You could find original post at <a href="https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/" target="_blank" rel="noopener">The Morning Paper</a>. 本文主要是对<a href="https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/" target="_blank" rel="noopener">The Morning Paper</a>的翻译。</p><p>在 <a href="https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/" target="_blank" rel="noopener">The Morning Paper</a> 上介绍了一篇来自OSDI‘18的最新文章。文章提出了一种针对Tail Latency的解决方案，使用Dynamic Cache的方法针对性的解决Tail Latency。这套系统被命名为RobinHood。</p><p>不知道的看了标题还以为这是Robinhood提出来的解决方案=-= <a id="more"></a></p><h4><span id="tail-latency">Tail Latency</span><a href="#tail-latency" class="header-anchor"></a></h4><img src="/2018/10/25/cs-robinhood-tail-latency/taillatency.jpeg" title="Cause of Tail Latency (The Morning Paper)"><p>对于那些Frequency比较低的访问数据，我们就会看到如图的Tail, 而对这个Tail里面的数据的访问都会导致非常高的延迟，是为Tail Latency。</p><p>传统解决方案一般有使用冗余的请求，合理使用Scheduling，auto-scaling 和 容量供给，和近似计算。</p><p>而RobinHood使用了Cache来解决Tail Latency。</p><h4><span id="robinhood">RobinHood</span><a href="#robinhood" class="header-anchor"></a></h4><img src="/2018/10/25/cs-robinhood-tail-latency/robinhood.jpeg" title="Comparison of P99 Request Latency"><p>RobinHood将额外的Cache空间分配给正在遭受高Tail Latency的后端服务器。</p><p>由于Tail Latency是不断变化的，受多种因素的影响，所以我们不能简单的静态的分配多余的Cache。</p><p>RobinHood具体的分配方法是：每5秒的时间段向每一个后端抽取1%的Cache空间。并重新分配给Cache不足的后端。在每个时间段中，它会追踪每一个Request的Latency，并会记录下来时间最长的后端ID。在每一个时间段的最后，RobinHood计算每一个后端的</p><blockquote><p>Request blocking count (RBC) - the number of times it was responsible for the slowest query.</p></blockquote><p>有的后端利用新的Cache的速度很慢，RobinHood还会监控分配Cache和使用的Cache之间的差距，如果超过30%，则会忽视对应后端的RBC。</p><p>利用Load Balancing，RobinHood保证分配决定对每个服务器是locally的。RobinHood的控制器之间相互交换RBC数据来放置Cache分配不能够收敛。对于5秒的时间段，实验收敛实践为30min。</p><p>大概就是这样=-=</p>]]></content>
     
     <summary type="html">
     
@@ -394,8 +394,8 @@
   
   <entry>
     <title>PAKE, A Cryptographic Key Exchange Protocol</title>
-    <link href="https://blog.peiyuanqi.me/2018/10/21/pake/"/>
-    <id>https://blog.peiyuanqi.me/2018/10/21/pake/</id>
+    <link href="https://blog.peiyuanqi.me/2018/10/21/cs-pake/"/>
+    <id>https://blog.peiyuanqi.me/2018/10/21/cs-pake/</id>
     <published>2018-10-22T03:48:08.000Z</published>
     <updated>2018-10-23T21:51:22.561Z</updated>
     

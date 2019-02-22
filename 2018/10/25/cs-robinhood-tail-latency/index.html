@@ -6,20 +6,23 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://blog.peiyuanqi.me">
-  <title>A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs Literature Notes | Peiyuan&#39;s Blog</title>
+  <title>RobinHood - A Solution for Tail Latency | Peiyuan&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Roman Barták, Jirí Švancara, and Marek Vlk. 2018. A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs. In Proceedings of the 17th International Conference on Aut">
-<meta name="keywords" content="Literature Notes">
+  <meta name="description" content="You could find original post at The Morning Paper. 本文主要是对The Morning Paper的翻译。 在 The Morning Paper 上介绍了一篇来自OSDI‘18的最新文章。文章提出了一种针对Tail Latency的解决方案，使用Dynamic Cache的方法针对性的解决Tail Latency。这套系统被命名为RobinHoo">
+<meta name="keywords" content="Tail Latency">
 <meta property="og:type" content="article">
-<meta property="og:title" content="A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs Literature Notes">
-<meta property="og:url" content="https://blog.peiyuanqi.me/2019/01/13/mapf-scheduling/index.html">
+<meta property="og:title" content="RobinHood - A Solution for Tail Latency">
+<meta property="og:url" content="https://blog.peiyuanqi.me/2018/10/25/cs-robinhood-tail-latency/index.html">
 <meta property="og:site_name" content="Peiyuan&#39;s Blog">
-<meta property="og:description" content="Roman Barták, Jirí Švancara, and Marek Vlk. 2018. A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs. In Proceedings of the 17th International Conference on Aut">
+<meta property="og:description" content="You could find original post at The Morning Paper. 本文主要是对The Morning Paper的翻译。 在 The Morning Paper 上介绍了一篇来自OSDI‘18的最新文章。文章提出了一种针对Tail Latency的解决方案，使用Dynamic Cache的方法针对性的解决Tail Latency。这套系统被命名为RobinHoo">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-01-14T07:53:38.066Z">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2018/10/25/cs-robinhood-tail-latency/taillatency.jpeg">
+<meta property="og:image" content="https://blog.peiyuanqi.me/2018/10/25/cs-robinhood-tail-latency/robinhood.jpeg">
+<meta property="og:updated_time" content="2018-10-26T21:15:39.665Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs Literature Notes">
-<meta name="twitter:description" content="Roman Barták, Jirí Švancara, and Marek Vlk. 2018. A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs. In Proceedings of the 17th International Conference on Aut">
+<meta name="twitter:title" content="RobinHood - A Solution for Tail Latency">
+<meta name="twitter:description" content="You could find original post at The Morning Paper. 本文主要是对The Morning Paper的翻译。 在 The Morning Paper 上介绍了一篇来自OSDI‘18的最新文章。文章提出了一种针对Tail Latency的解决方案，使用Dynamic Cache的方法针对性的解决Tail Latency。这套系统被命名为RobinHoo">
+<meta name="twitter:image" content="https://blog.peiyuanqi.me/2018/10/25/cs-robinhood-tail-latency/taillatency.jpeg">
   
     <link rel="alternative" href="https://blog.peiyuanqi.me/atom.xml" title="Peiyuan&#39;s Blog" type="application/atom+xml">
   
@@ -182,24 +185,24 @@ ga('send', 'pageview');
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-mapf-scheduling" class="article article-type-post " itemscope="" itemprop="blogPost">
+            <article id="post-cs-robinhood-tail-latency" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs Literature Notes
+      RobinHood - A Solution for Tail Latency
     </h1>
   
 
         
-        <a href="/2019/01/13/mapf-scheduling/" class="archive-article-date">
-  	<time datetime="2019-01-13T15:50:35.000Z" itemprop="datePublished">
+        <a href="/2018/10/25/cs-robinhood-tail-latency/" class="archive-article-date">
+  	<time datetime="2018-10-26T05:40:35.000Z" itemprop="datePublished">
 		<i class="icon-calendar icon"></i>
 		
 		
-		2019-01-13
+		2018-10-26
 		
 	</time>
 </a>
@@ -208,17 +211,23 @@ ga('send', 'pageview');
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><strong>Roman Barták, Jirí Švancara, and Marek Vlk. 2018. A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs. In <em>Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems</em> (AAMAS ‘18). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 748-756.</strong></p>
-<p>The paper proposes a new approach for MAPF problem. Modeling the path finding problem into a scheduling problem, regarding the presence of an agent at a node as an activity to be scheduled allows solver to solve the problem in constraint programming way.</p>
-<a id="more"></a>
-<p>All the activities are optional and there are three types of activities:</p>
-<p>$N[x,a]$, $N^{out}[x,a]$, and $N^{in}[x,a]$.</p>
-<p>The length of each edge is regarded as unit length in single-layer model and then will be modified in further development.</p>
-<p>With all constrains, the makespan of problem is the object to be minimized in the scheduling model.</p>
-<p>Traditional solutions simplify the problem on length of edges and the times an agent could visit a node. To extend the original model for different lengths of edges and multiple visits to a node, they develop multi-layer model.</p>
-<p>Transition between layers does not cost any time and going to different layers means multiple visits to the node. The maximum visits to a node is the number of layers in this situation.</p>
-<p>The algorithm to solve this problem in this model is adding layers from 1 to estimated number. It speeds up the process to find proper sufficient layers, for the estimated method might give a pretty large estimated layer number.</p>
-<p>Compared with traditional solver like SAT reduced method, the new scheduling based solver is more efficient for different lengths of edges between nodes, which is more realistic than the traditional models.</p>
+        <p>You could find original post at <a href="https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/" target="_blank" rel="noopener">The Morning Paper</a>. 本文主要是对<a href="https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/" target="_blank" rel="noopener">The Morning Paper</a>的翻译。</p>
+<p>在 <a href="https://blog.acolyer.org/2018/10/26/robinhood-tail-latency-aware-caching-dynamic-reallocation-from-cache-rich-to-cache-poor/" target="_blank" rel="noopener">The Morning Paper</a> 上介绍了一篇来自OSDI‘18的最新文章。文章提出了一种针对Tail Latency的解决方案，使用Dynamic Cache的方法针对性的解决Tail Latency。这套系统被命名为RobinHood。</p>
+<p>不知道的看了标题还以为这是Robinhood提出来的解决方案=-= <a id="more"></a></p>
+<h4><span id="tail-latency">Tail Latency</span><a href="#tail-latency" class="header-anchor"></a></h4><img src="/2018/10/25/cs-robinhood-tail-latency/taillatency.jpeg" title="Cause of Tail Latency (The Morning Paper)">
+<p>对于那些Frequency比较低的访问数据，我们就会看到如图的Tail, 而对这个Tail里面的数据的访问都会导致非常高的延迟，是为Tail Latency。</p>
+<p>传统解决方案一般有使用冗余的请求，合理使用Scheduling，auto-scaling 和 容量供给，和近似计算。</p>
+<p>而RobinHood使用了Cache来解决Tail Latency。</p>
+<h4><span id="robinhood">RobinHood</span><a href="#robinhood" class="header-anchor"></a></h4><img src="/2018/10/25/cs-robinhood-tail-latency/robinhood.jpeg" title="Comparison of P99 Request Latency">
+<p>RobinHood将额外的Cache空间分配给正在遭受高Tail Latency的后端服务器。</p>
+<p>由于Tail Latency是不断变化的，受多种因素的影响，所以我们不能简单的静态的分配多余的Cache。</p>
+<p>RobinHood具体的分配方法是：每5秒的时间段向每一个后端抽取1%的Cache空间。并重新分配给Cache不足的后端。在每个时间段中，它会追踪每一个Request的Latency，并会记录下来时间最长的后端ID。在每一个时间段的最后，RobinHood计算每一个后端的</p>
+<blockquote>
+<p>Request blocking count (RBC) - the number of times it was responsible for the slowest query.</p>
+</blockquote>
+<p>有的后端利用新的Cache的速度很慢，RobinHood还会监控分配Cache和使用的Cache之间的差距，如果超过30%，则会忽视对应后端的RBC。</p>
+<p>利用Load Balancing，RobinHood保证分配决定对每个服务器是locally的。RobinHood的控制器之间相互交换RBC数据来放置Cache分配不能够收敛。对于5秒的时间段，实验收敛实践为30min。</p>
+<p>大概就是这样=-=</p>
 
       
 
@@ -232,7 +241,7 @@ ga('send', 'pageview');
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Literature Notes</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Tail Latency</a>
         		</li>
       		
 		</ul>
@@ -299,7 +308,7 @@ ga('send', 'pageview');
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2019/01/13/mapf-scheduling/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2018/10/25/cs-robinhood-tail-latency/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -313,18 +322,18 @@ ga('send', 'pageview');
   
 <nav id="article-nav">
   
-    <a href="/2019/01/29/thoughts-6/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2018/11/27/sketch-1/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          想法#6重拾成功学
+          随笔#1 找实习过程中的几个致命错误
         
       </div>
     </a>
   
   
-    <a href="/2019/01/02/cs-computer-graphics/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Computer Graphics</div>
+    <a href="/2018/10/25/The-Italian-Wars-1494/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">The Italian Wars 1494 - 1495</div>
       <i class="icon-circle-right"></i>
     </a>
   

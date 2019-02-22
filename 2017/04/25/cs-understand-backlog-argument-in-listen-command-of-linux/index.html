@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://blog.peiyuanqi.me">
-  <title>How to Mask Multiple Keys in Swift 3 | Peiyuan&#39;s Blog</title>
+  <title>Understand backlog Argument in listen() Command of Linux | Peiyuan&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="When you need to use CGEvent to create Quartz Event to mimic keyboard input for your macOS program, if you need to mimic the function of shift, control, command, option, then you need to set flag for">
-<meta name="keywords" content="iOS,macOS,swift3">
+  <meta name="description" content="In linux system, backlog specify the accepted queue size (the number of established status packets). If the accepted queue is full, further SYN RECEIVED packets will be ignored. If you are using TCP,">
+<meta name="keywords" content="backlog,Network,socket">
 <meta property="og:type" content="article">
-<meta property="og:title" content="How to Mask Multiple Keys in Swift 3">
-<meta property="og:url" content="https://blog.peiyuanqi.me/2017/04/18/how-to-mask-multiple-keys-in-swift-3/index.html">
+<meta property="og:title" content="Understand backlog Argument in listen() Command of Linux">
+<meta property="og:url" content="https://blog.peiyuanqi.me/2017/04/25/cs-understand-backlog-argument-in-listen-command-of-linux/index.html">
 <meta property="og:site_name" content="Peiyuan&#39;s Blog">
-<meta property="og:description" content="When you need to use CGEvent to create Quartz Event to mimic keyboard input for your macOS program, if you need to mimic the function of shift, control, command, option, then you need to set flag for">
+<meta property="og:description" content="In linux system, backlog specify the accepted queue size (the number of established status packets). If the accepted queue is full, further SYN RECEIVED packets will be ignored. If you are using TCP,">
 <meta property="og:locale" content="en">
 <meta property="og:updated_time" content="2018-02-14T13:21:03.483Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="How to Mask Multiple Keys in Swift 3">
-<meta name="twitter:description" content="When you need to use CGEvent to create Quartz Event to mimic keyboard input for your macOS program, if you need to mimic the function of shift, control, command, option, then you need to set flag for">
+<meta name="twitter:title" content="Understand backlog Argument in listen() Command of Linux">
+<meta name="twitter:description" content="In linux system, backlog specify the accepted queue size (the number of established status packets). If the accepted queue is full, further SYN RECEIVED packets will be ignored. If you are using TCP,">
   
     <link rel="alternative" href="https://blog.peiyuanqi.me/atom.xml" title="Peiyuan&#39;s Blog" type="application/atom+xml">
   
@@ -182,24 +182,24 @@ ga('send', 'pageview');
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-how-to-mask-multiple-keys-in-swift-3" class="article article-type-post " itemscope="" itemprop="blogPost">
+            <article id="post-cs-understand-backlog-argument-in-listen-command-of-linux" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      How to Mask Multiple Keys in Swift 3
+      Understand backlog Argument in listen() Command of Linux
     </h1>
   
 
         
-        <a href="/2017/04/18/how-to-mask-multiple-keys-in-swift-3/" class="archive-article-date">
-  	<time datetime="2017-04-18T19:30:50.000Z" itemprop="datePublished">
+        <a href="/2017/04/25/cs-understand-backlog-argument-in-listen-command-of-linux/" class="archive-article-date">
+  	<time datetime="2017-04-25T13:54:06.000Z" itemprop="datePublished">
 		<i class="icon-calendar icon"></i>
 		
 		
-		2017-04-19
+		2017-04-25
 		
 	</time>
 </a>
@@ -208,9 +208,8 @@ ga('send', 'pageview');
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>When you need to use CGEvent to create Quartz Event to mimic keyboard input for your macOS program, if you need to mimic the function of <code>shift, control, command, option</code>, then you need to set flag for CGEvent instance’s <code>flag</code> property. Meanwhile, if you want to set more than one flag, then you should or the <code>rawvalue</code> of flag together.</p>
-<p>The example is shown here:</p>
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> opt1d = <span class="type">CGEvent</span>(keyboardEventSource: src, virtualKey: kVK_Option), keyDown: <span class="literal">true</span>)</span><br><span class="line"><span class="keyword">let</span> opt1u = <span class="type">CGEvent</span>(keyboardEventSource: src, virtualKey: kVK_Option), keyDown: <span class="literal">false</span>)</span><br><span class="line"><span class="keyword">let</span> opt2d = <span class="type">CGEvent</span>(keyboardEventSource: src, virtualKey: kVK_Command), keyDown: <span class="literal">true</span>)</span><br><span class="line"><span class="keyword">let</span> opt2u = <span class="type">CGEvent</span>(keyboardEventSource: src, virtualKey: kVK_Command), keyDown: <span class="literal">false</span>)</span><br><span class="line"><span class="keyword">let</span> opt3d = <span class="type">CGEvent</span>(keyboardEventSource: src, virtualKey: kVK_ANSI_D), keyDown: <span class="literal">true</span>)</span><br><span class="line"><span class="keyword">let</span> opt3u = <span class="type">CGEvent</span>(keyboardEventSource: src, virtualKey: kVK_ANSI_D), keyDown: <span class="literal">false</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> flagRaw : <span class="type">UInt64</span> = <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">switch</span> keys[<span class="number">0</span>] &#123;</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Command&amp;quot;:</span><br><span class="line">        flagRaw = <span class="type">CGEventFlags</span>.maskCommand.rawValue</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Shift&amp;quot;:</span><br><span class="line">        flagRaw = <span class="type">CGEventFlags</span>.maskShift.rawValue</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Control&amp;quot;:</span><br><span class="line">        flagRaw = <span class="type">CGEventFlags</span>.maskControl.rawValue</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Option&amp;quot;:</span><br><span class="line">        flagRaw = <span class="type">CGEventFlags</span>.maskAlternate.rawValue</span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="keyword">switch</span> keys[<span class="number">1</span>] &#123;</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Command&amp;quot;:</span><br><span class="line">        opt3d?.flags = <span class="type">CGEventFlags</span>(rawValue: <span class="type">CGEventFlags</span>.maskCommand.rawValue | flagRaw)</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Shift&amp;quot;:</span><br><span class="line">        opt3d?.flags = <span class="type">CGEventFlags</span>(rawValue: <span class="type">CGEventFlags</span>.maskShift.rawValue | flagRaw)</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Control&amp;quot;:</span><br><span class="line">        opt3d?.flags = <span class="type">CGEventFlags</span>(rawValue: <span class="type">CGEventFlags</span>.maskControl.rawValue | flagRaw)</span><br><span class="line">    <span class="keyword">case</span> &amp;quot;kVK_Option&amp;quot;:</span><br><span class="line">        opt3d?.flags = <span class="type">CGEventFlags</span>(rawValue: <span class="type">CGEventFlags</span>.maskAlternate.rawValue | flagRaw)</span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">opt1d?.post(tap: loc)</span><br><span class="line">opt2d?.post(tap: loc)</span><br><span class="line">opt3d?.post(tap: loc)</span><br><span class="line">opt3u?.post(tap: loc)</span><br><span class="line">opt2u?.post(tap: loc)</span><br><span class="line">opt1u?.post(tap: loc)</span><br></pre></td></tr></table></figure>
+        <p>In linux system, <code>backlog</code> specify the accepted queue size (the number of established status packets). If the accepted queue is full, further <strong>SYN RECEIVED</strong> packets will be ignored. If you are using <strong>TCP</strong>, then <strong>TCP</strong> will simply resend this packet, for the sender does not receive <strong>ACK</strong>. But for <strong>UDP</strong>, you will deal with it in another way.</p>
+<p>For further reading, here is a good <a href="http://veithen.github.io/2014/01/01/how-tcp-backlog-works-in-linux.html" target="_blank" rel="noopener">blog post</a>.</p>
 
       
 
@@ -224,15 +223,15 @@ ga('send', 'pageview');
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">iOS</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">backlog</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">macOS</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Network</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">swift3</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">socket</a>
         		</li>
       		
 		</ul>
@@ -299,7 +298,7 @@ ga('send', 'pageview');
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2017/04/18/how-to-mask-multiple-keys-in-swift-3/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2017/04/25/cs-understand-backlog-argument-in-listen-command-of-linux/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -313,18 +312,18 @@ ga('send', 'pageview');
   
 <nav id="article-nav">
   
-    <a href="/2017/04/25/understand-backlog-argument-in-listen-command-of-linux/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2017/08/21/cs-how-to-write-perl-in-objective-oriented-way-without-moose/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          Understand backlog Argument in listen() Command of Linux
+          How to Write Perl in Objective Oriented Way without Moose
         
       </div>
     </a>
   
   
-    <a href="/2017/04/10/how-to-use-multipeerconnectivity-framework/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">How to Use MultipeerConnectivity Framework</div>
+    <a href="/2017/04/18/cs-how-to-mask-multiple-keys-in-swift-3/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">How to Mask Multiple Keys in Swift 3</div>
       <i class="icon-circle-right"></i>
     </a>
   

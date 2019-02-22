@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://blog.peiyuanqi.me">
-  <title>Understand backlog Argument in listen() Command of Linux | Peiyuan&#39;s Blog</title>
+  <title>A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs Literature Notes | Peiyuan&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="In linux system, backlog specify the accepted queue size (the number of established status packets). If the accepted queue is full, further SYN RECEIVED packets will be ignored. If you are using TCP,">
-<meta name="keywords" content="backlog,Network,socket">
+  <meta name="description" content="Roman Barták, Jirí Švancara, and Marek Vlk. 2018. A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs. In Proceedings of the 17th International Conference on Aut">
+<meta name="keywords" content="Literature Notes">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Understand backlog Argument in listen() Command of Linux">
-<meta property="og:url" content="https://blog.peiyuanqi.me/2017/04/25/understand-backlog-argument-in-listen-command-of-linux/index.html">
+<meta property="og:title" content="A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs Literature Notes">
+<meta property="og:url" content="https://blog.peiyuanqi.me/2019/01/13/cs-mapf-scheduling/index.html">
 <meta property="og:site_name" content="Peiyuan&#39;s Blog">
-<meta property="og:description" content="In linux system, backlog specify the accepted queue size (the number of established status packets). If the accepted queue is full, further SYN RECEIVED packets will be ignored. If you are using TCP,">
+<meta property="og:description" content="Roman Barták, Jirí Švancara, and Marek Vlk. 2018. A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs. In Proceedings of the 17th International Conference on Aut">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-02-14T13:21:03.483Z">
+<meta property="og:updated_time" content="2019-01-14T07:53:38.066Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Understand backlog Argument in listen() Command of Linux">
-<meta name="twitter:description" content="In linux system, backlog specify the accepted queue size (the number of established status packets). If the accepted queue is full, further SYN RECEIVED packets will be ignored. If you are using TCP,">
+<meta name="twitter:title" content="A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs Literature Notes">
+<meta name="twitter:description" content="Roman Barták, Jirí Švancara, and Marek Vlk. 2018. A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs. In Proceedings of the 17th International Conference on Aut">
   
     <link rel="alternative" href="https://blog.peiyuanqi.me/atom.xml" title="Peiyuan&#39;s Blog" type="application/atom+xml">
   
@@ -182,24 +182,24 @@ ga('send', 'pageview');
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-understand-backlog-argument-in-listen-command-of-linux" class="article article-type-post " itemscope="" itemprop="blogPost">
+            <article id="post-cs-mapf-scheduling" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Understand backlog Argument in listen() Command of Linux
+      A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs Literature Notes
     </h1>
   
 
         
-        <a href="/2017/04/25/understand-backlog-argument-in-listen-command-of-linux/" class="archive-article-date">
-  	<time datetime="2017-04-25T13:54:06.000Z" itemprop="datePublished">
+        <a href="/2019/01/13/cs-mapf-scheduling/" class="archive-article-date">
+  	<time datetime="2019-01-13T15:50:35.000Z" itemprop="datePublished">
 		<i class="icon-calendar icon"></i>
 		
 		
-		2017-04-25
+		2019-01-13
 		
 	</time>
 </a>
@@ -208,8 +208,17 @@ ga('send', 'pageview');
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>In linux system, <code>backlog</code> specify the accepted queue size (the number of established status packets). If the accepted queue is full, further <strong>SYN RECEIVED</strong> packets will be ignored. If you are using <strong>TCP</strong>, then <strong>TCP</strong> will simply resend this packet, for the sender does not receive <strong>ACK</strong>. But for <strong>UDP</strong>, you will deal with it in another way.</p>
-<p>For further reading, here is a good <a href="http://veithen.github.io/2014/01/01/how-tcp-backlog-works-in-linux.html" target="_blank" rel="noopener">blog post</a>.</p>
+        <p><strong>Roman Barták, Jirí Švancara, and Marek Vlk. 2018. A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs. In <em>Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems</em> (AAMAS ‘18). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 748-756.</strong></p>
+<p>The paper proposes a new approach for MAPF problem. Modeling the path finding problem into a scheduling problem, regarding the presence of an agent at a node as an activity to be scheduled allows solver to solve the problem in constraint programming way.</p>
+<a id="more"></a>
+<p>All the activities are optional and there are three types of activities:</p>
+<p>$N[x,a]$, $N^{out}[x,a]$, and $N^{in}[x,a]$.</p>
+<p>The length of each edge is regarded as unit length in single-layer model and then will be modified in further development.</p>
+<p>With all constrains, the makespan of problem is the object to be minimized in the scheduling model.</p>
+<p>Traditional solutions simplify the problem on length of edges and the times an agent could visit a node. To extend the original model for different lengths of edges and multiple visits to a node, they develop multi-layer model.</p>
+<p>Transition between layers does not cost any time and going to different layers means multiple visits to the node. The maximum visits to a node is the number of layers in this situation.</p>
+<p>The algorithm to solve this problem in this model is adding layers from 1 to estimated number. It speeds up the process to find proper sufficient layers, for the estimated method might give a pretty large estimated layer number.</p>
+<p>Compared with traditional solver like SAT reduced method, the new scheduling based solver is more efficient for different lengths of edges between nodes, which is more realistic than the traditional models.</p>
 
       
 
@@ -223,15 +232,7 @@ ga('send', 'pageview');
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">backlog</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Network</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">socket</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Literature Notes</a>
         		</li>
       		
 		</ul>
@@ -298,7 +299,7 @@ ga('send', 'pageview');
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2017/04/25/understand-backlog-argument-in-listen-command-of-linux/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2019/01/13/cs-mapf-scheduling/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -312,18 +313,18 @@ ga('send', 'pageview');
   
 <nav id="article-nav">
   
-    <a href="/2017/08/21/how-to-write-perl-in-objective-oriented-way-without-moose/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2019/01/29/thoughts-6/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          How to Write Perl in Objective Oriented Way without Moose
+          想法#6重拾成功学
         
       </div>
     </a>
   
   
-    <a href="/2017/04/18/how-to-mask-multiple-keys-in-swift-3/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">How to Mask Multiple Keys in Swift 3</div>
+    <a href="/2019/01/02/cs-computer-graphics/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Computer Graphics</div>
       <i class="icon-circle-right"></i>
     </a>
   

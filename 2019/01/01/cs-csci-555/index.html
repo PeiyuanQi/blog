@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://blog.peiyuanqi.me">
-  <title>Install Open Source Mano THREE on Google Cloud | Peiyuan&#39;s Blog</title>
+  <title>CSCI 555 Advanced OS and MIT 6.828 OS Engineering Lab | Peiyuan&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="When you try to install Open Source Mano on your Google Cloud Virtual Machine Instance following the Guide on OSM Wiki, you might met the problem of accessing UI, which is running in SO container and">
-<meta name="keywords" content="Open Source Mano,Google Cloud,Tutorial">
+  <meta name="description" content="This post goes through the general content of USC CSCI 555 Advanced OS and talks a little about MIT 6.828 (an old version, instead of the up to date one, and you should be able to find lots of more in">
+<meta name="keywords" content="JOS,OS">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Install Open Source Mano THREE on Google Cloud">
-<meta property="og:url" content="https://blog.peiyuanqi.me/2018/04/05/osm-on-google-cloud/index.html">
+<meta property="og:title" content="CSCI 555 Advanced OS and MIT 6.828 OS Engineering Lab">
+<meta property="og:url" content="https://blog.peiyuanqi.me/2019/01/01/cs-csci-555/index.html">
 <meta property="og:site_name" content="Peiyuan&#39;s Blog">
-<meta property="og:description" content="When you try to install Open Source Mano on your Google Cloud Virtual Machine Instance following the Guide on OSM Wiki, you might met the problem of accessing UI, which is running in SO container and">
+<meta property="og:description" content="This post goes through the general content of USC CSCI 555 Advanced OS and talks a little about MIT 6.828 (an old version, instead of the up to date one, and you should be able to find lots of more in">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-04-12T06:29:17.712Z">
+<meta property="og:updated_time" content="2019-01-01T15:46:32.541Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Install Open Source Mano THREE on Google Cloud">
-<meta name="twitter:description" content="When you try to install Open Source Mano on your Google Cloud Virtual Machine Instance following the Guide on OSM Wiki, you might met the problem of accessing UI, which is running in SO container and">
+<meta name="twitter:title" content="CSCI 555 Advanced OS and MIT 6.828 OS Engineering Lab">
+<meta name="twitter:description" content="This post goes through the general content of USC CSCI 555 Advanced OS and talks a little about MIT 6.828 (an old version, instead of the up to date one, and you should be able to find lots of more in">
   
     <link rel="alternative" href="https://blog.peiyuanqi.me/atom.xml" title="Peiyuan&#39;s Blog" type="application/atom+xml">
   
@@ -182,24 +182,24 @@ ga('send', 'pageview');
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-osm-on-google-cloud" class="article article-type-post " itemscope="" itemprop="blogPost">
+            <article id="post-cs-csci-555" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Install Open Source Mano THREE on Google Cloud
+      CSCI 555 Advanced OS and MIT 6.828 OS Engineering Lab
     </h1>
   
 
         
-        <a href="/2018/04/05/osm-on-google-cloud/" class="archive-article-date">
-  	<time datetime="2018-04-06T05:57:37.000Z" itemprop="datePublished">
+        <a href="/2019/01/01/cs-csci-555/" class="archive-article-date">
+  	<time datetime="2019-01-01T15:20:04.000Z" itemprop="datePublished">
 		<i class="icon-calendar icon"></i>
 		
 		
-		2018-04-06
+		2019-01-01
 		
 	</time>
 </a>
@@ -208,28 +208,90 @@ ga('send', 'pageview');
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>When you try to install Open Source Mano on your Google Cloud Virtual Machine Instance following <a href="https://osm.etsi.org/wikipub/index.php/OSM_Release_THREE" target="_blank" rel="noopener">the Guide</a> on OSM Wiki, you might met the problem of accessing UI, which is running in SO container and only has an local IP to access.</p>
-<p>Since Open Source Mano THREE apply the new authentication mechanism, you could not access the login page for UI. The detailed reason is explained in the Wiki:</p>
-<blockquote>
-<p>Please note that in OSM 3, authentication is performed using OpenIDConnect and OAuth2.0.<br>An identity provider has been added to the platform and provided as a service in the SO container running on port 8009.<br>This means both the browser and the UI server components (that run on the SO container) need to be able to access the SO container using identical URIs.<br>In short, the tuple of scheme://location:port needs to be reachable via both the browser accessing the system and the UI server running on the SO container (e.g. <a href="https://10.66.202.206:8009" target="_blank" rel="noopener">https://10.66.202.206:8009</a> for a sample deployment).<br>This means that if your SO container is behind a NAT that cannot reach the public address of the host, authentication and authorization will not be possible and you will not be able to proceed using the UI.</p>
-</blockquote>
-<p>To by pass this problem, the principle is make your local machine be able to access the network created by <code>lxd</code> on your Google Cloud Host.</p>
-<p>There are multiple ways to do that:</p>
+        <p>This post goes through the general content of USC CSCI 555 Advanced OS and talks a little about MIT 6.828 (an old version, instead of the up to date one, and you should be able to find lots of more information (codes, blog) about this lab than this post). </p>
+<a id="more"></a>
+<div class="toc">
+
+<!-- toc -->
 <ul>
-<li>Using Google <a href="https://cloud.google.com/vpn/docs/concepts/overview" target="_blank" rel="noopener">Cloud VPN</a><ul>
-<li>Good choice but might be overkilled, if you just have a laptop as your local machine.</li>
+<li><a href="#csci-555-advanced-os">CSCI 555 Advanced OS</a><ul>
+<li><a href="#the-unix-time-sharing-system">The Unix Time Sharing System</a></li>
+<li><a href="#the-evolution-of-the-unix-time-sharing-system">The Evolution of the Unix Time-sharing System</a></li>
+<li><a href="#exokernel">Exokernel</a></li>
+<li><a href="#xen-and-virtualization">Xen and Virtualization</a></li>
+<li><a href="#the-singularity-system">The Singularity System</a></li>
+<li><a href="#scheduler-activations">Scheduler Activations</a></li>
+<li><a href="#lottery-scheduling">Lottery Scheduling</a></li>
+<li><a href="#eraser">Eraser</a></li>
+<li><a href="#non-scalable-locker">Non-Scalable Locker</a></li>
+<li><a href="#memory-resource-management-in-vmware-esx-server">Memory Resource Management in VMWare ESX Server</a></li>
+<li><a href="#superpages">Superpages</a></li>
+<li><a href="#radixvm">RadixVM</a></li>
+<li><a href="#raid">RAID</a></li>
+<li><a href="#log-structured-file-system">Log-Structured File System</a></li>
+<li><a href="#journaling">Journaling</a></li>
+<li><a href="#gfs">GFS</a></li>
+<li><a href="#commutativity-rule">Commutativity Rule</a></li>
+<li><a href="#dune">Dune</a></li>
+<li><a href="#ix">IX</a></li>
 </ul>
 </li>
-<li>Setting up a VPN server on your Google Cloud Host<ul>
-<li>Not Elegant, but simple and easy to achieve<ul>
-<li>To set up an OpenVPN server and use your local machine to access it, check <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04" target="_blank" rel="noopener">this post</a>.</li>
+<li><a href="#csci-555-lab-a-k-a-an-ancient-version-lab-for-mit-6-828">CSCI 555 Lab a.k.a. An Ancient-Version Lab for MIT 6.828</a></li>
 </ul>
-</li>
+<!-- tocstop -->
+</div>
+
+
+
+<h2><span id="csci-555-advanced-os">CSCI 555 Advanced OS</span><a href="#csci-555-advanced-os" class="header-anchor"></a></h2><p>Since this is a master-level course, instead of going through basic OS ideas, the professor used papers in different OS areas as threads to introduce detailed implementations in OS.</p>
+<p>In this post, I list all papers talked in the course in order and provided a brief summary. </p>
+<h3><span id="the-unix-time-sharing-system">The Unix Time Sharing System</span><a href="#the-unix-time-sharing-system" class="header-anchor"></a></h3><p>This paper talks about the general designs of UNIX.</p>
+<p>It talks about:</p>
+<ul>
+<li>what is time-sharing system;</li>
+<li>File System design/implementation and special files handling;</li>
+<li>protection of data;</li>
+<li>processes and images;</li>
+<li>the shell;</li>
+<li>influence, experiments of UNIX.</li>
 </ul>
-</li>
-</ul>
-<p>Then you are good to login the UI. </p>
-<p>I think this is a bug of OSM-THREE and hope they will fix it soon and then this post will finish its job and retired.</p>
+<h3><span id="the-evolution-of-the-unix-time-sharing-system">The Evolution of the Unix Time-sharing System</span><a href="#the-evolution-of-the-unix-time-sharing-system" class="header-anchor"></a></h3><p>The paper introduces the origin of UNIX and the later envolving of it. A more history oriented paper.</p>
+<h3><span id="exokernel">Exokernel</span><a href="#exokernel" class="header-anchor"></a></h3><p><strong><em>Exokernel: An Operating System Architecture for Application-level Resource Management, Proceedings of the Fifteenth ACM Symposium on Operating Systems Principles</em></strong> is a paper talks about new kernel design, Exokernel.</p>
+<p>It addresses the problem of OS is not optimized with an application. By separating tradition kernel into Exokernel and LibOS, the application could use different special designed LibOS to achieve better performance.</p>
+<h3><span id="xen-and-virtualization">Xen and Virtualization</span><a href="#xen-and-virtualization" class="header-anchor"></a></h3><p><strong><em>Xen and the Art of Virtualization, Proceedings of the Nineteenth ACM Symposium on Operating Systems Principles</em></strong> talks about the idea of virtual machines and how they are virtualized. The details of managing memory, CPU resources for different VMs and the function of the hypervisor. *The advantages and disadvantages of full-virtualization and para-virtualization are compared in the paper.</p>
+<h3><span id="the-singularity-system">The Singularity System</span><a href="#the-singularity-system" class="header-anchor"></a></h3><p>An experimental project of Microsoft and it wants to make use of safe programming language (Sing#, developed from C#) to enhance the safety of OS. It argues the normal OS did lots of extra work to solve a problem caused by unsafe language. Consequently, they proposed the Singularity System.</p>
+<blockquote>
+<p>processes in Singularity are software-isolated processes, or SiPs, that rely on language safety, not hardware mechanisms, to isolate system software components from one another.</p>
+</blockquote>
+<h3><span id="scheduler-activations">Scheduler Activations</span><a href="#scheduler-activations" class="header-anchor"></a></h3><p>The initial problem in <strong><em>Scheduler Activations: Effective Kernel Support for the User-Level Management of Parallelism</em></strong> paper is kernel has no idea about how does user level threads work. Consequently, if the programmer employs kernel threads resulting in poor performance; if the programmer employs user-level threads resulting in deficient function. The solution provides each application with virtual multiprocessor. Scheduler Activation is a kernel abstraction for a virtual processor.</p>
+<h3><span id="lottery-scheduling">Lottery Scheduling</span><a href="#lottery-scheduling" class="header-anchor"></a></h3><p><strong><em>Lottery Scheduling: Flexible Proportional-Share Resource Management</em></strong> talks about the famous scheduling algorithm and the benchmark result of this “‘novel’ randomized resource allocation mechanism”.</p>
+<p>The initial motivation of the new mechanism is the need for “responsive control over the relative execution rates of computations.”</p>
+<p>This mechanism can also be applied to I/O bandwidth, memory, and access to locks.</p>
+<p>The details about how tickets assigned, transferred, inflated, present in the paper.</p>
+<h3><span id="eraser">Eraser</span><a href="#eraser" class="header-anchor"></a></h3><p><strong><em>Eraser: A Dynamic Data Race Detector for Multithreaded Programs</em></strong> talks about how to solve data race problem in application or OS. The proposed analyzer could detect potential data race for concurrent threads in a program. Compared with other approaches (lock, annotation, etc.), they improve the performance, lower the false alarm.</p>
+<h3><span id="non-scalable-locker">Non-Scalable Locker</span><a href="#non-scalable-locker" class="header-anchor"></a></h3><p><strong><em>Non-Scalable Locks are dangerous</em></strong> proves the dangerousness of non-scalable locks, which is well known but not rigorously proved. The experiment shows on multicore processors, non-scalable locks significantly slow-down the performance, due to multicores contend for the lock. The performance collapses as more cores contending for the lock, serial section grows, resulting another core more likely start to contend. Scalable locks like MCS could solve this problem.</p>
+<h3><span id="memory-resource-management-in-vmware-esx-server">Memory Resource Management in VMWare ESX Server</span><a href="#memory-resource-management-in-vmware-esx-server" class="header-anchor"></a></h3><p>The paper introduced how VMWare ESX server manages the memory resource to achieve shared memory for VMs on the same machine. Balloning introduced as the trick makes different VMs have a different view of currently memory availability, which consists with the physical memory assigned to it. The memory share is transparent on ESX. Copy-on-write is a common method to avoid redundant writes on the same content.</p>
+<h3><span id="superpages">Superpages</span><a href="#superpages" class="header-anchor"></a></h3><p><strong><em>Practical, transparent operating system support for superpages</em></strong> just talks about superpages, its motivation, design, implementation and benchmark results. The motivation is the development in CPU, memory and disk. How to achieve transparency and how does superpage improve the performance is presented in the paper.</p>
+<h3><span id="radixvm">RadixVM</span><a href="#radixvm" class="header-anchor"></a></h3><p><strong><em>RadixVM: Scalable address spaces for multithreaded applications</em></strong> addresses the problem that </p>
+<blockquote>
+<p>Because operating systems serialize <code>mmap</code> and <code>munmap</code> calls, even for non-overlapping memory regions, these applications can easily be bottlenecked by contention in the OS kernel. </p>
+</blockquote>
+<p>RadixVM uses radix tree to store mapped memory region information; uses scalable reference counting to tell when physical pages are free and radix tree nodes are no longer used; then it avoids to shoot down TLBs which does not have the page mapping cached.</p>
+<p>RadixVM allows multiple threads of the same process to perform <code>mmap</code>, <code>munmap</code>, and <code>pagefault</code> operations for non-overlapping memory regions in parallel.</p>
+<h3><span id="raid">RAID</span><a href="#raid" class="header-anchor"></a></h3><p><strong><em>A Case for Redundant Arrays of Inexpensive Disks (RAID)</em></strong> tries to solve the problems of the failure of disks. The intuitive idea is more disks with replication. And this is RAID. The paper talks about 5 different arrangement of disk arrays and provided the best choice advise considering the cost and performance. Different level of RAID means different ways to store the replication copy.</p>
+<h3><span id="log-structured-file-system">Log-Structured File System</span><a href="#log-structured-file-system" class="header-anchor"></a></h3><p><strong><em>The Design and Implementation of a Log-Structured File System</em></strong> present technique for disk storage management. File system writes all modifications to disk sequentially in a log-like structure. It speeds up file writing and crash recovery. Logs are divided into segments and use a segment cleaner to compress the live information from heavily fragmented segments.</p>
+<h3><span id="journaling">Journaling</span><a href="#journaling" class="header-anchor"></a></h3><p><strong><em>Journaling the Linux ext2fs Filesystem</em></strong>‘s goals are the performance of File System does not suffer; compatibility with the existing application will stay; reliability must not be compromised. The prototype is extended from the Linux ext2fs filesystem.</p>
+<blockquote>
+<p>It records the new contents of filesystem metadata blocks while we are in the process of committing transactions. The only other requirement of the log is that we must be able to atomically commit the transactions it contains.</p>
+</blockquote>
+<p>After each transaction, the journal will be committed and checkpoints are made to make sure the file system is recoverable when crushed starting from this point.</p>
+<h3><span id="gfs">GFS</span><a href="#gfs" class="header-anchor"></a></h3><p><strong><em>The Google File System</em></strong> is network and distributed file system. It is the trade-off between flexibility and scale. Early implementation details are presented in the paper.</p>
+<h3><span id="commutativity-rule">Commutativity Rule</span><a href="#commutativity-rule" class="header-anchor"></a></h3><p><strong><em>The Scalable Commutativity Rule: Designing Scalable Software for Multicore Processors</em></strong> presents ways to improve concurrency using the commutativity of System calls. A tool named commuter is developed to check if the calls are commutative.</p>
+<h3><span id="dune">Dune</span><a href="#dune" class="header-anchor"></a></h3><p><strong><em>Dune: Safe User-level Access to Privileged CPU Features</em></strong> targets to provide safe access to Hardware features (TLB, Page Table, Exceptions). The normal process transforms into Dune process, with ioctl /dev/dune, to get privilege from Root Ring 3 to Non-root Ring 0. Dune process has direct access to the     page table, and it could use system call API.</p>
+<h3><span id="ix">IX</span><a href="#ix" class="header-anchor"></a></h3><p><strong><em>IX: A Protected Dataplane Operating System for High Throughput and Low Latency</em></strong> presents solutions of high throughput and low latency. Each process in IX is a Dune process.</p>
+<p>Tricks for low latency. Protection: Dune; Latency: polling, avoid TLB/cache, run to completion, zero copy I/O; high throughput: batching; efficiency: core allocation.</p>
+<p><del>感觉这文章写起来比自己原来料想的要痛苦和长很多=-=</del></p>
+<h2><span id="csci-555-lab-a-k-a-an-ancient-version-lab-for-mit-6-828">CSCI 555 Lab a.k.a. An Ancient-Version Lab for MIT 6.828</span><a href="#csci-555-lab-a-k-a-an-ancient-version-lab-for-mit-6-828" class="header-anchor"></a></h2><p>To Be Continued…</p>
 
       
 
@@ -243,15 +305,11 @@ ga('send', 'pageview');
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Open Source Mano</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">JOS</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Google Cloud</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Tutorial</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">OS</a>
         		</li>
       		
 		</ul>
@@ -318,7 +376,7 @@ ga('send', 'pageview');
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2018/04/05/osm-on-google-cloud/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2019/01/01/cs-csci-555/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -332,18 +390,18 @@ ga('send', 'pageview');
   
 <nav id="article-nav">
   
-    <a href="/2018/04/25/percona-toolkit-wait-for-slave-error/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2019/01/02/cs-computer-graphics/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          Percona-Toolkit pt-table-checksum &#34;Waiting for the —replicate table&#34; Error
+          Computer Graphics
         
       </div>
     </a>
   
   
-    <a href="/2018/04/05/thoughts-2/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">想法#2</div>
+    <a href="/2019/01/01/2019-Resolutions/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">2019年度展望</div>
       <i class="icon-circle-right"></i>
     </a>
   
