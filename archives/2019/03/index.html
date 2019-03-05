@@ -6,20 +6,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://blog.peiyuanqi.me">
-  <title>Install Open Source Mano THREE on Google Cloud | Peiyuan&#39;s Blog</title>
+  <title>Archives: 2019/3 | Peiyuan&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="When you try to install Open Source Mano on your Google Cloud Virtual Machine Instance following the Guide on OSM Wiki, you might met the problem of accessing UI, which is running in SO container and">
-<meta name="keywords" content="Open Source Mano,Google Cloud,Tutorial">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Install Open Source Mano THREE on Google Cloud">
-<meta property="og:url" content="https://blog.peiyuanqi.me/2018/04/05/cs-osm-on-google-cloud/index.html">
+  <meta name="description" content="Peiyuan Qi&apos;s Personal Blog">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Peiyuan&#39;s Blog">
+<meta property="og:url" content="https://blog.peiyuanqi.me/archives/2019/03/index.html">
 <meta property="og:site_name" content="Peiyuan&#39;s Blog">
-<meta property="og:description" content="When you try to install Open Source Mano on your Google Cloud Virtual Machine Instance following the Guide on OSM Wiki, you might met the problem of accessing UI, which is running in SO container and">
+<meta property="og:description" content="Peiyuan Qi&apos;s Personal Blog">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-04-12T06:29:17.712Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Install Open Source Mano THREE on Google Cloud">
-<meta name="twitter:description" content="When you try to install Open Source Mano on your Google Cloud Virtual Machine Instance following the Guide on OSM Wiki, you might met the problem of accessing UI, which is running in SO container and">
+<meta name="twitter:title" content="Peiyuan&#39;s Blog">
+<meta name="twitter:description" content="Peiyuan Qi&apos;s Personal Blog">
   
     <link rel="alternative" href="https://blog.peiyuanqi.me/atom.xml" title="Peiyuan&#39;s Blog" type="application/atom+xml">
   
@@ -182,217 +180,77 @@ ga('send', 'pageview');
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-cs-osm-on-google-cloud" class="article article-type-post " itemscope="" itemprop="blogPost">
-  <div class="article-inner">
+            
+  
+  
     
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      Install Open Source Mano THREE on Google Cloud
-    </h1>
-  
-
-        
-        <a href="/2018/04/05/cs-osm-on-google-cloud/" class="archive-article-date">
-  	<time datetime="2018-04-06T05:57:37.000Z" itemprop="datePublished">
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2019" class="archive-year">2019</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2019/03/04/thoughts-8/" class="archive-article-date">
+  	<time datetime="2019-03-05T07:42:50.000Z" itemprop="datePublished">
 		<i class="icon-calendar icon"></i>
 		
 		
-		2018-04-06
+		2019-03-05
 		
 	</time>
 </a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>When you try to install Open Source Mano on your Google Cloud Virtual Machine Instance following <a href="https://osm.etsi.org/wikipub/index.php/OSM_Release_THREE" target="_blank" rel="noopener">the Guide</a> on OSM Wiki, you might met the problem of accessing UI, which is running in SO container and only has an local IP to access.</p>
-<p>Since Open Source Mano THREE apply the new authentication mechanism, you could not access the login page for UI. The detailed reason is explained in the Wiki:</p>
-<blockquote>
-<p>Please note that in OSM 3, authentication is performed using OpenIDConnect and OAuth2.0.<br>An identity provider has been added to the platform and provided as a service in the SO container running on port 8009.<br>This means both the browser and the UI server components (that run on the SO container) need to be able to access the SO container using identical URIs.<br>In short, the tuple of scheme://location:port needs to be reachable via both the browser accessing the system and the UI server running on the SO container (e.g. <a href="https://10.66.202.206:8009" target="_blank" rel="noopener">https://10.66.202.206:8009</a> for a sample deployment).<br>This means that if your SO container is behind a NAT that cannot reach the public address of the host, authentication and authorization will not be possible and you will not be able to proceed using the UI.</p>
-</blockquote>
-<p>To by pass this problem, the principle is make your local machine be able to access the network created by <code>lxd</code> on your Google Cloud Host.</p>
-<p>There are multiple ways to do that:</p>
-<ul>
-<li>Using Google <a href="https://cloud.google.com/vpn/docs/concepts/overview" target="_blank" rel="noopener">Cloud VPN</a><ul>
-<li>Good choice but might be overkilled, if you just have a laptop as your local machine.</li>
-</ul>
-</li>
-<li>Setting up a VPN server on your Google Cloud Host<ul>
-<li>Not Elegant, but simple and easy to achieve<ul>
-<li>To set up an OpenVPN server and use your local machine to access it, check <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04" target="_blank" rel="noopener">this post</a>.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Then you are good to login the UI. </p>
-<p>I think this is a bug of OSM-THREE and hope they will fix it soon and then this post will finish its job and retired.</p>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2019/03/04/thoughts-8/">想法#8</a>
+    </h1>
+  
 
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
+        <div class="article-info info-on-right">
+          
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Open Source Mano</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Google Cloud</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Tutorial</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">想法</a>
         		</li>
       		
 		</ul>
 	</div>
 
-      
+          
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="/categories/Tech//" class="article-tag-list-link color5">Tech</a>
+        			<a href="/categories/Topic//" class="article-tag-list-link color1">Topic</a>
         		</li>
       		
 		</ul>
 	</div>
 
 
-      
-
-      
-        
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
         </div>
-      </div>
-    </span>
-  </div>
-</div>
-
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://blog.peiyuanqi.me/2018/04/05/cs-osm-on-google-cloud/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
-      
-      <div class="clearfix"></div>
-    </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-  
-<nav id="article-nav">
-  
-    <a href="/2018/04/25/cs-percona-toolkit-wait-for-slave-error/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          Percona-Toolkit pt-table-checksum &#34;Waiting for the —replicate table&#34; Error
-        
-      </div>
-    </a>
   
   
-    <a href="/2018/04/05/thoughts-2/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">想法#2</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-  
-  
+    </div></section>
   
 
-  
-
-  
-    <section id="comments">
-      <div id="disqus_thread"></div>
-        <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'peiyuans-blog'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </section>
-  
-
-  
+    
 
 
           </div>
@@ -415,8 +273,8 @@ ga('send', 'pageview');
 	var yiliaConfig = {
 		mathjax: true,
 		isHome: false,
-		isPost: true,
-		isArchive: false,
+		isPost: false,
+		isArchive: true,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
