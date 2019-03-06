@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2019-03-05T23:42:50.881Z</updated>
+  <updated>2019-03-06T00:09:51.395Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HackTech 2019 &amp; DataOpen Western Cost 2019 Spring</title>
+    <link href="https://blog.peiyuanqi.me/2019/03/05/cs-hacktech-2019/"/>
+    <id>https://blog.peiyuanqi.me/2019/03/05/cs-hacktech-2019/</id>
+    <published>2019-03-05T08:09:51.000Z</published>
+    <updated>2019-03-06T00:09:51.395Z</updated>
+    
+    <content type="html"><![CDATA[<p>连续两个周末参加了一些程序员活动</p><p>并不期望着拿奖，但是非常意外的是居然在第一次Hackthon中获得了Sponsor奖项</p><a id="more"></a><p>免费获得Uber ATG面试机会一次，然而我CPT申请都已经交上去了…</p><p>所以说</p><p>人的一生 固然要考个人奋斗</p><p>但也要考虑历史的进程 🥺</p><p>不得不说几十个小时不睡觉这种事情已经不再适合年岁已高的程序员</p><p>而且 熬夜 高热量饮食 久坐</p><p>感觉Hackthon可以获评最不健康的赛事之名</p><p>不过确实可以说HackTech2019的两天几乎是我最近两年里效率最高的一段时间了</p><p>能够从一无所谓到肚中墨水和评委们吹牛皮</p><p>离不开各有所长的队友们的帮助</p><p>总结下来一个好的Hack最重要的大概就是Idea了</p><p>花了整整10个小时来获得最后做的东西，虽然获得Idea的时间大概只花了10秒</p><p>而Idea本身则是需要超出一些些的常规思考之外</p><p>比如Uber这次只提供了叫车的API，但是我们的假设是Uber可以更改API叫车种类</p><p>提供救护车🌚</p><p>听起来有点奇怪，但是这是少数最近写了5年代码，我从心底里觉得也许还算有点实现价值的东西了吧…</p><p>感觉参加Hackthon的还是小朋友居多</p><p>但是大家都是ML/AI好手，从文本识别到语音识别到图像识别，信手拈来</p><p>然后就是再往前的一个周末，前往了Berkeley参加了Citadel的DataOpen</p><p>惨遭血虐，毕竟我连numpy都已经不会用了</p><p>不过最后获胜队伍的想法非常有趣，他们在非常有限的9个小时中想出了对数据与现实中的政策实践交叉验证的实验来证明政策的实行是否有效</p><p>值得一提的是获奖成员都是Froshman</p><p>emmm没打错 🌝</p><p>Caltech的fashion kids叫Freshman Froshman</p><p>我回来求证一下 看来很多USC Kids还不够🆒</p><p>Urban Dictionary说 这是一种很酷的做法，我在我的老年人紧跟潮流笔记本上 就悄悄记了下来</p><p>然后在比赛中遇到的全是大S的Physics Math PhD们，对此我只能说</p><p>能和你们同台竞技 我很荣幸</p><p>告辞</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;连续两个周末参加了一些程序员活动&lt;/p&gt;
+&lt;p&gt;并不期望着拿奖，但是非常意外的是居然在第一次Hackthon中获得了Sponsor奖项&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="Hackthon" scheme="https://blog.peiyuanqi.me/tags/Hackthon/"/>
+    
+      <category term="Datathon" scheme="https://blog.peiyuanqi.me/tags/Datathon/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#8</title>
@@ -464,9 +489,9 @@
       <category term="Story" scheme="https://blog.peiyuanqi.me/categories/Story/"/>
     
     
-      <category term="Flash Fiction" scheme="https://blog.peiyuanqi.me/tags/Flash-Fiction/"/>
-    
       <category term="Writing Practice" scheme="https://blog.peiyuanqi.me/tags/Writing-Practice/"/>
+    
+      <category term="Flash Fiction" scheme="https://blog.peiyuanqi.me/tags/Flash-Fiction/"/>
     
   </entry>
   
@@ -491,37 +516,6 @@
     
     
       <category term="大学" scheme="https://blog.peiyuanqi.me/tags/%E5%A4%A7%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Play Practice #1 - A Creative Writing Assignment</title>
-    <link href="https://blog.peiyuanqi.me/2018/07/03/practice-play-1/"/>
-    <id>https://blog.peiyuanqi.me/2018/07/03/practice-play-1/</id>
-    <published>2018-07-03T13:58:15.000Z</published>
-    <updated>2018-10-23T21:51:10.236Z</updated>
-    
-    <content type="html"><![CDATA[<h2><span id="meilleur-linge-de-lit-de-l-annee"><strong>Meilleur Linge de Lit de L’année</strong></span><a href="#meilleur-linge-de-lit-de-l-annee" class="header-anchor"></a></h2><p><strong>Setting:</strong>       The background screen is a corridor of a Hotel. Two environmental wall are used as the wall of corridor and the doors of each room. Monsieur Dupont, the manager of Hotel Prague is talking with Schmidt, a young salesman of Personal Locust Detection Device in front of the door of Room 233. Behind the fake Room 233 door on environmental wall, a Canopy bed locates in the relative center of the space.</p><p><strong>At Rise:</strong>       Two persons talk in the darkness and walk from the back of the stage to the part of stage close to audience. At rise, they just stop at Room 233.</p><p><strong>Monsieur Dupont</strong></p><p>Écoute, En tant qu’hôtel réputé, nous sommes confiants dans notre travail de nettoyage.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Monsieur Dupont says in the darkness of the stage,both actors walk from the back of the stage to the front.)</p><p><strong>Schmidt</strong></p><p>I understand that Monsieur Dupont. But as I mentioned before, the judges of European Sheets Association also use our product.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Schmidt says in front of the door of Room 233, he has a travel bag in his right hand, there is a puppy head on this bag)<a id="more"></a></p><p><strong>Monsieur Dupont</strong></p><p>My dear little Schmidt,I allow you to do this demonstration to me does not mean our hotel wants to win that stupid prize concocted by stupid Polish, the so called Meilleur Linge de Lit de L’année. French will not make the prize smell less Polish stinking.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Monsieur Dupont angrily waving his fist at the air as if a stinking Poles standing infront of him)</p><p><strong>Schmidt</strong></p><p>With all respect Monsieur, but the European Sheets Association Founder M. Bakowski is a French.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Schmidt is puttingup both his hands, showing the palms towards Monsieur Dupont with a sincerelyface)</p><p><strong>Monsieur Dupont</strong></p><p>That polish name tells you everything. You don’t need to learn where it was born when you want to catch a fish. Now, you should enter the room and do the demo quickly, Is till have large hotel to attend.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Monsieur Dupont opens the door, shows the way for Schmidt)</p><p><strong>Schmidt</strong></p><p>By the way,Monsieur, you should also know that…</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Schmidt is still standing there and trying to say something)</p><p><strong>Monsieur Dupont</strong></p><p>Will you enter or not?</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Monsieur Dupont redoes the please-enter gesture firmly and says with a sharp voice)</p><p><strong>Schmidt</strong></p><p>Yes, yes, of course Monsieur, if you insist.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Schmidt flashes into the door, both of them walk to the side of bed, facing the audience. Schmidt notice the strong perfume in the room, so he frowns)</p><p>Seems your customers have an extreme found of perfume.</p><p><strong>Monsieur Dupont</strong></p><p>Now, it is your only chance to show your witchcraft.</p><p><strong>Schmidt</strong></p><p>My pleasure.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Schmidt drops his bag and taking a handgun like device. He aims at the bed sheet, and takes a deep breath. </p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monsieur Dupont looks at him. Monsieur Dupont is trying to show he is calm and gives no care to this young man’s performance,but his shaking mustache gives him off.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schmidt triggered the device, and the read the number on the device. He suddenly shouts with frightened face and almost throws the device away.)</p><p>The number is insane. Your sheet is worse than the darkest sewer in ghetto of Prague. I do not believe you are the Meilleur Linge de Lit of the last year and they even want to give this prize to you again.</p><p><strong>Monsieur Dupont</strong></p><p>That is the most malicious slander I have ever heard before.You must pick up this cursed gun and get out of my Hotel.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Monsieur Dupont’s face is red for the rage, he roars at Schmidt, standing bolt upright, pointing at the door with his right forefinger. Suddenly, he realizes something and freezes there.)</p><p>Wait, what did you say? Why you know we are going to get the best sheet award this year again?</p><p><strong>Schmidt</strong></p><p>No. No… I, I… didn’t say that. You must have, have… an acousma. I will leave, as you say.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Schmidt is trying to pick up the gun but failed twice, then he just throws it into the bag, getting it on his shoulder. He is stammering. Once he puts on his bag, he takes out his phone crazily typing on it. Since it is an iPhone not in mute mode, the sound of keyboard is extremely load. He does not look at Monsieur Dupont and trying to rush beside him towards the door.)</p><p><strong>Monsieur Dupont</strong></p><p>You will go nowhere.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(MonsieurDupont steps forward and takes his phone, reads it out aloud)</p><p>Cher Comité,merci de votre gentillesse et de votre confiance pour m’avoir confié la conduitde l’enquête de terrain du gagnant désigné de Meilleur Linge de Lit de L’année…</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(The voice of Monsieur Dupont goes lower and lower, with an unbelievable face, with eyes widely opened like lamp bulb)</p><p>Commissaire, I didn’t notice that your arrival and the incident happened is just a small mistake. This room have not been booked for almost three days. You should know the weather of Prague, it is too damp in May…</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Monsieur Dupont returns the phone and keeps bowing)</p><p><strong>Schmidt</strong></p><p>Monsieur, there has been no rains for Prague for three weeks.</p><p><strong>Monsieur Dupont</strong></p><p>Yes, yes, but you know, Vltava will still vaporize lots of water…</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Monsieur Dupont is almost in the posture of begging,he also tries to wipe out the sweat on his forehead)</p><p><strong>Schmidt</strong></p><p>But…</p><p><strong>Monsieur Dupont</strong></p><p>Please, we could not lose the competition in the best sheet.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Monsieur Dupont kneeled on the ground)</p><p><strong>Schmidt</strong></p><p>Listen, Monsieur, I would like to help you, but the device is the truth. So, why not try to give me an explanation to convince me?</p><p><strong>Monsieur Dupont</strong></p><p>We, we just found putting sheets in puppy house before using it will make the guests sleep better in the evening… So, we put all of our sheets in puppy house before they are served.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Monsieur Dupont gives two hands out, trying to pretend he is a puppy…)</p><p><strong>Schmidt</strong></p><p>You just put your heets in puppy house?</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Schmidt stares at Monsieur Dupont, his eyes are shining)</p><p><strong>Monsieur Dupont</strong></p><p>Ye… Yes? We just getthat conclusion from an accident, you know, we did not realize the problem ofmites… And we have to use perfumes to cover the smell…</p><p><strong>Schmidt</strong></p><p>That’s genius,that’s it best idea I have heard ever!</p><p><strong>Monsieur Dupont</strong></p><p>Real… Really?</p><p><strong>Schmidt</strong></p><p>You are the most intelligent manger I have ever met, I believe they owe you the best sheets prize. I will tell them, so, see you around.</p><p><strong>Monsieur Dupont</strong></p><p>Oh, if that’s the case, I would be so grateful for your kindness.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Monsieur Dupont stands up, watching Schmidt rushing out of the room with his puppy bag. He is stroking his mustache)</p><p>Young idiots, why will put sheets in puppy house? Definitely, they should be put into pigsty.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Meilleur-Linge-de-Lit-de-L’annee&quot;&gt;&lt;a href=&quot;#Meilleur-Linge-de-Lit-de-L’annee&quot; class=&quot;headerlink&quot; title=&quot;Meilleur Linge de Lit de L’année&quot;&gt;&lt;/a&gt;&lt;strong&gt;Meilleur Linge de Lit de L’année&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Setting:&lt;/strong&gt;       The background screen is a corridor of a Hotel. Two environmental wall are used as the wall of corridor and the doors of each room. Monsieur Dupont, the manager of Hotel Prague is talking with Schmidt, a young salesman of Personal Locust Detection Device in front of the door of Room 233. Behind the fake Room 233 door on environmental wall, a Canopy bed locates in the relative center of the space.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;At Rise:&lt;/strong&gt;       Two persons talk in the darkness and walk from the back of the stage to the part of stage close to audience. At rise, they just stop at Room 233.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Monsieur Dupont&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Écoute, En tant qu’hôtel réputé, nous sommes confiants dans notre travail de nettoyage.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(Monsieur Dupont says in the darkness of the stage,both actors walk from the back of the stage to the front.)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Schmidt&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I understand that Monsieur Dupont. But as I mentioned before, the judges of European Sheets Association also use our product.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(Schmidt says in front of the door of Room 233, he has a travel bag in his right hand, there is a puppy head on this bag)
-    
-    </summary>
-    
-      <category term="Story" scheme="https://blog.peiyuanqi.me/categories/Story/"/>
-    
-    
-      <category term="Writing Practice" scheme="https://blog.peiyuanqi.me/tags/Writing-Practice/"/>
-    
-      <category term="Play" scheme="https://blog.peiyuanqi.me/tags/Play/"/>
     
   </entry>
   
