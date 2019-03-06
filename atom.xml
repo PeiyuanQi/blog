@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2019-03-06T00:09:51.395Z</updated>
+  <updated>2019-03-06T00:11:55.979Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://blog.peiyuanqi.me/2019/03/05/cs-hacktech-2019/"/>
     <id>https://blog.peiyuanqi.me/2019/03/05/cs-hacktech-2019/</id>
     <published>2019-03-05T08:09:51.000Z</published>
-    <updated>2019-03-06T00:09:51.395Z</updated>
+    <updated>2019-03-06T00:11:55.979Z</updated>
     
-    <content type="html"><![CDATA[<p>连续两个周末参加了一些程序员活动</p><p>并不期望着拿奖，但是非常意外的是居然在第一次Hackthon中获得了Sponsor奖项</p><a id="more"></a><p>免费获得Uber ATG面试机会一次，然而我CPT申请都已经交上去了…</p><p>所以说</p><p>人的一生 固然要考个人奋斗</p><p>但也要考虑历史的进程 🥺</p><p>不得不说几十个小时不睡觉这种事情已经不再适合年岁已高的程序员</p><p>而且 熬夜 高热量饮食 久坐</p><p>感觉Hackthon可以获评最不健康的赛事之名</p><p>不过确实可以说HackTech2019的两天几乎是我最近两年里效率最高的一段时间了</p><p>能够从一无所谓到肚中墨水和评委们吹牛皮</p><p>离不开各有所长的队友们的帮助</p><p>总结下来一个好的Hack最重要的大概就是Idea了</p><p>花了整整10个小时来获得最后做的东西，虽然获得Idea的时间大概只花了10秒</p><p>而Idea本身则是需要超出一些些的常规思考之外</p><p>比如Uber这次只提供了叫车的API，但是我们的假设是Uber可以更改API叫车种类</p><p>提供救护车🌚</p><p>听起来有点奇怪，但是这是少数最近写了5年代码，我从心底里觉得也许还算有点实现价值的东西了吧…</p><p>感觉参加Hackthon的还是小朋友居多</p><p>但是大家都是ML/AI好手，从文本识别到语音识别到图像识别，信手拈来</p><p>然后就是再往前的一个周末，前往了Berkeley参加了Citadel的DataOpen</p><p>惨遭血虐，毕竟我连numpy都已经不会用了</p><p>不过最后获胜队伍的想法非常有趣，他们在非常有限的9个小时中想出了对数据与现实中的政策实践交叉验证的实验来证明政策的实行是否有效</p><p>值得一提的是获奖成员都是Froshman</p><p>emmm没打错 🌝</p><p>Caltech的fashion kids叫Freshman Froshman</p><p>我回来求证一下 看来很多USC Kids还不够🆒</p><p>Urban Dictionary说 这是一种很酷的做法，我在我的老年人紧跟潮流笔记本上 就悄悄记了下来</p><p>然后在比赛中遇到的全是大S的Physics Math PhD们，对此我只能说</p><p>能和你们同台竞技 我很荣幸</p><p>告辞</p>]]></content>
+    <content type="html"><![CDATA[<p>连续两个周末参加了一些程序员活动</p><p>并不期望着拿奖，但是非常意外的是居然在第一次Hackthon中获得了Sponsor奖项</p><a id="more"></a><p>免费获得Uber ATG面试机会一次，然而我CPT申请都已经交上去了…</p><p>所以说</p><p>人的一生 固然要考个人奋斗</p><p>但也要考虑历史的进程 🥺</p><p>不得不说几十个小时不睡觉这种事情已经不再适合年岁已高的程序员</p><p>而且 熬夜 高热量饮食 久坐</p><p>感觉Hackthon可以获评最不健康的赛事之名</p><p>不过确实可以说HackTech2019的两天几乎是我最近两年里效率最高的一段时间了</p><p>能够从一无所谓到肚中墨水和评委们吹牛皮</p><p>离不开各有所长的队友们的帮助</p><p>总结下来一个好的Hack最重要的大概就是Idea了</p><p>花了整整10个小时来获得最后做的东西，虽然获得Idea的时间大概只花了10秒</p><p>而Idea本身则是需要超出一些些的常规思考之外</p><p>比如Uber这次只提供了叫车的API，但是我们的假设是Uber可以更改API叫车种类</p><p>提供救护车🌚</p><p>听起来有点奇怪，但是这是少数最近写了5年代码，我从心底里觉得也许还算有点实现价值的东西了吧…</p><img src="/2019/03/05/cs-hacktech-2019/hacktech1.jpg"><p>感觉参加Hackthon的还是小朋友居多</p><p>但是大家都是ML/AI好手，从文本识别到语音识别到图像识别，信手拈来</p><p>然后就是再往前的一个周末，前往了Berkeley参加了Citadel的DataOpen</p><p>惨遭血虐，毕竟我连numpy都已经不会用了</p><p>不过最后获胜队伍的想法非常有趣，他们在非常有限的9个小时中想出了对数据与现实中的政策实践交叉验证的实验来证明政策的实行是否有效</p><p>值得一提的是获奖成员都是Froshman</p><p>emmm没打错 🌝</p><p>Caltech的fashion kids叫Freshman Froshman</p><p>我回来求证一下 看来很多USC Kids还不够🆒</p><p>Urban Dictionary说 这是一种很酷的做法，我在我的老年人紧跟潮流笔记本上 就悄悄记了下来</p><p>然后在比赛中遇到的全是大S的Physics Math PhD们，对此我只能说</p><p>能和你们同台竞技 我很荣幸</p><p>告辞</p><img src="/2019/03/05/cs-hacktech-2019/bye.jpg">]]></content>
     
     <summary type="html">
     
