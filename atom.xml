@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2019-04-15T02:34:30.074Z</updated>
+  <updated>2019-04-23T22:18:58.417Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想法#11 钢铁是怎样炼成的</title>
+    <link href="https://blog.peiyuanqi.me/2019/04/23/thoughts-11/"/>
+    <id>https://blog.peiyuanqi.me/2019/04/23/thoughts-11/</id>
+    <published>2019-04-23T07:07:03.000Z</published>
+    <updated>2019-04-23T22:18:58.417Z</updated>
+    
+    <content type="html"><![CDATA[<p>ahhhh</p><p>之所以叫这个名字，是下意识的想起那句书中著名的引语</p><blockquote><p>一个人的一生应该<strong>是</strong>这样度过的：当他回首往事的时候</p></blockquote><p>最近捡起了很多没有什么用但是很有趣的活动，甚至感觉过去的一个学期参与的活动要多过过去二十年的总和。于是开始思考到底要不要把花剩下的为数不多的年轻时间在继续体验一下生活上😂</p><p>一个基础的freelancer工作 + 四处玩耍和学习有趣的新活动</p><p>比如每个地方呆一年，找一份当地的码农工作…或者remote free lancer</p><p>但是第一反应就是这将会严重损害个人职业发展道路，可能会导致在35岁后就失业了😂</p><p>于是就打消了这个念头…</p><p>但是今天又碰巧看到到了一个油管视频，是一个浪完20s又成功找到了工作又赶上了这轮CS浪潮，接近实现财务自由的人来给出的并没有什么用的忠告…</p><p><a href="https://www.youtube.com/watch?v=SXwGtZuNDO8" target="_blank" rel="noopener">https://www.youtube.com/watch?v=SXwGtZuNDO8</a></p><p>点开来的时候还以为是讲二十几岁的时候要怎么注意培养自己才能成为优秀程序员的=-=</p><p>然而并不是</p><p>而是说自己二十几岁多么浪 现在想来真后怕的事实的…</p><p>并且告诫大家不要玩高危活动</p><p>ahhhh</p><p>所以说关键是找到足够浪并且让自己活着然后还能不毁掉职业道路的中庸之道</p><p>说起来简单，但是做起来大概是很有难度的…</p><p>但是如果实现了的话一定是非常精彩的…</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;ahhhh&lt;/p&gt;
+&lt;p&gt;之所以叫这个名字，是下意识的想起那句书中著名的引语&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一个人的一生应该&lt;strong&gt;是&lt;/strong&gt;这样度过的：当他回首往事的时候&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;最近捡起了很多没有什么用但是很
+      
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#10 CS行业与其他</title>
@@ -495,31 +525,6 @@
       <category term="History" scheme="https://blog.peiyuanqi.me/tags/History/"/>
     
       <category term="The Italian Wars" scheme="https://blog.peiyuanqi.me/tags/The-Italian-Wars/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PAKE, A Cryptographic Key Exchange Protocol</title>
-    <link href="https://blog.peiyuanqi.me/2018/10/21/cs-pake/"/>
-    <id>https://blog.peiyuanqi.me/2018/10/21/cs-pake/</id>
-    <published>2018-10-22T03:48:08.000Z</published>
-    <updated>2018-10-23T21:51:22.561Z</updated>
-    
-    <content type="html"><![CDATA[<p>PAKE 全称 Password Authenticated Key Exchange. 它是为了解决早期密钥交换过程中，客户端并没有被验证的问题而被提出的。早在1992年就已经被提出，但是由于没有很好的实现而一直没有被利用。</p><p>OPAQUE是PAKE的一种全新的实现，解决了一些历史遗留问题。<a id="more"></a></p><p>关于PAKE的更详细描述:</p><p><a href="https://blog.cryptographyengineering.com/2018/10/19/lets-talk-about-pake/" target="_blank" rel="noopener">Let’s talk about PAKE</a></p><p>值得一提的是</p><p>PAKE和Apache Kerberos有着一些类似理念。不过具体的比较还没来得及完成=-=</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;PAKE 全称 Password Authenticated Key Exchange. 它是为了解决早期密钥交换过程中，客户端并没有被验证的问题而被提出的。早在1992年就已经被提出，但是由于没有很好的实现而一直没有被利用。&lt;/p&gt;
-&lt;p&gt;OPAQUE是PAKE的一种全新的实现，解决了一些历史遗留问题。
-    
-    </summary>
-    
-      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
-    
-    
-      <category term="PAKE" scheme="https://blog.peiyuanqi.me/tags/PAKE/"/>
-    
-      <category term="passwords" scheme="https://blog.peiyuanqi.me/tags/passwords/"/>
     
   </entry>
   
