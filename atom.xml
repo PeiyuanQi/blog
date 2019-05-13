@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2019-04-27T06:02:25.700Z</updated>
+  <updated>2019-05-13T16:07:10.142Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想法#14 一局麻将而已</title>
+    <link href="https://blog.peiyuanqi.me/2019/05/13/thoughts-14/"/>
+    <id>https://blog.peiyuanqi.me/2019/05/13/thoughts-14/</id>
+    <published>2019-05-13T15:23:50.000Z</published>
+    <updated>2019-05-13T16:07:10.142Z</updated>
+    
+    <content type="html"><![CDATA[<p>突然发现，每个人的一生的职业规划和一局麻将蛮像的，特别是那种和牌方式特别多的麻将，例如，日麻 🌝。</p><a id="more"></a><p>其实道理非常简单，开局的时候，每个人有无数的和牌方式，可以尝试做各种役种，但是随着牌局的推进，时间的流逝，有的役种就不再可能在这一局中出现了，那么这些机会也就失去了。而有的时候，自己又需要做出选择，打出的牌造成了又一次失去了某些役种的和牌可能性。所以往往半局一过，发现自己只能硬着头皮去完成一个回报不高，和牌概率也不高的役种。诚然这是个人牌艺高低的问题，但是所谓雀力高，大概也就是推迟作出选择的时间，实现随时准备能够完成各种役种吧。</p><p>做职业规划的时候，起手也是无数种可能，有的人一心奔着国士无双去了，然而有的人则是不断的尝试推后自己做决断的时间，还有的人就这样随缘过着。</p><p>感觉自己在大学四年犯的一个错误就是过早奔着我自己的清一色去了，并没有想过自己以后可能并不想要这样的役种。如果是麻将，那么就安心等着下一局了，但是命貌似只有一条，如果就这样浪费了诚然可惜，于是就开始苦思冥想破局的方法…</p><p>但是首鼠两端的人一般都没法做成任何事情…</p><p>想来自己最早在高中里觉得自己只要是理工商方向上的什么都可以学，到了大学就一头认定自己只适合做CS，去年的冬天因为某些个人的需求，将从前就是吹吹牛皮的转行金融提上了正式考虑的日程，到现在经过仔细的研究发现转行需要的能力也超出了我的范围，其中的阵痛大概会超过我的承受能力，不得不考虑暂时妥协自己的计算机的既定的规划…</p><p>怎么听怎么就是一个菜的人的一生</p><p>四处追寻新的目标，最后一事无成…记得小时候的寓言故事就告诫我们不要这样🙄</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;突然发现，每个人的一生的职业规划和一局麻将蛮像的，特别是那种和牌方式特别多的麻将，例如，日麻 🌝。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+      <category term="职业" scheme="https://blog.peiyuanqi.me/tags/%E8%81%8C%E4%B8%9A/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#13 关于运气的丧话</title>
@@ -174,8 +198,8 @@
   
   <entry>
     <title>想法#8</title>
-    <link href="https://blog.peiyuanqi.me/2019/03/04/thoughts-8/"/>
-    <id>https://blog.peiyuanqi.me/2019/03/04/thoughts-8/</id>
+    <link href="https://blog.peiyuanqi.me/2019/03/05/thoughts-8/"/>
+    <id>https://blog.peiyuanqi.me/2019/03/05/thoughts-8/</id>
     <published>2019-03-05T07:42:50.000Z</published>
     <updated>2019-03-05T23:42:50.881Z</updated>
     
@@ -203,8 +227,8 @@
   
   <entry>
     <title>Conflict-Based Search For Optimal Multi-Agent Path Finding</title>
-    <link href="https://blog.peiyuanqi.me/2019/02/08/cs-conflict-based-search-for-mapf/"/>
-    <id>https://blog.peiyuanqi.me/2019/02/08/cs-conflict-based-search-for-mapf/</id>
+    <link href="https://blog.peiyuanqi.me/2019/02/09/cs-conflict-based-search-for-mapf/"/>
+    <id>https://blog.peiyuanqi.me/2019/02/09/cs-conflict-based-search-for-mapf/</id>
     <published>2019-02-09T01:58:23.000Z</published>
     <updated>2019-02-09T17:58:23.605Z</updated>
     
@@ -398,8 +422,8 @@
   
   <entry>
     <title>想法#5到底是能有多不专注</title>
-    <link href="https://blog.peiyuanqi.me/2018/12/11/thoughts-5/"/>
-    <id>https://blog.peiyuanqi.me/2018/12/11/thoughts-5/</id>
+    <link href="https://blog.peiyuanqi.me/2018/12/12/thoughts-5/"/>
+    <id>https://blog.peiyuanqi.me/2018/12/12/thoughts-5/</id>
     <published>2018-12-12T01:00:25.000Z</published>
     <updated>2019-01-30T04:08:43.016Z</updated>
     
@@ -426,8 +450,8 @@
   
   <entry>
     <title>Design-Patterns</title>
-    <link href="https://blog.peiyuanqi.me/2018/12/10/cs-Design-Patterns/"/>
-    <id>https://blog.peiyuanqi.me/2018/12/10/cs-Design-Patterns/</id>
+    <link href="https://blog.peiyuanqi.me/2018/12/11/cs-Design-Patterns/"/>
+    <id>https://blog.peiyuanqi.me/2018/12/11/cs-Design-Patterns/</id>
     <published>2018-12-11T06:39:24.000Z</published>
     <updated>2018-12-12T17:29:10.938Z</updated>
     
@@ -449,8 +473,8 @@
   
   <entry>
     <title>Computer Systems</title>
-    <link href="https://blog.peiyuanqi.me/2018/12/10/cs-computer-arch/"/>
-    <id>https://blog.peiyuanqi.me/2018/12/10/cs-computer-arch/</id>
+    <link href="https://blog.peiyuanqi.me/2018/12/11/cs-computer-arch/"/>
+    <id>https://blog.peiyuanqi.me/2018/12/11/cs-computer-arch/</id>
     <published>2018-12-11T04:23:21.000Z</published>
     <updated>2018-12-12T17:28:51.620Z</updated>
     
@@ -497,31 +521,6 @@
       <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
     
       <category term="年度总结" scheme="https://blog.peiyuanqi.me/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>随笔#1 找实习过程中的几个致命错误</title>
-    <link href="https://blog.peiyuanqi.me/2018/11/27/sketch-1/"/>
-    <id>https://blog.peiyuanqi.me/2018/11/27/sketch-1/</id>
-    <published>2018-11-28T04:00:49.000Z</published>
-    <updated>2018-11-28T20:07:55.601Z</updated>
-    
-    <content type="html"><![CDATA[<h4><span id="bu-duan-zheng-tai-du">不端正态度</span><a href="#bu-duan-zheng-tai-du" class="header-anchor"></a></h4><p>从8月底发出第一份简历开始，简历上的错误就没少过</p><ul><li>写错学位</li><li>写错电话</li><li>重复的Bulletin Points</li><li>项目名Typo</li></ul><p>直接导致投了许多无效简历，浪费了一些内推。</p><h4><span id="guo-yu-cong-mang">过于匆忙</span><a href="#guo-yu-cong-mang" class="header-anchor"></a></h4><p>急着回HR邮件，导致犯下的几个错误：</p><ul><li>看错了约Onsite的时间，不过HR对此比较宽容</li><li>送错了一份不完整的成绩单，大概间接导致后面直接被刷了</li></ul><h4><span id="bei-fu-de-li-shi-zui-ze">背负的历史罪责</span><a href="#bei-fu-de-li-shi-zui-ze" class="header-anchor"></a></h4><ul><li>考砸的VE281 Data Structure and Algorithm</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h4&gt;&lt;span id=&quot;bu-duan-zheng-tai-du&quot;&gt;不端正态度&lt;/span&gt;&lt;a href=&quot;#bu-duan-zheng-tai-du&quot; class=&quot;header-anchor&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;从8月底发出第一份简历开始，简历上的错误就没少过&lt;/
-      
-    
-    </summary>
-    
-      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-      <category term="实习" scheme="https://blog.peiyuanqi.me/tags/%E5%AE%9E%E4%B9%A0/"/>
     
   </entry>
   
