@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2019-05-28T04:20:29.696Z</updated>
+  <updated>2019-06-03T01:18:45.561Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想法#16 你以为你和纺织厂工人有什么区别</title>
+    <link href="https://blog.peiyuanqi.me/2019/06/02/thoughts-16/"/>
+    <id>https://blog.peiyuanqi.me/2019/06/02/thoughts-16/</id>
+    <published>2019-06-02T09:44:14.000Z</published>
+    <updated>2019-06-03T01:18:45.561Z</updated>
+    
+    <content type="html"><![CDATA[<p>一开头就决定这篇想法必然有一些极端…</p><a id="more"></a><p>从很久以前，有一位略微直白的名字首字母代表着所有终点的同学曾经反复强调过，所谓湾区码农，不过就是新时代的英国纺织厂女工。在很多不同的场合中也出现过类似的评论，且不论这种论断的对错，这里只想写下最近一周来在日常讨论中的几个想法…</p><p>大前提：大部分人是平庸的；</p><p>小前提：码农准入门槛在过去几年逐年降低；</p><p>结论：码农中平庸的人的比率在不断上升。</p><p>久而久之，虽然不知道这个曲线的渐近线在哪里，但是也许这确实是导致很多对码农神奇的死板印象形成的关键。</p><p>比如，码农们总是比较公司福利。</p><p>（虽然我也不知道为什么码农的办公室里需要全套意式咖啡机和手调饮料工具。）</p><p>（为什么不开一家免费的Starbucks？）</p><p>但是退一步想，这也是大部分普通人在做的事情。</p><blockquote><p>我今天用的纱线是最新的从苏格兰直产直销的纯正羊毛制作，比你这从意大利来的二等货不知道高到哪里去了。<br>隔壁的比利今天送你的太阳花显然比我家杰克送的蓝铃花更美，真让人气愤。</p></blockquote><p>类比这种想法，大概无外乎对日常福利，到工资，到股票，到sign on的各种比较了吧。不是真的为了体现个高低，这只不过是大家的日常罢了。</p><p>于此同时，则是对码农生活规划和日常娱乐的吐槽，这大概也不外乎是因为大家都是普通人，也不能要求每个人都有着特别而又杰出的兴趣爱好，远大而特别的志向，毕竟很多人也只是寻求一个平稳、大部分时候开心的一生吧。</p><p>所以，如果能力平庸却又一个不甘平凡的心，大概只会算是个体的一种不幸吧…</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一开头就决定这篇想法必然有一些极端…&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#15 贷还是不贷</title>
@@ -490,31 +512,6 @@
     
     
       <category term="Design Patterns" scheme="https://blog.peiyuanqi.me/tags/Design-Patterns/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Computer Systems</title>
-    <link href="https://blog.peiyuanqi.me/2018/12/10/cs-computer-arch/"/>
-    <id>https://blog.peiyuanqi.me/2018/12/10/cs-computer-arch/</id>
-    <published>2018-12-11T04:23:21.000Z</published>
-    <updated>2018-12-12T17:28:51.620Z</updated>
-    
-    <content type="html"><![CDATA[<p>This post contains some relative lower layer Computer System questions. Updating…</p><p>在此收录一些关于比较底层的计算机系统问题。更新中…<a id="more"></a></p><div class="toc"><!-- toc --><ul><li><a href="#cpu-cache-gao-su-huan-cun">CPU Cache 高速缓存</a></li><li><a href="#tlb">TLB</a></li><li><a href="#mmu-memory-management-unit">MMU (Memory Management Unit)</a></li><li><a href="#memory-management-nei-cun-guan-li">Memory Management 内存管理</a></li><li><a href="#page-table-ye-biao">Page Table 页表</a><ul><li><a href="#process-jin-cheng">Process 进程</a></li></ul></li><li><a href="#daemon-process-shou-hu-jin-cheng">Daemon Process 守护进程</a></li><li><a href="#fork-exec"><code>fork()</code> &amp; <code>exec()</code></a></li><li><a href="#orphan-process-gu-er-jin-cheng">Orphan Process 孤儿进程</a></li><li><a href="#zombie-process-jiang-shi-jin-cheng">Zombie Process 僵尸进程</a></li><li><a href="#segment-fault-duan-cuo-wu">Segment Fault 段错误</a></li></ul><!-- tocstop --></div><h4><span id="cpu-cache-gao-su-huan-cun">CPU Cache 高速缓存</span><a href="#cpu-cache-gao-su-huan-cun" class="header-anchor"></a></h4><p><a href="http://www.cs.utexas.edu/users/mckinley/352/lectures/16.pdf" target="_blank" rel="noopener">Cache Memories</a></p><h4><span id="tlb">TLB</span><a href="#tlb" class="header-anchor"></a></h4><ul><li>Store cached translation of Virtual Address to Physical Address.</li></ul><h4><span id="mmu-memory-management-unit">MMU (Memory Management Unit)</span><a href="#mmu-memory-management-unit" class="header-anchor"></a></h4><ul><li>Translate virtual address to physical address in hardware way.</li><li>Might have Virtual Address Cache and Physical Address Cache to speed up the look up.</li></ul><h4><span id="memory-management-nei-cun-guan-li">Memory Management 内存管理</span><a href="#memory-management-nei-cun-guan-li" class="header-anchor"></a></h4><ul><li>Shared Memory.</li><li>Copy on Write.</li></ul><h4><span id="page-table-ye-biao">Page Table 页表</span><a href="#page-table-ye-biao" class="header-anchor"></a></h4><ul><li>What is Page Table?</li><li>Page Table is in memory.</li></ul><h3><span id="process-jin-cheng">Process 进程</span><a href="#process-jin-cheng" class="header-anchor"></a></h3><h4><span id="daemon-process-shou-hu-jin-cheng">Daemon Process 守护进程</span><a href="#daemon-process-shou-hu-jin-cheng" class="header-anchor"></a></h4><ul><li>It could detach from terminal and run in background.</li><li>Not exit with the exit of created terminal.</li></ul><h4><span id="fork-amp-exec"><code>fork()</code> &amp; <code>exec()</code></span><a href="#fork-amp-exec" class="header-anchor"></a></h4><ul><li>First <code>fork()</code> then <code>exec()</code> to avoid lost the current state of process.<ul><li>Caused by history problem of original computer only has terminal shell to access.</li></ul></li><li>Linux uses copy-on-write to optimize the large process <code>fork()</code>.</li></ul><h4><span id="orphan-process-gu-er-jin-cheng">Orphan Process 孤儿进程</span><a href="#orphan-process-gu-er-jin-cheng" class="header-anchor"></a></h4><ul><li>Parent process terminated or crashed, creating orphan process</li><li>Re-parenting will assign orphan process to <strong>init</strong> process  in most UNIX os.</li><li>The process group mechanism in most Unix-like operating systems can be used to help protect against accidental orphaning<ul><li>in coordination with the user’s shell will try to terminate all the child processes with the “hangup” signal (SIGHUP), rather than letting them continue to run as orphans. </li><li>precisely, as part of job control, when the shell exits, because it is the “session leader” (its session id equals its process id), the corresponding login session ends, and the shell sends SIGHUP to all its jobs (internal representation of process groups).</li></ul></li></ul><h4><span id="zombie-process-jiang-shi-jin-cheng">Zombie Process 僵尸进程</span><a href="#zombie-process-jiang-shi-jin-cheng" class="header-anchor"></a></h4><ul><li>A zombie process or defunct process is a process that has completed execution (via the exit system call) but still has an entry in the process table: it is a process in the “Terminated state”. This occurs for child processes, where the entry is still needed to allow the parent process to read its child’s exit status: once the exit status is read via the wait system call, the zombie’s entry is removed from the process table and it is said to be “reaped”.</li><li>Might result in no available process id.</li></ul><h4><span id="segment-fault-duan-cuo-wu">Segment Fault 段错误</span><a href="#segment-fault-duan-cuo-wu" class="header-anchor"></a></h4><ul><li>A fault raised by hardware with memory protection, notifying an OS the software has attempted to access a restricted area of memory (a memory access violation). On standard x86 computers, this is a form of <strong>general protection fault</strong>. The OS kernel will, in response, usually perform some corrective action, generally passing the fault on to the offending process by sending the process a signal. Processes can in some cases install a custom signal handler, allowing them to recover on their own, but otherwise the OS default signal handler is used, generally causing abnormal termination of the process (a program crash), and sometimes a core dump.</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;This post contains some relative lower layer Computer System questions. Updating…&lt;/p&gt;
-&lt;p&gt;在此收录一些关于比较底层的计算机系统问题。更新中…
-    
-    </summary>
-    
-      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
-    
-    
-      <category term="Computer Architecture" scheme="https://blog.peiyuanqi.me/tags/Computer-Architecture/"/>
-    
-      <category term="Computer System" scheme="https://blog.peiyuanqi.me/tags/Computer-System/"/>
     
   </entry>
   
