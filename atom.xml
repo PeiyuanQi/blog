@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2019-06-05T04:54:29.313Z</updated>
+  <updated>2019-07-08T06:26:25.802Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Algorithms and Data Structures</title>
+    <link href="https://blog.peiyuanqi.me/2019/07/07/cs-algorithm-data-structure/"/>
+    <id>https://blog.peiyuanqi.me/2019/07/07/cs-algorithm-data-structure/</id>
+    <published>2019-07-07T15:26:25.000Z</published>
+    <updated>2019-07-08T06:26:25.802Z</updated>
+    
+    <content type="html"><![CDATA[<p>This post contains notes for common algorithms and data structures.</p><a id="more"></a><div class="toc"><!-- toc --><ul><li><a href="#graph">Graph</a></li><li><a href="#pattern-searching">Pattern Searching</a><ul><li><a href="#rabin-karp-algorithm">Rabin–Karp Algorithm</a></li><li><a href="#knuth-morris-pratt-algorithm">Knuth–Morris–Pratt Algorithm</a></li><li><a href="#boyer-moore-algorithm">Boyer–Moore Algorithm</a></li></ul></li><li><a href="#tree">Tree</a><ul><li><a href="#traversal">Traversal</a><ul><li><a href="#morris-traversal">Morris Traversal</a></li></ul></li></ul></li></ul><!-- tocstop --></div><h2><span id="graph">Graph</span><a href="#graph" class="header-anchor"></a></h2><h2><span id="pattern-searching">Pattern Searching</span><a href="#pattern-searching" class="header-anchor"></a></h2><h3><span id="rabin-karp-algorithm">Rabin–Karp Algorithm</span><a href="#rabin-karp-algorithm" class="header-anchor"></a></h3><h3><span id="knuth-morris-pratt-algorithm">Knuth–Morris–Pratt Algorithm</span><a href="#knuth-morris-pratt-algorithm" class="header-anchor"></a></h3><h3><span id="boyer-moore-algorithm">Boyer–Moore Algorithm</span><a href="#boyer-moore-algorithm" class="header-anchor"></a></h3><h2><span id="tree">Tree</span><a href="#tree" class="header-anchor"></a></h2><h3><span id="traversal">Traversal</span><a href="#traversal" class="header-anchor"></a></h3><h4><span id="morris-traversal">Morris Traversal</span><a href="#morris-traversal" class="header-anchor"></a></h4><p>Ref: <a href="https://www.cnblogs.com/AnnieKim/archive/2013/06/15/MorrisTraversal.html" target="_blank" rel="noopener">Morris Traversal方法遍历二叉树（非递归，不用栈，O(1)空间）</a></p><p>In order to achieve O(1) space complexity and O(n) time complexity for traversal problem, we could not use recursion and stack+iterative methods. Morris Traversal link last node of subtree traversal to the next node to be traversed (the current root).</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This post contains notes for common algorithms and data structures.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+      <category term="Data Structure" scheme="https://blog.peiyuanqi.me/tags/Data-Structure/"/>
+    
+      <category term="Algorithm" scheme="https://blog.peiyuanqi.me/tags/Algorithm/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#17 And Release, and Release</title>
@@ -484,34 +508,6 @@
     
     
       <category term="Spain" scheme="https://blog.peiyuanqi.me/tags/Spain/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#5到底是能有多不专注</title>
-    <link href="https://blog.peiyuanqi.me/2018/12/11/thoughts-5/"/>
-    <id>https://blog.peiyuanqi.me/2018/12/11/thoughts-5/</id>
-    <published>2018-12-12T01:00:25.000Z</published>
-    <updated>2019-01-30T04:08:43.016Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天刚在群里看到有新入学的在问找工作情况</p><p>然后看到上一届的同学回了一句</p><blockquote><p>只能说努力找准备充分的话都有机会？</p></blockquote><p>这句话放在五个月前，我听了大概就是毫无感想 是啊 努力找 准备充分 多投简历 多找内推 多刷题</p><p>简洁明了 我觉得自己可以做到</p><a id="more"></a><p>然而五个月过去了 没有达成第一个学期找到实习的目标</p><p>感觉很多时候的危机感还是在比较中得出的吧，如果所有人都找不到实习，大概也不会感到慌乱，但事实是相反的</p><p>回到“只能说”的这句话，如果现在来反思过去一个学期我没有机会的原因，大概是说准备不够充分？</p><p>一个学期过去了 除了面经和一些佛脚，LC并没有什么长进，每天也貌似在充实的学习中度过的</p><p>准备充分，到什么程度才算充分呢？</p><p>我知道三遍纯手打LC全部题带上最优解和分析那肯定是充分的，但是这种暂时超出能力之外的事情，大概目前的状态下是做不到了。</p><p>想偷懒的时候总希望又个声音能够告诉你说 够了 在这个程度就够了 你及格了</p><p>想想几年前是最厌恶这种态度的，甚至可以说是鄙夷</p><p>不过看地里往年也都是7个月的找工作时间，大概现在能做的就是及时醒悟过来，变得专注一点，做好”充分准备“，继续“努力找“，在最后的一个多月里挣扎一下吧</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天刚在群里看到有新入学的在问找工作情况&lt;/p&gt;
-&lt;p&gt;然后看到上一届的同学回了一句&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;只能说努力找准备充分的话都有机会？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这句话放在五个月前，我听了大概就是毫无感想 是啊 努力找 准备充分 多投简历 多找内推 多刷题&lt;/p&gt;
-&lt;p&gt;简洁明了 我觉得自己可以做到&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-      <category term="找工作" scheme="https://blog.peiyuanqi.me/tags/%E6%89%BE%E5%B7%A5%E4%BD%9C/"/>
     
   </entry>
   
