@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2019-09-09T23:24:01.931Z</updated>
+  <updated>2020-03-09T07:01:50.987Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -17,17 +17,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>想法#19 当他回首往事的时候</title>
-    <link href="https://blog.peiyuanqi.me/2019/08/19/thoughts-19/"/>
-    <id>https://blog.peiyuanqi.me/2019/08/19/thoughts-19/</id>
-    <published>2019-08-19T14:39:36.000Z</published>
-    <updated>2019-09-09T23:24:01.931Z</updated>
+    <title>想法#19 写在2020之春</title>
+    <link href="https://blog.peiyuanqi.me/2020/03/08/thoughts-19/"/>
+    <id>https://blog.peiyuanqi.me/2020/03/08/thoughts-19/</id>
+    <published>2020-03-08T16:00:52.000Z</published>
+    <updated>2020-03-09T07:01:50.987Z</updated>
     
-    <content type="html"><![CDATA[<p>在年初最为压抑的时候，记得承诺过需要有一个年中总结，</p><p>在年初的时候就预料到了自己接下来的生活轨迹会受到19年各种事情影响而改变。</p><p>果不其然</p><p>于是，就在这边短暂回顾一下过去八个月的折腾转行金融从动手做到放弃的过程…</p><a id="more"></a><p>其实这篇流水账拖了将近有一个月，这一个月中又发生了一些更加不能回滚的变化和决定。但是，一码归一码，那是属于Thoughts 20的事情，就不能掺杂进来。</p><p>很久以前突然（也不是那么突然）萌生了觉得并不喜欢CS行业，想要转行的想法。但是一直没有作出具体的改变，后来在机缘巧合中就开始尝试实现这个想法。</p><p>由于一些客观条件的限制，能马上进入考虑范围的，无外乎就是金融业的。</p><p>金融业是一个很大的词，每天商业银行拉存款的可以说自己在银行工作，每天给狗们萨赫忽悠客户的狗们萨赫人也能说自己在银行工作。从名气上来讲，做金融或者银行业的名气最大的，就是国内的券商和国外的投行了。</p><p>而这大概是和程序员完全没有关系的行当了…</p><p>于此同时，和学CS/Science/Engineering同学最有关系的，就是Quant和新时代的Trader了（传统的Trader大部分时候并不依靠技术和模型来办事，所以被排除在讨论之外，而且传统Trader也正在不断丧失市场份额。而所谓的新Trader，则只不过是Quant们换了一个皮）。Quant是一个很广泛意义的词，不同公司也对不同的Quant职责有着各种不同的要求。但从自己的了解感觉来看，大家都想成为大买方的前台Quant，来实现与现金和交易最近的距离。</p><p>在最开始的时候，天真的以为成为一个金融从业者，相关证件可能会有一些帮助，于是报名了CFA，但是从备考和找工作经历来看，这些问题的影响并不大。公司们更加看中相关经历的体现。从Electronic Trading Competition到local</p>]]></content>
+    <content type="html"><![CDATA[<p>首先，我是一个执行力很弱的人。依然记得在19年初生活有着诸多不顺之时告诫自己要做年中小结。结果是到了年末和新年第一季度都快过去了，也没写完。更过分的是甚至跳过了每年的年终总结。</p><p>常见的借口是，没有时间。可是，时间都去哪儿了呢？</p><p>近来因为工作日渐安顿，感觉要写点东西来记述最近的事情的紧迫感日益加强。辗转反侧之际，决定来跑一跑流水账。</p><p>我一直知道随时记录下曾经的自己的想法是很重要的。因为往往读起来会给人一种陌生感。刚刚回顾了最后几篇想法，发现那时候的我和现在的我已然大不相同。</p><p>依稀记得去年春天去学习帆船的时候。那时候刚学了击剑，感觉自己对运动的生活充满了热情。<br>夹带着有实习的喜悦，那Mariana del ray的带着海藻腥味河风吹上来，都不禁让人感觉陶醉。<br>先来还是非常怀念的。</p><p>7月以后的8月，发生了人生中的一大转折，多了一个人需要在日常生活中考虑，安排，惦记。从一开始那近似傲慢的自我，到现在已经习惯“真正”考虑别人。不得不说我自己确实变得很多。</p><p>最直接的应该就是柔和。曾经也觉得自己能体会到别人的想法，但是那时候总会带着自己三观的优越性，虽然不能说现在没有，但是这种优越性更好的被隐藏了起来，并且夹杂着真诚的理解和尊重。说得自己都有点不好意思了。</p><p>秋天回到学校以后，由于手伤，再也没有高强度的出席击剑俱乐部的训练，大概把春天所学的一切都还了回去。但是Fencing Club认识的朋友，确实让我提升了整整一个级别的slang能力，和对local的理解。这大概也要归功于fencing club的大家都是乖孩子。要是放在marshal的一些社交场合，大概我作为一个Viterbi nerd是毫无长进的机会的吧。</p><p>同时一并放弃的，大概是转行金融的想法。这更多的应该是出于更深刻的了解，毕业时间计划的改变导致操作空间的缩小，而不得不做出的所谓的“合理选择”吧。随之也放弃了一系列2020春季的骚操作，现在想来，类似的一边有实习又一边玩耍的计划正在被其他同学实践，想想也是有点不真切的感觉。不过考虑到这个春天的疫情，我就算真的在玩耍，大概也会有所顾忌吧。</p><p>想来那时候决定提前毕业的动因也是十分单纯，因为无外乎因为一个人。回想起去年夏天窝在自己的小桌子前纠结这一切，实在是非常有趣的。</p><p>在秋天学了潜水，拿了OW，但是这半年没下水的，大概又得上复习课才敢下去了。帆船课最后还是没有成功进阶，大概是因为周末都忙着和小蓝跑电影院了吧。上着三门课，摸着鱼，被Iris强制提早签了offer，挂了google，拒了其他公司，就去了EA。两次尝试去滑雪均告失败，没有仔细阅读车主指南的结果就是付出了700块的油漆钱，这还是打折价（又一次认识到了社交失能是一种很糟糕的劣势，同学们轻轻松松就认识了开车行的朋友）。<br>最后三门课也就有惊无险的过关了，毕业通知也就是一封多年前pascal还不知是VB代码生成的模版邮件。最后一天去学校的时候，还想着要录一个vlog，然而刚走出大门就放弃了。。每一个周末都过的有点梦幻，时间也就一点点的溜走了。麻将也没怎么打，游戏也没怎么玩，就到了冬天。</p><p>冬天去了意大利和新西兰，中间还回了国，可以说是十分忙碌了。感觉不断在旅行的过程中。意大利更新了我对欧洲的记忆，非常欣喜地发现，好的地方依然那么好，糟糕的地方依然这么遭。之后则是去了新西兰。让自己买的mavic mini快乐的去兜了一圈。值回票价，因为后来回国不久，就把它给摔了。</p><p>到这里都已经是20年一月中旬的事情了，大概应该在此戛然止住，更多的想法（或者说流水账），应该留在下一次了吧。</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;在年初最为压抑的时候，记得承诺过需要有一个年中总结，&lt;/p&gt;
+      
+      
+        &lt;p&gt;首先，我是一个执行力很弱的人。依然记得在19年初生活有着诸多不顺之时告诫自己要做年中小结。结果是到了年末和新年第一季度都快过去了，也没写完。更过分的是甚至跳过了每年的年终总结。&lt;/p&gt;
+&lt;p&gt;常见的借口是，没有时间。可是，时间都去哪儿了呢？&lt;/p&gt;
+&lt;p&gt;近来因为工作日渐安
+      
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法#18.5 当他回首往事的时候</title>
+    <link href="https://blog.peiyuanqi.me/2019/08/19/thoughts-18.5/"/>
+    <id>https://blog.peiyuanqi.me/2019/08/19/thoughts-18.5/</id>
+    <published>2019-08-19T14:39:36.000Z</published>
+    <updated>2020-03-09T07:00:31.402Z</updated>
+    
+    <content type="html"><![CDATA[<p>因为最后在八月也没有完成这个流水账，就暂且叫它18.5吧</p><p>在年初最为压抑的时候，记得承诺过需要有一个年中总结，</p><p>在年初的时候就预料到了自己接下来的生活轨迹会受到19年各种事情影响而改变。</p><p>果不其然</p><p>于是，就在这边短暂回顾一下过去八个月的折腾转行金融从动手做到放弃的过程…</p><a id="more"></a><p>其实这篇流水账拖了将近有一个月，这一个月中又发生了一些更加不能回滚的变化和决定。但是，一码归一码，那是属于Thoughts 20的事情，就不能掺杂进来。</p><p>很久以前突然（也不是那么突然）萌生了觉得并不喜欢CS行业，想要转行的想法。但是一直没有作出具体的改变，后来在机缘巧合中就开始尝试实现这个想法。</p><p>由于一些客观条件的限制，能马上进入考虑范围的，无外乎就是金融业的。</p><p>金融业是一个很大的词，每天商业银行拉存款的可以说自己在银行工作，每天给狗们萨赫忽悠客户的狗们萨赫人也能说自己在银行工作。从名气上来讲，做金融或者银行业的名气最大的，就是国内的券商和国外的投行了。</p><p>而这大概是和程序员完全没有关系的行当了…</p><p>于此同时，和学CS/Science/Engineering同学最有关系的，就是Quant和新时代的Trader了（传统的Trader大部分时候并不依靠技术和模型来办事，所以被排除在讨论之外，而且传统Trader也正在不断丧失市场份额。而所谓的新Trader，则只不过是Quant们换了一个皮）。Quant是一个很广泛意义的词，不同公司也对不同的Quant职责有着各种不同的要求。但从自己的了解感觉来看，大家都想成为大买方的前台Quant，来实现与现金和交易最近的距离。</p><p>在最开始的时候，天真的以为成为一个金融从业者，相关证件可能会有一些帮助，于是报名了CFA，但是从备考和找工作经历来看，这些问题的影响并不大。公司们更加看中相关经历的体现。从Electronic Trading Competition到local</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;因为最后在八月也没有完成这个流水账，就暂且叫它18.5吧&lt;/p&gt;
+&lt;p&gt;在年初最为压抑的时候，记得承诺过需要有一个年中总结，&lt;/p&gt;
 &lt;p&gt;在年初的时候就预料到了自己接下来的生活轨迹会受到19年各种事情影响而改变。&lt;/p&gt;
 &lt;p&gt;果不其然&lt;/p&gt;
 &lt;p&gt;于是，就在这边短暂回顾一下过去八个月的折腾转行金融从动手做到放弃的过程…&lt;/p&gt;
@@ -489,29 +517,6 @@
     
     
       <category term="Literature Notes" scheme="https://blog.peiyuanqi.me/tags/Literature-Notes/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Computer Graphics</title>
-    <link href="https://blog.peiyuanqi.me/2019/01/02/cs-computer-graphics/"/>
-    <id>https://blog.peiyuanqi.me/2019/01/02/cs-computer-graphics/</id>
-    <published>2019-01-02T08:31:29.000Z</published>
-    <updated>2019-01-22T23:44:33.579Z</updated>
-    
-    <content type="html"><![CDATA[<p>This post contains some knowledges of Computer Graphics. Updating…</p><p>在此收录一些关于计算机图形学的问题。更新中…<a id="more"></a></p><div class="toc"><!-- toc --><ul><li><a href="#common-questions-chang-jian-wen-ti">Common Questions 常见问题</a><ul><li><a href="#line-segment-intersection-xian-duan-jiao-dian">Line Segment Intersection 线段交点</a></li><li><a href="#point-in-triangle-pan-duan-dian-zai-san-jiao-xing-zhong">Point in Triangle 判断点在三角形中</a></li></ul></li><li><a href="#basic-knowledge-ji-chu-gai-nian">Basic Knowledge 基础概念</a><ul><li><a href="#barycentric-coordinate-chong-xin-zuo-biao">Barycentric Coordinate 重心坐标</a></li><li><a href="#detect-collision-ce-shi-peng-zhuang">Detect Collision 测试碰撞</a></li><li><a href="#line-sweep-technique-zhi-xian-sao-miao-zhuan-hua-suan-fa">Line Sweep Technique 直线扫描转化算法</a></li><li><a href="#circle-sweep-technique-yuan-de-sao-miao-zhuan-huan-suan-fa">Circle Sweep Technique 圆的扫描转换算法</a></li><li><a href="#duo-bian-xing-sao-miao-zhuan-hua-suan-fa">多边形扫描转化算法</a></li></ul></li></ul><!-- tocstop --></div><h3><span id="common-questions-chang-jian-wen-ti">Common Questions 常见问题</span><a href="#common-questions-chang-jian-wen-ti" class="header-anchor"></a></h3><h4><span id="line-segment-intersection-xian-duan-jiao-dian">Line Segment Intersection 线段交点</span><a href="#line-segment-intersection-xian-duan-jiao-dian" class="header-anchor"></a></h4><p>Line Segment $AB$ has $A(x_a, y_a)$ and $B(x_b, y_b)$.</p><p>Line Segment $CD​$ has $C(x_c, y_c)​$ and $C(x_c, y_c)​$.</p><p>Line Equations:</p><img src="/2019/01/02/cs-computer-graphics/lineEq.png" title="Line Equations"><p>Combine Equations:</p><img src="/2019/01/02/cs-computer-graphics/lineEq2.png" title="Getting Intersection"><img src="/2019/01/02/cs-computer-graphics/lineEq3.png" title="Getting Intersection"><p>And if the Determinant is 0:</p><img src="/2019/01/02/cs-computer-graphics/lineEq4.png" title="Determinant"><p>It means line segment overlap or parallel.</p><p>If not 0:</p><img src="/2019/01/02/cs-computer-graphics/lineEq5.png" title="Getting Intersection"><p>Only when $0\le \lambda \le 1, 0\le \mu \le 1$, two line segments have real intersection, otherwise, the intersection is on their extension.</p><h4><span id="point-in-triangle-pan-duan-dian-zai-san-jiao-xing-zhong">Point in Triangle 判断点在三角形中</span><a href="#point-in-triangle-pan-duan-dian-zai-san-jiao-xing-zhong" class="header-anchor"></a></h4><p>Reference:</p><p><a href="https://www.gamedev.net/forums/topic/295943-is-this-a-better-point-in-triangle-test-2d/" target="_blank" rel="noopener">GameDev</a></p><p><a href="https://stackoverflow.com/questions/2049582/how-to-determine-if-a-point-is-in-a-2d-triangle" target="_blank" rel="noopener">StackOverflow</a></p><p><a href="http://totologic.blogspot.com/2014/01/accurate-point-in-triangle-test.html" target="_blank" rel="noopener">Totologic</a></p><h5><span id="method-1">Method 1</span><a href="#method-1" class="header-anchor"></a></h5><p>The idea is checking the relative position of point to line plane. If all of them have positive, then it is in the triangle.</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">IsPointInTri</span><span class="params">(Point p, Point v1, Point v2, Point v3)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (Sign(p, v1, v2) &lt; <span class="number">0.0f</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">if</span> (Sign(p, v2, v3) &lt; <span class="number">0.0f</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">if</span> (Sign(p, v3, v1) &lt; <span class="number">0.0f</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="comment">// Or &gt; 0.0f in case of opposite winding</span></span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">float</span> <span class="title">Sign</span><span class="params">(Point v1, Point v2, Point v3)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">return</span> (v1-&gt;x - v3-&gt;x) * (v2-&gt;y - v3-&gt;y) - (v2-&gt;x - v3-&gt;x) * (v1-&gt;y - v3-&gt;y);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h5><span id="method-2">Method 2</span><a href="#method-2" class="header-anchor"></a></h5><p>Using Barycentric Coordinate System:</p><p>$x=a\times x_1 + b \times x_2 + c \times x_3$</p><p>$y = a \times y_1 + b \times y_2 + c \times y_3$</p><p>$a + b + c = 1$</p><p>$$<br>a = \frac{((y_2 - y_3)\times(x - x_3) + (x_3 - x_2)\times(y - y_3))}{((y_2 - y_3)\times(x_1 - x_3) + (x_3 - x_2)\times(y_1 - y_3))}<br>$$</p><p>$$<br>b = \frac{((y_3 - y_1)\times(x - x_3) + (x_1 - x_3)\times(y - y_3))}{((y_2 - y_3)\times(x_1 - x_3) + (x_3 - x_2)\times(y_1 - y_3))}<br>$$</p><p>$$<br>c = 1 - a - b<br>$$<br><em>p</em> lies in <em>T</em> if and only if $0 \le a \le 1$ and $0 \le b \le 1$ and $0 \le c \le 1$.</p><h3><span id="basic-knowledge-ji-chu-gai-nian">Basic Knowledge 基础概念</span><a href="#basic-knowledge-ji-chu-gai-nian" class="header-anchor"></a></h3><h4><span id="barycentric-coordinate-chong-xin-zuo-biao">Barycentric Coordinate 重心坐标</span><a href="#barycentric-coordinate-chong-xin-zuo-biao" class="header-anchor"></a></h4><p>Let  $x_1, …, x_n$ be the vertices of a simplex in an affine space $A$. If, for some point  $p$ in $A$,<br>$$<br>(\lambda_1 + \cdots + \lambda_n)p = \lambda_1 x_1 + \cdots +\lambda_n x_n<br>$$<br>and at least one of $\lambda_1,…,\lambda_n$ does not vanish then we say the coefficients $\lambda_1,…,\lambda_n$ are barycentric coordinates of $p$ with respect to $x_1, …, x_n$.</p><p>Barycentric Coordinate is not unique:</p><p>$b\lambda_1,…,b\lambda_n$ where $b \ne 0$.</p><h4><span id="detect-collision-ce-shi-peng-zhuang">Detect Collision 测试碰撞</span><a href="#detect-collision-ce-shi-peng-zhuang" class="header-anchor"></a></h4><p>Minkowski difference and Minkowski sum.</p><h4><span id="line-sweep-technique-zhi-xian-sao-miao-zhuan-hua-suan-fa">Line Sweep Technique 直线扫描转化算法</span><a href="#line-sweep-technique-zhi-xian-sao-miao-zhuan-hua-suan-fa" class="header-anchor"></a></h4><h5><span id="dda-algorithm-shu-zhi-wei-fen-fa-digital-differential-analyzer">DDA Algorithm (数值微分法 Digital Differential Analyzer)</span><a href="#dda-algorithm-shu-zhi-wei-fen-fa-digital-differential-analyzer" class="header-anchor"></a></h5><h5><span id="zhong-dian-hua-xian-fa">中点画线法</span><a href="#zhong-dian-hua-xian-fa" class="header-anchor"></a></h5><h5><span id="bresenham-algorithm">Bresenham Algorithm</span><a href="#bresenham-algorithm" class="header-anchor"></a></h5><h4><span id="circle-sweep-technique-yuan-de-sao-miao-zhuan-huan-suan-fa">Circle Sweep Technique 圆的扫描转换算法</span><a href="#circle-sweep-technique-yuan-de-sao-miao-zhuan-huan-suan-fa" class="header-anchor"></a></h4><h5><span id="bresenham-algorithm">Bresenham Algorithm</span><a href="#bresenham-algorithm" class="header-anchor"></a></h5><p>####Flood Filling &amp; Scan Line Seed Filling</p><h4><span id="duo-bian-xing-sao-miao-zhuan-hua-suan-fa">多边形扫描转化算法</span><a href="#duo-bian-xing-sao-miao-zhuan-hua-suan-fa" class="header-anchor"></a></h4>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;This post contains some knowledges of Computer Graphics. Updating…&lt;/p&gt;
-&lt;p&gt;在此收录一些关于计算机图形学的问题。更新中…
-    
-    </summary>
-    
-      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
-    
-    
-      <category term="Computer Graphics" scheme="https://blog.peiyuanqi.me/tags/Computer-Graphics/"/>
     
   </entry>
   
