@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2020-03-09T07:01:50.987Z</updated>
+  <updated>2020-04-24T03:55:28.925Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想法#21 Remember, No Russian</title>
+    <link href="https://blog.peiyuanqi.me/2020/04/23/thoughts-21/"/>
+    <id>https://blog.peiyuanqi.me/2020/04/23/thoughts-21/</id>
+    <published>2020-04-23T12:26:43.000Z</published>
+    <updated>2020-04-24T03:55:28.925Z</updated>
+    
+    <content type="html"><![CDATA[<p>只是突然看到Jack Frag的视频，和里面的一句Comment突然想到的。</p><a id="more"></a><blockquote><p>此文谨代表个人观点，与美国艺电股份有限公司无关</p></blockquote><p>Well，Jack的视频是说Dice最近发布了一篇通告，含义大概是，Battlefield 5不再会拥有任何更新，进入了生命周期的尾声。非常简单，非常正常。但是随之带来的问题确是，这部以二战为核心的行业FPS焦点，却落下了重要的参与者USSR。</p><p>这就是评论中提到的</p><blockquote><p>Remember, No Russian<br>的来源。</p></blockquote><p>BF 5 的Producer对USSR充满了个人偏见，即使是大部分玩家所希冀的，他始终不愿意将USSR放入到游戏当中。与之相关的访谈甚至导致Twitter上的ApologyToUSSR的标签产生。</p><p>然而后来还有把anti nazi hero的名字放在了SS军官的身上的事件，这次倒是飞快纠正和道歉了。。</p><p>曾经作为局外人，总觉得这一系列真是智障并且无法理解并且和钱过不去并且和老本行离经叛道的行为。</p><p>然而现在有机会进行更近距离的观察以后，却发现一切并不是这么简单。</p><p>无处不在的，是一种被社会裹挟的无能为力感。无论是最早BF 5用女性英军士兵来彰显自己的平权理念，到后来的各种无法通过高中会考的历史观（包括SAT，不要说会考被rigged huaji.jpg</p><p>这些常人看来智障的行为之所以被实践了，并不是实践者都是如此的纯真导致的，而是背后强大的推动力量。而这些推动力量，绝不是小小的game designer所能阻挡的。</p><p>当一个空降的senior creative director告诉你，她要实践来自东海岸优秀的NGO的营销理念，并掌握这强大的MBA话术的时候，大概designer只能拿着免费游戏，回家去吐吐槽把。</p><p>大概就是这样。。</p><p>所以说，大部分时候，大家真的很喜欢互相创造就业机会，而不是to infinity and beyond呢</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;只是突然看到Jack Frag的视频，和里面的一句Comment突然想到的。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法#20 当Druid不再能被翻译成德鲁伊</title>
+    <link href="https://blog.peiyuanqi.me/2020/04/12/thoughts-20/"/>
+    <id>https://blog.peiyuanqi.me/2020/04/12/thoughts-20/</id>
+    <published>2020-04-13T02:49:59.000Z</published>
+    <updated>2020-04-24T03:55:28.925Z</updated>
+    
+    <content type="html"><![CDATA[<p>偶然看到一篇知乎一篇不知哪个新程序员写的文章所想到的。</p><p>开头一句</p><blockquote><p>“谷歌居然将Druid翻译成德鲁伊“</p></blockquote><p>诚然我相信这位程序员想要表达的是作为一个科技企业的翻译软件，怎么能够不根据语境来优化这个翻译，让他能在不同语义下表达apache druid或者德鲁伊的概念呢？</p><p>（虽然可能输入的语句过短，根本不能进行任何推断导致谷歌翻译提供了默认值）</p><p>但是，还记没多久之前，程序员还是个小众行业，每个程序员又或多或少的玩过nerd游戏，知道过那个在树林间穿梭的爱护生命的理想群体。</p><p>Druid在被奇幻文学和游戏借鉴之前，又早在英格兰的对凯尔特人的回忆中就已经出现了。原来本是一群多神原教崇拜者的泛称。而今的含义，已经是第三次的变化，从一个虚构的神秘群体，变成了现实的数据库系统。</p><p>几乎可以揣测，apache druid被命名的时候，那只是某个nerd programmer的玩笑，可能是为了纪念他最喜爱的游戏中的职业吧。但是时代的变化最后总是让一些事情的本来面目被时间河流的泥沙所掩盖。</p><p>想来microsoft即将开源自己命名为Gandalf的监控系统，大概没过几年，大概就会有这样的感叹：</p><blockquote><p>有道居然把Gandalf翻译成甘道夫？？</p></blockquote><p>只是感叹时代的变化，也许这就是个上世纪出生的人会说的话了吧…</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;偶然看到一篇知乎一篇不知哪个新程序员写的文章所想到的。&lt;/p&gt;
+&lt;p&gt;开头一句&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“谷歌居然将Druid翻译成德鲁伊“&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;诚然我相信这位程序员想要表达的是作为一个科技企业的翻译软件，怎么能够不根据
+      
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#19 写在2020之春</title>
@@ -471,52 +523,6 @@
     
     
       <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#6重拾成功学</title>
-    <link href="https://blog.peiyuanqi.me/2019/01/29/thoughts-6/"/>
-    <id>https://blog.peiyuanqi.me/2019/01/29/thoughts-6/</id>
-    <published>2019-01-29T12:05:43.000Z</published>
-    <updated>2019-01-30T04:08:37.809Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天在微博关注的一个政策大V文章里看到了一个大家都懂得道理，每个人的敌人也就三样：</p><p>懒惰、幻想、和被我忘了的第三个</p><a id="more"></a><p>重点是前两个，所以我就把第三个忘了😂</p><p>之前说要提高执行力，而执行力的最大阻碍就是懒惰。近日由于前段时间的松懈，不得不说执行力又掉回了去年的水平。</p><p>第二个缺点是幻想，一种让人失去充分前进动力，并极度浪费时间的事情。</p><p>适当的幻想，或者说场景预演，有利于：工作执行、学习计划、写作 🙄️</p><p>但是过度的话 就浪费时间，而且容易产生挫折感</p><p>如果说到自己最近的状态的话，还得加上一个一直没有改掉的三个老毛病：</p><ul><li>说”不”</li><li>自以为是</li><li>个人问题</li></ul><p>不会说”不”严重影响了自己专注于需要做的事情的时间和精力。</p><p>自以为是总是导致在需要展示某些能力的时候没有很好的展现相关能力</p><p>个人问题就不讨论了=-=</p><p>大概就是这样……</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天在微博关注的一个政策大V文章里看到了一个大家都懂得道理，每个人的敌人也就三样：&lt;/p&gt;
-&lt;p&gt;懒惰、幻想、和被我忘了的第三个&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs Literature Notes</title>
-    <link href="https://blog.peiyuanqi.me/2019/01/13/cs-mapf-scheduling/"/>
-    <id>https://blog.peiyuanqi.me/2019/01/13/cs-mapf-scheduling/</id>
-    <published>2019-01-13T15:50:35.000Z</published>
-    <updated>2019-01-14T07:53:38.066Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>Roman Barták, Jirí Švancara, and Marek Vlk. 2018. A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs. In <em>Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems</em> (AAMAS ‘18). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 748-756.</strong></p><p>The paper proposes a new approach for MAPF problem. Modeling the path finding problem into a scheduling problem, regarding the presence of an agent at a node as an activity to be scheduled allows solver to solve the problem in constraint programming way.</p><a id="more"></a><p>All the activities are optional and there are three types of activities:</p><p>$N[x,a]$, $N^{out}[x,a]$, and $N^{in}[x,a]$.</p><p>The length of each edge is regarded as unit length in single-layer model and then will be modified in further development.</p><p>With all constrains, the makespan of problem is the object to be minimized in the scheduling model.</p><p>Traditional solutions simplify the problem on length of edges and the times an agent could visit a node. To extend the original model for different lengths of edges and multiple visits to a node, they develop multi-layer model.</p><p>Transition between layers does not cost any time and going to different layers means multiple visits to the node. The maximum visits to a node is the number of layers in this situation.</p><p>The algorithm to solve this problem in this model is adding layers from 1 to estimated number. It speeds up the process to find proper sufficient layers, for the estimated method might give a pretty large estimated layer number.</p><p>Compared with traditional solver like SAT reduced method, the new scheduling based solver is more efficient for different lengths of edges between nodes, which is more realistic than the traditional models.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;Roman Barták, Jirí Švancara, and Marek Vlk. 2018. A Scheduling-Based Approach to Multi-Agent Path Finding with Weighted and Capacitated Arcs. In &lt;em&gt;Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems&lt;/em&gt; (AAMAS ‘18). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 748-756.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The paper proposes a new approach for MAPF problem. Modeling the path finding problem into a scheduling problem, regarding the presence of an agent at a node as an activity to be scheduled allows solver to solve the problem in constraint programming way.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
-    
-    
-      <category term="Literature Notes" scheme="https://blog.peiyuanqi.me/tags/Literature-Notes/"/>
     
   </entry>
   
