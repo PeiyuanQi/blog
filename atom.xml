@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2020-04-24T03:55:28.925Z</updated>
+  <updated>2020-06-19T07:10:17.588Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>cs-grpc-eks</title>
+    <link href="https://blog.peiyuanqi.me/2020/06/18/cs-grpc-eks/"/>
+    <id>https://blog.peiyuanqi.me/2020/06/18/cs-grpc-eks/</id>
+    <published>2020-06-18T15:38:57.000Z</published>
+    <updated>2020-06-19T07:10:17.588Z</updated>
+    
+    <content type="html"><![CDATA[<p>Recently I have stopped writing tech related posts, and the main reason is I could not invest enough time into tech to make my post not a redundant of other peoples solution / article / medium post / stackvoerflow answers.</p><p>However, due to the painful set up progress of gRPC service on AWS EKS. I think finally I get something to talk about.</p><p>The problem here we try to solve is we want to put a gRPC server in AWS Elastic Kubernetes Service. </p><a id="more"></a><blockquote><p>This post assume the readers have enough knowledge about AWS, Load Balancers of AWS, EKS basic, Kubernetes Basic.</p></blockquote><p>If you learn a little about gRPC, you will know it uses HTTP2 connection and require level 7 load balancing. In AWS, until this post is written, there is no support from provided load balancers. (Though AWS plans to launch Application Load Balancer with this feature next month, so basically this is a dead post :P)</p><p>So we need something in between to perform the load balancing. You have lots of choices, i.g. Nginx-Ingress-Controller, Envoy, etc.</p><p>We use Nginx-Ingress-Controller (NIC) just out of no reason.</p><p>We happily set up the NIC, our server is running in EKS and everything is good. Then we come to the TLS termination problem.</p><p>You see, NIC has Helm chart, so there is no way for us to set up NIC manually, which results in I have few understanding of how exactly NIC works.</p><p>In the chart README, it mentions sometimes user need to terminate TLS at Network Load Balancer (NLB) of AWS, so I think, </p><blockquote><p>we need to terminate TLS, and the README mentioned something about terminate TLS, then they should be the same thing.</p></blockquote><p>It turns out not.</p><p>TLS can be terminated at NLB, but it can also terminated at the Nginx Pod created by NIC as well.</p><p>What makes thing become worse is I also ignored the code in the ingress file of the gRPC example from NIC repo.</p><p>So I set TLS termination at NLB, and then drop the proper TLS termination code in ingress, and start testing. Certainly, it does not work. I immediately reach out for help from my infra team.</p><p>My infra team successfully figured out I forget the TLS in ingress problem, though they has few knowledge about NIC. But the problem is they think manually manage certificate is so complicated, so we should Amazon Certificate Manager (ACM).</p><p>Starting from this point, my exploration is officially yawed. Because at this point, NIC does not support ACM.</p><p>It tooks me 1 week and even reach for AWS support, then I realized we could not use ACM at all. The gRPC service is immediately working after I realized the problem and apply for a single certificate to encrypt my TLS connection from IT and set it up…</p><p>Basically, at least, I should always finish those ugly unreadable document and do not easily trust other’s proposal if they are not really experienced in that part….</p><p>Hope it will help somebody.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Recently I have stopped writing tech related posts, and the main reason is I could not invest enough time into tech to make my post not a redundant of other peoples solution / article / medium post / stackvoerflow answers.&lt;/p&gt;
+&lt;p&gt;However, due to the painful set up progress of gRPC service on AWS EKS. I think finally I get something to talk about.&lt;/p&gt;
+&lt;p&gt;The problem here we try to solve is we want to put a gRPC server in AWS Elastic Kubernetes Service. &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="gRPC" scheme="https://blog.peiyuanqi.me/tags/gRPC/"/>
+    
+      <category term="AWS EKS" scheme="https://blog.peiyuanqi.me/tags/AWS-EKS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法#22 How to get rich - Takeaway and Eat-in</title>
+    <link href="https://blog.peiyuanqi.me/2020/05/04/thoughts-22/"/>
+    <id>https://blog.peiyuanqi.me/2020/05/04/thoughts-22/</id>
+    <published>2020-05-05T00:24:49.000Z</published>
+    <updated>2020-05-05T23:30:17.645Z</updated>
+    
+    <content type="html"><![CDATA[<p>哈哈哈哈哈哈…… (送给看到标题一愣的读者</p><p>这是篇鸡汤浓缩物和一些已经知道的事实的再次回顾。</p><p>昨天在闲暇中，看了拖了几个月的Naval Ravikant关于如何增长Wealth的podcast采访文稿，感觉有赞同的，有反对的，又有一些想法，所以一一记录下来。</p><p>想起来第一次看到这篇文章并转发给某同学的时候，某同学嗤之以鼻并表示震惊于我也会看这种文章，可以说是很掉价了。</p><p>所以这篇Post叫做Takeaway and Eat-in指的是什么，也大概就清楚了。</p><a id="more"></a><p><a href="https://nav.al/rich" target="_blank" rel="noopener">How to get rich 原文链接</a></p><p>采访的核心，就是Naval这个成功于硅谷的印度裔投资人来讲讲他觉得成功的一些要素，并且鼓吹一些自己的三观，并不能根本上解决问题，也没有什么可以具体实践的方案，并不能帮民工如我离开现在的困境，也不会给富贵如某些同学创造改变命运的灵魂震撼，非常老套的主题。但我浪费了我那价值5000美金一小时的个人抱负时薪来写这么一篇文章，主要还是因为它能给现在的我一些复习，让我不忘了以前给自己挖掘出来的一些标准…</p><h3><span id="wealth-is-good-status-is-necessary-evil-free-market-is-intrinsic"><strong>Wealth is Good, Status is Necessary Evil, Free Market is Intrinsic</strong></span><a href="#wealth-is-good-status-is-necessary-evil-free-market-is-intrinsic" class="header-anchor"></a></h3><p>首先呢，最需要解决的是，为什么想要获得财富（Wealth），Naval成功创造了一套自洽的三观，那就是所有的社会关系简化成了Wealth，Status两个游戏。并且称关于地位（Status）的游戏是零和游戏,是社会必要的恶(Necessary Evil)，我们并不需要，而关于财富的游戏则是正和游戏。财富并不代表有钱，它是生产钱的能力，比如你努力奋斗创造的IP。</p><p>这成功的辩护了投资者的存在必要性，因为资本作为一种生产资料，在Naval的三观中是非常有价值并且应该是去决定作用的。（看着和伟大的无产阶级道路有点偏差，而且确实貌似是有点偏差。</p><p>接着，Naval提出只有生产者和消费者的社会肯定是不稳定的，不符合人类的天性，举出了委内瑞拉的例子（真是深得春秋笔法精髓），证明了，我们需要像润滑剂一样的商人和资本来为这个社会调控资源，更加体现了自己作为企业家的正义性和神圣性。</p><h3><span id="wealth-is-freedom"><strong>Wealth is Freedom</strong></span><a href="#wealth-is-freedom" class="header-anchor"></a></h3><p>那我们之所以要争取财富，是因为财富能够买来我们的自由，请大家一定要记住这一点，因为这个开头，非常的美好，充满了文艺的气息，让人不自觉地失去了铜臭味呢。</p><blockquote><p>- 你为什么要变富有</p><p>- 因为我向往自由</p></blockquote><p>哈哈哈哈哈……</p><p>但是确实，拥有这个所谓的财富（Wealth）确实能够省下来很多时间，并且让你能够做更多的事情（如果你有更多的事情可以做的话）。</p><blockquote><p>题外话：</p><p>关于有趣，记得看到在动森的一个测评中，B站Up主非常自傲的说，动森是一个非常需要玩家有趣的游戏，如果生活中你是一个有趣的人，那么你能在动森中找到各种玩法，而不是简单还贷款，而如果你是一个无趣的人，则会发现这个游戏也不怎么有趣。（然后Up主被弹幕骂得被迫道歉了（（虽然骂的另外一个主要原因是因为过分的渲染一种玩动森就是撩妹的立场</p><p>这句话确实过于自大，但是从一定角度上也说明了问题，很多人可能觉得因为疫情宅在家里无事可做，但可能本来能出门的时候也只是把一些可有可无的事情来填充满自己的时间，留给自己感兴趣的时间却不多，久而有之，也就失去了所有的兴趣。这大概是有点惨的吧。</p></blockquote><p>所以，Naval觉得我们追求财富的核心，应该是向往一种自由，不被一份工作，一份工资，一份伙食所纠缠的自由，这大概是很有诗意的目标了。</p><hr><p>接下来的，是我表示赞同或者不赞同的地方，写在前面的，是比较醒目的，写在后面的则是不太有感慨的了，至于没写的，我都没写还用问吗。</p><h3><span id="don-t-rent-out-your-time"><strong>Don’t Rent Out Your Time</strong></span><a href="#don-t-rent-out-your-time" class="header-anchor"></a></h3><p>这是一个非常没有创意的变富有建议了，每个人都说打工成不了富人。但现实确是打工能成为中产。那么问题来了，中产能不能跃升到资产阶级呢？Naval觉得不行，他称之为Salary Trap，似乎是这么一个道理，若即若离患得患失，就是一份工作糟糕的地方了。这时候他又搬出了塔勒布（相比最近因为Cov19大家对这个名字大概没那么陌生），“最危险的东西是海洛因，和一份月薪”。对，也不对，毕竟塔勒布现在也不是贝佐斯，你Naval也没有成为Paypal Mafia的一员。</p><h3><span id="set-an-aspirational-hourly-rate"><strong>Set An Aspirational Hourly Rate</strong></span><a href="#set-an-aspirational-hourly-rate" class="header-anchor"></a></h3><p>简单讲，就是要定一个属于自己的时薪，只要花钱找人做一件事情低于你的时薪，那么这件事情花钱做就是赚到了。</p><p>很多人会说这是偷懒的借口，但现在从Naval的角度来看，可以成功的分清楚到底是想变富还是想偷懒了。如果 Don’t Rent Out Your Time是为了把时间用在为了奋斗出更多的财富来的话（在Naval看来只有三件事，为能创造财富的事情而奋斗，为了奋斗而健康饮食，为了奋斗而保持身体健康），那就是想变富而节约时间；反之如果是为了其他事情，那就是偷懒了。</p><p>其实我自己也有一个对应的Hourly Rate，但它并不Aspirational，而是就是我现在的时薪，但Naval的意见是，应该越高越好，高到离谱最好，所以他提出至少5000美金/小时。行吧，但是我如果这个小时不用来除杂草的话，我也是去打钢铁雄心去了，并不觉得会挣到这5000美金呀🤷‍♂️。</p><h3><span id="too-busy-to-do-coffee-no-meeting"><strong>Too Busy to Do Coffee, No Meeting</strong></span><a href="#too-busy-to-do-coffee-no-meeting" class="header-anchor"></a></h3><p>因为之前给自己时薪定这么高，那么显然买杯咖啡才是最合算的，毕竟泡咖啡还要好几分钟了。。。</p><p>不过深以为然的，是其中一句话，</p><blockquote><p>If someone wants a meeting, see if they will do a call instead. If they want to call, see if they will email instead. If they want to email, see if they will text instead. And you probably should ignore most text messages—unless they’re true emergencies.</p></blockquote><p>前两天画了个图，感觉meeting的价值是一个 $y=\frac{\sqrt{10x}}{1+x^{5}}$, $x$ 是一个人的时间宝贵程度，$y$则是meeting能给人带来的价值…</p><h3><span id="live-below-your-means-for-freedom"><strong>Live Below Your Means for Freedom</strong></span><a href="#live-below-your-means-for-freedom" class="header-anchor"></a></h3><p>这一点之前是始终保持知道但不实践的，确实只要降低生活标准，那么来自于财富能够给予的Freedom自然也就更多，因为你有更多财富积累下来想干啥干啥了呀。需要注意的是，我觉得从这点开始，这个访谈的内容开始跑偏了，开头的诗与远方，自由与财富的追求，和钱多能买更多东西这个“庸俗“的观念越来越近了呢。</p><h3><span id="mysterious-specific-knowledge"><strong>Mysterious Specific Knowledge</strong></span><a href="#mysterious-specific-knowledge" class="header-anchor"></a></h3><p>他反复强调了一种叫做具体能力的东西，无外乎就是我们常说的抽象技能，更方法论一点的技能，而不是具体做什么的技能。妇孺皆知，下一个。</p><h3><span id="i-know-start-up"><strong>I Know Start-up</strong></span><a href="#i-know-start-up" class="header-anchor"></a></h3><p>这一系列的建议，我通通称为 I know start up / Silicon Valley 系列，由于Naval的自己背景，一个硅谷的投资人身份，他非常支持创业（拥有自己的IP，赚取equity），并且开口闭口，塔勒布，Musk，PayPal Mafia。</p><h3><span id="long-term"><strong>Long Term</strong></span><a href="#long-term" class="header-anchor"></a></h3><p>看事情，交朋友，做项目，长远点，总没错。</p><h3><span id="partner-friend"><strong>Partner，Friend</strong></span><a href="#partner-friend" class="header-anchor"></a></h3><p>在关于合作伙伴，朋友的问题上，Naval就是很简单，标准越高越好，越优秀越好，真的是外婆都知道的道理系列。。<br>当然他更睿智的指出，如果开始创业伙伴不再能满足需求了，请一脚踢开，嗯，很有道理，但是并没这么简单么。</p><h3><span id="i-d-rather-teach-an-engineer-marketing-than-a-marketer-engineering"><strong>I’d rather teach an engineer marketing, than a marketer engineering.</strong></span><a href="#i-d-rather-teach-an-engineer-marketing-than-a-marketer-engineering" class="header-anchor"></a></h3><p>这句话是盖茨说的，很直白，大家都懂。别本科读商。</p><p>再说一遍，别本科读商。</p><p>除非你想参加兄弟会的话…那另说…</p><h3><span id="accountability"><strong>Accountability</strong></span><a href="#accountability" class="header-anchor"></a></h3><p>关于负责，他说了很多，最关键的是关于用承担责任来赚钱这件事情，并不太懂，但是他觉得这是新时代比劳动力和资本更能赚钱的东西，也许以后会有责任主义的出现吧。</p><h3><span id="a-house-full-of-love"><strong>A House Full of Love</strong></span><a href="#a-house-full-of-love" class="header-anchor"></a></h3><p>他说的好像这个东西不用花时间一样，真的让我一头三个问号了…然后他讲到这里突然跳出来一句说等你真的变富有了你会需要这个的..行，老哥你毕竟牛…</p><p>然后就是一堆关于创业的小tips了。。。并不想转述。。</p><hr><p>总之，读下来并没有获得太多的新知识，但是有的时候低头走路太久了，抬头回顾世界有多大，还是很好的。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;哈哈哈哈哈哈…… (送给看到标题一愣的读者&lt;/p&gt;
+&lt;p&gt;这是篇鸡汤浓缩物和一些已经知道的事实的再次回顾。&lt;/p&gt;
+&lt;p&gt;昨天在闲暇中，看了拖了几个月的Naval Ravikant关于如何增长Wealth的podcast采访文稿，感觉有赞同的，有反对的，又有一些想法，所以一一记录下来。&lt;/p&gt;
+&lt;p&gt;想起来第一次看到这篇文章并转发给某同学的时候，某同学嗤之以鼻并表示震惊于我也会看这种文章，可以说是很掉价了。&lt;/p&gt;
+&lt;p&gt;所以这篇Post叫做Takeaway and Eat-in指的是什么，也大概就清楚了。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#21 Remember, No Russian</title>
@@ -460,62 +512,6 @@
 &lt;p&gt;有趣&lt;/p&gt;
 
       
-    
-    </summary>
-    
-      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Conflict-Based Search For Optimal Multi-Agent Path Finding</title>
-    <link href="https://blog.peiyuanqi.me/2019/02/08/cs-conflict-based-search-for-mapf/"/>
-    <id>https://blog.peiyuanqi.me/2019/02/08/cs-conflict-based-search-for-mapf/</id>
-    <published>2019-02-09T01:58:23.000Z</published>
-    <updated>2019-02-09T17:58:23.605Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>CBS is a two-level algorithm.</p><p>At the high level, a search is performed on a tree based on conflicts between agents. At the low level, a search is performed only for a single agent at a time.</p></blockquote><a id="more"></a><p>Unlike A*-search being exponential in the number of agents for MAPF problem, the high-level CBS is </p><blockquote><p>exponential in the number of conflicts encountered during the solving process.</p></blockquote><h4><span id="high-level">High Level</span><a href="#high-level" class="header-anchor"></a></h4><p>In high level, CBS construct binary tree named constrain tree. Each node has a set of constrains, a solution, and the total cost for this solution (a set of paths). </p><blockquote><p>If all agents reach their goal without any conflict, this CT node N is declared as the goal node.</p></blockquote><p>If there is a conflict, $C_n = (a_i, a_j, v, t)$. To guarantee optimality, one child add constrain $(a_i, v, t)$, the other add $(a_j, v, t)$.</p><h4><span id="low-level">Low Level</span><a href="#low-level" class="header-anchor"></a></h4><p>In low-level, each agent finds its own path disregarding other agents. Check low-level Conflict voidance table (CAT) to avoid conflicts. When two low-level states have same cost value, the state with smallest number of conflicts in CAT is preferred.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;CBS is a two-level algorithm.&lt;/p&gt;
-&lt;p&gt;At the high level, a search is performed on a tree based on conflicts between agents. At the low level, a search is performed only for a single agent at a time.&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
-    
-    
-      <category term="Literature Notes" scheme="https://blog.peiyuanqi.me/tags/Literature-Notes/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#7以及鸡汤</title>
-    <link href="https://blog.peiyuanqi.me/2019/01/31/thoughts-7/"/>
-    <id>https://blog.peiyuanqi.me/2019/01/31/thoughts-7/</id>
-    <published>2019-01-31T14:48:06.000Z</published>
-    <updated>2019-02-01T06:50:26.965Z</updated>
-    
-    <content type="html"><![CDATA[<p>接上一篇想法…</p><p>说的好像我是记得上一篇完全没提成功学三个字而放到这边来讲一样的🙄️</p><p>然而事实就是我只是看到了个鸡汤视频突然迫切的想记录下来</p><p><a href="https://www.youtube.com/watch?v=0gFgNsH9raI" target="_blank" rel="noopener">Everyone has their own time and clock</a></p><p>讲的就是要过自己的生活，别被他人定义自己应该活成什么样</p><p>但是貌似有趣的是，这一系列的影片都是这位 Jay Shetty 是一位印度裔英国人拍摄的，然后场景中邀请的演员都是印度裔年轻人。</p><p>然后故事中被定义的人生是：</p><p>上大学-找工作-买房-结婚-…</p><p>有趣</p><p>听起来和码农有点像…😏除了结婚那条</p><a id="more"></a><p>而且巧的是在湾区和比国人更多的就是视频里各位学生的老乡们了…</p><p>前段时间非常反感找工作这件事情，觉得这简直就是浪费了整个人生…</p><p>是一种如此固定的未来的恐惧</p><p>当然 最近没有这么想了，因为</p><p><strong>其一 不一定找得到工作</strong></p><p><strong>其二 找到了工作与不一定不会被裁员</strong></p><p>以上两点严重影响了最近的个人追求和努力方向，进而导致了探索各种不同的发展方向，从而获得了一种更让人感到愉快的未知感……</p><p>所以说可以是把前段时间被残酷现实摔打到感悟到的道理被再次加强了吧，特此记录</p><p>与此同时，考虑到曾经对各类鸡汤的鄙夷，现在看来对这种入门鸡汤都能有所感悟，大概真的是年纪大到了能够喝鸡汤的程度了吧😂</p><p>想来有点无奈</p><p>此时就要背诵一篇 伤仲永 了吧 🤷‍♂️</p><p>以上就是关于鸡汤的一些想法</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;接上一篇想法…&lt;/p&gt;
-&lt;p&gt;说的好像我是记得上一篇完全没提成功学三个字而放到这边来讲一样的🙄️&lt;/p&gt;
-&lt;p&gt;然而事实就是我只是看到了个鸡汤视频突然迫切的想记录下来&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=0gFgNsH9raI&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Everyone has their own time and clock&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;讲的就是要过自己的生活，别被他人定义自己应该活成什么样&lt;/p&gt;
-&lt;p&gt;但是貌似有趣的是，这一系列的影片都是这位 Jay Shetty 是一位印度裔英国人拍摄的，然后场景中邀请的演员都是印度裔年轻人。&lt;/p&gt;
-&lt;p&gt;然后故事中被定义的人生是：&lt;/p&gt;
-&lt;p&gt;上大学-找工作-买房-结婚-…&lt;/p&gt;
-&lt;p&gt;有趣&lt;/p&gt;
-&lt;p&gt;听起来和码农有点像…😏除了结婚那条&lt;/p&gt;
     
     </summary>
     
