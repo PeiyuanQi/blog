@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2020-06-19T07:10:17.588Z</updated>
+  <updated>2020-06-19T07:13:05.293Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>cs-grpc-eks</title>
+    <title>gRPC in EKS with Nginx-Ingress-Controller, the real takeaway</title>
     <link href="https://blog.peiyuanqi.me/2020/06/18/cs-grpc-eks/"/>
     <id>https://blog.peiyuanqi.me/2020/06/18/cs-grpc-eks/</id>
     <published>2020-06-18T15:38:57.000Z</published>
-    <updated>2020-06-19T07:10:17.588Z</updated>
+    <updated>2020-06-19T07:13:05.293Z</updated>
     
     <content type="html"><![CDATA[<p>Recently I have stopped writing tech related posts, and the main reason is I could not invest enough time into tech to make my post not a redundant of other peoples solution / article / medium post / stackvoerflow answers.</p><p>However, due to the painful set up progress of gRPC service on AWS EKS. I think finally I get something to talk about.</p><p>The problem here we try to solve is we want to put a gRPC server in AWS Elastic Kubernetes Service. </p><a id="more"></a><blockquote><p>This post assume the readers have enough knowledge about AWS, Load Balancers of AWS, EKS basic, Kubernetes Basic.</p></blockquote><p>If you learn a little about gRPC, you will know it uses HTTP2 connection and require level 7 load balancing. In AWS, until this post is written, there is no support from provided load balancers. (Though AWS plans to launch Application Load Balancer with this feature next month, so basically this is a dead post :P)</p><p>So we need something in between to perform the load balancing. You have lots of choices, i.g. Nginx-Ingress-Controller, Envoy, etc.</p><p>We use Nginx-Ingress-Controller (NIC) just out of no reason.</p><p>We happily set up the NIC, our server is running in EKS and everything is good. Then we come to the TLS termination problem.</p><p>You see, NIC has Helm chart, so there is no way for us to set up NIC manually, which results in I have few understanding of how exactly NIC works.</p><p>In the chart README, it mentions sometimes user need to terminate TLS at Network Load Balancer (NLB) of AWS, so I think, </p><blockquote><p>we need to terminate TLS, and the README mentioned something about terminate TLS, then they should be the same thing.</p></blockquote><p>It turns out not.</p><p>TLS can be terminated at NLB, but it can also terminated at the Nginx Pod created by NIC as well.</p><p>What makes thing become worse is I also ignored the code in the ingress file of the gRPC example from NIC repo.</p><p>So I set TLS termination at NLB, and then drop the proper TLS termination code in ingress, and start testing. Certainly, it does not work. I immediately reach out for help from my infra team.</p><p>My infra team successfully figured out I forget the TLS in ingress problem, though they has few knowledge about NIC. But the problem is they think manually manage certificate is so complicated, so we should Amazon Certificate Manager (ACM).</p><p>Starting from this point, my exploration is officially yawed. Because at this point, NIC does not support ACM.</p><p>It tooks me 1 week and even reach for AWS support, then I realized we could not use ACM at all. The gRPC service is immediately working after I realized the problem and apply for a single certificate to encrypt my TLS connection from IT and set it up…</p><p>Basically, at least, I should always finish those ugly unreadable document and do not easily trust other’s proposal if they are not really experienced in that part….</p><p>Hope it will help somebody.</p>]]></content>
     
