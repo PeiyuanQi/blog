@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2020-08-03T06:34:18.934Z</updated>
+  <updated>2020-08-04T02:43:02.703Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Oceans Rise Empires Fall III 联邦党人读书笔记之三</title>
+    <link href="https://blog.peiyuanqi.me/2020/08/03/reading-fedpaper-3/"/>
+    <id>https://blog.peiyuanqi.me/2020/08/03/reading-fedpaper-3/</id>
+    <published>2020-08-03T09:11:35.000Z</published>
+    <updated>2020-08-04T02:43:02.703Z</updated>
+    
+    <content type="html"><![CDATA[<p>第六/七章是Hamilton对组建联合的联邦的理由阐述，主要是从如果没有联邦，如此多接壤的州必然会反目来展开论述的。</p><a id="more"></a><p>第六章其实说的内容很简单，但是Hamilton善用典故排比，让我一句话讲完的事被他写了一篇专栏文章，意图唤起所有纽约有识之士的意识。其实非常好奇按照美国当时的读报人的水平，是否有真的如此了解从雅典到英国崛起的整个西方史呢？但是话又说回来，当时能够对是否通过新宪法/组建联邦有影响的人相比应该还是有所了解的了。</p><p>简单来说就是，贸易正在成为所有战争常见的借口（怎么看着有点眼熟），共和国和王权国家相比，并不会减少战争。而那些曾经强大的商人共和国，从雅典，到威尼斯，到尼德兰，都无一例外的走向了没落，如果当下的13州之满足建立类似的商人共和的话，必然会导致自己内部的争斗，最后走向不可避免的灭亡。</p><p>所以最后他用Gabriel Bonnot de Mably的话说</p><blockquote><p>An intelligent writer expresses himself on this subject to this effect: “NEIGHBORING NATIONS (says he) are naturally enemies of each other unless their common weakness forces them to league in a CONFEDERATE REPUBLIC, and their constitution prevents the differences that neighborhood occasions, extinguishing that secret jealousy which disposes all states to aggrandize themselves at the expense of their neighbors.”</p><p>Excerpt From: Alexander Hamilton. “The Federalist Papers.” </p></blockquote><p>强调了13州必须联合起来。</p><p>既然第六章主要通过历史相似的例子来论述州间不和的可能，第七章就是开始具体讨论什么原因会导致州间会爆发战争/争端。</p><p>首先就是领土问题。一个是州之间的领土争端，会导致各州的争执乃至战争，另一个是西部大部分空置土地，如假设各州组成了松散的邦联，那对外扩张的时候，各州不会为了共同进步而努力，而是会为了自己州的利益而产生邦联内的争抢。同时，作为纽约人，他自然也提及了Vermont从New York独立出去的时候获得的周边州的支持。</p><p>然后就是贸易问题。读到这里大家可能觉得真的是老生常谈了。这次举出的例子，就是不同州有不同的天然贸易优势，对其他州可能会产生不良损害，如果州之间相对独立，必然会让这种损害会被放大，导致摩擦。</p><p>接着一点比较现实的就是由于独立战争，产生的大量外债，这些债务如何很好的在州之间分担，也是邦联无法解决的问题。</p><p>最后是关于法律和条款，就算达成了一致，那么不同州之间如果利益受到损害，那么必然不会让步，而最后导致争吵甚至战争。</p><p>读完了这一篇，大概会发现，联邦的产生，在Hamilton眼里，是一种更方便，更经济，更靠谱的方法。就如同一个商人告诉你，这绝对是最好的产品一样😂。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;第六/七章是Hamilton对组建联合的联邦的理由阐述，主要是从如果没有联邦，如此多接壤的州必然会反目来展开论述的。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="读书笔记" scheme="https://blog.peiyuanqi.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>Oceans Rise Empires Fall II 联邦党人读书笔记之二</title>
@@ -478,32 +500,6 @@
 &lt;p&gt;一个人的一生应该&lt;strong&gt;是&lt;/strong&gt;这样度过的：当他回首往事的时候&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;最近捡起了很多没有什么用但是很
-      
-    
-    </summary>
-    
-      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#10 CS行业与其他</title>
-    <link href="https://blog.peiyuanqi.me/2019/04/14/thoughts-10/"/>
-    <id>https://blog.peiyuanqi.me/2019/04/14/thoughts-10/</id>
-    <published>2019-04-14T11:28:58.000Z</published>
-    <updated>2019-04-15T02:34:30.074Z</updated>
-    
-    <content type="html"><![CDATA[<p>很久前就在想一个关于信息不对称的假说。即使到现在也没有学怎么去证明。</p><p>由于Computer Science相关行业的火爆，导致在媒体曝光率上远高于其他行当。所以其他行业的人更容易获得和了解CS相关行业的大致情况。与之恰恰相反的是由于很多次热门、不热门、冷门行业并没有机会获得媒体曝光率，导致在那些行业里存在的显而易见、充满借鉴意义的方法论不能够给大众启发（特别是从事CS行业的大众）。这大概是有害而无益的吧。</p><p>关于为什么这是对从事CS行业的人有害的话，主要是从事CS行业的人平时看到的科技新闻还是关于CS的，容易产生所有事情就是CS行业里这样的处理方法才是唯一的正确高效的。但是如果本来是从事文化行业、法律行业或者只是化工行业，他们本来的想法来自于自己行当，而其他空闲的时间能够看到CS相关行业是怎么做事情的，那看起来起码多了一个角度来看待问题吧…</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;很久前就在想一个关于信息不对称的假说。即使到现在也没有学怎么去证明。&lt;/p&gt;
-&lt;p&gt;由于Computer Science相关行业的火爆，导致在媒体曝光率上远高于其他行当。所以其他行业的人更容易获得和了解CS相关行业的大致情况。与之恰恰相反的是由于很多次热门、不热门、冷门行业
       
     
     </summary>
