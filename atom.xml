@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2020-09-15T02:53:48.633Z</updated>
+  <updated>2020-10-14T06:15:05.476Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Oceans Rise Empires Fall V 联邦党人读书笔记之六</title>
+    <link href="https://blog.peiyuanqi.me/2020/10/13/reading-fedpaper-6/"/>
+    <id>https://blog.peiyuanqi.me/2020/10/13/reading-fedpaper-6/</id>
+    <published>2020-10-13T14:37:29.000Z</published>
+    <updated>2020-10-14T06:15:05.476Z</updated>
+    
+    <content type="html"><![CDATA[<p>第十章一些剩下的概念。</p><p>（并不知道为什么从第三篇开始就所有的文章标号错了，导致第十章重读了一遍。</p><a id="more"></a> <p>并不是特别清楚政治学里面是如何定义这些词的，但是简单来讲Madison把以下几组词进行了对比，甚至是觉得词之间存在对立的关系。</p><p>Union和Confederacy，Union是对应加强十三州的联合，基于新的宪法来组成一个联合国家的意思；而Confederacy则是和字面意思相近，是组建一个松散的邦联，只在一些对外事务上达成一致，但是每个州其实还是独立的国家的意思。显然在这里Madision是需要为Union和新宪法进行辩护的。</p><p>Republic和Democracy，Republic是指代议制民主的意味。这和当时常见的对Republic的见解是不同的。此时欧洲 普遍观点是，Republic应该让每一个公民积极地参与到政治生活中，这也就意味着Republic的面积与人口不能过大，其实是一种城邦制共和。而Madison指出，十三州共同组成的共和是可以实现的，所需要解决的则只是之前提到的Faction的问题。与此同时这里所说的Democracy更偏向于传统的Republic观点，是每个人直接参与的民主。</p><p>大概就是这样了。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;第十章一些剩下的概念。&lt;/p&gt;
+&lt;p&gt;（并不知道为什么从第三篇开始就所有的文章标号错了，导致第十章重读了一遍。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="读书笔记" scheme="https://blog.peiyuanqi.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="联邦党人文集" scheme="https://blog.peiyuanqi.me/tags/%E8%81%94%E9%82%A6%E5%85%9A%E4%BA%BA%E6%96%87%E9%9B%86/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#23 不听不听 王八念经</title>
@@ -45,13 +70,13 @@
     <link href="https://blog.peiyuanqi.me/2020/08/07/reading-fedpaper-5/"/>
     <id>https://blog.peiyuanqi.me/2020/08/07/reading-fedpaper-5/</id>
     <published>2020-08-07T15:02:12.000Z</published>
-    <updated>2020-08-09T00:05:32.293Z</updated>
+    <updated>2020-10-14T05:52:56.582Z</updated>
     
-    <content type="html"><![CDATA[<p>第八和第九章讲的是关于Faction/党派，基本可以看到当下美国困于党争和一切事物政治化的问题的基础就是在这个时候埋下的。读了这两篇感觉对美国长久困于党争却不作为的原因有了一些领悟。Hamilton写了第一部分，Madison写了第二部分。</p><a id="more"></a> <p>第八章开篇就讲所有的当前制度拿出来批判一番。在当时的历史环境下，能够参考的，也就是欧洲的王权国家，商业共和国，古典时代的各种“共和国”。那么既然上一篇讲述了商业共和国的不靠谱，那么这次就是先批判一下以王权国家为代表的专制国家是如何抹黑联邦共和国的。无外乎就是不能团结，内部分歧，如此种种。但是Hamilton这里主要大片引用孟德斯鸠的文章来支持自己的论点。</p><p>孟德斯鸠认为联邦共和国，是最好的让一些States团结起来，实现更强大的对外存在。同时又不会过分强调联邦内的一碗水端平，从而让所有的小团体能够获得自己的快乐。同时由于是相对独立的个体组成了集体，所以其中一个个体被颠覆了，也不会影响其他个体，保证了整个联邦的持久和伟大。</p><p>所以从这些理论来看，新草拟的宪法，就是完全实践孟德斯鸠的想法，让各个州的主权统一成联邦的对外主权。同时又留有足够的主权给各个州（比如制定州宪法）。在最后，因为孟德斯鸠称赞了吕基亚联邦的实现形式，于是Hamilton也顺手赞扬了一下作为举例。（但他们怎么就不看看吕基亚才多大）</p><p>其实仔细想想，这些想法，可能就是当前美国困局的早期隐患吧。</p><p>第九章与其说是关于新宪法/组建联邦的支持，更多的是Madison关于民主/共和制度的一些思考。思考的起点就是关于Faction。他认为Faction的产生不可避免，要治理Faction带来的问题，只有两种方式：</p><ul><li>从起源上根除；</li><li>从影响上控制Faction的影响。</li></ul><p>从起源上根除，他认为只有两种方式，一个是禁止自由的土壤，那么就不会产生各种不同的看法。另一种是让每一个人拥有相同的三观。显然这两种方式，是不符合民主之气息的。</p><p>那么只能从影响上控制Faction的冲击。这时候就分成了两种情况讨论：</p><ul><li>这个消极的Faction只占少数人数</li><li>这个消极的Faction占大部分人数。</li></ul><p>如果只占少数，那么选的所谓Popular Government就能阻止其产生更大的危害。但是如果它占据了多数人群体，并且成功组建了Popular Government，那么就会产生很大的危害。那么如此看来需要真正解决的问题只有一个：</p><blockquote><p>“By what means is this object attainable? Evidently by one of two only. Either the existence of the same passion or interest in a majority at the same time must be prevented, or the majority, having such coexistent passion or interest, must be rendered, by their number and local situation, unable to concert and carry into effect schemes of oppression.”</p><p>Excerpt From: Alexander Hamilton. “The Federalist Papers.” </p></blockquote><p>从两个方面来实现，</p><ol><li>组织多数人拥有相同的热枕和利益</li><li>拥有相同热枕和利益的人应该要被分化。</li></ol><p>读到这边，就会发现，美国建国的国父们，考虑到的是意见一致产生的危害，对少数派的压迫和侵害。所以他们希望以一定代价，来保证不会存在多数派。</p><p>他还指出，如果实现古典时代的直接民主（pure democracy，a society consisting of a small number of citizens, who assemble and administer the government in person），将会导致大部分人相同类似的三观，导致多数派的出现，并导致少数派的权利被侵害。</p><p>于是在这里，Madison提出Republic能够解决这一个问题。这里他将Republic定义成“a government in which the scheme of representation takes place”，也就是我们说的代议制民主，将会很好的解决问题。他认为</p><blockquote><p>“The two great points of difference between a democracy and a republic are: first, the delegation of the government, in the latter, to a small number of citizens elected by the rest; secondly, the greater number of citizens, and greater sphere of country, over which the latter may be extended.”</p></blockquote><p>Republic比起Democracy，需要进行代表人的选举，并且由于更多的公民参与了这个过程，所以更好的展现全国的状况。</p><p>接着他又指出，如果实现代议制，那么怎么解决代表人使用手段攫取了代表权，然后为自己谋利而背弃了自己的选民呢？他觉得这就是一个代表数量多少的问题。Extensive Republic 和 Small Republic是指到底代表多一点好呢，还是少一点好。他觉得Small republic会导致很难很好的代表所有人，而且Extensive Republic能够使得就算有人攫取了代表权，也不会对最后的决议产生实质性危害，而且选举是应当频繁进行，那么攫取人也会被很快赶走。</p><p>以上大概就是对众议员和参议院产生的注解了。但是，我们可以看到，在这样的思想指引下，两党的分歧和力量对抗始终被微妙的平衡着，并且建制派并不希望这种平衡被打破。这就直接导致了美利坚的各种效率低下，而每个人民又并不会思考这么多，那自然就会做出了和这些统治精英相反的选择。所以说美国当下困局，只是归结在最近几十年内连串行为的苦果，不如说病根在诞生的时候就已经落下了。</p><p>不得不说第九章，是美国政治的必读文章了。</p>]]></content>
+    <content type="html"><![CDATA[<p>第九和第十章讲的是关于Faction/党派，基本可以看到当下美国困于党争和一切事物政治化的问题的基础就是在这个时候埋下的。读了这两篇感觉对美国长久困于党争却不作为的原因有了一些领悟。Hamilton写了第一部分，Madison写了第二部分。</p><a id="more"></a> <p>第九章开篇就讲所有的当前制度拿出来批判一番。在当时的历史环境下，能够参考的，也就是欧洲的王权国家，商业共和国，古典时代的各种“共和国”。那么既然上一篇讲述了商业共和国的不靠谱，那么这次就是先批判一下以王权国家为代表的专制国家是如何抹黑联邦共和国的。无外乎就是不能团结，内部分歧，如此种种。但是Hamilton这里主要大片引用孟德斯鸠的文章来支持自己的论点。</p><p>孟德斯鸠认为联邦共和国，是最好的让一些States团结起来，实现更强大的对外存在。同时又不会过分强调联邦内的一碗水端平，从而让所有的小团体能够获得自己的快乐。同时由于是相对独立的个体组成了集体，所以其中一个个体被颠覆了，也不会影响其他个体，保证了整个联邦的持久和伟大。</p><p>所以从这些理论来看，新草拟的宪法，就是完全实践孟德斯鸠的想法，让各个州的主权统一成联邦的对外主权。同时又留有足够的主权给各个州（比如制定州宪法）。在最后，因为孟德斯鸠称赞了吕基亚联邦的实现形式，于是Hamilton也顺手赞扬了一下作为举例。（但他们怎么就不看看吕基亚才多大）</p><p>其实仔细想想，这些想法，可能就是当前美国困局的早期隐患吧。</p><p>第十章与其说是关于新宪法/组建联邦的支持，更多的是Madison关于民主/共和制度的一些思考。思考的起点就是关于Faction。他认为Faction的产生不可避免，要治理Faction带来的问题，只有两种方式：</p><ul><li>从起源上根除；</li><li>从影响上控制Faction的影响。</li></ul><p>从起源上根除，他认为只有两种方式，一个是禁止自由的土壤，那么就不会产生各种不同的看法。另一种是让每一个人拥有相同的三观。显然这两种方式，是不符合民主之气息的。</p><p>那么只能从影响上控制Faction的冲击。这时候就分成了两种情况讨论：</p><ul><li>这个消极的Faction只占少数人数</li><li>这个消极的Faction占大部分人数。</li></ul><p>如果只占少数，那么选的所谓Popular Government就能阻止其产生更大的危害。但是如果它占据了多数人群体，并且成功组建了Popular Government，那么就会产生很大的危害。那么如此看来需要真正解决的问题只有一个：</p><blockquote><p>“By what means is this object attainable? Evidently by one of two only. Either the existence of the same passion or interest in a majority at the same time must be prevented, or the majority, having such coexistent passion or interest, must be rendered, by their number and local situation, unable to concert and carry into effect schemes of oppression.”</p><p>Excerpt From: Alexander Hamilton. “The Federalist Papers.” </p></blockquote><p>从两个方面来实现，</p><ol><li>组织多数人拥有相同的热枕和利益</li><li>拥有相同热枕和利益的人应该要被分化。</li></ol><p>读到这边，就会发现，美国建国的国父们，考虑到的是意见一致产生的危害，对少数派的压迫和侵害。所以他们希望以一定代价，来保证不会存在多数派。</p><p>他还指出，如果实现古典时代的直接民主（pure democracy，a society consisting of a small number of citizens, who assemble and administer the government in person），将会导致大部分人相同类似的三观，导致多数派的出现，并导致少数派的权利被侵害。</p><p>于是在这里，Madison提出Republic能够解决这一个问题。这里他将Republic定义成“a government in which the scheme of representation takes place”，也就是我们说的代议制民主，将会很好的解决问题。他认为</p><blockquote><p>“The two great points of difference between a democracy and a republic are: first, the delegation of the government, in the latter, to a small number of citizens elected by the rest; secondly, the greater number of citizens, and greater sphere of country, over which the latter may be extended.”</p></blockquote><p>Republic比起Democracy，需要进行代表人的选举，并且由于更多的公民参与了这个过程，所以更好的展现全国的状况。</p><p>接着他又指出，如果实现代议制，那么怎么解决代表人使用手段攫取了代表权，然后为自己谋利而背弃了自己的选民呢？他觉得这就是一个代表数量多少的问题。Extensive Republic 和 Small Republic是指到底代表多一点好呢，还是少一点好。他觉得Small republic会导致很难很好的代表所有人，而且Extensive Republic能够使得就算有人攫取了代表权，也不会对最后的决议产生实质性危害，而且选举是应当频繁进行，那么攫取人也会被很快赶走。</p><p>以上大概就是对众议员和参议院产生的注解了。但是，我们可以看到，在这样的思想指引下，两党的分歧和力量对抗始终被微妙的平衡着，并且建制派并不希望这种平衡被打破。这就直接导致了美利坚的各种效率低下，而每个人民又并不会思考这么多，那自然就会做出了和这些统治精英相反的选择。所以说美国当下困局，只是归结在最近几十年内连串行为的苦果，不如说病根在诞生的时候就已经落下了。</p><p>不得不说第十章，是美国政治的必读文章了。</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;第八和第九章讲的是关于Faction/党派，基本可以看到当下美国困于党争和一切事物政治化的问题的基础就是在这个时候埋下的。读了这两篇感觉对美国长久困于党争却不作为的原因有了一些领悟。Hamilton写了第一部分，Madison写了第二部分。&lt;/p&gt;
+      &lt;p&gt;第九和第十章讲的是关于Faction/党派，基本可以看到当下美国困于党争和一切事物政治化的问题的基础就是在这个时候埋下的。读了这两篇感觉对美国长久困于党争却不作为的原因有了一些领悟。Hamilton写了第一部分，Madison写了第二部分。&lt;/p&gt;
     
     </summary>
     
@@ -69,14 +94,14 @@
     <link href="https://blog.peiyuanqi.me/2020/08/04/reading-fedpaper-4/"/>
     <id>https://blog.peiyuanqi.me/2020/08/04/reading-fedpaper-4/</id>
     <published>2020-08-04T14:24:37.000Z</published>
-    <updated>2020-08-05T06:14:59.842Z</updated>
+    <updated>2020-10-14T06:11:55.766Z</updated>
     
-    <content type="html"><![CDATA[<p>感觉之前的读书笔记实在是太流水账了，应该把内容的转述减少一些，更多的是讲一讲从文章内容所想到的吧。</p><p>第七章可以说是第一次公开的说出了一个13州应当联合，甚至是直接指导接下来一百多年美国坚持不懈的在大陆上连年征战的不可辩驳的原因。</p><a id="more"></a><p>Hamilton在前两章论述完州与州之间在邦联的情况下必然的争端，那么不可避免的争端将会发展成战争。他用欧洲大陆为反例，直率地指出欧洲大陆长达几百年的各国争霸，只不过是因为地域特点导致的不同小国之间对村子的争夺罢了。但是让美利坚各州之间发生类似的战争，由于美利坚的地形特点，会导致结果是失利者的完全征服或者是掠夺。在这种情况下，州会不断的加强自己的军备。这会限制州自己的发展，军事相关事业的优先发展，军人地位的提升，居民个人权利的丧失，甚至走向军事化独裁。</p><p>但是与大陆相比的英国，却依靠自己的地理位置优势，并建立了强大的海军来完全阻断外来侵略，导致内部能够稳定繁荣发展，就说明了在同一陆地上的人应当去实现合作的双赢。</p><p>我认为，多年以后大家指出，美国的发展机遇是因为两个大洋和和谐的邻邦关系获得的，不如说是美国国父们早就看中了这一点并坚持贯彻实施的结果。任何一个讨论美国能够实行门罗主义闷声发大财的人如果丝毫不谈美国的地域隔绝优势是如何获得的，都是对美国建国时只拥有东海岸13州的事实的忽视。对英法西殖民地的战争，对南部独立需求的镇压，一系列对墨西哥毫不念及同为旧世界移民友谊的战争。这才是现代美国获得自己安全的地理特点的原因。而这一切都是需要执政者在这篇文章所提及的理想指导下坚持奋斗的。</p><p>可以说直到第七章，联邦党人的一系列文章终于开始振聋发聩了起来。</p>]]></content>
+    <content type="html"><![CDATA[<p>感觉之前的读书笔记实在是太流水账了，应该把内容的转述减少一些，更多的是讲一讲从文章内容所想到的吧。</p><p>第八章可以说是第一次公开的说出了一个13州应当联合，甚至是直接指导接下来一百多年美国坚持不懈的在大陆上连年征战的不可辩驳的原因。</p><a id="more"></a><p>Hamilton在前两章论述完州与州之间在邦联的情况下必然的争端，那么不可避免的争端将会发展成战争。他用欧洲大陆为反例，直率地指出欧洲大陆长达几百年的各国争霸，只不过是因为地域特点导致的不同小国之间对村子的争夺罢了。但是让美利坚各州之间发生类似的战争，由于美利坚的地形特点，会导致结果是失利者的完全征服或者是掠夺。在这种情况下，州会不断的加强自己的军备。这会限制州自己的发展，军事相关事业的优先发展，军人地位的提升，居民个人权利的丧失，甚至走向军事化独裁。</p><p>但是与大陆相比的英国，却依靠自己的地理位置优势，并建立了强大的海军来完全阻断外来侵略，导致内部能够稳定繁荣发展，就说明了在同一陆地上的人应当去实现合作的双赢。</p><p>我认为，多年以后大家指出，美国的发展机遇是因为两个大洋和和谐的邻邦关系获得的，不如说是美国国父们早就看中了这一点并坚持贯彻实施的结果。任何一个讨论美国能够实行门罗主义闷声发大财的人如果丝毫不谈美国的地域隔绝优势是如何获得的，都是对美国建国时只拥有东海岸13州的事实的忽视。对英法西殖民地的战争，对南部独立需求的镇压，一系列对墨西哥毫不念及同为旧世界移民友谊的战争。这才是现代美国获得自己安全的地理特点的原因。而这一切都是需要执政者在这篇文章所提及的理想指导下坚持奋斗的。</p><p>可以说直到第八章，联邦党人的一系列文章终于开始振聋发聩了起来。</p>]]></content>
     
     <summary type="html">
     
       &lt;p&gt;感觉之前的读书笔记实在是太流水账了，应该把内容的转述减少一些，更多的是讲一讲从文章内容所想到的吧。&lt;/p&gt;
-&lt;p&gt;第七章可以说是第一次公开的说出了一个13州应当联合，甚至是直接指导接下来一百多年美国坚持不懈的在大陆上连年征战的不可辩驳的原因。&lt;/p&gt;
+&lt;p&gt;第八章可以说是第一次公开的说出了一个13州应当联合，甚至是直接指导接下来一百多年美国坚持不懈的在大陆上连年征战的不可辩驳的原因。&lt;/p&gt;
     
     </summary>
     
@@ -484,30 +509,6 @@
     
     
       <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#14 一局麻将而已</title>
-    <link href="https://blog.peiyuanqi.me/2019/05/13/thoughts-14/"/>
-    <id>https://blog.peiyuanqi.me/2019/05/13/thoughts-14/</id>
-    <published>2019-05-13T15:23:50.000Z</published>
-    <updated>2019-05-13T16:07:10.142Z</updated>
-    
-    <content type="html"><![CDATA[<p>突然发现，每个人的一生的职业规划和一局麻将蛮像的，特别是那种和牌方式特别多的麻将，例如，日麻 🌝。</p><a id="more"></a><p>其实道理非常简单，开局的时候，每个人有无数的和牌方式，可以尝试做各种役种，但是随着牌局的推进，时间的流逝，有的役种就不再可能在这一局中出现了，那么这些机会也就失去了。而有的时候，自己又需要做出选择，打出的牌造成了又一次失去了某些役种的和牌可能性。所以往往半局一过，发现自己只能硬着头皮去完成一个回报不高，和牌概率也不高的役种。诚然这是个人牌艺高低的问题，但是所谓雀力高，大概也就是推迟作出选择的时间，实现随时准备能够完成各种役种吧。</p><p>做职业规划的时候，起手也是无数种可能，有的人一心奔着国士无双去了，然而有的人则是不断的尝试推后自己做决断的时间，还有的人就这样随缘过着。</p><p>感觉自己在大学四年犯的一个错误就是过早奔着我自己的清一色去了，并没有想过自己以后可能并不想要这样的役种。如果是麻将，那么就安心等着下一局了，但是命貌似只有一条，如果就这样浪费了诚然可惜，于是就开始苦思冥想破局的方法…</p><p>但是首鼠两端的人一般都没法做成任何事情…</p><p>想来自己最早在高中里觉得自己只要是理工商方向上的什么都可以学，到了大学就一头认定自己只适合做CS，去年的冬天因为某些个人的需求，将从前就是吹吹牛皮的转行金融提上了正式考虑的日程，到现在经过仔细的研究发现转行需要的能力也超出了我的范围，其中的阵痛大概会超过我的承受能力，不得不考虑暂时妥协自己的计算机的既定的规划…</p><p>怎么听怎么就是一个菜的人的一生</p><p>四处追寻新的目标，最后一事无成…记得小时候的寓言故事就告诫我们不要这样🙄</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;突然发现，每个人的一生的职业规划和一局麻将蛮像的，特别是那种和牌方式特别多的麻将，例如，日麻 🌝。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-      <category term="职业" scheme="https://blog.peiyuanqi.me/tags/%E8%81%8C%E4%B8%9A/"/>
     
   </entry>
   
