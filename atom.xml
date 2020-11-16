@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2020-10-30T05:16:48.423Z</updated>
+  <updated>2020-11-16T08:04:06.170Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想法#25 大小作坊</title>
+    <link href="https://blog.peiyuanqi.me/2020/11/15/thoughts-25/"/>
+    <id>https://blog.peiyuanqi.me/2020/11/15/thoughts-25/</id>
+    <published>2020-11-15T15:47:57.000Z</published>
+    <updated>2020-11-16T08:04:06.170Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近买了一套Critical Role的卡司背景集，很难想象这居然只是只是印在铜板纸上的关于每个演员以及这个圈内著名的长达几百个小时的直播秀怎么产生并发展的书。有趣的是却有无数粉丝愿意为此掏钱。</p><a id="more"></a><p>在感叹小众文化的粉丝钱也确实好赚的同时，却不禁想到了游戏行业。在游戏行业，除去像腾讯已然进阶成为游戏投资公司，其他老牌的发行公司或者制作组则依然可以简单分成两类。一类是死守当前的摇钱树，为了对股东/投资者负责，而不得不旧瓶装新酒，来骗普通玩家的钱。这个套路虽然没有什么新意，但是能创造稳定的收入。暴雪EA之流大概如此。</p><p>另一类则是拥有着更小的死忠粉丝群体，只要无论做什么，都能找到粉丝掏钱。这样虽然不能大富大贵，但是起码也能让生意继续运作下去。比如R星就是一个代表。值得一提的是，一般这样的小作坊产品，质量大多上乘，大概是因为如果质量不佳的话，死忠粉也是会愈来愈少的吧。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近买了一套Critical Role的卡司背景集，很难想象这居然只是只是印在铜板纸上的关于每个演员以及这个圈内著名的长达几百个小时的直播秀怎么产生并发展的书。有趣的是却有无数粉丝愿意为此掏钱。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#24 随机旧想法</title>
@@ -480,28 +502,6 @@
     
       &lt;p&gt;二话不说上图&lt;/p&gt;
 &lt;img src=&quot;/2019/06/04/thoughts-17/thoughts17-1.jpeg&quot;&gt;
-    
-    </summary>
-    
-      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#16 你以为你和纺织厂工人有什么区别</title>
-    <link href="https://blog.peiyuanqi.me/2019/06/02/thoughts-16/"/>
-    <id>https://blog.peiyuanqi.me/2019/06/02/thoughts-16/</id>
-    <published>2019-06-02T09:44:14.000Z</published>
-    <updated>2019-06-03T01:18:45.561Z</updated>
-    
-    <content type="html"><![CDATA[<p>一开头就决定这篇想法必然有一些极端…</p><a id="more"></a><p>从很久以前，有一位略微直白的名字首字母代表着所有终点的同学曾经反复强调过，所谓湾区码农，不过就是新时代的英国纺织厂女工。在很多不同的场合中也出现过类似的评论，且不论这种论断的对错，这里只想写下最近一周来在日常讨论中的几个想法…</p><p>大前提：大部分人是平庸的；</p><p>小前提：码农准入门槛在过去几年逐年降低；</p><p>结论：码农中平庸的人的比率在不断上升。</p><p>久而久之，虽然不知道这个曲线的渐近线在哪里，但是也许这确实是导致很多对码农神奇的死板印象形成的关键。</p><p>比如，码农们总是比较公司福利。</p><p>（虽然我也不知道为什么码农的办公室里需要全套意式咖啡机和手调饮料工具。）</p><p>（为什么不开一家免费的Starbucks？）</p><p>但是退一步想，这也是大部分普通人在做的事情。</p><blockquote><p>我今天用的纱线是最新的从苏格兰直产直销的纯正羊毛制作，比你这从意大利来的二等货不知道高到哪里去了。<br>隔壁的比利今天送你的太阳花显然比我家杰克送的蓝铃花更美，真让人气愤。</p></blockquote><p>类比这种想法，大概无外乎对日常福利，到工资，到股票，到sign on的各种比较了吧。不是真的为了体现个高低，这只不过是大家的日常罢了。</p><p>于此同时，则是对码农生活规划和日常娱乐的吐槽，这大概也不外乎是因为大家都是普通人，也不能要求每个人都有着特别而又杰出的兴趣爱好，远大而特别的志向，毕竟很多人也只是寻求一个平稳、大部分时候开心的一生吧。</p><p>所以，如果能力平庸却又一个不甘平凡的心，大概只会算是个体的一种不幸吧…</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一开头就决定这篇想法必然有一些极端…&lt;/p&gt;
     
     </summary>
     
