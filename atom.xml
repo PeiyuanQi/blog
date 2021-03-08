@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2021-01-22T03:31:00.293Z</updated>
+  <updated>2021-03-08T04:03:07.034Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想法#28 普通人</title>
+    <link href="https://blog.peiyuanqi.me/2021/03/07/thoughts-28/"/>
+    <id>https://blog.peiyuanqi.me/2021/03/07/thoughts-28/</id>
+    <published>2021-03-07T12:02:10.000Z</published>
+    <updated>2021-03-08T04:03:07.034Z</updated>
+    
+    <content type="html"><![CDATA[<p>普通人，被困难打倒了，就再也站不起来了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;普通人，被困难打倒了，就再也站不起来了。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#27</title>
@@ -476,32 +502,6 @@
 &lt;p&gt;常见的借口是，没有时间。可是，时间都去哪儿了呢？&lt;/p&gt;
 &lt;p&gt;近来因为工作日渐安
       
-    
-    </summary>
-    
-      <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-      <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#18.5 当他回首往事的时候</title>
-    <link href="https://blog.peiyuanqi.me/2019/08/19/thoughts-18.5/"/>
-    <id>https://blog.peiyuanqi.me/2019/08/19/thoughts-18.5/</id>
-    <published>2019-08-19T14:39:36.000Z</published>
-    <updated>2020-03-09T07:00:31.402Z</updated>
-    
-    <content type="html"><![CDATA[<p>因为最后在八月也没有完成这个流水账，就暂且叫它18.5吧</p><p>在年初最为压抑的时候，记得承诺过需要有一个年中总结，</p><p>在年初的时候就预料到了自己接下来的生活轨迹会受到19年各种事情影响而改变。</p><p>果不其然</p><p>于是，就在这边短暂回顾一下过去八个月的折腾转行金融从动手做到放弃的过程…</p><a id="more"></a><p>其实这篇流水账拖了将近有一个月，这一个月中又发生了一些更加不能回滚的变化和决定。但是，一码归一码，那是属于Thoughts 20的事情，就不能掺杂进来。</p><p>很久以前突然（也不是那么突然）萌生了觉得并不喜欢CS行业，想要转行的想法。但是一直没有作出具体的改变，后来在机缘巧合中就开始尝试实现这个想法。</p><p>由于一些客观条件的限制，能马上进入考虑范围的，无外乎就是金融业的。</p><p>金融业是一个很大的词，每天商业银行拉存款的可以说自己在银行工作，每天给狗们萨赫忽悠客户的狗们萨赫人也能说自己在银行工作。从名气上来讲，做金融或者银行业的名气最大的，就是国内的券商和国外的投行了。</p><p>而这大概是和程序员完全没有关系的行当了…</p><p>于此同时，和学CS/Science/Engineering同学最有关系的，就是Quant和新时代的Trader了（传统的Trader大部分时候并不依靠技术和模型来办事，所以被排除在讨论之外，而且传统Trader也正在不断丧失市场份额。而所谓的新Trader，则只不过是Quant们换了一个皮）。Quant是一个很广泛意义的词，不同公司也对不同的Quant职责有着各种不同的要求。但从自己的了解感觉来看，大家都想成为大买方的前台Quant，来实现与现金和交易最近的距离。</p><p>在最开始的时候，天真的以为成为一个金融从业者，相关证件可能会有一些帮助，于是报名了CFA，但是从备考和找工作经历来看，这些问题的影响并不大。公司们更加看中相关经历的体现。从Electronic Trading Competition到local</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;因为最后在八月也没有完成这个流水账，就暂且叫它18.5吧&lt;/p&gt;
-&lt;p&gt;在年初最为压抑的时候，记得承诺过需要有一个年中总结，&lt;/p&gt;
-&lt;p&gt;在年初的时候就预料到了自己接下来的生活轨迹会受到19年各种事情影响而改变。&lt;/p&gt;
-&lt;p&gt;果不其然&lt;/p&gt;
-&lt;p&gt;于是，就在这边短暂回顾一下过去八个月的折腾转行金融从动手做到放弃的过程…&lt;/p&gt;
     
     </summary>
     
