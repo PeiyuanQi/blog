@@ -177,6 +177,110 @@ ga('send', 'pageview');
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-thoughts-4" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/05/21/thoughts-4/">想法#4契约精神</a>
+    </h1>
+  
+
+        
+        <a href="/2018/05/21/thoughts-4/" class="archive-article-date">
+  	<time datetime="2018-05-21T12:20:58.000Z" itemprop="datePublished">
+		<i class="icon-calendar icon"></i>
+		
+		
+		2018-05-21
+		
+	</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>不敢妄谈自己懂不懂契约精神,只是在此记录今日发生的一件让我震惊的小事.</p>
+<p>在闲鱼上出售某件远低于市场价的全新便宜货. 因为初入咸鱼,不了解市场套路与行情,来的第一个买家囊中羞涩,小小的砍了一下价(在闲鱼上所谓的”小刀”),看他的诚恳和急切,也就同意了.</p>
+<p>然而第一位买家,我们暂且称作A,说手头没有现金付款,只能等晚些时候或者明天付款.对我来说这并没什么区别,也就欣然应允了.</p>
+<p>因为没有付款,商品并没有被关闭交易.不料没过几分钟,依次来了几位潜在买家.打头的是一位00后,暂且称作B.
+        
+          <a class="article-more-a" href="/2018/05/21/thoughts-4/#more">more >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">契约</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">道德</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">合同</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/Topic//" class="article-tag-list-link color1">Topic</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/05/21/thoughts-4/">VIEW THE POST >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-thoughts-3" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -1094,120 +1198,6 @@ ga('send', 'pageview');
 
 
   
-    <article id="post-cs-how-to-create-git-submodule-repo-on-server" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/02/10/cs-how-to-create-git-submodule-repo-on-server/">How to Create Git Submodule Repo on Server</a>
-    </h1>
-  
-
-        
-        <a href="/2018/02/10/cs-how-to-create-git-submodule-repo-on-server/" class="archive-article-date">
-  	<time datetime="2018-02-10T16:07:20.000Z" itemprop="datePublished">
-		<i class="icon-calendar icon"></i>
-		
-		
-		2018-02-11
-		
-	</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>When I set up this website, I find I need to have some nested git repo hierarchy. For example, the theme always has an individual repo and I also put the entire hexo website in a git repo. To make this hierarchy more manageable, it is a good practice to add sub git repo as submodules. </p>
-<p>If you are using git server such as github, then you are set by simply typing the commands to set up two git repo and push to remote server and then use</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git submodule add ./dir/to/submodule</span><br></pre></td></tr></table></figure>
-
-<p>to put everything not ignored to the server. </p>
-<p>However, if you are using a git server set up by yourself, you may wonder how you should set the remote URLs for the main git repo and submodule git repo.</p>
-<p>Instead of create two git repos in same directory to make the two repos for main and submodule are in the same level on server, we should create the server repos nested.</p>
-<p>For example, if our main git repo named main, and our submodule repo named submodule, then we might need to perform the following actions and get the following hierarchies.</p>
-<p>On Server:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># go to needed dir</span></span><br><span class="line"><span class="built_in">cd</span> /dir/to/remote/server </span><br><span class="line"><span class="comment"># init main repo on server</span></span><br><span class="line">git init --bare main.git </span><br><span class="line"><span class="comment"># get into main.git</span></span><br><span class="line"><span class="built_in">cd</span> main.git </span><br><span class="line"><span class="comment"># init submodule repo on server</span></span><br><span class="line">git init --bare submodule.git </span><br></pre></td></tr></table></figure>
-
-<p>On Local Machine with initial or developed codes:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># get into directory and create file</span></span><br><span class="line"><span class="built_in">cd</span> main &amp; touch readme.md</span><br><span class="line"><span class="comment"># init git repo locally</span></span><br><span class="line">git init</span><br><span class="line"><span class="comment"># add remote repo</span></span><br><span class="line">git remote add origin git@yourserver:/dir/to/remote/server/main.git </span><br><span class="line"><span class="comment"># add modified file</span></span><br><span class="line">git add readme.md</span><br><span class="line"><span class="comment"># commit first change</span></span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line"><span class="comment"># push change to remote server</span></span><br><span class="line">git push origin master</span><br><span class="line"><span class="comment"># create local nested repo for submodule usage</span></span><br><span class="line">mkdir submodule	</span><br><span class="line"><span class="comment"># create nested repo dir for submodule usage</span></span><br><span class="line"><span class="built_in">cd</span> submodule &amp; touch readme.md</span><br><span class="line"><span class="comment"># init nested repo for submodule usage</span></span><br><span class="line">git init</span><br><span class="line"><span class="comment"># add remote</span></span><br><span class="line">git remote add origin git@yourserver:/dir/to/remote/server/main.git/submodule.git </span><br><span class="line"><span class="comment"># modify file</span></span><br><span class="line">git add readme.md	</span><br><span class="line"><span class="comment"># commit first modification in submodule</span></span><br><span class="line">git commit -m <span class="string">&quot;first submodule commit&quot;</span>		</span><br><span class="line"><span class="comment"># go back to main repo</span></span><br><span class="line"><span class="built_in">cd</span> ..</span><br><span class="line"><span class="comment"># add subomodule repo as submodule</span></span><br><span class="line">git submodule add ./submodule	</span><br><span class="line"><span class="comment"># git add new submodule files and configs</span></span><br><span class="line">git add ./submodule .gitmodule		</span><br><span class="line"><span class="comment"># commit this change</span></span><br><span class="line">git commit -m <span class="string">&quot;add submodule&quot;</span></span><br><span class="line"><span class="comment"># push to git server</span></span><br><span class="line">git push origin master	</span><br></pre></td></tr></table></figure>
-
-<p>On another Local Machine which want to clone this repo:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># clone a repo with all submoduel</span></span><br><span class="line">git <span class="built_in">clone</span> --recursive git@yourserver:/dir/to/remote/server/main.git</span><br></pre></td></tr></table></figure>
-
-
-
-<p>Then you will have a repo named <em>main</em> with submodule named <em>submodule</em>.</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Git</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Submodule</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/Tech//" class="article-tag-list-link color5">Tech</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/02/10/cs-how-to-create-git-submodule-repo-on-server/">VIEW THE POST >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/page/7/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><span class="page-number current">8</span><a class="page-number" href="/page/9/">9</a><a class="extend next" rel="next" href="/page/9/">Next »</a>
@@ -1695,6 +1685,18 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">民意</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">美国</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">无线电爱好者</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">HAM</a>
               </li>
             
             <div class="clearfix"></div>
