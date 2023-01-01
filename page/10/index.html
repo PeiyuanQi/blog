@@ -177,6 +177,120 @@ ga('send', 'pageview');
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-cs-how-to-create-git-submodule-repo-on-server" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/02/10/cs-how-to-create-git-submodule-repo-on-server/">How to Create Git Submodule Repo on Server</a>
+    </h1>
+  
+
+        
+        <a href="/2018/02/10/cs-how-to-create-git-submodule-repo-on-server/" class="archive-article-date">
+  	<time datetime="2018-02-10T16:07:20.000Z" itemprop="datePublished">
+		<i class="icon-calendar icon"></i>
+		
+		
+		2018-02-11
+		
+	</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>When I set up this website, I find I need to have some nested git repo hierarchy. For example, the theme always has an individual repo and I also put the entire hexo website in a git repo. To make this hierarchy more manageable, it is a good practice to add sub git repo as submodules. </p>
+<p>If you are using git server such as github, then you are set by simply typing the commands to set up two git repo and push to remote server and then use</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git submodule add ./dir/to/submodule</span><br></pre></td></tr></table></figure>
+
+<p>to put everything not ignored to the server. </p>
+<p>However, if you are using a git server set up by yourself, you may wonder how you should set the remote URLs for the main git repo and submodule git repo.</p>
+<p>Instead of create two git repos in same directory to make the two repos for main and submodule are in the same level on server, we should create the server repos nested.</p>
+<p>For example, if our main git repo named main, and our submodule repo named submodule, then we might need to perform the following actions and get the following hierarchies.</p>
+<p>On Server:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># go to needed dir</span></span><br><span class="line"><span class="built_in">cd</span> /dir/to/remote/server </span><br><span class="line"><span class="comment"># init main repo on server</span></span><br><span class="line">git init --bare main.git </span><br><span class="line"><span class="comment"># get into main.git</span></span><br><span class="line"><span class="built_in">cd</span> main.git </span><br><span class="line"><span class="comment"># init submodule repo on server</span></span><br><span class="line">git init --bare submodule.git </span><br></pre></td></tr></table></figure>
+
+<p>On Local Machine with initial or developed codes:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># get into directory and create file</span></span><br><span class="line"><span class="built_in">cd</span> main &amp; touch readme.md</span><br><span class="line"><span class="comment"># init git repo locally</span></span><br><span class="line">git init</span><br><span class="line"><span class="comment"># add remote repo</span></span><br><span class="line">git remote add origin git@yourserver:/dir/to/remote/server/main.git </span><br><span class="line"><span class="comment"># add modified file</span></span><br><span class="line">git add readme.md</span><br><span class="line"><span class="comment"># commit first change</span></span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line"><span class="comment"># push change to remote server</span></span><br><span class="line">git push origin master</span><br><span class="line"><span class="comment"># create local nested repo for submodule usage</span></span><br><span class="line">mkdir submodule	</span><br><span class="line"><span class="comment"># create nested repo dir for submodule usage</span></span><br><span class="line"><span class="built_in">cd</span> submodule &amp; touch readme.md</span><br><span class="line"><span class="comment"># init nested repo for submodule usage</span></span><br><span class="line">git init</span><br><span class="line"><span class="comment"># add remote</span></span><br><span class="line">git remote add origin git@yourserver:/dir/to/remote/server/main.git/submodule.git </span><br><span class="line"><span class="comment"># modify file</span></span><br><span class="line">git add readme.md	</span><br><span class="line"><span class="comment"># commit first modification in submodule</span></span><br><span class="line">git commit -m <span class="string">&quot;first submodule commit&quot;</span>		</span><br><span class="line"><span class="comment"># go back to main repo</span></span><br><span class="line"><span class="built_in">cd</span> ..</span><br><span class="line"><span class="comment"># add subomodule repo as submodule</span></span><br><span class="line">git submodule add ./submodule	</span><br><span class="line"><span class="comment"># git add new submodule files and configs</span></span><br><span class="line">git add ./submodule .gitmodule		</span><br><span class="line"><span class="comment"># commit this change</span></span><br><span class="line">git commit -m <span class="string">&quot;add submodule&quot;</span></span><br><span class="line"><span class="comment"># push to git server</span></span><br><span class="line">git push origin master	</span><br></pre></td></tr></table></figure>
+
+<p>On another Local Machine which want to clone this repo:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># clone a repo with all submoduel</span></span><br><span class="line">git <span class="built_in">clone</span> --recursive git@yourserver:/dir/to/remote/server/main.git</span><br></pre></td></tr></table></figure>
+
+
+
+<p>Then you will have a repo named <em>main</em> with submodule named <em>submodule</em>.</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Git</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Submodule</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/Tech//" class="article-tag-list-link color5">Tech</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/02/10/cs-how-to-create-git-submodule-repo-on-server/">VIEW THE POST >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-cs-how-to-write-perl-in-objective-oriented-way-without-moose" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -919,7 +1033,7 @@ ga('send', 'pageview');
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2022 Peiyuan Qi
+    		&copy; 2023 Peiyuan Qi
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
