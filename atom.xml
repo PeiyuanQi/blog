@@ -6,7 +6,7 @@
   <link href="https://blog.peiyuanqi.me/atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2023-01-01T00:51:47.173Z</updated>
+  <updated>2023-04-21T06:21:18.975Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,75 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想法#53</title>
+    <link href="https://blog.peiyuanqi.me/2023/04/20/thoughts-53/"/>
+    <id>https://blog.peiyuanqi.me/2023/04/20/thoughts-53/</id>
+    <published>2023-04-20T14:56:30.000Z</published>
+    <updated>2023-04-21T06:21:18.975Z</updated>
+    
+    <content type="html"><![CDATA[<p>有同学很不雅地评价过，这怎么拉稀式更新。既然被这么评价了，就要对得起这种评价。</p><span id="more"></span><p>写第一句话的时候，突然想到现在三个de到底区不区分呢。就随手一查，没想到居然是区分的，这实在是难为我了，因为过了五年，已经不记得怎么区分了。</p><p>（仔细想想，我这是简中互联网，就也没必要区分三个de了。）</p><p>回到主体，这次笔记上记录的主题是，ChatGPT。</p><p>个人觉得，从第一性原理进行瞎推测的话，ChatGPT最能帮忙解决的搜索问题，就是Know How的问题。</p><p>举例，如果我要做一个网站，搜索的结果最好情况也就是一篇完整且优秀的Blog或者教程。但是往往很多问题的答案，并不是能通过同一个信息源获得的。ChatGPT能提供博采众长的回答。而且省略了信息检索的时间。这是非常高效了。</p><p>一直觉得最难的知识不是知道在那里然后达到的过程，而是甚至不知道知识的存在和所在的位置。</p><p>所以如果ChatGPT被完善了，我本以为需要担心的更多是只KnowHow的Senior程序员，并且解决了知识在哪里的问题。</p><p>直到我搜索了WMPPL，并且希望我在啥也不懂的情况下ChatGPT让我使用WMPPL，但是都无法做到，实在是很失望了，那他的working experience就还是停留在了1年呐。</p><p>胡乱猜测LLM就是利用了语言天然较弱的逻辑来构建自己的逻辑，那么这大概就是这个逻辑能力上限的由来吧。</p><p>但是不得不说，用来作为Tutorial索引还是很优秀的。而且从未来最后实现的GAI的角度来看，这大概也是一种很优秀的第一步了。</p><p>然而就像A股的水是有限的，人类的资源也是，当一切都被聚集在这里的时候，其他的地方自然就干旱了，大概就会影响到有没有这个未来的问题了吧。</p><p>非常有趣的是，才过了两周，之前的想法就已经存在了一定自我否定。可以说我晚点写出来也是一种Annealing的过程了。</p><p>Annealing也是个学到的新方法，可以说我拖延我有理了。Schadenfreude也是个可能会用到很多次的词。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;有同学很不雅地评价过，这怎么拉稀式更新。既然被这么评价了，就要对得起这种评价。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="ChatGPT" scheme="https://blog.peiyuanqi.me/tags/ChatGPT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法#52 狗尾续貂</title>
+    <link href="https://blog.peiyuanqi.me/2023/04/20/thoughts-52/"/>
+    <id>https://blog.peiyuanqi.me/2023/04/20/thoughts-52/</id>
+    <published>2023-04-20T14:48:31.000Z</published>
+    <updated>2023-04-21T05:53:25.219Z</updated>
+    
+    <content type="html"><![CDATA[<p>发现过于宏大叙事的小说，烂尾是一种必然，这大概就是为什么布兰登桑德森永远写得很快的原因吧。</p><span id="more"></span><p>他可能决定就算要狗尾续貂，也不能半途而废，可以说是难能可贵了。</p><p>我也不是在批评谁。</p><p>但是从冰火，海伯利安，时光之轮这种通俗小说常见长老中就可以发现，好的开头不难，差的结尾也很简单。</p><p>个人感觉这是和作者能力限制有关了。当宏大叙事开始了以后，粉丝的自然演化会很快的超过作者的能力，在这时候作者生产的产品自然就显得更弱一点了。</p><p>所以坚决不写完也是一种非常不错的做法。甚至有的四大名著也算入这种情况？了解不多，也只能简单的做一些揣测了。</p><p>不过，说不定，ChatGPT能帮忙解决这个问题呢:P</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;发现过于宏大叙事的小说，烂尾是一种必然，这大概就是为什么布兰登桑德森永远写得很快的原因吧。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="ChatGPT" scheme="https://blog.peiyuanqi.me/tags/ChatGPT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法#51 空空如也</title>
+    <link href="https://blog.peiyuanqi.me/2023/04/20/thoughts-51/"/>
+    <id>https://blog.peiyuanqi.me/2023/04/20/thoughts-51/</id>
+    <published>2023-04-20T14:37:54.000Z</published>
+    <updated>2023-04-21T05:48:22.168Z</updated>
+    
+    <content type="html"><![CDATA[<p>给ChatGPT给单独列了个tag，因为觉得会说很多，但实际上可能并不会。</p><span id="more"></span><p>很久都没有写想法，也并不是因为真的没写什么，只是感觉每次要打开自己电脑的terminal在hexo new post一下非常的麻烦，上班已经打了很多莫名其妙的命令行了，就并不想再这么做了。也许让ChatGPT来做这个事情不错。</p><p>但是这年头大家都在Medium上写文章，就不知道在自己blog上写的都是什么老古董了。</p><p>GA4发布了，导致自己的Blog template没有兼容，也不知道能不能用ChatGPT修。</p><p>但是，ChatGPT的逻辑都是来自于语言，语言有本来不是很好的逻辑载体。</p><p>但是正确的解答重要吗，就像价值投资真的能比得过热点吗？（这是从朋友那边抄来的）。</p><p>如果说ChatGPT4在TED talk上的演示非常震撼的话，那么<a href="https://www.youtube.com/@GravityIndustries">Gravity Industries</a> 的jet suit就是无比震撼，Starship能升空就是震撼之至，FDA要批准MDMA就是超过了测量尺度。</p><p>语言的匮乏大概也就是这样了。</p><p>也许我多说点有文化的话能帮助中国大语言模型的训练了。</p><p>只可惜空空如也。</p><p>既然今天打开了命令行，那就可能一起把以前不成文的想法倾泻一下吧。这篇也就起到了承上启下的作用了。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;给ChatGPT给单独列了个tag，因为觉得会说很多，但实际上可能并不会。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="ChatGPT" scheme="https://blog.peiyuanqi.me/tags/ChatGPT/"/>
+    
+  </entry>
   
   <entry>
     <title>2022年终总结</title>
@@ -104,6 +173,29 @@
     <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
     
     <category term="小故事" scheme="https://blog.peiyuanqi.me/tags/%E5%B0%8F%E6%95%85%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法47 宾客权利</title>
+    <link href="https://blog.peiyuanqi.me/2022/09/05/thoughts-47/"/>
+    <id>https://blog.peiyuanqi.me/2022/09/05/thoughts-47/</id>
+    <published>2022-09-05T11:10:14.000Z</published>
+    <updated>2023-04-21T06:23:52.792Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近冰与火之歌听到了第三本剑雨的风暴。</p><span id="more"></span><p>马丁是一直到第三本书才决定有血色婚礼的，因为他在前两本中，很少或者基本没提到宾客权利，但是在第三本的开头，就突然提到了这个没什么存在感的传统。同时为了铺垫后来佛雷违反了宾客权利，就再而三强调了大家都不敢违反宾客权利。</p><p>可以说也就感受到了马丁的上限了。他能做到埋下伏笔，但是写作冰火的时候更多是按一本书为一个阶段，导致很难埋下垮书的伏笔。除非一开始就想好的，比如hodor🐶<br>大概就是这样。<br>还值得一提的是刘慈欣在一次采访说到没打算写三体第三本的时候，提到不能随随便便写死重要人物，自己毕竟不是马丁。那么其实，大家的差距也没这么远。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;最近冰与火之歌听到了第三本剑雨的风暴。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="冰与火之歌" scheme="https://blog.peiyuanqi.me/tags/%E5%86%B0%E4%B8%8E%E7%81%AB%E4%B9%8B%E6%AD%8C/"/>
     
   </entry>
   
@@ -431,101 +523,6 @@
     <category term="组装AR" scheme="https://blog.peiyuanqi.me/tags/%E7%BB%84%E8%A3%85AR/"/>
     
     <category term="家防" scheme="https://blog.peiyuanqi.me/tags/%E5%AE%B6%E9%98%B2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#37 科普，赞助，很多人</title>
-    <link href="https://blog.peiyuanqi.me/2021/10/13/thoughts-37/"/>
-    <id>https://blog.peiyuanqi.me/2021/10/13/thoughts-37/</id>
-    <published>2021-10-13T13:09:52.000Z</published>
-    <updated>2021-10-14T04:46:08.767Z</updated>
-    
-    <content type="html"><![CDATA[<p>本来今天写了这么多，就停下来了，但是上一篇实在是不知道在说什么，所以咬咬牙把这个也写了吧。</p><span id="more"></span><p>前两天果壳放了一篇关于环球影城的气球的文章，总体讲就是氦气很珍贵，大家要节约。大致看起来没啥问题，但值得一提的中间的一个细节。文章提到的是每年世界消耗的氦气量是数亿立方米，同时全世界储量不足80亿立方米，给人一种分分钟马上没氦气用的感觉，但是按着文章提供的参考资料，查到USGS估测的全球除中国外氦气消耗量大概在1.4亿立方米，全世界估测出量所以实际上还有好多年可以用。</p><p>文章中渲染的美国拥有的海量战略储备氦气的实际情况也并不好，USGS2020年报告中直接预测2025年美国的主要氦气供应将依靠国际生产商提供。<a href="https://pubs.usgs.gov/periodicals/mcs2021/mcs2021-helium.pdf">2021年的报告</a>中显示对储备氦气的使用从基本稳定的2000多万立方米落至1300万立方米。</p><p>有的时候夸张是一种非常好的提醒大家注意的方法，但是所有的工具使用过度，都有适得其反的时候，就和09年的气候数据造假一样，最后丢的还是自己的可信度。</p><p>当然，USGS的数据既然没有包括中国，又考虑到写报告的只是冷门部门中的一个小职员，可能这一切都和在办公桌上拍脑袋提出来的一样。这也就是看读文章的人的心情来决定的事情了。</p><p>不过考虑到一篇相对非常重要的资源调查简报，可能只是庞大的公务员体系中的一个小职员撰写的，就不得不感叹让一个巨大的系统能够成功运行到及格就已经非常不错的了。毕竟，需要聪明人的地方这么多，但是聪明人的产生永远都是遵守正态分布的。</p><p>但是也许，这就是尝试从制度上解决问题的根本动力了吧。但是又有什么人能够保证，制度是一个能经受考验的制度，而不只是个当前环境下的局部最优解呢？</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;本来今天写了这么多，就停下来了，但是上一篇实在是不知道在说什么，所以咬咬牙把这个也写了吧。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-    <category term="组织" scheme="https://blog.peiyuanqi.me/tags/%E7%BB%84%E7%BB%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#36 第一性原理和知行合一</title>
-    <link href="https://blog.peiyuanqi.me/2021/10/13/thoughts-36/"/>
-    <id>https://blog.peiyuanqi.me/2021/10/13/thoughts-36/</id>
-    <published>2021-10-13T12:25:34.000Z</published>
-    <updated>2021-10-14T04:00:07.292Z</updated>
-    
-    <content type="html"><![CDATA[<p>提到这个想法是因为前段时间在接触到很多有创业想法的人的时候，发现大家张口闭口都是第一性原理，就感觉非常的有意思。</p><span id="more"></span><p>简单来说，就是大家道理都懂，但是做不好任何事情。从开始明白是怎么回事，到最后能做成功什么事情，期间的努力是非常重要的。只可惜很多人貌似可以忽视了这部分，那么也许只能希望有一天能把精神动力转化成物质存在，那么才能有所作为吧。</p><p>再短点都可以发一条微博或者想法了。</p><p>想到前段时间有提到的南航同学发火箭的事情，就会很好的例子。不说做的有啥用，但是明白怎么做的人不少，但是能花时间一直做下去的，大概不多，最后做出来了又能有所收获的，那就真不知道有没有凑出个整数了吧。</p><p>事实证明有什么想法只记录一句话是很差劲的实践，基本上后来都忘了在想点什么了。</p><p>但是说到每次利用点滴时间这件事，我发现最后的下限是毫无止境的，最后哪怕app开启慢了那1秒，都能导致一个每天要做什么事情的习惯因为拖延症或者懒癌而丧失，实在是太难了。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;提到这个想法是因为前段时间在接触到很多有创业想法的人的时候，发现大家张口闭口都是第一性原理，就感觉非常的有意思。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#35 布兰登到底在写点啥</title>
-    <link href="https://blog.peiyuanqi.me/2021/10/13/thoughts-35/"/>
-    <id>https://blog.peiyuanqi.me/2021/10/13/thoughts-35/</id>
-    <published>2021-10-13T11:29:04.000Z</published>
-    <updated>2021-10-14T03:28:47.527Z</updated>
-    
-    <content type="html"><![CDATA[<p>接上一篇想法</p><span id="more"></span><p>可以看得出来时间顺序的间隔比较大，但是这几个月确实又看了好几本小说，有了一些更多的想法。</p><p>除了飓光志看到了第四本，也看完了布兰登的破战者，还有审判者传奇系列。还顺便看掉了EY的哈利波特与理性之道。进而对写小说的一些技术细节产生思考。</p><p>在后来的故事中，卡拉丁因为需要让位给其他故事人物，所以心理描写变少了一整子，反而显得人物更加合理了一点，但是到了Rythm of wars开篇，稍微显微镜关注了一下卡拉丁，整个人物的脱离现实感就又显示了出来。感觉这完全是布兰登写作笔力的问题了。当然，这也可能是当年笔力的问题，毕竟看一本书经常会发现如果时间跨度很长，作者的水平提升是看得到的。</p><p>我之前对破战者的评价是，这大概就是布兰登的一篇写作练习，全文很短，前面仔细地描写了一个（可能的）碎瑛世界各种设定以后，就开始疯狂推进情节，飞快地写完了。可以说短篇幅甚至很好的掩盖了一些技术水平上的缺陷。比如卡拉丁一样的问题发生在了薇雯娜身上，但是因为出现的次数就这么一点，所以也就没有什么碍事的地方。</p><p>看了这么多布兰登的作品，我觉得他的想象力是非常值得肯定的，对让故事不落俗套的努力真的远在丹布朗之上。同时对三界宙的设定努力也是充满了成果。但是在文学能力上却感觉始终有着一个天花板，不知道是不是自己的编辑催稿太急了导致没法好好写了呀。</p><p>相比之下，哈利波特与理性之道大概是唯一一本我看的长篇同人了。作为同人，大概就是卖一个概念，整本书鼓吹了一通EY的个人哲学以外，剧情可以说并没有什么出彩的地方，而不是真正的文学作品导致里面的技术问题不胜枚举。之后也花了点时间看掉了他写的三个世界的碰撞。可以说所有的作品真的充满了作者传教冲动了。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;接上一篇想法&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-    <category term="飓光志" scheme="https://blog.peiyuanqi.me/tags/%E9%A3%93%E5%85%89%E5%BF%97/"/>
-    
-    <category term="小说" scheme="https://blog.peiyuanqi.me/tags/%E5%B0%8F%E8%AF%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#34 卡拉丁迷思</title>
-    <link href="https://blog.peiyuanqi.me/2021/06/05/thoughts-34/"/>
-    <id>https://blog.peiyuanqi.me/2021/06/05/thoughts-34/</id>
-    <published>2021-06-05T12:23:37.000Z</published>
-    <updated>2021-06-06T03:36:06.717Z</updated>
-    
-    <content type="html"><![CDATA[<p>起因是看到同学发的关于昨天的一个post。</p><p>在飓光志(The Stormlight Archieve)里面，卡拉丁Kaladin也算一个是个主角，起码按照现在的写作进度（前四部）来看。</p><span id="more"></span><p>说实话对这个人物很难有什么共情，可能因为布兰登自己没啥底层群众经验，写出来的人物有着一种不真实感。其中最喜欢吐槽的一点就是关于第四冲桥队的事情。</p><p>冲桥队在轩亲王撒迪亚斯的队伍里，主要是负责冲在前面，没有任何防备，来吸引敌军火力，送死的炮灰。我们的主角卡拉丁不幸落入了其中，愤恨撒迪亚斯草菅人命，不把奴隶和普通人的命当命，并且想要拯救每一个冲桥队员的生命。最后，虽然他成功想到办法减少每次战斗中自己队员的伤亡，并在一次战斗中成功运用，但在这次战斗中却让更多的其他人付出了生命。</p><p>当然我们不想认真的讨论这个话题。这里布兰登只是想表示，作为普通炮灰的一员，卡拉丁没有站在指挥官的角度思考问题（也没这个能力和必要）。所以导致再一次战斗中更多的人死了。那么自然这个事件中，卡拉丁没有换位思考，撒迪亚斯也没有换位思考，导致了一连串后续的事件。</p><p>一直觉得这段剧情非常的扯淡，为什么里面的人都不换位思考呢？那时候他们每个人在其他方面都拥有着过人的逻辑思维能力，但是为什么到了这个话题，脑子就短路了想不明白利弊呢？当然这可能有布兰登写作的疏忽，但是，最近看到同学的Post，才只能说其实这才是合乎正常人的状态。虽然描写的过程中，可能有所欠缺不够细致形象，但是事实证明，缺乏这种能力，不代表这在其他方面不能拥有优秀的表现。</p><p>大概就是这样吧。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;起因是看到同学发的关于昨天的一个post。&lt;/p&gt;
-&lt;p&gt;在飓光志(The Stormlight Archieve)里面，卡拉丁Kaladin也算一个是个主角，起码按照现在的写作进度（前四部）来看。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-    <category term="时事" scheme="https://blog.peiyuanqi.me/tags/%E6%97%B6%E4%BA%8B/"/>
-    
-    <category term="飓光志" scheme="https://blog.peiyuanqi.me/tags/%E9%A3%93%E5%85%89%E5%BF%97/"/>
     
   </entry>
   
