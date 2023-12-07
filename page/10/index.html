@@ -175,6 +175,126 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-cs-osm-on-google-cloud" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/04/05/cs-osm-on-google-cloud/">Install Open Source Mano THREE on Google Cloud</a>
+    </h1>
+  
+
+        
+        <a href="/2018/04/05/cs-osm-on-google-cloud/" class="archive-article-date">
+  	<time datetime="2018-04-06T05:57:37.000Z" itemprop="datePublished">
+		<i class="icon-calendar icon"></i>
+		
+		
+		2018-04-05
+		
+	</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>When you try to install Open Source Mano on your Google Cloud Virtual Machine Instance following <a target="_blank" rel="noopener" href="https://osm.etsi.org/wikipub/index.php/OSM_Release_THREE">the Guide</a> on OSM Wiki, you might met the problem of accessing UI, which is running in SO container and only has an local IP to access.</p>
+<p>Since Open Source Mano THREE apply the new authentication mechanism, you could not access the login page for UI. The detailed reason is explained in the Wiki:</p>
+<blockquote>
+<p>Please note that in OSM 3, authentication is performed using OpenIDConnect and OAuth2.0.<br>An identity provider has been added to the platform and provided as a service in the SO container running on port 8009.<br>This means both the browser and the UI server components (that run on the SO container) need to be able to access the SO container using identical URIs.<br>In short, the tuple of scheme://location:port needs to be reachable via both the browser accessing the system and the UI server running on the SO container (e.g. <a target="_blank" rel="noopener" href="https://10.66.202.206:8009/">https://10.66.202.206:8009</a> for a sample deployment).<br>This means that if your SO container is behind a NAT that cannot reach the public address of the host, authentication and authorization will not be possible and you will not be able to proceed using the UI.</p>
+</blockquote>
+<p>To by pass this problem, the principle is make your local machine be able to access the network created by <code>lxd</code> on your Google Cloud Host.</p>
+<p>There are multiple ways to do that:</p>
+<ul>
+<li>Using Google <a target="_blank" rel="noopener" href="https://cloud.google.com/vpn/docs/concepts/overview">Cloud VPN</a><ul>
+<li>Good choice but might be overkilled, if you just have a laptop as your local machine.</li>
+</ul>
+</li>
+<li>Setting up a VPN server on your Google Cloud Host<ul>
+<li>Not Elegant, but simple and easy to achieve<ul>
+<li>To set up an OpenVPN server and use your local machine to access it, check <a target="_blank" rel="noopener" href="https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04">this post</a>.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Then you are good to login the UI. </p>
+<p>I think this is a bug of OSM-THREE and hope they will fix it soon and then this post will finish its job and retired.</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Open Source Mano</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Google Cloud</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Tutorial</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/Tech//" class="article-tag-list-link color5">Tech</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/04/05/cs-osm-on-google-cloud/">VIEW THE POST >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-thoughts-2" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -1066,106 +1186,6 @@
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2017/04/18/cs-how-to-mask-multiple-keys-in-swift-3/">VIEW THE POST >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-cs-how-to-use-multipeerconnectivity-framework" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/10/cs-how-to-use-multipeerconnectivity-framework/">How to Use MultipeerConnectivity Framework</a>
-    </h1>
-  
-
-        
-        <a href="/2017/04/10/cs-how-to-use-multipeerconnectivity-framework/" class="archive-article-date">
-  	<time datetime="2017-04-11T00:57:50.000Z" itemprop="datePublished">
-		<i class="icon-calendar icon"></i>
-		
-		
-		2017-04-10
-		
-	</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Here is a great tutorial about how to establish the connection using MultipeerConnectivity framwork. Updated in 2017.2</p>
-<p><a target="_blank" rel="noopener" href="https://www.ralfebert.de/tutorials/ios-swift-multipeer-connectivity/">https://www.ralfebert.de/tutorials/ios-swift-multipeer-connectivity/</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">iOS</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">MultipeerConnectivity</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Swift</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/Tech//" class="article-tag-list-link color5">Tech</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/04/10/cs-how-to-use-multipeerconnectivity-framework/">VIEW THE POST >></a>
         </p>
       
 
