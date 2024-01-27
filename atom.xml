@@ -6,7 +6,7 @@
   <link href="https://blog.peiyuanqi.me/atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2024-01-27T07:04:23.170Z</updated>
+  <updated>2024-01-27T07:32:38.395Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>早知道1 跷跷板</title>
+    <link href="https://blog.peiyuanqi.me/2024/01/26/career-1/"/>
+    <id>https://blog.peiyuanqi.me/2024/01/26/career-1/</id>
+    <published>2024-01-27T07:25:51.000Z</published>
+    <updated>2024-01-27T07:32:38.395Z</updated>
+    
+    <content type="html"><![CDATA[<p>开一个新分类，早知道系列。</p> <span id="more"></span><img src="/2024/01/26/career-1/title.png" class="" title="tree in spring"><p>我一直希望之前走过类似的路的人能给一点建议，但是很多时候，好像并不能获得很多很恰当的建议，就决定记录一下自己的一些想法吧。反正也应该没人在意。只要还是在技术行业，分类在Tech里面应该也没有什么不妥吧。</p><p>第一篇就是跷跷板问题：</p><p>张三是技术领导，让李四去隔壁大组找人帮忙干活，隔壁大组技术领导王五说帮忙可以，但是这个新活以后必须成为自己组成果的一部分。但是张三又申明隔壁组的成果必须是自己的项目的一部分，李四应该如何应对呢？</p><p>答案就下次再讲吧。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;开一个新分类，早知道系列。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+    <category term="Career" scheme="https://blog.peiyuanqi.me/tags/Career/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#59兴趣</title>
@@ -454,32 +475,6 @@
     <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
     
     <category term="经济" scheme="https://blog.peiyuanqi.me/tags/%E7%BB%8F%E6%B5%8E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何制作遥控船/帆船</title>
-    <link href="https://blog.peiyuanqi.me/2022/05/31/rc-1/"/>
-    <id>https://blog.peiyuanqi.me/2022/05/31/rc-1/</id>
-    <published>2022-05-31T12:54:22.000Z</published>
-    <updated>2022-06-02T05:12:17.123Z</updated>
-    
-    <content type="html"><![CDATA[<p>最早是偶然看到了RCRadio在Youtube上制作无人船的视频，大受震撼，就想做一个无人帆船，于是就动起了手来。</p><p>第一次从一堆材料开始做出了点能动的家伙，感觉制作过程搜集信息非常的费力，就来额外提供一些杂乱的信息吧。</p><span id="more"></span><h3 id="RC-Sailboat-遥控帆船"><a href="#RC-Sailboat-遥控帆船" class="headerlink" title="RC Sailboat 遥控帆船"></a>RC Sailboat 遥控帆船</h3><p>由于手工能力的问题，导致做出来的第一艘遥控帆船并不能工作，但是本着把踩过的坑都公布出来让后人无坑可踩的精神，就来记录一下。</p><h3 id="船体制作"><a href="#船体制作" class="headerlink" title="船体制作"></a>船体制作</h3><p>这一部分参考了网友设计的一款小帆船<a href="https://www.boatsnews.com/story/36065/step-by-step-for-the-construction-of-the-minix-everything-to-build-a-radio-controlled-sailboat">The Minix</a>。首先是打印了设计稿纸，然后用从Dollar Tree买的泡沫板进行切割，用热熔胶进行粘贴，获得了如图的船体。</p><img src="/2022/05/31/rc-1/1Medium.jpeg" class=""><p>上面短短一句话里，就已经充满了好多坑。</p><p>首先常见做模型使用的3-10mm Depron foam，但是在美国特别是pandemic期间并不容易买到。很多人用粉色的隔热泡沫代替，但是隔热泡沫往往都很厚，所以就用了Dollar Tree的平替。还从网上买过号称Depron foam结果实际上只是一盒没有额外贴纸的foam board…</p><p>其次，切割foam board看起来非常简单， 然而不知是刀不够锋利，还是foam过于垃圾，即使在用力并且尽可能增加刀刃接触面的情况下也容易出现泡沫板撕裂的情况，就会有foam卡在刀刃上，导致被切口撕成锯齿状。别人Youtube视频里面明明非常简单呀🥲</p><p>最后是热熔胶，或者说胶水，普通502会腐蚀泡沫，然后foam safe的快干胶（CA）实际上粘不住泡沫板，最安全的是AB胶（Epoxy Resin）但是干起来很慢，需要有固定泡沫板的工具。于是热熔胶这种工程导论之友貌似就出场了。但是一搜老美推荐的热熔胶枪都是300刀起步实在下不了手。最后虽然买了款Adam Savage推荐的，但实际上其实没这么好用，还不如Amazon 20刀淘宝货，因为有的时候你并不需要自己的小船这么结实。</p><p>而且热熔胶枪如果性能太好，很容易加热过度，导致融化泡沫板，最后不得不先加热再冷却热熔胶，当温度达到20刀淘宝货水平，再进行上胶…</p><h3 id="Fiberglass-Cloth-and-Epoxy-Resin"><a href="#Fiberglass-Cloth-and-Epoxy-Resin" class="headerlink" title="Fiberglass Cloth and Epoxy Resin"></a>Fiberglass Cloth and Epoxy Resin</h3><p>帆船制作教程总是说最后船底需要给铺上玻璃纤维布，再上环氧树脂胶（Epoxy Resin）来防水。但是事实证明其实并不太需要。</p><p>特地从供应商那边买了几尺布，和好多浇水，硅基增稠剂，上下一通操作，但是最后，是漏的，不过我确实偷懒了，没有做到以下两点</p><ul><li>多层玻璃纤维布（先疏后密）和多次刷胶</li><li>保证船表面的光滑，进行打磨</li></ul><img src="/2022/05/31/rc-1/2Medium.jpeg" class=""><p>所以虽然图中的船底看起来非常优秀，但是实际上会漏水。那可怎么办呢？那当然用万能的热熔胶给堵上了。所以第二艘船模并没有用玻璃纤维布和树脂防水，而是直接用热熔胶把缝给堵上了。</p><p>所以常见的船模用Balsa木板制作，这种模板非常轻，但容易吸水，就给铺上玻璃纤维布和树脂进行防水，就能充分担当船体的职责了。</p><img src="/2022/05/31/rc-1/3Medium.jpeg" class=""><h3 id="3D打印部件"><a href="#3D打印部件" class="headerlink" title="3D打印部件"></a>3D打印部件</h3><p>在黑五的时候买了入门的Anet ET4X 立刻发挥了作用，但是发现3D打印的局限还是蛮大的，如果能有台数控车床就更好了🌚</p><p>3D打印最大的问题是需要支撑部件，如果悬空打印，起码这台入门级是做不到的了。所以这极大的限制能够打印的部件。用着FreeCAD随便画一些，然后再用Ultimaker给切一个gcode，就可以开工了。</p><img src="/2022/05/31/rc-1/4Medium.jpeg" class=""><p>首先打印的舵，打印完感觉良好，却没想到是整艘帆船失败的关键……由于舵太大了，中间是空的，所以会浮起来…根本无法发挥作用。如果想省事，可以直接网上买死贵的20刀起步的成品。至于如何进行替代设计，依然在考虑中……</p><p>然后就是Keel Bulb。由于风帆会受到很大的横向力，所以需要船底有一片鳍（Keel&#x2F;Fin）进行平衡。设计多种多样，而我选择了最常见的一种。好多美式手工达人都会直接融铅浇筑Keel Bulb，考虑到并没有学过冶金学101，就决定还是做个塑料的。一般推荐的模型帆船Bulb重量300-500g，于是3D打印了一个容器，放进了四个钓鱼用的铅子，感觉自己非常聪明。</p><img src="/2022/05/31/rc-1/5Medium.jpeg" class=""><p>最后就是由于船体只是一些脆弱的泡沫板，也并没有木质龙骨之类的，就打印了一个巨大的稳定块，是希望桅杆和稳定块连接，Keel也和稳定块连接，从而保障受力均匀之类的，事实证明这就是非科班出身的瞎设计行为，因为这远不是整个船的短板所在。</p><img src="/2022/05/31/rc-1/6Medium.jpeg" class=""><p>如上图，用Balsa模板覆盖防水的玻璃纤维布，并且通过船底固定在稳定块上。桅杆则是一根黄铜管。</p><img src="/2022/05/31/rc-1/7Medium.jpeg" class=""><p>Keel和船体连接的地方会漏水，后来就用热熔胶给整个糊上了。</p><img src="/2022/05/31/rc-1/8Medium.jpeg" class=""><p>完成这一部分以后进行防漏测试，失败就失败在没把舵给带上。</p><img src="/2022/05/31/rc-1/9Medium.jpeg" class=""><p>用热熔胶将两瓣Bulb给糊在一起。</p><img src="/2022/05/31/rc-1/10Medium.jpeg" class=""><p>船尾舵的安装，理想很美好，现实很残酷，正在考虑将舵做成实心的。</p><h3 id="桅杆"><a href="#桅杆" class="headerlink" title="桅杆"></a>桅杆</h3><img src="/2022/05/31/rc-1/14Medium.jpeg" class=""><p>桅杆（Mast）和横杆（Boom）是用了两根黄铜管，事实证明即使加上两端3D打印延长段也太短了，导致主帆面积过小。导致本来只想做一面的情况下不得不加上了前面的角帆，横杆是用弯管器给掰弯的。然后有一个3D打印的固定组建，加上一个滚珠轴承做成了简易的桁轴（Goose Neck），并不能进行的上下活动。但确实够用了。</p><img src="/2022/05/31/rc-1/13Medium.jpeg" class=""><h3 id="风帆"><a href="#风帆" class="headerlink" title="风帆"></a>风帆</h3><p>风帆是用风筝布制作的，剪完以后用线缝一缝，防止脱线，也可以尝试去做出各种真正风帆的形状。由于风帆需要连接线，就再用孔眼钳（Eyelet Pliers Kit）制作一个圆孔来固定线。</p><img src="/2022/05/31/rc-1/12Medium.jpeg" class=""><img src="/2022/05/31/rc-1/11Medium.jpeg" class=""><h3 id="其他部件"><a href="#其他部件" class="headerlink" title="其他部件"></a>其他部件</h3><p>最后帆索用的是尼龙双股线，但其实并不好用。在穿线进舵机的时候总是会散开。</p><p>舵机控制帆索（线）的放缩，用的是专门用于绞盘的Winch Servo。</p><img src="/2022/05/31/rc-1/15Medium.jpeg" class=""><p>很可惜，在第一次下水就直接导致舵机崩坏，来没来得及修，可以算是实验失败了。</p><h3 id="马达小快艇"><a href="#马达小快艇" class="headerlink" title="马达小快艇"></a>马达小快艇</h3><p>感觉什么也没做出来也不是个意思，于是就照着这个油管视频 <a href="https://youtu.be/dSQbjb8mftM">https://youtu.be/dSQbjb8mftM</a> 做了一个双螺旋桨马达小快艇，也算是有个交代了。</p><img src="/2022/05/31/rc-1/16Medium.jpeg" class=""><img src="/2022/05/31/rc-1/17Medium.jpeg" class=""><p>只可惜第一次试航的时候，就因为杜邦线太细熔断了，也没来得及再焊接。所以只有一段14秒的demo了🌝</p><p><a href="https://youtube.com/shorts/uy7PtQrPkzo?feature=share">https://youtube.com/shorts/uy7PtQrPkzo?feature=share</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;最早是偶然看到了RCRadio在Youtube上制作无人船的视频，大受震撼，就想做一个无人帆船，于是就动起了手来。&lt;/p&gt;
-&lt;p&gt;第一次从一堆材料开始做出了点能动的家伙，感觉制作过程搜集信息非常的费力，就来额外提供一些杂乱的信息吧。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
-    
-    
-    <category term="Radio Control" scheme="https://blog.peiyuanqi.me/tags/Radio-Control/"/>
-    
-    <category term="RC Boat" scheme="https://blog.peiyuanqi.me/tags/RC-Boat/"/>
-    
-    <category term="RC Sailboat" scheme="https://blog.peiyuanqi.me/tags/RC-Sailboat/"/>
     
   </entry>
   
