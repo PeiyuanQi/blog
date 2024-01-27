@@ -6,7 +6,7 @@
   <link href="https://blog.peiyuanqi.me/atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2024-01-25T08:01:57.143Z</updated>
+  <updated>2024-01-27T07:04:23.170Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想法#59兴趣</title>
+    <link href="https://blog.peiyuanqi.me/2024/01/26/thoughts-59/"/>
+    <id>https://blog.peiyuanqi.me/2024/01/26/thoughts-59/</id>
+    <published>2024-01-26T17:06:07.000Z</published>
+    <updated>2024-01-27T07:04:23.170Z</updated>
+    
+    <content type="html"><![CDATA[<p>很好奇为什么很多人喜欢打高尔夫。</p><span id="more"></span><p>然后发现也许和很多人不喜欢滑雪但也在湾区去滑雪一样。</p><p>我也不知道。</p><p>但如果所有湾区码农都被随机开除，然后再重新随机从new grad里面进行等量的招聘的话，滑雪还是否会热门呢？</p><p>也许就轮到冲浪了。</p><p>但是高尔夫经久不衰，大概是没有出现过这种假设的事件了吧。</p><p>就和早年网上流传的关于传统的段子一样。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;很好奇为什么很多人喜欢打高尔夫。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#58 莫名其妙</title>
@@ -459,31 +480,6 @@
     <category term="RC Boat" scheme="https://blog.peiyuanqi.me/tags/RC-Boat/"/>
     
     <category term="RC Sailboat" scheme="https://blog.peiyuanqi.me/tags/RC-Sailboat/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在美国拿到HAM入门证</title>
-    <link href="https://blog.peiyuanqi.me/2022/05/12/ham-1/"/>
-    <id>https://blog.peiyuanqi.me/2022/05/12/ham-1/</id>
-    <published>2022-05-12T13:23:30.000Z</published>
-    <updated>2022-05-13T04:26:09.871Z</updated>
-    
-    <content type="html"><![CDATA[<p>Amateur Radio在美国入门并不难，但是之前发现并不太存在一站式教程，所以特别记录一下。</p><span id="more"></span><p>首先是证书，和入门最直接相关是没有证，GMRS License，Amateur Radio - Technician，General，Amateur Extra License。</p><p>平时超市看到的打包小型无线电因为功率不超过1W，所以都并不需要持证，不过他们的缺点就是范围非常小，只能在无障碍视野范围内进行通讯。这里面的讯号频率叫做Family Radio Service (FRS)方便在家庭范围内的各种简单使用场景。在雪场稍稍拐弯就没有信号了，但是如果一个人在山顶一个人在山脚，却说不定能说上话。同时，雪场茫茫人海，找同行小伙伴也是非常方便的。</p><p>证书需要在FCC网站先获得你的无线电世界ID，FRN。可以从FCC<a href="https://apps.fcc.gov/coresWeb/publicHome.do">的某个系统</a>中获得，FCC的每个database都是分开的，可以说充满了古早味。</p><p>GMRS，General Mobile Radio Service，这是一张不需要考试的证书，付费即得，可以让licensee的家庭所有设备都具有合法运行的作用，但是不能超过5W，使用频段也是和FRS重合的这一部分。<br>GMRS licensee会获得GMRS callsign，这是用作通讯中表明自己身份的识别码，按照FCC规定需要不断的在通讯中通报自己的callsign。</p><p>然后就是常见HAM的三个级别证书。<br>从Tech到Extra依次升级，不允许直接跳级，并且需要进行考试。不同级别考试的题库不同，要求的题目数量不同，但是通关的正确率要求都相同。拿到不同的证书就可以获得在不同的频率上进行通讯啦。可以参考<a href="http://www.arrl.org/getting-your-technician-license">arrl.org</a>的解释。<br>考试还是相对比较正式的，在pandemic之前只能进行现场考试，而pandemic之后则是可以进行远程考试。考试由志愿组织进行执行，由志愿者进行监考。一般都是由当地的无线电爱好者俱乐部举办的。所以只要搜一搜自己当地的无线电爱好者俱乐部的联系方式就行了。大部分考试都是ARRL作为志愿组织举办，当地俱乐部志愿者承办的。<br>在SF湾区的话，目前进行远程考试的有<a href="http://svve.org/">Sillicon Valley VE Group</a>，现场考试有<a href="http://www.baears.com/">BAEARS</a> 等组织进行。有公司内部也会有爱好者组织考试（例如G家）。<br>考试都是从题库中选择原题，但是选项顺序可能并不一样（一样也太过分了）。并不推荐一开始就学习各种规章，直接看一遍题库会有更好的效果。题库可以在<a href="http://www.ncvec.org/">http://www.ncvec.org/</a>找到。</p><p>KN6UBH</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Amateur Radio在美国入门并不难，但是之前发现并不太存在一站式教程，所以特别记录一下。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-    <category term="美国" scheme="https://blog.peiyuanqi.me/tags/%E7%BE%8E%E5%9B%BD/"/>
-    
-    <category term="无线电爱好者" scheme="https://blog.peiyuanqi.me/tags/%E6%97%A0%E7%BA%BF%E7%94%B5%E7%88%B1%E5%A5%BD%E8%80%85/"/>
-    
-    <category term="HAM" scheme="https://blog.peiyuanqi.me/tags/HAM/"/>
     
   </entry>
   
