@@ -6,7 +6,7 @@
   <link href="https://blog.peiyuanqi.me/atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2024-04-13T19:49:54.177Z</updated>
+  <updated>2024-04-21T03:30:22.551Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想法#60产业外迁的覆辙</title>
+    <link href="https://blog.peiyuanqi.me/2024/04/20/thoughts-60/"/>
+    <id>https://blog.peiyuanqi.me/2024/04/20/thoughts-60/</id>
+    <published>2024-04-21T03:08:51.000Z</published>
+    <updated>2024-04-21T03:30:22.551Z</updated>
+    
+    <content type="html"><![CDATA[<p>所以这次轮到信息产业了。</p><span id="more"></span><img src="/2024/04/20/thoughts-60/title.webp" class="" title="moving-out-of-ame"><p>新冠疫情让资本突然意识到了一件事情，就是曾经牢不可破的办公室工作才意味着生产力信条被打破了。</p><p>很可惜打破的并不是像年轻人所想的那样，意味着员工可以在家里快乐上班。而是跨时区工作可以提供可堪一用的生产效率。如果</p><p>$$资本收割效率&gt;远程工作降低效率$$</p><p>(这两个都是我生造的词)<br>那么产业外迁就是有利可图的（不要问我为什么这一幕这么眼熟）</p><p>曾经工业化的时候，离岸制造最大的抗议可能是运输成本，现在信息化的时候，离岸制造最大的抗议就是沟通成本了，但是毕竟打工人可压榨空间无限大，所以自然可以从中压榨出来资本家需要的成本的。</p><p>不是DS自然也不会写个脚本拉出一堆骇人的数据，但是感官上可以以偏概全的觉得，startup正在意识到除非必要，否则传统软件工程中心完全可以外包给Bengaluru和BJ SH。前者适应NS的需求，后者则是实现费效比最大化。而且时区上东八区和西八区更友好一点。而大公司大部分都受限于NS的需求，所以都是在Bengaluru或者Hyderabad。更有听闻一线mgr们被要求提高产出的情况下，只给予了离岸人头，意味着经理要么选择接受，要么压迫组员一起加班。那这正是一出优秀的“指鹿为马”（chatgpt推荐的，大概算贴切吧&#x3D; &#x3D;。</p><p>其实如果一切是资本驱动的话，这是自然而然的事情。这也是之前工业外迁的一个主要因素，可以想像若干年以后，会不会也有类似的口号要求软件开发回流呢？</p><p>大概应该不会吧，毕竟写代码真的可以让模型做。</p><p>但是驾驭模型大概又成了新的写代码方法了吧。</p><p>前几天听同学推荐的钟宁桦的讲座，简单来讲就是没有利润的事情，在资本驱动的世界里，是非常难办成的，基础设施建设算其中一样。</p><p>但是制造业基础也是一样。信息产业基础，还是一样。最后永远是在食物链的最上层能占据最大的剩余价值，但类似于毒素的富集，大概自然而然也就吸收了更多的环境中的有害物质吧。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;所以这次轮到信息产业了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="产业转移" scheme="https://blog.peiyuanqi.me/tags/%E4%BA%A7%E4%B8%9A%E8%BD%AC%E7%A7%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>早知道3 小气候</title>
@@ -444,31 +467,6 @@
     <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
     
     <category term="小故事" scheme="https://blog.peiyuanqi.me/tags/%E5%B0%8F%E6%95%85%E4%BA%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#44 暂停了的思考</title>
-    <link href="https://blog.peiyuanqi.me/2022/06/30/thoughts-44/"/>
-    <id>https://blog.peiyuanqi.me/2022/06/30/thoughts-44/</id>
-    <published>2022-06-30T12:12:36.000Z</published>
-    <updated>2022-07-01T03:43:09.245Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近发现出现想法的次数明显变少了。</p><span id="more"></span><p>发现过去一年写想法的次数明显变少了，而笔记本里记载想法的数量也一个比一个月少，并不知道是思考的时间变少了，还是脑子空空没墨水了，还是生活太难，疲于应对。</p><p>人无远虑必有近忧，但是这显然也不是停止思考的理由，更不要说所谓的思考并不需要讨论大而高的话题，而是脑中的灵光一现。</p><p>也许是因为年龄的增长？</p><p>类似的，突然发现前两年热衷的户外运动突然失去了原来的吸引力，并不知道是为什么。</p><p>也许是因为和个人财务压力也有一定的关系，在持续了好多年的月光以后，突然发现了那一直存在的财务压力。</p><p>也许吧，希望能够让各种神奇的想法都回来。🥲</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;最近发现出现想法的次数明显变少了。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-    <category term="思考" scheme="https://blog.peiyuanqi.me/tags/%E6%80%9D%E8%80%83/"/>
-    
-    <category term="中年" scheme="https://blog.peiyuanqi.me/tags/%E4%B8%AD%E5%B9%B4/"/>
     
   </entry>
   
