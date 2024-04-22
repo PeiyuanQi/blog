@@ -6,7 +6,7 @@
   <link href="https://blog.peiyuanqi.me/atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2024-04-21T03:30:22.551Z</updated>
+  <updated>2024-04-22T05:42:19.944Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>权力，权力进化论小结</title>
+    <link href="https://blog.peiyuanqi.me/2024/04/21/reading-power/"/>
+    <id>https://blog.peiyuanqi.me/2024/04/21/reading-power/</id>
+    <published>2024-04-22T05:32:39.000Z</published>
+    <updated>2024-04-22T05:42:19.944Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前有一位信息茧房外的同学推荐了一本入门读物。</p><span id="more"></span><p>说到信息茧还蛮有趣的一个sideways是刚工作的时候出去玩有一位同学说<code>这件事居然你不知道吗，不会是信息茧的问题吧</code>然后被我毫不客气的dui回去了。虽然就是论事那件事并不是信息茧的问题，而是真无此事，但是那确实是第一次让我学习到了这个词。时过境迁，那次出去玩的不少同学居然都已经回国了。</p><p>但是说回读书小结。不能说<code>有感</code>是因为不敢说是感想，最多只是一些类似GPT的转述罢了。就像评论说的，这两本书讲的很浅，而且狒狒老师总是颠来倒去就三四个例子，看了两本书宛如就看了一本书。不得不说是很会赚快钱了，并且用实践证明了自己书中的内容。</p><p>简单来讲就是，小说里的都是骗人的，生活里的东西，还是让他们留在生活里吧。</p><p>总不能讲的太直白，不然大家都不买老师的书了是吧。</p><p>此外有人在书的评论里提到的<code>独裁者手册</code>则是另一本不错的小册子了，但是那就级别拉的太高，对现在也没什么实操的意义了吧。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;之前有一位信息茧房外的同学推荐了一本入门读物。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="读书笔记" scheme="https://blog.peiyuanqi.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="权力" scheme="https://blog.peiyuanqi.me/tags/%E6%9D%83%E5%8A%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法#61 意志力</title>
+    <link href="https://blog.peiyuanqi.me/2024/04/21/thoughts-61/"/>
+    <id>https://blog.peiyuanqi.me/2024/04/21/thoughts-61/</id>
+    <published>2024-04-22T05:25:40.000Z</published>
+    <updated>2024-04-22T05:32:15.624Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一篇不属于早知道系列的career想法。</p><span id="more"></span><p>因为他不合适。</p><p>更像是2023年以来的一个回顾吧。</p><p>简单来讲就是因为2023年上班非常忙，很多其他的进步项目都被暂停了，从最开始的notion sprint彻底废弃，到各大side project没有进展，再到业余学习基本成为不可能，甚至blog也没见几篇，说明大脑的思考真的变少了。最后就是啥好处也没有，啥进步也没看到。不是说多余的时间不存在，没孩子没狗，每天只睡6个半小时，大把的时间还是有的。但是股票账户只有浮亏，体重倒是涨了不少。steam的在线时间也是与日俱增。</p><p>之前有人说，有号称研究表明，每天的意志力是有限额的，早上起来以后就会不停的消耗，从家务到上班，从写算术题到写blog，都是需要消耗意志力的，有的人天生聪慧，起点就很高，有的人通过后天锻炼，维持了很高的每日意志力容量。显然2023年大部分的意志力都是贡献给上班了。</p><p>但是这又有什么样的结果，这大概就是最让人惊醒的吧。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;这是一篇不属于早知道系列的career想法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="Career" scheme="https://blog.peiyuanqi.me/tags/Career/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#60产业外迁的覆辙</title>
@@ -419,54 +465,6 @@
     <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
     
     <category term="冰与火之歌" scheme="https://blog.peiyuanqi.me/tags/%E5%86%B0%E4%B8%8E%E7%81%AB%E4%B9%8B%E6%AD%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#46 2021年度总结和新年计划</title>
-    <link href="https://blog.peiyuanqi.me/2022/08/30/thoughts-46/"/>
-    <id>https://blog.peiyuanqi.me/2022/08/30/thoughts-46/</id>
-    <published>2022-08-30T14:34:37.000Z</published>
-    <updated>2022-09-26T05:19:11.551Z</updated>
-    
-    <content type="html"><![CDATA[<p>没错，这是2021年的年度总结。而现在是2022年9月。</p><span id="more"></span><p>这是一个在今年年初设定的任务，但是今年的拖延症大概大爆发，所以到现在才真的写。</p><p>也不知道是真的拖延，还是觉得没什么可以写的，也没什么可以展望的。</p><p>也有可能是那时候有太多不确定的事情，所以没觉得自己的能力能够总结和展望？</p><p>无论如何，从现在的角度来看，也不太可能是年度总结，也不会有太多时间留给新年计划了。毕竟2023年都要来了。</p><p>写在2022年刚过完生日的时候其实也不错，感觉在2022年，各种上了年纪的事情突然都涌现出来，就仿佛前一秒你还是个乐呵乐呵的学生仔，突然各种成年琐事就开始蜂拥而至，纷至沓来，踩破了你的门槛。</p><p>虽然对每个礼拜都有个流水账一般的小结，但是由于总是没有及时记录，也没有事无巨细得记录，所以必然是遗漏了好多，特别是那种持续一两个月的状态。所以这时候做的也必然不是真正的年度总结了。</p><p>仔细想想可能最大的变化是换了工作，其他就是疫情以来第一个快乐无忧无虑的一年。仔细想想这可能是少数可以毫无牵挂快乐玩耍的一年，也确实做到了。从春天去夏威夷，夏天去风帆冲浪，秋天去纽约西雅图，冬天滑雪终于算是完全入门了，玩的很彻底，也没有什么牵挂，stockmarket is booming，web3 is heating，如果说还有哪一年能比得上2021的话，可能只有2019的最后狂欢了。然而对2019的记忆终是变单薄了，没有2021这么的鲜活。</p><p>如果说新年计划的话，在过去的3&#x2F;4年里面有很多都开了头，然后就没有然后了，希望在剩下的三个月里能把能收拾的都收拾了，能完成的都完成了，剩下的就交给2022的年度总结去评判吧 :)</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;没错，这是2021年的年度总结。而现在是2022年9月。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-    <category term="年度展望" scheme="https://blog.peiyuanqi.me/tags/%E5%B9%B4%E5%BA%A6%E5%B1%95%E6%9C%9B/"/>
-    
-    <category term="年度总结" scheme="https://blog.peiyuanqi.me/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#45 马克很不满意</title>
-    <link href="https://blog.peiyuanqi.me/2022/07/09/thoughts-45/"/>
-    <id>https://blog.peiyuanqi.me/2022/07/09/thoughts-45/</id>
-    <published>2022-07-09T11:12:45.000Z</published>
-    <updated>2022-09-26T05:19:23.163Z</updated>
-    
-    <content type="html"><![CDATA[<p>马克对约翰镇镇长约翰很不满意，因为他每天要交十块钱垃圾费。</p><span id="more"></span><p>以前马克对约翰是没有意见的，因为虽然要交十块钱垃圾费，但是他可以随意丢垃圾，今天把西瓜皮都在屋顶上，明天把香蕉皮丢在门口，后天把烂菜叶丢在床头柜上。第二天起来，镇里的清洁工都会帮忙收拾干净。而且只要有外地人来这边用异样的目光看着本地人乱丢垃圾，约翰都会马上出现走上前去解释这项特殊的福利。讲述垃圾回收系统是怎么有效掌握镇民的丢垃圾行为然后进行清理的。</p><p>但是后来有一天，事情就都变了。突然约翰不再给游客解释镇民的不爱卫生行为。这大家也就忍了，毕竟垃圾费里面没有宣传费。但是后来，居然要求大家每周一把收集垃圾的垃圾桶推到路边，让垃圾车来清理，就不太能接受了，所以，马克很不满意。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;马克对约翰镇镇长约翰很不满意，因为他每天要交十块钱垃圾费。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-    <category term="小故事" scheme="https://blog.peiyuanqi.me/tags/%E5%B0%8F%E6%95%85%E4%BA%8B/"/>
     
   </entry>
   
