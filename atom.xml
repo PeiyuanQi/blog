@@ -6,7 +6,7 @@
   <link href="https://blog.peiyuanqi.me/atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2024-04-22T05:42:19.944Z</updated>
+  <updated>2024-05-03T21:54:38.355Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Is Domain Knowledge Knowledge?</title>
+    <link href="https://blog.peiyuanqi.me/2024/05/03/cs-domain-knowledge/"/>
+    <id>https://blog.peiyuanqi.me/2024/05/03/cs-domain-knowledge/</id>
+    <published>2024-05-03T21:48:59.000Z</published>
+    <updated>2024-05-03T21:54:38.355Z</updated>
+    
+    <content type="html"><![CDATA[<p>Is domain knowledge knowledge?</p><span id="more"></span><p>No, it is not.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Is domain knowledge knowledge?&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+    <category term="Domain Knowledge" scheme="https://blog.peiyuanqi.me/tags/Domain-Knowledge/"/>
+    
+  </entry>
   
   <entry>
     <title>权力，权力进化论小结</title>
@@ -442,29 +463,6 @@
     <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
     
     <category term="小故事" scheme="https://blog.peiyuanqi.me/tags/%E5%B0%8F%E6%95%85%E4%BA%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法47 宾客权利</title>
-    <link href="https://blog.peiyuanqi.me/2022/09/05/thoughts-47/"/>
-    <id>https://blog.peiyuanqi.me/2022/09/05/thoughts-47/</id>
-    <published>2022-09-05T11:10:14.000Z</published>
-    <updated>2023-04-21T06:23:52.792Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近冰与火之歌听到了第三本剑雨的风暴。</p><span id="more"></span><p>马丁是一直到第三本书才决定有血色婚礼的，因为他在前两本中，很少或者基本没提到宾客权利，但是在第三本的开头，就突然提到了这个没什么存在感的传统。同时为了铺垫后来佛雷违反了宾客权利，就再而三强调了大家都不敢违反宾客权利。</p><p>可以说也就感受到了马丁的上限了。他能做到埋下伏笔，但是写作冰火的时候更多是按一本书为一个阶段，导致很难埋下垮书的伏笔。除非一开始就想好的，比如hodor🐶<br>大概就是这样。<br>还值得一提的是刘慈欣在一次采访说到没打算写三体第三本的时候，提到不能随随便便写死重要人物，自己毕竟不是马丁。那么其实，大家的差距也没这么远。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;最近冰与火之歌听到了第三本剑雨的风暴。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-    <category term="冰与火之歌" scheme="https://blog.peiyuanqi.me/tags/%E5%86%B0%E4%B8%8E%E7%81%AB%E4%B9%8B%E6%AD%8C/"/>
     
   </entry>
   
