@@ -6,7 +6,7 @@
   <link href="https://blog.peiyuanqi.me/atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2024-05-03T21:54:38.355Z</updated>
+  <updated>2024-05-25T04:28:12.269Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想法#62 Sputnik, Blackberry and ChatGPT</title>
+    <link href="https://blog.peiyuanqi.me/2024/05/21/thoughts-62/"/>
+    <id>https://blog.peiyuanqi.me/2024/05/21/thoughts-62/</id>
+    <published>2024-05-21T16:27:45.000Z</published>
+    <updated>2024-05-25T04:28:12.269Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p> As of November 30, 2022, Google became a second-rate tech company.</p></blockquote><span id="more"></span><p>黑莓在2000-2007年的时候觉得没有人能撼动它的位置,所以它就只是跟随并没有尝试去突破,于是2007年当iphone发布的时候,它的增长迅速放缓,2008&#x2F;09年登顶,最后在2011年失去50%的市场份额,在10年内市场份额降到了0.</p><p>这是个<code>居安思危,思则有备,有备无患</code>的故事.</p><p>并不是说黑莓在那7年里一事无成,他还是努力的在和诺基亚竞争,在和爱立信竞争.但是当改革的浪潮来领的时候,可惜的是他并不是幸运的那一个.当在日复一日的和近忧搏斗的时候,局部最优解自然成了最后的答案.</p><p>最近的GenAI热潮,首当其冲的就是Chegg.每天快乐收租的日子就没有了.影响小一点的也有比如Google.可以说从2022年11月30日开始,Google就成为了二流科技公司.Sputnik上天,美国有了NASA和DARPA,但是Google,却什么也没有.</p><p>曾经也许可以依靠超高的边际收益,来获得一些不错的突破,但是突破之后加大投资的风险是巨大的,对Leadership的威胁也是巨大的.忠诚的打工人自然是不会为了公司的利益而放弃自己的利益.无论是年会不能停,还是独裁者手册,都已经把故事讲得很明白了.区别也就只在于结局的不同罢了.</p><p>一个公司存在的意义,是不断的变化的,也许开始的时候RIM是想做一个优秀的产品,并且一直努力,但是终究是懈怠了,当黑色的黑莓挂在楼上的时候RIM就死了.黑莓坏了,其他水果也是跳不出类似的结局.</p><p>只能说读书的速度还是慢了一点,但是今年终于能够有把握回答曾经快毕业的时候一直问别人的问题了.工作四年,和刚毕业的人,又有什么根本区别呢?</p><p>还是不写出来了吧,毕竟写出来的,都得是符合规矩的.</p>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt; As of November 30, 2022, Google became a second-rate tech company.&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="科技" scheme="https://blog.peiyuanqi.me/tags/%E7%A7%91%E6%8A%80/"/>
+    
+  </entry>
   
   <entry>
     <title>Is Domain Knowledge Knowledge?</title>
@@ -439,30 +464,6 @@
     <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
     
     <category term="经济" scheme="https://blog.peiyuanqi.me/tags/%E7%BB%8F%E6%B5%8E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#48 贾巴利很生气</title>
-    <link href="https://blog.peiyuanqi.me/2022/09/25/thoughts-48/"/>
-    <id>https://blog.peiyuanqi.me/2022/09/25/thoughts-48/</id>
-    <published>2022-09-25T11:51:43.000Z</published>
-    <updated>2022-09-26T05:19:32.789Z</updated>
-    
-    <content type="html"><![CDATA[<p>贾巴利很生气</p><p>生气是因为老酋长的祖训被破坏了。</p><span id="more"></span><p>老酋长出远门的时候，和村里的三大长老说，大家要做到三件事</p><ul><li>绝对不能务农；</li><li>每个人必须做一个讲演；</li><li>问问题长度必须和答案的长度相匹配。</li></ul><p>但是老酋长刚走，三大长老就变了脸。</p><p>先是大长老说自己腿疼，就宣布不会做自己那还没做的讲演了，天天开着轮椅在村里晃悠，边晃悠还要招呼大家一起来晃悠。接着当紫脸人坐着纸飞机来的时候，二长老立马把把自家的地用来种紫脸人的紫玉米了，还卖出了好价钱，紫脸人要求二长老每年再种一波。最后，三长老就放弃给前两个长老打掩护了，在每天的村公所大会上就问一个问题，两个字</p><blockquote><p>开心不开心啊</p></blockquote><p>所以贾巴利就气啊，这天也是连年大旱，村东头的海水都要干了，但是却没有人能够担起责任，祈求天降甘霖，让拿西边的沙漠好再退三尺。</p><p>但是生气并不能解决问题，贾巴利思前想后，盘算着自己平日做的是橙牛买卖，而橙牛是生产力，四处都有村子需要买卖，自然不愁饭吃。两腿一蹬，打点行装，就拖家带口的搬走了。</p><p>村里的邻居都劝他</p><blockquote><p>别走呀，漂泊苦，再怎么困难，这是自己村，会过去的。</p></blockquote><p>贾巴利不为所动，一挥鞭就走了，但还没走出半天的脚程，就听一声巨响，就看到身后的村交易所被隔壁村的无赖给拆了。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;贾巴利很生气&lt;/p&gt;
-&lt;p&gt;生气是因为老酋长的祖训被破坏了。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-    <category term="小故事" scheme="https://blog.peiyuanqi.me/tags/%E5%B0%8F%E6%95%85%E4%BA%8B/"/>
     
   </entry>
   
