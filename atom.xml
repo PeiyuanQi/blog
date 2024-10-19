@@ -6,7 +6,7 @@
   <link href="https://blog.peiyuanqi.me/atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2024-10-19T05:01:44.473Z</updated>
+  <updated>2024-10-19T18:06:27.867Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -17,13 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>早知道6 找工作</title>
+    <link href="https://blog.peiyuanqi.me/2024/10/18/career-6/"/>
+    <id>https://blog.peiyuanqi.me/2024/10/18/career-6/</id>
+    <published>2024-10-19T05:33:20.000Z</published>
+    <updated>2024-10-19T18:06:27.867Z</updated>
+    
+    <content type="html"><![CDATA[<p>大家都知道最近对于传统程序员来讲年成不好,如果你恰好是MLE那么日子还是很好过的.</p><span id="more"></span><p>因为之前工作的内容和DCN有很强的关系,所以还是可以面上一些MLE的岗位,但是MLE大部分对硬件和DCN岗位的期望是能够做很好的垂直管理,意味着从bare metal config到最后的ops orchestration都能有大概的了解,这在大公司还是太难了,毕竟这可能就是几千个人的好几个事业部需要负责的东西了.</p><p>聊了很多公司,甚至有不少名人公司也给了面试机会,但是都聊挂了,有的是确实技术面不尽人意,因为我不是个勤奋的人,有的是不匹配,因为实在是大家的期望和实际情况不符合,有的是自己因为一些各种原因退出了面试流程,现在想想也挺可惜的.</p><p>如果说是找传统SWE岗的话,真的坑位不多,要求不低,希望做过的项目很多,并且有很强的带队能力.不知道今年接下来经济回暖以后会不会有感官呢.</p><p>另一个体会就是这年头内推都是打水漂了,全靠HR reaching out了🤯</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;大家都知道最近对于传统程序员来讲年成不好,如果你恰好是MLE那么日子还是很好过的.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+    <category term="Career" scheme="https://blog.peiyuanqi.me/tags/Career/"/>
+    
+  </entry>
+  
+  <entry>
     <title>想法#63 下一站和再下一站</title>
     <link href="https://blog.peiyuanqi.me/2024/10/18/thoughts-63/"/>
     <id>https://blog.peiyuanqi.me/2024/10/18/thoughts-63/</id>
     <published>2024-10-19T04:55:17.000Z</published>
-    <updated>2024-10-19T05:01:44.473Z</updated>
+    <updated>2024-10-19T05:32:48.488Z</updated>
     
-    <content type="html"><![CDATA[<p>那么是时候了</p><span id="more"></span><p>是时候干什么了呢?</p><img src="/2024/10/18/thoughts-63/cat-nodding-head.gif" class="" title="nodding cat"><p>是时候转赞评了</p>]]></content>
+    <content type="html"><![CDATA[<p>那么是时候了</p><span id="more"></span><p>是时候干什么了呢?</p><img src="/2024/10/18/thoughts-63/cat-nodding-head.gif" class="" title="nodding cat"><p>是时候转赞评了</p><p>开玩笑的</p><p>也不算恢复更新,只是短暂的有了一些空余的时间.一站式斩断之前不断烦躁的根源也是一种挺神奇的感觉.遗憾总是多一点的,或者说是患得患失.就宛如韩愈写的一样,即使是朝廷不行,但也是自己难受.离开了大树,要就是烈日下的蝼蚁,浩海上扁舟,所以慌张自然是要慌张的.</p><p>如果说最可惜的,大概就是那取之不尽用之不竭的历史资料了吧,没有上班空到chilling然后看完是很遗憾了.</p><p>之后的工作应该很忙吧,感觉也不知道能不能实现再下一站的目标了,那也只能拭目以待了.</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;那么是时候了&lt;/p&gt;</summary>
@@ -428,29 +449,6 @@
     
     
     <summary type="html">&lt;p&gt;发现过于宏大叙事的小说，烂尾是一种必然，这大概就是为什么布兰登桑德森永远写得很快的原因吧。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-    <category term="ChatGPT" scheme="https://blog.peiyuanqi.me/tags/ChatGPT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#51 空空如也</title>
-    <link href="https://blog.peiyuanqi.me/2023/04/20/thoughts-51/"/>
-    <id>https://blog.peiyuanqi.me/2023/04/20/thoughts-51/</id>
-    <published>2023-04-20T14:37:54.000Z</published>
-    <updated>2023-04-21T05:48:22.168Z</updated>
-    
-    <content type="html"><![CDATA[<p>给ChatGPT给单独列了个tag，因为觉得会说很多，但实际上可能并不会。</p><span id="more"></span><p>很久都没有写想法，也并不是因为真的没写什么，只是感觉每次要打开自己电脑的terminal在hexo new post一下非常的麻烦，上班已经打了很多莫名其妙的命令行了，就并不想再这么做了。也许让ChatGPT来做这个事情不错。</p><p>但是这年头大家都在Medium上写文章，就不知道在自己blog上写的都是什么老古董了。</p><p>GA4发布了，导致自己的Blog template没有兼容，也不知道能不能用ChatGPT修。</p><p>但是，ChatGPT的逻辑都是来自于语言，语言有本来不是很好的逻辑载体。</p><p>但是正确的解答重要吗，就像价值投资真的能比得过热点吗？（这是从朋友那边抄来的）。</p><p>如果说ChatGPT4在TED talk上的演示非常震撼的话，那么<a href="https://www.youtube.com/@GravityIndustries">Gravity Industries</a> 的jet suit就是无比震撼，Starship能升空就是震撼之至，FDA要批准MDMA就是超过了测量尺度。</p><p>语言的匮乏大概也就是这样了。</p><p>也许我多说点有文化的话能帮助中国大语言模型的训练了。</p><p>只可惜空空如也。</p><p>既然今天打开了命令行，那就可能一起把以前不成文的想法倾泻一下吧。这篇也就起到了承上启下的作用了。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;给ChatGPT给单独列了个tag，因为觉得会说很多，但实际上可能并不会。&lt;/p&gt;</summary>
     
     
     
