@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Peiyuan&#39;s Blog</title>
+  
+  <subtitle>To Infinity and Beyond</subtitle>
+  <link href="https://blog.peiyuanqi.me/atom.xml" rel="self"/>
+  
+  <link href="https://blog.peiyuanqi.me/"/>
+  <updated>2026-02-02T04:01:35.897Z</updated>
+  <id>https://blog.peiyuanqi.me/</id>
+  
+  <author>
+    <name>Peiyuan Qi</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想法#69</title>
+    <link href="https://blog.peiyuanqi.me/2025/08/29/thoughts-69/"/>
+    <id>https://blog.peiyuanqi.me/2025/08/29/thoughts-69/</id>
+    <published>2025-08-29T18:31:38.000Z</published>
+    <updated>2026-02-02T04:01:35.897Z</updated>
+    
+    <content type="html"><![CDATA[<p>生命真的诚可贵吗</p><span id="more"></span><p>大概回答是否定的.</p><p>也就是刷到一个15岁的小朋友在网上求助,失去生活来源,遭到生父母和养父母弃养,只能求助游戏社区希望能够多接代打单来过活,并且还被亲属讨要转账的200元而被判决赔偿1200元的事情.</p><p>只是200元,就需要亲属起诉?</p><p>只是200元,法官会判处1200的赔偿,被告还是15岁的未成年人?</p><p>15岁没有固定收入来源,借款是否有效另说,这个事情中间发生了什么离谱的事情也另说,感到震撼部分,是需要最后向群友求助这件事.这还只是一个幸运的能被群友关注的事情,那又有多少没被关注的呢?</p><p>诚然有通讯发达了,自然增加了这类事件曝光率, 给人印象是此类事件变多了.但依然不禁让人想到,有的时候所谓的生命,大概也就很不珍贵的吧.</p><p>就比如,那位35岁倒在微软办公室里再也没醒来的南亚朋友.</p><p>和那个在周末倒在自家导致能让公司免责的伦敦朋友.</p><p>再到以后,那些被塞进铁皮罐头,被义无反顾的发射进入无垠的深空之中,带着无限的对外来的期许,但是实际上奔向死亡的太空移民们.</p><p>都是这样的吧.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;生命真的诚可贵吗&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>早知道9 宁有大厂乎</title>
+    <link href="https://blog.peiyuanqi.me/2025/08/20/career-9/"/>
+    <id>https://blog.peiyuanqi.me/2025/08/20/career-9/</id>
+    <published>2025-08-21T01:39:39.000Z</published>
+    <updated>2026-02-02T04:01:35.836Z</updated>
+    
+    <content type="html"><![CDATA[<p>被气到只能写点正能量了</p><span id="more"></span><p>众所周知,在🐶骂🐶,离🐶思🐶.</p><p>最近感叹在🐶的时候怒气值爆炸也需要三个工作日来积累,但是没想到,在贵司,这个纪录能够以15分钟的速度快速打破.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;被气到只能写点正能量了&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+    <category term="Career" scheme="https://blog.peiyuanqi.me/tags/Career/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法#68 比较优势,比价,字节出海</title>
+    <link href="https://blog.peiyuanqi.me/2025/07/07/thoughts-68/"/>
+    <id>https://blog.peiyuanqi.me/2025/07/07/thoughts-68/</id>
+    <published>2025-07-07T18:38:31.000Z</published>
+    <updated>2026-02-02T04:01:35.897Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近读了《解读中国经济》.</p><span id="more"></span><p>之前没有特别的感觉,这次再度,突然悟了很多,因为很多道理这时候找到了生动形象的例子.</p><p>书里说的都是农业生产,机械制造的资本密集,劳动密集的区别,但是现在更好理解的,是互联网.</p><p>比较优势指的是每个地区都有自己的低成本资源,应该利用优势进行生产,从而在开放市场上获得优势.</p><p>这是基于在统一开放市场的背景下,并且承认高度分工能提高整个市场的总效率.(毕竟有的人现在不承认了是吧)</p><p>类似的在“科技”行业,国内叫互联网,类似的道理也存在.</p><p>国内市场存在人工价格低,可替代性高的特点,这时候学湾区搞高薪,大概是没有什么优势的.毕竟湾区相对而言替代性要低上不少,不然也不会有曾经的WLB了.</p><blockquote><p>注意这里说的并不是任何程序员,毕竟可替代性高的程序员在湾区也不少.</p></blockquote><p>而美国自古以来的劳动力不密集,导致在“科技”行业也产生了资本密集的特点,工资给巨高,然后让一个人疯狂加班.并不指望着这份工资给50个人能得到类似的效果.</p><p>由于这个表现,所以就存在观点觉得,包括我自己之前,只要国内的工资加上去,那么生产效率的上涨是高不可测的.但是明显犯了当初农业过早要求全面机械化一样的错误.在目前的劳动力市场价格低廉的优势下,放弃优势,盲目师夷长技,大概就会落得水土不服的下场.</p><p>那这就意味着让劳动力卷起来就一定能得到好结果吗?</p><p>字节在北美的各种水土不服就是一个反例.</p><p>表面上看是北美程序员眼高手低,要价太高,工作能力还比不上国内.但是实际上是在北美市场,程序员此处不留爷自有留爷处,而留在字节求这碗饭的,大概都有自己的原因.于是就造成了领导层怎么也想不明白国内管得好好的为啥国外就出不了成绩,并且简单归结于员工不行.</p><p>但是实际上就是套用了劳动资源密集企业的成功模式到资本密集市场遭遇到了惨败罢了.</p><p>那怎么办呢?</p><p>入乡随俗自然是都懂的道理,但是不患寡而患不均又是事实存在的.解决这两个问题就是跨国企业能够跨市场收割剩余价值的主要立身之本.所以如果这个问题都无法解决,自然也是吃不上这碗跨国饭的.</p><p>最后,其实和比价也没啥关系,只是简单的觉得比价系统就是一种比较优势的体现形式罢了.但有人也许会说比较优势其实比价系统的体现形式呢.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;最近读了《解读中国经济》.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="经济" scheme="https://blog.peiyuanqi.me/tags/%E7%BB%8F%E6%B5%8E/"/>
+    
+    <category term="出海" scheme="https://blog.peiyuanqi.me/tags/%E5%87%BA%E6%B5%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>早知道8 TL到底是干什么的</title>
+    <link href="https://blog.peiyuanqi.me/2025/04/22/career-8/"/>
+    <id>https://blog.peiyuanqi.me/2025/04/22/career-8/</id>
+    <published>2025-04-22T21:01:05.000Z</published>
+    <updated>2026-02-02T04:01:35.835Z</updated>
+    
+    <content type="html"><![CDATA[<p>吐槽了这么多,所以怎么样才是一个好Tech Lead呢?</p><span id="more"></span><p>感觉是个很容易产生争执的话题,毕竟就和什么工作是适合自己的一样,不同的人喜欢不同的工作,不同的人也适合不同的TL.</p><p>如果只是想做好一个普通打工人,那么一个有想法喜欢安排手下人办事的TL肯定是必须的.</p><p>一般只想做好普通打工人的Individual Contributor(IC),且称为1类IC,应该不会对自己工作内容的意义有太多的要求,那么这时候TL也并不需要负责把事情的原因和grandpicture描述给下面的IC,且称TL为1类TL.那么他们的合作就是非常丝滑的.1类IC快乐在我只要做好8小时打工人就行了,1类TL拥有干活达到平均水平,产出稳定的IC,整个组在项目实现上一往无前,TL和老板主外,IC主内,走向大厂爬楼梯巅峰.</p><p>然后假设有2类IC,他们喜欢多问一个为什么.也许多问一个为什么浪费了他们的时间,但是他们还能做到稳定产出,这时候,就需要搭配的2类TL是一个比较愿意培养下面的IC的人,想象1类TL如果和这样的IC工作,怕不是被烦死,都没法好好工作.</p><p>还有3类IC,他们喜欢问为什么,希望看grand picture,但是又因为能力有限,aka 眼高手低,导致只能天天办TL的事情,都忽视了自己拿工资被要求干的事情.这种情况下无论什么样的TL都不好使了,倒不如说,给他们安排一下IC更有价值.</p><p>可以发现无论是1&#x2F;2类TL错配给了1&#x2F;2&#x2F;3类IC,最后的结果就是拧巴.相互干的也不开心,组里的效率也不高.</p><p>所以如果之前想问manager是干什么的话,那么manager就是对内干这个了.</p><p>毕竟也不是天天在perf,天天要写growth plan,也不是天天在招人,也不是天天需要抢scope escalation吵架,也不是天天需要给VP SVP汇报,所以剩下的时间,Manager就是要把组里理顺了.</p><p>但是很不幸,大部分manager并不是相当manager当上了manager.当上了manager也并没有继续去学习,更是凭着感觉走.所以看到的是大厂里到处都是错配的TL, IC, Manager.</p><p>更进一步,仔细看看manager要管的事情,其实已经挺多了,足够每天忙上40h.再加上大环境不一定都理得顺,导致manager如果不额外花力气,很难有空去关心组内的情况.</p><p>于是恶性循环就产生了.由于简单的IC TL矛盾,导致工作做不好,效率上不去,领导发脾气.这时候Manager要么躺着做一天和尚撞一天钟,毕竟家里还有partner有小孩有房贷有老人有各种各样的中年人需要处理的事情,哪有空去管这个组呢.于是从一个组,渐渐的变成一种状态,传播到了整个公司.</p><p>这时候大家看起来真的是如同一团缠在一起丝毫无法分开的乱麻.于是有人给这批东西起了个名字,叫做大公司病.</p><p>自然立了旗,那么就要解决它,于是有人提出要避免大公司病.但是很多来解决的人甚至都不知道什么是大公司病.</p><p>所以这大概就是所有生活中的常见共同问题了吧.</p><p>仔细想来,也许这并不是<code>TL到底是干什么的</code>,而是<code>到底所有人在干什么</code> 🦤.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;吐槽了这么多,所以怎么样才是一个好Tech Lead呢?&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+    <category term="Career" scheme="https://blog.peiyuanqi.me/tags/Career/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>早知道7 远离无头苍蝇是对自己的救赎</title>
+    <link href="https://blog.peiyuanqi.me/2025/04/21/career-7/"/>
+    <id>https://blog.peiyuanqi.me/2025/04/21/career-7/</id>
+    <published>2025-04-21T19:39:11.000Z</published>
+    <updated>2026-02-02T04:01:35.835Z</updated>
+    
+    <content type="html"><![CDATA[<p>很多国内的打工人是很无奈的,因为他们老板的能力放在那里,但是自己因为各种社会原因的限制,只能被困在那里.</p><span id="more"></span><p>相比之下,这边也许这个情况有所改善,但是其实能做的选择也不多.</p><p>毕竟每一个公司的小组,在进去之前,你永远不知道他有多糟糕.而进去了之后,虽然可以走,但是怎么知道新的组会有所改善呢?</p><p>毕竟即使是在入组之前心理建设做的再好,也是和亲身体验有差别的.</p><p>那对于有选择的同学,如何才能识别那些找不着北的领导呢?</p><p>这是一个我没有什么资格可以来回答的问题,但是我恰巧知道一个答案的反面:</p><blockquote><p>每一个接受你的组,必然是在你的期望之下的.</p></blockquote><p>反过来也很简单</p><blockquote><p>每一个拒绝你的组,大概率能符合你的期望.</p></blockquote><p>所以面试就是短暂提升和粉饰自己,让自己能混入那些在你期望之上的组 (并不🙂‍↕️).</p><p>既然知道了答案(的一部分),那么在实际操作中又有什么启示呢?</p><p>其实能做的非常有限.因为</p><blockquote><p>傲慢让组无法来录取我，偏见让我无法去看得上任何组.</p></blockquote><p>(不好意思刚看了傲慢与偏见)</p><p>但除此之外,我们还能做的就是多利用选组的聊天内容.也许每个单独的组员不会和你掏心,但是一些非常犀利的问题还是能让你看到一二的.</p><p>比如:</p><ol><li>组里的优先级经常会变化吗</li><li>最近的最紧急的工作是自上而下还是自下而上的</li><li>组里的TL喜欢按章办事,还是比较随意的呢</li></ol><p>一般如果回答没有惊艳到你,那就是属于所谓的无头苍蝇组了.</p><p>但是其实在这边,又有多少人找工作是有选择的呢.</p><p>🙄</p><p>所以只能祝愿,找工作的你,利用好拥有一点点的选择的权利,来远离无头苍蝇,免得自己</p><p>窝囊+生气&#x3D;&gt;生窝囊气.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;很多国内的打工人是很无奈的,因为他们老板的能力放在那里,但是自己因为各种社会原因的限制,只能被困在那里.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+    <category term="Career" scheme="https://blog.peiyuanqi.me/tags/Career/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法#67 Web3已死 Web4将立</title>
+    <link href="https://blog.peiyuanqi.me/2025/04/16/thoughts-67/"/>
+    <id>https://blog.peiyuanqi.me/2025/04/16/thoughts-67/</id>
+    <published>2025-04-17T00:43:17.000Z</published>
+    <updated>2026-02-02T04:01:35.897Z</updated>
+    
+    <content type="html"><![CDATA[<p>看标签就知道,这不是说区块链的事情.</p><span id="more"></span><p>依然记得2022年初的时候,大家都沉浸在Web3的热潮当中,那时候Florida是科技的中心,是最潮的科技圣地,大家都在疯狂挤向miami.网上公众号到处流传着走进币圈大佬最热衷的酒吧,带上冷钱包,两分钟的pitch能给你带来至少10个比特币的投资.很多人说</p><blockquote><p>web2已死 web3永生</p></blockquote><p>但是没过一年,随着SBF的倒台,区块链和web3也就退居幕后,从起高楼到楼塌了,也不过两年.</p><p>之前觉得ai的热潮也是类似,起码到去年末,机构们开始鼓吹agent经济的时候,就觉得也是强弩之末的征兆.但是最近随着MCP的流行,和A2A的热点,看起来又不太一样了.</p><p>仔细看来,MCP不就是新的API,就是新的程序化模式.一切依然还是建立在web2之上,但又是略有不同.这次和web3的区别,大概就是生产效率和对生活的影响,从可以有无 (optimization) 到了不接受就落后 (must have) 的水平了.毕竟一再强调安全性的时候,别人已经三分钟写完了稿,自己却还在咬笔杆,别人代码就是unit test全覆盖了,而拒绝LLM的人还在battle这个service有没有bandwidth写.</p><p>可以说MCP可以成为一种很新的开发模式,就和曾经热门的ios开发工程师,到firebase开发工程师,到vue开发工程师,到区块链开发工程师,现在到了Agent开发工程师.</p><p>定睛一看,还是类似的人物画像,还是类似的工作思路,还是类似的赚钱手法.</p><p>代代更新,但又代代没更新.</p><p>那就暂且叫它web4吧.虽然其实曾经也有人占用了web4的名字了.</p><p>但又有什么关系呢,毕竟apple也不是最早它叫的apple.</p><hr><p>但是丧归丧,但实际上对MCP价值还是肯定的,起码比那什么八字没有一撇的agent经济要好.</p><p>这意味着无限量的inference需求,无限量的硬件需求,无限量的能源需求,各大老板们,岂不是都乐开了花.</p><p>但是这时候,就只能希望最后节约下来的那些赋予生产力,终究有一些能被分流到解决那些终极问题上去一些吧.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;看标签就知道,这不是说区块链的事情.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="AI" scheme="https://blog.peiyuanqi.me/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法#66 运气和必然</title>
+    <link href="https://blog.peiyuanqi.me/2025/04/11/thoughts-66/"/>
+    <id>https://blog.peiyuanqi.me/2025/04/11/thoughts-66/</id>
+    <published>2025-04-11T20:04:37.000Z</published>
+    <updated>2026-02-02T04:01:35.897Z</updated>
+    
+    <content type="html"><![CDATA[<p>假设我们有家公司叫🐶,有家公司叫🍀.</p><span id="more"></span><p>虽然说其实工作没几年,甚至在某些老公司里,算是稚嫩,但是感觉还是有所体会,所以决定写一个新的Tag.</p><p>成功的公司有很多,但是不得不说,最出彩的几个靠的更多的,是运气,而不是他做了什么.</p><p>但是最难倒下的那几个,是看他们做了什么,而不是运气.</p><p>就像学习之能提升个人收入分布概率的最低值,而不是拉高最后的期望值一样.🫥</p><p>假设我们有家公司叫🐶,有家公司叫🍀</p><p>🐶的特点,就是巨大儿臃肿,有着无数的冗余,和对个体工作能力的不信任.目的就在于通过系统和规则,来消除个体差异化.主要是分三步走</p><ul><li>入职员工的标准化塑造</li><li>熟练员工的工作模式标准化</li><li>顶层管理的去个性化</li></ul><p>完成了以后,整个公司的目标就是生存越久越好,不求最强,但是需要“遥遥领先”.</p><p>这样的结果就是让进取个体的工作体验极差.但是公司却会活下来.之所以这条路走得通,是因为有个做的更过分的公司已经走通了,他就是🪟.</p><p>所以一直以来我都会强调,在AI竞赛中,最后🐶一定能站到最后,因为资源雄厚.这就是所谓的必然.</p><p>与之相比的就是运气.</p><p>运气这个词有点过于简单了,准确的说的话,算所谓的”机遇“,”灵感“.毕竟机会在了,如果不努力,也是兜不住的.所以就暂时省略了这个大前提.</p><p>运气决定了同样大家在努力,有的人签好了MCN能一飞冲天,有的人签了MCN被剥削到皮都不剩.诚然在信息差不存在的情况下,做出正确选择是容易的,但是很多人做选择的时候,信息差一直是巨大的.</p><p>🍀就是一家运气很好的公司.籍籍无名三十年,一朝飞上枝头做凤凰.虽然本来也是同类中的佼佼者,奈何之前的时代并不是飞鸟的时代.</p><p>任何通过运气成功的公司,需要面对的困境,和通过运气成功的人有着类似之处.无外乎如何守业,如何更进一步.诚然继续靠运气也是很好的选择.但是大家往往是不乐意于坐以待毙的.</p><p>这时候自然需要pivoting&#x2F;转向&#x2F;转型&#x2F;变形&#x2F;进化,各种各样的词.但简单来说,就是改变.</p><p>改变是个人走出舒适区,是企业放弃曾经的工作方法.这是有阻力的.个人的阻力来自于主观意愿,客观文化和社会关系的阻碍.企业,则是那丝丝缕缕的人和事.</p><p>如果改成功了,那么就是德配位.如果没成功,就是德不配位.那么自然就会遇到挫折,丢失曾经的成功,最后抑或是卧薪尝胆,东山再起,抑或是江河日下,日薄西山.但这都是之后的事情了.</p><p>所以,有什么启发呢?其实也没什么,知道就好.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;假设我们有家公司叫🐶,有家公司叫🍀.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="管理 Management" scheme="https://blog.peiyuanqi.me/tags/%E7%AE%A1%E7%90%86-Management/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>配置特定内网ip的iot设备使用梅林固件Asus路由访问ss服务器</title>
+    <link href="https://blog.peiyuanqi.me/2025/03/27/cs-how-to-config-robot-cleaner-to-use-ss-server/"/>
+    <id>https://blog.peiyuanqi.me/2025/03/27/cs-how-to-config-robot-cleaner-to-use-ss-server/</id>
+    <published>2025-03-27T23:36:39.000Z</published>
+    <updated>2026-02-02T04:01:35.838Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Transparent-Proxy-Setup-Shadowsocks-on-Asus-Router"><a href="#Transparent-Proxy-Setup-Shadowsocks-on-Asus-Router" class="headerlink" title="Transparent Proxy Setup (Shadowsocks on Asus Router)"></a>Transparent Proxy Setup (Shadowsocks on Asus Router)</h1><p>配置特定内网ip的iot设备使用梅林固件Asus路由访问ss服务器</p><blockquote><p>本文使用chatgpt生成.</p></blockquote><span id="more"></span><h2 id="✅-Goals"><a href="#✅-Goals" class="headerlink" title="✅ Goals"></a>✅ Goals</h2><ul><li>Redirect <strong>TCP and UDP traffic</strong> from a specific IoT device to Shadowsocks (<code>ss-redir</code>) on port <code>1080</code></li><li>Ensure <strong>DNS resolution works</strong> through the proxy</li></ul><hr><h2 id="1-Setup-ss-redir-on-Router-设置-Shadowsocks-客户端"><a href="#1-Setup-ss-redir-on-Router-设置-Shadowsocks-客户端" class="headerlink" title="1. Setup ss-redir on Router 设置 Shadowsocks 客户端"></a>1. Setup ss-redir on Router 设置 Shadowsocks 客户端</h2><ul><li><p>Install via Entware 安装 Shadowsocks 重定向客户端：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">opkg install shadowsocks-libev-ss-redir</span><br></pre></td></tr></table></figure></li><li><p>Launch <code>ss-redir</code> with UDP enabled and verbose logging 启动 <code>ss-redir</code>，启用 UDP 支持并开启详细日志,<code>-b</code>开启对所有interface的监听,用于tproxy的udp代理,<code>-f</code>是指定process pid文件,来后台运行：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ss-redir -c /path/to/your.json -u -b 0.0.0.0 -vv -f /tmp/ss.pid</span><br></pre></td></tr></table></figure></li><li><p>Example config (shadowsocks.json&#96;) 配置文件示例：</p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;server&quot;</span><span class="punctuation">:</span> <span class="string">&quot;your.ss.server.com&quot;</span><span class="punctuation">,</span>  <span class="comment">// Shadowsocks 服务端地址</span></span><br><span class="line">  <span class="attr">&quot;server_port&quot;</span><span class="punctuation">:</span> <span class="number">8388</span><span class="punctuation">,</span>              <span class="comment">// 服务端端口</span></span><br><span class="line">  <span class="attr">&quot;local_port&quot;</span><span class="punctuation">:</span> <span class="number">1090</span><span class="punctuation">,</span>               <span class="comment">// 本地监听端口（iptables 将转发到此端口）</span></span><br><span class="line">  <span class="attr">&quot;password&quot;</span><span class="punctuation">:</span> <span class="string">&quot;yourpass&quot;</span><span class="punctuation">,</span>          <span class="comment">// Shadowsocks 密码</span></span><br><span class="line">  <span class="attr">&quot;method&quot;</span><span class="punctuation">:</span> <span class="string">&quot;chacha20-ietf-poly1305&quot;</span><span class="punctuation">,</span>  <span class="comment">// 加密方式</span></span><br><span class="line">  <span class="attr">&quot;mode&quot;</span><span class="punctuation">:</span> <span class="string">&quot;tcp_and_udp&quot;</span>            <span class="comment">// 同时支持 TCP 和 UDP</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure></li></ul><hr><h2 id="2-TCP-Redirection-via-iptables-设置-TCP-转发"><a href="#2-TCP-Redirection-via-iptables-设置-TCP-转发" class="headerlink" title="2. TCP Redirection via iptables 设置 TCP 转发"></a>2. TCP Redirection via iptables 设置 TCP 转发</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Redirect TCP traffic</span></span><br><span class="line"><span class="keyword">if</span> ! iptables -t nat -C PREROUTING -p tcp -s <span class="variable">$DEVICE_IP</span> -j REDIRECT --to-ports <span class="variable">$SS_PORT</span> 2&gt;/dev/null; <span class="keyword">then</span></span><br><span class="line">    iptables -t nat -A PREROUTING -p tcp -s <span class="variable">$DEVICE_IP</span> -j REDIRECT --to-ports <span class="variable">$SS_PORT</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure><p>📌 说明：将来自 <code>&lt;DEVICE_IP&gt;</code> 的所有 TCP 流量重定向到本地 1080 端口。</p><hr><h2 id="3-UDP-Redirection-with-TPROXY-设置-UDP-转发（使用-TPROXY）"><a href="#3-UDP-Redirection-with-TPROXY-设置-UDP-转发（使用-TPROXY）" class="headerlink" title="3. UDP Redirection with TPROXY 设置 UDP 转发（使用 TPROXY）"></a>3. UDP Redirection with TPROXY 设置 UDP 转发（使用 TPROXY）</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># run ss</span></span><br><span class="line">ss-redir -c /tmp/mnt/USB64G/ss.json  -u -vv -f ./ss.pid &amp;&amp; <span class="built_in">echo</span> <span class="string">&#x27;ss run successfully&#x27;</span></span><br><span class="line"></span><br><span class="line">DEVICE_IP=<span class="string">&quot;your.ip.is.here&quot;</span></span><br><span class="line">SS_PORT=your_choise_of_ss_port</span><br><span class="line"></span><br><span class="line"><span class="comment"># 启用内核 IP 转发</span></span><br><span class="line"><span class="comment"># Enable IP forwarding</span></span><br><span class="line"><span class="built_in">echo</span> 1 &gt; /proc/sys/net/ipv4/ip_forward</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加策略路由规则</span></span><br><span class="line"><span class="comment"># Setup routing rules</span></span><br><span class="line"><span class="keyword">if</span> ! ip rule | grep -q <span class="string">&quot;fwmark 0x1 lookup 219&quot;</span>; <span class="keyword">then</span></span><br><span class="line">    ip rule add fwmark 0x1 lookup 219</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="comment"># any table number as long as not conflict with /etc/iproute2/rt_tables</span></span><br><span class="line">ip route flush table 219</span><br><span class="line">ip route add <span class="built_in">local</span> 0.0.0.0/0 dev lo table 219</span><br><span class="line"></span><br><span class="line"><span class="comment"># 配置 mangle 表和 TPROXY</span></span><br><span class="line"><span class="comment"># Setup mangle table and TPROXY</span></span><br><span class="line"><span class="comment"># Create SS_UDP chain</span></span><br><span class="line"><span class="comment"># 创建自定义链</span></span><br><span class="line">iptables -t mangle -N SS_UDP</span><br><span class="line"><span class="comment"># 忽略本地地址(optional)</span></span><br><span class="line">iptables -t mangle -A SS_UDP -d 127.0.0.0/8 -j RETURN</span><br><span class="line"><span class="comment"># 忽略多播地址(optional)</span></span><br><span class="line">iptables -t mangle -A SS_UDP -d 224.0.0.0/4 -j RETURN</span><br><span class="line"> <span class="comment"># 为目标设备 UDP 流量打标记</span></span><br><span class="line">iptables -t mangle -A SS_UDP -p udp -s <span class="variable">$DEVICE_IP</span> -j MARK --set-mark 1</span><br><span class="line"><span class="comment"># 转发到 1080</span></span><br><span class="line">iptables -t mangle -A SS_UDP -p udp -s <span class="variable">$DEVICE_IP</span> -j TPROXY --on-port <span class="variable">$SS_PORT</span> --tproxy-mark 0x01/0x01</span><br><span class="line"><span class="comment"># 应用规则链</span></span><br><span class="line">iptables -t mangle -A PREROUTING -j SS_UDP</span><br></pre></td></tr></table></figure><hr><h2 id="4-Diagnostics-and-Tools-排查工具"><a href="#4-Diagnostics-and-Tools-排查工具" class="headerlink" title="4. Diagnostics and Tools 排查工具"></a>4. Diagnostics and Tools 排查工具</h2><ul><li><p>抓包查看流量是否到达本地 1080 端口：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tcpdump -i lo udp port 1080 -nn -vv</span><br><span class="line">tcpdump -i br0 udp and src host &lt;DEVICE_IP&gt; -nn -vv</span><br></pre></td></tr></table></figure></li><li><p>查看 iptables 规则是否命中：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">iptables -t nat -L PREROUTING -v -n</span><br><span class="line">iptables -t mangle -L PREROUTING -v -n</span><br></pre></td></tr></table></figure></li><li><p>查看策略路由是否生效：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ip rule show</span><br><span class="line">ip route show table 100</span><br></pre></td></tr></table></figure></li></ul><hr><h2 id="6-ss-server-UDP-Support-Fix-解决服务端未开启-UDP-问题"><a href="#6-ss-server-UDP-Support-Fix-解决服务端未开启-UDP-问题" class="headerlink" title="6. ss-server UDP Support Fix 解决服务端未开启 UDP 问题"></a>6. ss-server UDP Support Fix 解决服务端未开启 UDP 问题</h2><p>如果 <code>ss-server</code> 没有使用 <code>-u</code> 参数启动，则不会监听 UDP，导致客户端转发失败。</p><p>✅ 解决办法：</p><ul><li>启动 <code>ss-server</code> 并启用 UDP 支持：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ss-server -c ./ss.config -u -vv</span><br></pre></td></tr></table></figure></li><li>检查服务端是否监听 UDP：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo netstat -ulnp | grep ss-server</span><br></pre></td></tr></table></figure></li><li>开启服务端防火墙 UDP 端口（如 8388）：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo iptables -A INPUT -p udp --dport 8388 -j ACCEPT</span><br></pre></td></tr></table></figure></li></ul><hr><h2 id="7-Other-Common-Problem其他常见问题"><a href="#7-Other-Common-Problem其他常见问题" class="headerlink" title="7. Other Common Problem其他常见问题"></a>7. Other Common Problem其他常见问题</h2><h3 id="7-1-iptables-No-chain-target-match-by-that-name"><a href="#7-1-iptables-No-chain-target-match-by-that-name" class="headerlink" title="7.1 iptables: No chain/target/match by that name."></a>7.1 <code>iptables: No chain/target/match by that name.</code></h3><p>多出现在<code>iptables -t mangle -A SS_UDP -p udp -s $DEVICE_IP -j TPROXY --on-port $SS_PORT --tproxy-mark 0x01/0x01</code>的语句执行.<br>检查一下两点:</p><ul><li>使用的iptables版本,是否混淆了userspace和kernelspace的iptables.</li><li>如果是,则需要确认两个iptables binary都有TPROXY module.<ul><li>Kernel检查是否安装的方法:<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cat</span> /proc/net/ip_tables_targets | <span class="built_in">tr</span> <span class="string">&#x27; &#x27;</span> <span class="string">&#x27;\n&#x27;</span> | <span class="built_in">sort</span> -u</span><br></pre></td></tr></table></figure></li><li>如果没有安装,尝试安装<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">modprobe xt_TPROXY 2&gt;/dev/null</span><br><span class="line">modprobe nf_tproxy_core 2&gt;/dev/null</span><br><span class="line">modprobe xt_socket 2&gt;/dev/null</span><br></pre></td></tr></table></figure>如果失败意味着kernel并不支持tproxy,需要使用其他方法.</li></ul></li></ul><hr><h2 id="Notes-附注"><a href="#Notes-附注" class="headerlink" title="Notes 附注"></a>Notes 附注</h2><p>IoT 设备会同时请求本地网关和公共 DNS（如 8.8.8.8）要实现 DNS 劫持或本地缓存，需确保 DHCP 分配路由器作为 DNS TPROXY 配置成功后，<br>可在 ss-redir 日志中看到 UDP 请求（cache hit&#x2F;miss）<code>ss-server</code> 添加 <code>-u</code> 后问题解决，UDP 转发成功.</p><p>需要在<code>ss-redir</code> <code>ss-server</code>的log中都成功看到转发信息.</p><hr><blockquote><p>替换 <code>&lt;DEVICE_IP&gt;</code> 和实际域名&#x2F;IP 为你的具体配置。已屏蔽所有品牌信息。</p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Transparent-Proxy-Setup-Shadowsocks-on-Asus-Router&quot;&gt;&lt;a href=&quot;#Transparent-Proxy-Setup-Shadowsocks-on-Asus-Router&quot; class=&quot;headerlink&quot; title=&quot;Transparent Proxy Setup (Shadowsocks on Asus Router)&quot;&gt;&lt;/a&gt;Transparent Proxy Setup (Shadowsocks on Asus Router)&lt;/h1&gt;&lt;p&gt;配置特定内网ip的iot设备使用梅林固件Asus路由访问ss服务器&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文使用chatgpt生成.&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+    <category term="扫地机器人" scheme="https://blog.peiyuanqi.me/tags/%E6%89%AB%E5%9C%B0%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法#65 国内技术水平高低迷思🐶</title>
+    <link href="https://blog.peiyuanqi.me/2024/11/27/thoughts-65/"/>
+    <id>https://blog.peiyuanqi.me/2024/11/27/thoughts-65/</id>
+    <published>2024-11-28T02:43:58.000Z</published>
+    <updated>2026-02-02T04:01:35.897Z</updated>
+    
+    <content type="html"><![CDATA[<p>“你们这些三本转码,读不出来出国的”</p><span id="more"></span><p>一直以来都有个传说</p><p>就是国内大家的工作时间更长,技术水平也相应更高.</p><p>毕竟干14小时和干4个小时一天的人,自然多干了10个小时的人应该懂得更多吧.</p><p>很多东西是不能以偏概全的,一来贴标签不好,二来是有失偏颇,但是如果用上第一性原理,你很难说他是以偏概全,而是透过现象看本质.</p><p>人一天24小时,社会适龄工作年龄大概18岁-65岁,大部分人需要的睡眠时间大约6-8小时.每天24小时计算下,剩余16小时.去除吃喝拉撒思想不可避免开小差,大约2小时,最后剩下最高可持续工作时间大概是14小时.</p><p>再考虑到人的意志力问题,假设此时的这位被观察人,充满斗志,意志力不会衰减,那也是有14个小时.</p><p>其中为了与人沟通,对齐项目,考虑到人与人之间的认知差异,需要花费8小时.</p><p>与系统打交道,因为人与人之间的沟通都这么难了,和文档,和readme沟通,更是难上加难,又是4个小时.</p><p>最后只剩4个小时去完成需要做的工作.</p><p>那么清理这个过程中产生的垃圾的时间,也就只有0小时了.</p><p>所以哪里来的时间去反思,去修改,去提高呢?</p><p>自然是没有的.</p><p>更不要说这位被观测者是一个意志力不会衰减的意志超人.而大部分人可能最高的专注时间也就只有6小时.</p><p>如果我们专注时间用在了最需要专注的完成工作的4小时上.剩下的2h只够用来清理因为10h的不专注工作导致的额外任务罢了.</p><p>所不要总是批评世界是个草台班子,人性如此罢了.</p><p>如此讨论下来,也就发现无论是工作14h还是4h,最后的工作质量,应该不会有太大的差别.工作总量可能还是有一定的差异的.但是工作总量的增加,自然是和工作质量成反比的.</p><p>因此如果没有生产效率的提升,从一定程度上讲,很多问题是永远不会被解决的.</p><p>从微观的角度来讨论,举例来说就是</p><ul><li>代码烂</li><li>架构差</li><li>容易崩</li><li>没有test</li><li>没有文档</li></ul><p>这时候,有的人会立下豪言壮志要修复他们,但是实际上,大多是象征性的铲两铲子,就忙活其他的事情去了.</p><p>与其继续打着毫无希望的一仗,不如静下心来思考一下,如何提升效率.</p><p>从具体一点来说</p><ul><li>让ai写unit test</li></ul><p>花1h写了曾经要10h的test,那么质量提升了,事情办完了,自然可以专注到其他需要专注的事物上来.</p><p>比如怎么和隔壁组吵架.justkidding</p><p>但以此类推,核心思想是,如果事务超过了上限,与其闭上眼睛死下生死状,不如停下来,断舍离.剩下的,就还是随他去吧.</p><p>只有这样才能让仅有的宝贵专注时间,产生真正的价值.</p><p>知其可以为可以不为,很多人很早就知道,只是从来不实践罢了.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;“你们这些三本转码,读不出来出国的”&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法#64 里程碑</title>
+    <link href="https://blog.peiyuanqi.me/2024/10/21/thoughts-64/"/>
+    <id>https://blog.peiyuanqi.me/2024/10/21/thoughts-64/</id>
+    <published>2024-10-22T06:00:58.000Z</published>
+    <updated>2026-02-02T04:01:35.896Z</updated>
+    
+    <content type="html"><![CDATA[<p>这篇想法又带上了呓语的tag.</p><span id="more"></span><p>因为我想起来我还有这么一个tag. :D</p><p>之前同学对我的博文进行了快速考古,我不禁也简单考了个古,主要是针对想法系列的.</p><p>首先呢得承认环境对人的想法还是有很大的影响的,会让人的看法和思考内容很容易局限在当时的环境,问题,可能存在的方法上.</p><p>特别是结合时间点进行复盘.这个放在后面的段落讲述.</p><p>可以发现2018年到现在,所谓的这么多想法, 大概可以压缩成以下这么主要的几条:</p><ul><li>草台班子,这个是最早发现的,2018-2019的样子,但是草台班子的流行语比我概括得更好.</li><li>对美国人文化的理解和解读.</li><li>对第一性原理的提升认知和运用.</li><li>对什么是经济增加了认知.</li><li>对人的一生如何日渐平庸的过程多了体会.</li><li>对日渐平凡的挣扎.</li><li>多年如一日的看轻ai发展.</li></ul><p>挺有意思的.</p><p>近十年的思想的变化,只有这么一点点,不知道是不是算进步缓慢呢?但感觉每年也都挺忙的,都有一点变化.</p><p>回到之前说的“结合时间点进行复盘.” 如果回顾AI编年史的话,2014-2018是井喷前最后的预兆,有着时间差的国内,还没有迎来硅谷的AI狂潮的洗礼,但是那时候我担心的,只是我的小小的学业和其他,从那时候装起第一次cuda driver,装到现在,还是接近原地踏步.</p><p>在2018的文章里,甚至将<em>“新模型的应用即将为代码生成速度提供…”</em>和科技达到了顶峰,但是人类还需要设计放在了一起.回过头来在2024年看来,这是多么的可笑.本质上模型能写代码,模型就能进行所谓的人类的“设计”.</p><p>所以说科幻小说家永远预言不了未来,因为基于自身的知识局限性.大概就是这个意思吧.</p><p>但是作为从业人员,是不是能做的更好一点呢,比如将自己的想法,变成现实呢?</p><p>这大概就是需要努力的方向了吧.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;这篇想法又带上了呓语的tag.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="呓语" scheme="https://blog.peiyuanqi.me/tags/%E5%91%93%E8%AF%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>早知道6 找工作</title>
+    <link href="https://blog.peiyuanqi.me/2024/10/18/career-6/"/>
+    <id>https://blog.peiyuanqi.me/2024/10/18/career-6/</id>
+    <published>2024-10-19T05:33:20.000Z</published>
+    <updated>2026-02-02T04:01:35.835Z</updated>
+    
+    <content type="html"><![CDATA[<p>大家都知道最近对于传统程序员来讲年成不好,如果你恰好是MLE那么日子还是很好过的.</p><span id="more"></span><p>因为之前工作的内容和DCN有很强的关系,所以还是可以面上一些MLE的岗位,但是MLE大部分对硬件和DCN岗位的期望是能够做很好的垂直管理,意味着从bare metal config到最后的ops orchestration都能有大概的了解,这在大公司还是太难了,毕竟这可能就是几千个人的好几个事业部需要负责的东西了.</p><p>聊了很多公司,甚至有不少名人公司也给了面试机会,但是都聊挂了,有的是确实技术面不尽人意,因为我不是个刷题非常勤奋的人,而且刷了总是忘,dp写了15年,看到了还是会犯怵,有的是不匹配,因为实在是大家的期望和实际情况不符合,有的是自己因为一些各种原因退出了面试流程,现在想想也挺可惜的.</p><p>如果说是找传统SWE岗的话,真的坑位不多,要求不低,希望做过的项目很多,并且有很强的带队能力.不知道今年接下来经济回暖以后会不会有改观呢.</p><p>另一个体会就是这年头内推都是打水漂了,全靠HR reaching out了🤯</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;大家都知道最近对于传统程序员来讲年成不好,如果你恰好是MLE那么日子还是很好过的.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+    <category term="Career" scheme="https://blog.peiyuanqi.me/tags/Career/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法#63 下一站和再下一站</title>
+    <link href="https://blog.peiyuanqi.me/2024/10/18/thoughts-63/"/>
+    <id>https://blog.peiyuanqi.me/2024/10/18/thoughts-63/</id>
+    <published>2024-10-19T04:55:17.000Z</published>
+    <updated>2026-02-02T04:01:35.895Z</updated>
+    
+    <content type="html"><![CDATA[<p>那么是时候了</p><span id="more"></span><p>是时候干什么了呢?</p><img src="/2024/10/18/thoughts-63/cat-nodding-head.gif" class="" title="nodding cat"><p>是时候转赞评了</p><p>开玩笑的</p><p>也不算恢复更新,只是短暂的有了一些空余的时间.一站式斩断之前不断烦躁的根源也是一种挺神奇的感觉.遗憾总是多一点的,或者说是患得患失.就宛如韩愈写的一样,即使是朝廷不行,但也是自己难受.离开了大树,要就是烈日下的蝼蚁,浩海上扁舟,所以慌张自然是要慌张的.</p><p>如果说最可惜的,大概就是那取之不尽用之不竭的历史资料了吧,没有上班空到chilling然后看完是很遗憾了.</p><p>之后的工作应该很忙吧,感觉也不知道能不能实现再下一站的目标了,那也只能拭目以待了.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;那么是时候了&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>早知道5 一二三四虎</title>
+    <link href="https://blog.peiyuanqi.me/2024/06/02/career-5/"/>
+    <id>https://blog.peiyuanqi.me/2024/06/02/career-5/</id>
+    <published>2024-06-03T05:18:11.000Z</published>
+    <updated>2026-02-02T04:01:35.835Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="所以在一家大公司做好一个大项目需要什么-下"><a href="#所以在一家大公司做好一个大项目需要什么-下" class="headerlink" title="所以在一家大公司做好一个大项目需要什么(下)"></a>所以在一家大公司做好一个大项目需要什么(下)</h4><p>“上”讲的比较形而上,“下”讲的自然要形而下一点.所有有着Business needs的项目,自然是不能拖延的,那么完成一个不能拖延的任务最有效的方法是什么.</p> <span id="more"></span><p>曾经有些公司说,因为我的雇员是世界上最优秀的,所以他们只做最优秀的事情,只创造最优秀的产品.(请不要对号入座,毕竟这样的公司可不少 ‘手动狗头’.jpg)</p><blockquote><p>人非圣贤,孰能无过.</p></blockquote><p>达芬奇,大概也不能第一次打开扫雷就完成9x9的扫雷简单难度吧.人的能力有限的情况下,面对的是无限可能的问题,要解决问题,就接受努力解决问题的过程.学习以后解决问题自然能够更加接近一次命中红心,但是并不需要强求每次都起手就是完成形态.所以放下ego做平凡的自己,大概是第一条了.但是就这一条又有多少人能做到呢.</p><p>毕竟当红辣子鸡里还是有不少人觉得</p><blockquote><p>we have a high bar.</p></blockquote><p>从更古不变的正态分布上来说,这就不太可能.</p><p>落实到做项目上,能一次做出最优解自然是最好的,但如果更多时候有各种场外因素阻挠的话,与其去拉扯最优解,不如先给一个解把business needs给解决了,不然在外人眼里,哪怕你这绣花针用的是再好的工艺,也绣不出一朵花来.</p><p>圣家堂是少数的反面例子,但是毕竟也就独一个.快速迭代,永远是笨办法中的好办法.当然这个迭代更多是一种尽力而为,毕竟,志不在此是大多数情况.</p><p>如果想要快速迭代,那么turn around time自然是不能高上去了.曾经有个同学问,为什么要在东5.5区开分部,而不是在更便利的东八区,东九区,东十区呢,甚至西六区也不错呀.问这个问题的同学一定是有一颗赤子之心的.但抛开这一点不谈,降低turn around time是一个时间紧迫的有business needs的项目的成功关键,如果不能做到,那么就自然是有无法实现的风险了.</p><p>至繁归于至简,优秀的设计不用反复去解释,如果解决方案太复杂,那一定是提出的问题有问题.当面对million级别的business logics的时候,你就知道一定是impedance mismatch了.</p><p>最后的最后,作为工程师老本行,做的所有事情都是给理学家善后,所以compromise是无处不在的,如果没有compromise,那就一定是什么地方错了,如果有人说没错,那么是时候劝劝ta放下ego了.</p><p>虎头蛇尾,说的大概就是这样吧.</p><p>也许头也不虎呢.</p>]]></content>
+    
+    
+    <summary type="html">&lt;h4 id=&quot;所以在一家大公司做好一个大项目需要什么-下&quot;&gt;&lt;a href=&quot;#所以在一家大公司做好一个大项目需要什么-下&quot; class=&quot;headerlink&quot; title=&quot;所以在一家大公司做好一个大项目需要什么(下)&quot;&gt;&lt;/a&gt;所以在一家大公司做好一个大项目需要什么(下)&lt;/h4&gt;&lt;p&gt;“上”讲的比较形而上,“下”讲的自然要形而下一点.所有有着Business needs的项目,自然是不能拖延的,那么完成一个不能拖延的任务最有效的方法是什么.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+    <category term="Career" scheme="https://blog.peiyuanqi.me/tags/Career/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>早知道4 吾道一以贯之</title>
+    <link href="https://blog.peiyuanqi.me/2024/06/01/career-4/"/>
+    <id>https://blog.peiyuanqi.me/2024/06/01/career-4/</id>
+    <published>2024-06-02T03:15:19.000Z</published>
+    <updated>2026-02-02T04:01:35.835Z</updated>
+    
+    <content type="html"><![CDATA[<p>正确答案总是不存在的,即使这里所记载的内容,也有具体情况的局限性并且不适用的时候,很多时候都是这样的.</p> <span id="more"></span><img src="/2024/06/01/career-4/title.webp" class="" title="segment default"><h4 id="所以在一家大公司做好一个大项目需要什么-上"><a href="#所以在一家大公司做好一个大项目需要什么-上" class="headerlink" title="所以在一家大公司做好一个大项目需要什么(上)"></a>所以在一家大公司做好一个大项目需要什么(上)</h4><p>首先,自然是叠甲,标题里面的定语,自然是我们的限定范围.</p><p>古人云,人心齐泰山移.大公司,心必然不齐.那么这时候我们要考察的,就是项目的目的是什么.考虑到新兴行业做项目一般还是要解决现实问题的,大概根本推动问题,还是在于一些商业上的需求.所谓的Business needs.这是需要始终放在心上的,因为到底有多么的解决这个business needs,是决定有多少的谈判空间和变通可能性的.</p><p>最近得到好几个senior们对如何在大公司中成功做成项目这个问题的答复,都是要保持良好的商业理念,就是所谓的business sense.主要还是公司不是做慈善的,甚至做慈善的也不是真的做慈善的.如果是高速增长的时候,让员工想做啥做啥能够获得意外之喜的话,等到离开了收入增长快车道,自然就需要让大家更加专注在生存问题上.这时候如果能够保证公司的这个Business needs和要做的项目有强关联,或者说要做的项目是Business needs催生的,那么自然就明白项目完成的概率了.</p><p>不要去创造需求.大部分人不是乔布斯,也不想做乔布斯,更没有乔布斯在自己环境里的话语权,所以有的问题还是看看就好了.除非你说我龙傲天就是不打算继续吃这碗w2的饭(xi kang)了.</p><p>一旦项目和business needs 强绑定,好消息是,你等同于获得了尚方宝剑.坏消息是,尚方宝剑只是随便的某把剑,斩得了一个人,斩不了一千个人.自古以来,大部分历史事件,并不是像日本军国士官通过下克上来实现的.主要靠的还是自上而下的指令.所以你获得了一个无法拖延的deadline,但你并没有让你无往不利的开路神器.</p><p>倘若在一个非大公司,那么很多时候员工利益,公司利益,中层管理层利益的一致性是相对较高的(<a href="https://blog.peiyuanqi.me/2022/09/25/thoughts-49/">想法#49 一致性</a>).但是大公司,这个一致性往往不咋滴.</p><p>从上一条可推出,当你的大项目和公司利益具有高度一致性,这又是大公司中的大项目,那么这项目高概率和不少员工和中层管理层利益不一致,不一致自然就要受到阻力.</p><p>阻力怎么解决呢?那你自然可以认为天威浩荡,尚方宝剑在手,一概处理了.这绝对是个好办法,但不是个容易的办法.化用一句不正确的引用,</p><blockquote><p>子曰：“参乎！吾道一以贯之。”</p></blockquote><p>这是需要强大个人意志与抗争能力的,大部分时候普通的打工人,做不到,乃至不普通的打工人可能也做不到.</p><p>第二种方法,大概就是史书上经常记载的解决方法了,“和稀泥”.反正最后只要让事情能看起来过得去,那就是你好我好大家好,中间的过程,里面有多么的糟糕,那自然是不用上心的事情了.</p><p>第三种,就自然是中间派了,放弃一部分,拉拢一部分,团结一部分,打击一部分.最后能把事情在中庸之道上办了,自然也是“为善者，福虽未至，祸其远矣”</p><p>三种大分类,都有利弊,但是采取任何一种方法,在我看来都是没有错的.</p><p>只可惜,如果这道选择题,新手都会做,那大概所有的项目,都是顺顺利,登陆火星也是指日可待了.</p><p>虽说谋事在人,成事在天,但是若谋不定,事情自然就更难成了.双标,没底线,左右摇摆,才是更常见的情况.</p><p>刚开始的时候雄心壮志,希望扫除弊端,做正确的事情,遂采用方法一,耗时八成八.感觉进度赶不上,540度大转弯,采用方法二,为完成项目而只求稀泥在验收的时候能过去.最后的结果和质量自然远不如一直采用方法三.</p><p>所以说多厉害的人,办多大的事,如果对自己的能力把握出了偏差,做项目留下隐患是自然的.但是很多时候,又有多少人知道自己的能力是多大呢?</p><p>如果说,这是一个未经世事的年轻人,自然这样的错误是可以理解的,但若是花费了人生中不小的部分来做一些事情,并且还没有领悟到一些道理,大概就是很悲哀的了吧.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;正确答案总是不存在的,即使这里所记载的内容,也有具体情况的局限性并且不适用的时候,很多时候都是这样的.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+    <category term="Career" scheme="https://blog.peiyuanqi.me/tags/Career/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法#62 Sputnik, Blackberry and ChatGPT</title>
+    <link href="https://blog.peiyuanqi.me/2024/05/21/thoughts-62/"/>
+    <id>https://blog.peiyuanqi.me/2024/05/21/thoughts-62/</id>
+    <published>2024-05-21T16:27:45.000Z</published>
+    <updated>2026-02-02T04:01:35.895Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p> As of November 30, 2022, Google became a second-rate tech company.</p></blockquote><span id="more"></span><p>黑莓在2000-2007年的时候觉得没有人能撼动它的位置,所以它就只是跟随并没有尝试去突破,于是2007年当iphone发布的时候,它的增长迅速放缓,2008&#x2F;09年登顶,最后在2011年失去50%的市场份额,在10年内市场份额降到了0.</p><p>这是个<code>居安思危,思则有备,有备无患</code>的故事.</p><p>并不是说黑莓在那7年里一事无成,他还是努力的在和诺基亚竞争,在和爱立信竞争.但是当改革的浪潮来领的时候,可惜的是他并不是幸运的那一个.当在日复一日的和近忧搏斗的时候,局部最优解自然成了最后的答案.</p><p>最近的GenAI热潮,首当其冲的就是Chegg.每天快乐收租的日子就没有了.影响小一点的也有比如Google.可以说从2022年11月30日开始,Google就成为了二流科技公司.Sputnik上天,美国有了NASA和DARPA,但是Google,却什么也没有.</p><p>曾经也许可以依靠超高的边际收益,来获得一些不错的突破,但是突破之后加大投资的风险是巨大的,对Leadership的威胁也是巨大的.忠诚的打工人自然是不会为了公司的利益而放弃自己的利益.无论是年会不能停,还是独裁者手册,都已经把故事讲得很明白了.区别也就只在于结局的不同罢了.</p><p>一个公司存在的意义,是不断的变化的,也许开始的时候RIM是想做一个优秀的产品,并且一直努力,但是终究是懈怠了,当黑色的黑莓挂在楼上的时候RIM就死了.黑莓坏了,其他水果也是跳不出类似的结局.</p><p>只能说读书的速度还是慢了一点,但是今年终于能够有把握回答曾经快毕业的时候一直问别人的问题了.工作四年,和刚毕业的人,又有什么根本区别呢?</p><p>还是不写出来了吧,毕竟写出来的,都得是符合规矩的.</p>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt; As of November 30, 2022, Google became a second-rate tech company.&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="科技" scheme="https://blog.peiyuanqi.me/tags/%E7%A7%91%E6%8A%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Llama3.2 1B 并不能代替我在这个blog的作用</title>
+    <link href="https://blog.peiyuanqi.me/2024/05/03/cs-23-gen-blog/"/>
+    <id>https://blog.peiyuanqi.me/2024/05/03/cs-23-gen-blog/</id>
+    <published>2024-05-03T21:48:59.000Z</published>
+    <updated>2026-02-02T04:01:35.836Z</updated>
+    
+    <content type="html"><![CDATA[<p>很久以前跑过llama2,按照blog的数据结果写出来的东西都毫无意义.</p><span id="more"></span><p>也不知道是不是那时候姿势不对. 现在只需要自己的4090就能跑个1B的3.2 fine tuning,居然还写出了点看似靠谱的东西.</p><p>别说 还挺像的风格.</p><blockquote><p>提示词: 如果让我写一篇文章</p><p>如果让我写一篇文章，写作的目标是为了写作的目的而写作，什么东西最好不过是关于技术的文章，或者说技术写作，感觉自己已经在犯的一个错误了。<br>大部分时候，写作的目的不是为了写完文章而写作，甚至可能是写作的过程中才会有写完文章的想法。写作的过程中，会有各种各样的想法可能是想法是关于技术相关的，可能是想法是关于生活中的一些事情，可能是想法是关于技术业相关的.</p></blockquote><p>挺像那么一回事的.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;很久以前跑过llama2,按照blog的数据结果写出来的东西都毫无意义.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+    <category term="ML" scheme="https://blog.peiyuanqi.me/tags/ML/"/>
+    
+    <category term="AI" scheme="https://blog.peiyuanqi.me/tags/AI/"/>
+    
+    <category term="LLM" scheme="https://blog.peiyuanqi.me/tags/LLM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Is Domain Knowledge Knowledge?</title>
+    <link href="https://blog.peiyuanqi.me/2024/05/03/cs-domain-knowledge/"/>
+    <id>https://blog.peiyuanqi.me/2024/05/03/cs-domain-knowledge/</id>
+    <published>2024-05-03T21:48:59.000Z</published>
+    <updated>2026-02-02T04:01:35.837Z</updated>
+    
+    <content type="html"><![CDATA[<p>Is domain knowledge knowledge?</p><span id="more"></span><p>No, it is not.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Is domain knowledge knowledge?&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+    <category term="Domain Knowledge" scheme="https://blog.peiyuanqi.me/tags/Domain-Knowledge/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>权力，权力进化论小结</title>
+    <link href="https://blog.peiyuanqi.me/2024/04/21/reading-power/"/>
+    <id>https://blog.peiyuanqi.me/2024/04/21/reading-power/</id>
+    <published>2024-04-22T05:32:39.000Z</published>
+    <updated>2026-02-02T04:01:35.887Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前有一位信息茧房外的同学推荐了一本入门读物。</p><span id="more"></span><p>说到信息茧还蛮有趣的一个sideways是刚工作的时候出去玩有一位同学说<code>这件事居然你不知道吗，不会是信息茧的问题吧</code>然后被我毫不客气的dui回去了。虽然就是论事那件事并不是信息茧的问题，而是真无此事，但是那确实是第一次让我学习到了这个词。时过境迁，那次出去玩的不少同学居然都已经回国了。</p><p>但是说回读书小结。不能说<code>有感</code>是因为不敢说是感想，最多只是一些类似GPT的转述罢了。就像评论说的，这两本书讲的很浅，而且狒狒老师总是颠来倒去就三四个例子，看了两本书宛如就看了一本书。不得不说是很会赚快钱了，并且用实践证明了自己书中的内容。</p><p>简单来讲就是，小说里的都是骗人的，生活里的东西，还是让他们留在生活里吧。</p><p>总不能讲的太直白，不然大家都不买老师的书了是吧。</p><p>此外有人在书的评论里提到的<code>独裁者手册</code>则是另一本不错的小册子了，但是那就级别拉的太高，对现在也没什么实操的意义了吧。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;之前有一位信息茧房外的同学推荐了一本入门读物。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="读书笔记" scheme="https://blog.peiyuanqi.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="权力" scheme="https://blog.peiyuanqi.me/tags/%E6%9D%83%E5%8A%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法#61 意志力</title>
+    <link href="https://blog.peiyuanqi.me/2024/04/21/thoughts-61/"/>
+    <id>https://blog.peiyuanqi.me/2024/04/21/thoughts-61/</id>
+    <published>2024-04-22T05:25:40.000Z</published>
+    <updated>2026-02-02T04:01:35.895Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一篇不属于早知道系列的career想法。</p><span id="more"></span><p>因为他不合适。</p><p>更像是2023年以来的一个回顾吧。</p><p>简单来讲就是因为2023年上班非常忙，很多其他的进步项目都被暂停了，从最开始的notion sprint彻底废弃，到各大side project没有进展，再到业余学习基本成为不可能，甚至blog也没见几篇，说明大脑的思考真的变少了。最后就是啥好处也没有，啥进步也没看到。不是说多余的时间不存在，没孩子没狗，每天只睡6个半小时，大把的时间还是有的。但是股票账户只有浮亏，体重倒是涨了不少。steam的在线时间也是与日俱增。</p><p>之前有人说，有号称研究表明，每天的意志力是有限额的，早上起来以后就会不停的消耗，从家务到上班，从写算术题到写blog，都是需要消耗意志力的，有的人天生聪慧，起点就很高，有的人通过后天锻炼，维持了很高的每日意志力容量。显然2023年大部分的意志力都是贡献给上班了。</p><p>但是这又有什么样的结果，这大概就是最让人惊醒的吧。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;这是一篇不属于早知道系列的career想法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="Career" scheme="https://blog.peiyuanqi.me/tags/Career/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想法#60产业外迁的覆辙</title>
+    <link href="https://blog.peiyuanqi.me/2024/04/20/thoughts-60/"/>
+    <id>https://blog.peiyuanqi.me/2024/04/20/thoughts-60/</id>
+    <published>2024-04-21T03:08:51.000Z</published>
+    <updated>2026-02-02T04:01:35.895Z</updated>
+    
+    <content type="html"><![CDATA[<p>所以这次轮到信息产业了。</p><span id="more"></span><img src="/2024/04/20/thoughts-60/title.webp" class="" title="moving-out-of-ame"><p>新冠疫情让资本突然意识到了一件事情，就是曾经牢不可破的办公室工作才意味着生产力信条被打破了。</p><p>很可惜打破的并不是像年轻人所想的那样，意味着员工可以在家里快乐上班。而是跨时区工作可以提供可堪一用的生产效率。如果</p><p>$$资本收割效率&gt;远程工作降低效率$$</p><p>(这两个都是我生造的词)<br>那么产业外迁就是有利可图的（不要问我为什么这一幕这么眼熟）</p><p>曾经工业化的时候，离岸制造最大的抗议可能是运输成本，现在信息化的时候，离岸制造最大的抗议就是沟通成本了，但是毕竟打工人可压榨空间无限大，所以自然可以从中压榨出来资本家需要的成本的。</p><p>不是DS自然也不会写个脚本拉出一堆骇人的数据，但是感官上可以以偏概全的觉得，startup正在意识到除非必要，否则传统软件工程中心完全可以外包给Bengaluru和BJ SH。前者适应NS的需求，后者则是实现费效比最大化。而且时区上东八区和西八区更友好一点。而大公司大部分都受限于NS的需求，所以都是在Bengaluru或者Hyderabad。更有听闻一线mgr们被要求提高产出的情况下，只给予了离岸人头，意味着经理要么选择接受，要么压迫组员一起加班。那这正是一出优秀的“指鹿为马”（chatgpt推荐的，大概算贴切吧&#x3D; &#x3D;。</p><p>其实如果一切是资本驱动的话，这是自然而然的事情。这也是之前工业外迁的一个主要因素，可以想像若干年以后，会不会也有类似的口号要求软件开发回流呢？</p><p>大概应该不会吧，毕竟写代码真的可以让模型做。</p><p>但是驾驭模型大概又成了新的写代码方法了吧。</p><p>前几天听同学推荐的钟宁桦的讲座，简单来讲就是没有利润的事情，在资本驱动的世界里，是非常难办成的，基础设施建设算其中一样。</p><p>但是制造业基础也是一样。信息产业基础，还是一样。最后永远是在食物链的最上层能占据最大的剩余价值，但类似于毒素的富集，大概自然而然也就吸收了更多的环境中的有害物质吧。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;所以这次轮到信息产业了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="产业转移" scheme="https://blog.peiyuanqi.me/tags/%E4%BA%A7%E4%B8%9A%E8%BD%AC%E7%A7%BB/"/>
+    
+  </entry>
+  
+</feed>
