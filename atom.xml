@@ -6,7 +6,7 @@
   <link href="https://blog.peiyuanqi.me/atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2026-02-02T04:01:35.897Z</updated>
+  <updated>2026-05-03T06:12:50.016Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想法#70 迟来的2026开篇</title>
+    <link href="https://blog.peiyuanqi.me/2026/05/02/thoughts-70/"/>
+    <id>https://blog.peiyuanqi.me/2026/05/02/thoughts-70/</id>
+    <published>2026-05-03T05:43:17.000Z</published>
+    <updated>2026-05-03T06:12:50.016Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前由于一些原因不得不给网站下了段时间线,没想到一停停这么久.过新年的时候还在想着要年终总结,新年畅想,现在都五一节了.</p><span id="more"></span><p>和去年不同的是,年底火了openclaw.大家都叫着要替代所有白领,然而我还在用这个总是打错别字的输入法.</p><p>五笔是没有学的,token是付不起的.</p><p>生活是无奈的, 加班是无限的.</p><p>从《南明史》我们看到的是平行时空近代史.</p><p>胡风南渡说,到了明朝中期就加大了对元的鞭挞.记录在案!</p><p>和之前说的一样,民族国家,大概是要带入太空时代的.</p><p>很难想象已经30岁+了,生命过了这么久,感觉是悟了,但又觉得没有什么可以做的了,无力,也无奈.</p><p>错误总是一遍遍的犯,我,他人,世界,但是有在进步.</p><p>但是真的是进步吗,是熵减吗,还是只是局部的改进呢.</p><p>离开🐶已经整整一年又6个月了.曾经在做那些事的人,还在做那些事,但是这个世界却已经不是之前的样子了.</p><p>很庆幸当时离开了,虽然如果留下,可能也是能做出一些agentic app届的有趣应用,用在那些所谓的ML world backbone上.但是真的有多少就不得而知了.</p><p>最近半年感觉进步最大的地方,就是在过去几个月中强制读了一些Paper.获得了一些新的Know How.但是所谓的Know How依然是落了窠臼.这大概也是为什么觉得,算是悟了.mHC, Residual, Latent, GPRO.都是一些焦虑的人的焦虑的话.进步很好,效果很大,但是终究没有跑出原来的框架.</p><p>知道了自己的blog不用RLHF,不需要SFT,啥都不需要,你只要和Claude说,你给我建立一个人物侧写,一个LLM Wiki.</p><p>知道了成名拿上上亿大包,不需要你做的多好,多高级,只是曾经你有微小的贡献,然后处在正确的地方,就会成为可能.</p><p>大家说人一辈子运气只够挣一笔不错的收入,那是一次性的,就我这运气估计也是这样.</p><p>所以惶惶不可终日的,是想着,我的那一笔,是已经挣过了吗.</p><p>有这种想法,可能实在是最近几个月的新闻太多,周围圈子的人可以开始做自己想做的事情的人不少.</p><p>无论是投身自己热爱的事业;</p><p>或者是开始做自己一直想做的事情;</p><p>也或者是希望投入GDP大循环;</p><p>还或者是离开了循环,加入了人类命运的探索.</p><p>依然不变的,没有嫉妒,只是羡慕.</p><p>最近半年获得了从来没有过的近距离通过第二手资料了解Elon的机会,泯然众人矣.</p><p>然而如何成为有资本的那个众人,让资源为我所用,去探求那个可能根本没有必要的问题呢.</p><p>不知道,也暂时无法知道.</p><p>曾经刚毕业的时候,不懂YoE3年的同事的烦恼;YoE3年的时候懂了那时候同事的烦恼,却不懂YoE7年的同事的烦恼;<br>YoE7年的时候,感觉懂了YoE12年的同事的烦恼,也算是一种进步吧.</p><p>2026大概是软件工程的最后一年了.不再成为一个劳动密集型行业,而是转型成了机械工程,咨询,金融一样的门槛型行业,这就意味着薪资的降低,晋升的减速,倾轧的恶化.</p><p>希望各位,都能在这个百年一遇的历史之变革时期,把握当下:</p><blockquote><p>勃勃生机,万物竞发!</p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;之前由于一些原因不得不给网站下了段时间线,没想到一停停这么久.过新年的时候还在想着要年终总结,新年畅想,现在都五一节了.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+    <category term="AI" scheme="https://blog.peiyuanqi.me/tags/AI/"/>
+    
+    <category term="经济" scheme="https://blog.peiyuanqi.me/tags/%E7%BB%8F%E6%B5%8E/"/>
+    
+    <category term="Software" scheme="https://blog.peiyuanqi.me/tags/Software/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#69</title>
@@ -145,33 +172,6 @@
     <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
     
     <category term="AI" scheme="https://blog.peiyuanqi.me/tags/AI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想法#70 迟来的2026开篇</title>
-    <link href="https://blog.peiyuanqi.me/2025/04/16/thoughts-70/"/>
-    <id>https://blog.peiyuanqi.me/2025/04/16/thoughts-70/</id>
-    <published>2025-04-17T00:43:17.000Z</published>
-    <updated>2026-05-03T05:25:12.221Z</updated>
-    
-    <content type="html"><![CDATA[<p>之前由于一些原因不得不给网站下了段时间线,没想到一停停这么久.过新年的时候还在想着要年终总结,新年畅想,现在都五一节了.</p><span id="more"></span><p>和去年不同的是,年底火了openclaw.大家都叫着要替代所有白领,然而我还在用这个总是打错别字的输入法.</p><p>五笔是没有学的,token是付不起的.</p><p>生活是无奈的, 加班是无限的.</p><p>从《南明史》我们看到的是平行时空近代史.</p><p>胡风南渡说,到了明朝中期就加大了对元的鞭挞.记录在案!</p><p>和之前说的一样,民族国家,大概是要带入太空时代的.</p><p>很难想象已经30岁+了,生命过了这么久,感觉是悟了,但又觉得没有什么可以做的了,无力,也无奈.</p><p>错误总是一遍遍的犯,我,他人,世界,但是有在进步.</p><p>但是真的是进步吗,是熵减吗,还是只是局部的改进呢.</p><p>离开🐶已经整整一年又6个月了.曾经在做那些事的人,还在做那些事,但是这个世界却已经不是之前的样子了.</p><p>很庆幸当时离开了,虽然如果留下,可能也是能做出一些agentic app届的有趣应用,用在那些所谓的ML world backbone上.但是真的有多少就不得而知了.</p><p>最近半年感觉进步最大的地方,就是在过去几个月中强制读了一些Paper.获得了一些新的Know How.但是所谓的Know How依然是落了窠臼.这大概也是为什么觉得,算是悟了.mHC, Residual, Latent, GPRO.都是一些焦虑的人的焦虑的话.进步很好,效果很大,但是终究没有跑出原来的框架.</p><p>知道了自己的blog不用RLHF,不需要SFT,啥都不需要,你只要和Claude说,你给我建立一个人物侧写,一个LLM Wiki.</p><p>知道了成名拿上上亿大包,不需要你做的多好,多高级,只是曾经你有微小的贡献,然后处在正确的地方,就会成为可能.</p><p>大家说人一辈子运气只够挣一笔不错的收入,那是一次性的,就我这运气估计也是这样.</p><p>所以惶惶不可终日的,是想着,我的那一笔,是已经挣过了吗.</p><p>有这种想法,可能实在是最近几个月的新闻太多,周围圈子的人可以开始做自己想做的事情的人不少.</p><p>无论是投身自己热爱的事业;</p><p>或者是开始做自己一直想做的事情;</p><p>也或者是希望投入GDP大循环;</p><p>还或者是离开了循环,加入了人类命运的探索.</p><p>依然不变的,没有嫉妒,只是羡慕.</p><p>最近半年获得了从来没有过的近距离通过第二手资料了解Elon的机会,泯然众人矣.</p><p>然而如何成为有资本的那个众人,让资源为我所用,去探求那个可能根本没有必要的问题呢.</p><p>不知道,也暂时无法知道.</p><p>曾经刚毕业的时候,不懂YoE3年的同事的烦恼;YoE3年的时候懂了那时候同事的烦恼,却不懂YoE7年的同事的烦恼;<br>YoE7年的时候,感觉懂了YoE12年的同事的烦恼,也算是一种进步吧.</p><p>2026大概是软件工程的最后一年了.不再成为一个劳动密集型行业,而是转型成了机械工程,咨询,金融一样的门槛型行业,这就意味着薪资的降低,晋升的减速,倾轧的恶化.</p><p>希望各位,都能在这个百年一遇的历史之变革时期,把握当下:</p><blockquote><p>勃勃生机,万物竞发!</p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;之前由于一些原因不得不给网站下了段时间线,没想到一停停这么久.过新年的时候还在想着要年终总结,新年畅想,现在都五一节了.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    
-    <category term="AI" scheme="https://blog.peiyuanqi.me/tags/AI/"/>
-    
-    <category term="经济" scheme="https://blog.peiyuanqi.me/tags/%E7%BB%8F%E6%B5%8E/"/>
-    
-    <category term="Software" scheme="https://blog.peiyuanqi.me/tags/Software/"/>
     
   </entry>
   
