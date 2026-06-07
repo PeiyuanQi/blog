@@ -6,7 +6,7 @@
   <link href="https://blog.peiyuanqi.me/atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2026-06-07T04:16:56.224Z</updated>
+  <updated>2026-06-07T05:39:08.948Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>早知道10 普通悖论</title>
+    <link href="https://blog.peiyuanqi.me/2026/06/07/career-10/"/>
+    <id>https://blog.peiyuanqi.me/2026/06/07/career-10/</id>
+    <published>2026-06-07T11:44:48.000Z</published>
+    <updated>2026-06-07T05:39:08.948Z</updated>
+    
+    <content type="html"><![CDATA[<p>普通人总是大多数</p><span id="more"></span><p>但是普通的人也有:</p><ul><li>爱闹的</li><li>友善的</li></ul><p>往往当你想要批判别人的不努力,平庸,碌碌无为的时候,你又会发现他们好像是那么善良友善.</p><p>当你想要善待那些友善的人的时候,又总是会发现有一些人拥有如此多的平凡之恶.</p><p>他们羡慕别人的成功,他们抱怨世界的不公,但他们从来不反思自己的付出.</p><p>当你想要批判这些人的时候,又有人会批评你是在指责那些友善的普通人.</p><p>这些人往往就是那些普通的爱闹的人.他们伪装成毫无危害的小白兔,想要获得你的同情,却又在演一出农夫与蛇,随时打算再咬一口,以求最后的利益,哪怕这会导致大厦倾覆.</p><p>感动人的平凡人的故事,大多数发生在后者.</p><p>但是很多前者总是会装作自己是后者.</p><p>非常难区分,也很难准确地去帮助那些需要帮助的人.</p><p>上班如此,生活也如此.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;普通人总是大多数&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    
+    
+    <category term="Career" scheme="https://blog.peiyuanqi.me/tags/Career/"/>
+    
+  </entry>
   
   <entry>
     <title>想法#71 老想法</title>
@@ -439,29 +460,6 @@
     
     
     <category term="Domain Knowledge" scheme="https://blog.peiyuanqi.me/tags/Domain-Knowledge/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>权力，权力进化论小结</title>
-    <link href="https://blog.peiyuanqi.me/2024/04/21/reading-power/"/>
-    <id>https://blog.peiyuanqi.me/2024/04/21/reading-power/</id>
-    <published>2024-04-22T05:32:39.000Z</published>
-    <updated>2026-02-02T04:01:35.887Z</updated>
-    
-    <content type="html"><![CDATA[<p>之前有一位信息茧房外的同学推荐了一本入门读物。</p><span id="more"></span><p>说到信息茧还蛮有趣的一个sideways是刚工作的时候出去玩有一位同学说<code>这件事居然你不知道吗，不会是信息茧的问题吧</code>然后被我毫不客气的dui回去了。虽然就是论事那件事并不是信息茧的问题，而是真无此事，但是那确实是第一次让我学习到了这个词。时过境迁，那次出去玩的不少同学居然都已经回国了。</p><p>但是说回读书小结。不能说<code>有感</code>是因为不敢说是感想，最多只是一些类似GPT的转述罢了。就像评论说的，这两本书讲的很浅，而且狒狒老师总是颠来倒去就三四个例子，看了两本书宛如就看了一本书。不得不说是很会赚快钱了，并且用实践证明了自己书中的内容。</p><p>简单来讲就是，小说里的都是骗人的，生活里的东西，还是让他们留在生活里吧。</p><p>总不能讲的太直白，不然大家都不买老师的书了是吧。</p><p>此外有人在书的评论里提到的<code>独裁者手册</code>则是另一本不错的小册子了，但是那就级别拉的太高，对现在也没什么实操的意义了吧。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;之前有一位信息茧房外的同学推荐了一本入门读物。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    
-    
-    <category term="读书笔记" scheme="https://blog.peiyuanqi.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="权力" scheme="https://blog.peiyuanqi.me/tags/%E6%9D%83%E5%8A%9B/"/>
     
   </entry>
   
