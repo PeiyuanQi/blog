@@ -6,7 +6,7 @@
   <link href="https://blog.peiyuanqi.me/atom.xml" rel="self"/>
   
   <link href="https://blog.peiyuanqi.me/"/>
-  <updated>2026-06-07T05:39:08.948Z</updated>
+  <updated>2026-06-07T16:31:45.476Z</updated>
   <id>https://blog.peiyuanqi.me/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想法#72 迟到的先进</title>
+    <link href="https://blog.peiyuanqi.me/2026/06/07/thoughts-72/"/>
+    <id>https://blog.peiyuanqi.me/2026/06/07/thoughts-72/</id>
+    <published>2026-06-07T16:27:05.000Z</published>
+    <updated>2026-06-07T16:31:45.476Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近注意到一件事情: 特别先进的技术传播, 即使在自由流动的情况下, 也是渐进的, 分层级的, 而不是一下子同步全球的.</p><span id="more"></span><p>用2010s的后端技术做例子, 湾区很多公司里已经相当成熟的一整套方法论, 其实并没有很有效地传播到国内. 哪怕到了2025年这个软件行业的历史拐点, 很多先进的方法论都还没有真正进入国内企业的日常工程实践.</p><p>这完全不是什么文化差异的问题. 因为这些方法论在生产效率, 稳定性, 组织协作, 交付速度上的差异是显著的. 如果只是口味差异, 那大家各走各路就好了. 但它们不是口味, 而是生产函数.</p><p>2025年末到2026年的 agent 写代码也是一个很明显的例子. 对这种工作方式的接受能力和传播过程, 基本上可以观察到一个层级: 先是湾区最愿意接受的几家公司, 然后是其他公司, 其他城市的其他公司, 再到国内科技研发城市和互联网大厂, 再到国内一线二线城市的软件公司, 最后才会慢慢到三四线城市的软件行业.</p><p>整个过程中, 大部分科技并不是保密的. 甚至可以说, 很多东西都是轻松开源获取的. 即使有一些阻碍, 业内人士通常也可以很快找到办法解决. 但最后依然会观察到这种传播的延迟和分层.</p><p>所以问题不是信息有没有公开, 也不是工具有没有出现. 问题是先进技术真正变成组织能力, 需要一层一层穿过认知, 信任, 激励, 管理习惯和旧系统的惯性.</p><p>技术可以开源, 但实践不会自动同步.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;最近注意到一件事情: 特别先进的技术传播, 即使在自由流动的情况下, 也是渐进的, 分层级的, 而不是一下子同步全球的.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    
+    
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>早知道10 普通悖论</title>
@@ -439,27 +460,6 @@
     <category term="AI" scheme="https://blog.peiyuanqi.me/tags/AI/"/>
     
     <category term="LLM" scheme="https://blog.peiyuanqi.me/tags/LLM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Is Domain Knowledge Knowledge?</title>
-    <link href="https://blog.peiyuanqi.me/2024/05/03/cs-domain-knowledge/"/>
-    <id>https://blog.peiyuanqi.me/2024/05/03/cs-domain-knowledge/</id>
-    <published>2024-05-03T21:48:59.000Z</published>
-    <updated>2026-02-02T04:01:35.837Z</updated>
-    
-    <content type="html"><![CDATA[<p>Is domain knowledge knowledge?</p><span id="more"></span><p>No, it is not.</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Is domain knowledge knowledge?&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
-    
-    
-    <category term="Domain Knowledge" scheme="https://blog.peiyuanqi.me/tags/Domain-Knowledge/"/>
     
   </entry>
   
