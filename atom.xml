@@ -10,7 +10,29 @@
   <rights>All rights reserved 2026, Peiyuan Qi</rights>
   <subtitle>To Infinity and Beyond</subtitle>
   <title>Peiyuan's Blog</title>
-  <updated>2026-06-18T18:51:27.967Z</updated>
+  <updated>2026-07-07T01:59:32.476Z</updated>
+  <entry>
+    <author>
+      <name>Peiyuan Qi</name>
+    </author>
+    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
+    <category term="扫地机器人" scheme="https://blog.peiyuanqi.me/tags/%E6%89%AB%E5%9C%B0%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    <category term="AI-Generated" scheme="https://blog.peiyuanqi.me/tags/AI-Generated/"/>
+    <category term="Codex" scheme="https://blog.peiyuanqi.me/tags/Codex/"/>
+    <category term="Skill" scheme="https://blog.peiyuanqi.me/tags/Skill/"/>
+    <content>
+      <![CDATA[<p>之前写过一篇<a href="https://blog.peiyuanqi.me/2025/03/27/cs-how-to-config-robot-cleaner-to-use-ss-server/">配置特定内网 ip 的 IoT 设备使用梅林固件 Asus 路由访问 ss 服务器</a>.</p><p>那篇文章其实不是一个特别优雅的教程,更像是一次把问题摸出来之后留下的现场记录: <code>ss-redir</code>, <code>iptables</code>, <code>TPROXY</code>, UDP, DNS, Entware, kernel module, 每一个点都不算大,但是组合起来很容易忘.</p><span id="more"></span><p>所以这个问题很适合被整理成一个 Codex Skill.</p><p>不是让 Codex 直接替我登录路由器乱跑命令.更合理的做法是让 Codex 先把旧文章里面的经验抽出来,变成一个稳定的工作流:先问变量,再生成脚本,再列检查项,最后保留 rollback 和 troubleshooting.</p><p>我大概会这样问 Codex:</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">Read my existing blog post about configuring a specific IoT device on an Asus Merlin router to use a Shadowsocks server:</span><br><span class="line">source/_posts/cs-how-to-config-robot-cleaner-to-use-ss-server.md</span><br><span class="line"></span><br><span class="line">Please create a local Codex Skill that helps me repeat this process safely.</span><br><span class="line"></span><br><span class="line">The skill should not assume it can SSH into the router or run commands automatically.</span><br><span class="line">It should guide the user through:</span><br><span class="line"></span><br><span class="line">1. collecting router/device/server variables:</span><br><span class="line">   - device IP</span><br><span class="line">   - router LAN interface</span><br><span class="line">   - ss-redir config path</span><br><span class="line">   - local redirect port</span><br><span class="line">   - whether UDP is required</span><br><span class="line">   - whether TPROXY kernel modules are available</span><br><span class="line">2. generating a reviewable shell script for Asus Merlin + Entware</span><br><span class="line">3. generating verification commands for:</span><br><span class="line">   - ss-redir process</span><br><span class="line">   - TCP redirect</span><br><span class="line">   - UDP TPROXY route</span><br><span class="line">   - DNS behavior</span><br><span class="line">   - iptables counters</span><br><span class="line">4. explaining common failures:</span><br><span class="line">   - missing TPROXY target</span><br><span class="line">   - ss-server not started with UDP</span><br><span class="line">   - DNS still going to public resolver</span><br><span class="line">   - wrong iptables binary or missing kernel module</span><br><span class="line">5. providing a cleanup / rollback section.</span><br><span class="line"></span><br><span class="line">Please write the Skill in a way that asks clarifying questions before generating final commands.</span><br><span class="line">Use placeholders for private server names, passwords, device brands, and IP addresses.</span><br></pre></td></tr></table></figure><p>这里的重点不是把那篇文章重新总结一遍.重点是把「我当时为什么卡住」变成 Codex 下次可以复用的判断顺序.</p><p>比如旧文章里面真正有价值的地方,并不是某一行 <code>iptables</code> 命令,而是这些顺序:</p><ul><li>先确认 <code>ss-redir</code> 本身能不能跑.</li><li>再确认 TCP redirect 有没有命中.</li><li>再看 UDP 是不是需要 TPROXY.</li><li>然后才检查 policy route 和 kernel target.</li><li>最后看 DNS 到底有没有被设备绕开.</li></ul><p>这些东西如果只写在 blog 里,下一次还要重新读一遍.如果写成 Skill,它就会变成 Codex 的前置习惯.</p><p>比较好的 Skill 也不应该一上来就输出一大坨命令.它应该先问:</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">What is the IoT device IP?</span><br><span class="line">Do you need UDP, or only TCP?</span><br><span class="line">Is the router already running Entware?</span><br><span class="line">Do you know whether xt_TPROXY exists on this firmware?</span><br><span class="line">Do you want a dry-run checklist first, or a shell script draft?</span><br></pre></td></tr></table></figure><p>我觉得这也是 Codex Skill 比普通 prompt 更有用的地方.</p><p>普通 prompt 解决的是「这次怎么问」.Skill 解决的是「以后我不应该忘记怎么问」.</p><p>对这种家用网络和半嵌入式设备的小问题来说,这件事还挺重要的.因为它们不是复杂到需要完整项目管理,但是又足够琐碎,足够依赖现场状态,足够容易在半年后完全忘记.</p><p>把这种流程写成 Skill,大概就是给未来的自己留一个比较可靠的施工队长.</p><hr><p>本文完全由 GPT 生成。</p>]]>
+    </content>
+    <id>https://blog.peiyuanqi.me/2026/07/07/cs-codex-skill-asus-merlin-iot-proxy/</id>
+    <link href="https://blog.peiyuanqi.me/2026/07/07/cs-codex-skill-asus-merlin-iot-proxy/"/>
+    <published>2026-07-07T07:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>之前写过一篇<a href="https://blog.peiyuanqi.me/2025/03/27/cs-how-to-config-robot-cleaner-to-use-ss-server/">配置特定内网 ip 的 IoT 设备使用梅林固件 Asus 路由访问 ss 服务器</a>.</p>
+<p>那篇文章其实不是一个特别优雅的教程,更像是一次把问题摸出来之后留下的现场记录: <code>ss-redir</code>, <code>iptables</code>, <code>TPROXY</code>, UDP, DNS, Entware, kernel module, 每一个点都不算大,但是组合起来很容易忘.</p>]]>
+    </summary>
+    <title>用 Codex Skill 固化梅林路由的 IoT 代理配置</title>
+    <updated>2026-07-07T01:59:32.476Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Peiyuan Qi</name>
@@ -372,23 +394,5 @@
     </summary>
     <title>早知道6 找工作</title>
     <updated>2026-02-02T04:01:35.835Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Peiyuan Qi</name>
-    </author>
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    <content>
-      <![CDATA[<p>那么是时候了</p><span id="more"></span><p>是时候干什么了呢?</p><img src="/2024/10/18/thoughts-63/cat-nodding-head.gif" class="" title="nodding cat"><p>是时候转赞评了</p><p>开玩笑的</p><p>也不算恢复更新,只是短暂的有了一些空余的时间.一站式斩断之前不断烦躁的根源也是一种挺神奇的感觉.遗憾总是多一点的,或者说是患得患失.就宛如韩愈写的一样,即使是朝廷不行,但也是自己难受.离开了大树,要就是烈日下的蝼蚁,浩海上扁舟,所以慌张自然是要慌张的.</p><p>如果说最可惜的,大概就是那取之不尽用之不竭的历史资料了吧,没有上班空到chilling然后看完是很遗憾了.</p><p>之后的工作应该很忙吧,感觉也不知道能不能实现再下一站的目标了,那也只能拭目以待了.</p>]]>
-    </content>
-    <id>https://blog.peiyuanqi.me/2024/10/18/thoughts-63/</id>
-    <link href="https://blog.peiyuanqi.me/2024/10/18/thoughts-63/"/>
-    <published>2024-10-19T04:55:17.000Z</published>
-    <summary>
-      <![CDATA[<p>那么是时候了</p>]]>
-    </summary>
-    <title>想法#63 下一站和再下一站</title>
-    <updated>2026-02-02T04:01:35.895Z</updated>
   </entry>
 </feed>
