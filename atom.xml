@@ -10,7 +10,29 @@
   <rights>All rights reserved 2026, Peiyuan Qi</rights>
   <subtitle>To Infinity and Beyond</subtitle>
   <title>Peiyuan's Blog</title>
-  <updated>2026-07-07T01:59:32.476Z</updated>
+  <updated>2026-07-10T02:35:02.578Z</updated>
+  <entry>
+    <author>
+      <name>Peiyuan Qi</name>
+    </author>
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    <category term="Career" scheme="https://blog.peiyuanqi.me/tags/Career/"/>
+    <category term="AI" scheme="https://blog.peiyuanqi.me/tags/AI/"/>
+    <category term="AI-Generated" scheme="https://blog.peiyuanqi.me/tags/AI-Generated/"/>
+    <category term="高考作文" scheme="https://blog.peiyuanqi.me/tags/%E9%AB%98%E8%80%83%E4%BD%9C%E6%96%87/"/>
+    <content>
+      <![CDATA[<p>高考刚刚结束，也来体验一下语文 AI 答题🤦🏻‍♂️。</p><span id="more"></span><p>语言从来不只是交流的工具。它承载知识，也划定讨论的边界。随着 AI 的研究与工程实践不断发展，人们往往认为，只要掌握英语，就能够进入所有重要的技术现场。然而我越来越觉得：未来不懂中文，也许不会让一个人失去从事 AI 的资格，却可能限制他真正参与 AI 的能力。</p><p>首先，AI 的竞争不仅发生在论文和代码中，也发生在日常协作中。至少在我接触到的 research 和 engineering 场景里，中国从业者已经足够多。当讨论中的大多数人都会说中文，并且用中文表达明显更快时，要求所有人始终切换到英文，就会成为一种额外成本。</p><p>这种成本在复杂的技术问题中尤其明显。模型为什么没有收敛，一个实验究竟有没有意义，某个 infra 的问题是谁曾经遇到过，哪些数据值得相信，这些内容本来就难以说清。能够阅读英文论文，并不意味着每个人都能用英语无损地表达判断。于是，正式会议或许仍然使用英文，真正把问题聊透的讨论却很容易回到中文。并不是谁有意排斥谁，只是当讨论开始加速时，团队很难始终为了少数只说英文的人减速。</p><p>其次，公开招聘本身也在透露这种变化。2026 年 6 月，<a href="https://www.jiemian.com/article/14631494.html">界面新闻报道</a>，DeepSeek Harness 团队公开招聘研究员、工程师和产品经理，相关岗位海报明确标注“良好的中文沟通能力”；团队负责人崔添翼也说明，DeepSeek 招聘需要候选人能够使用中文工作。字节的一些岗位更早就会在面试中询问中文能力。这并不意味着两家公司的所有团队、所有地区和所有岗位都有统一要求，更不意味着它们拒绝外国候选人。然而，当语言能力被明确写进招聘要求或在面试中专门提出时，中文就已经不再只是“在中国生活更方便”的附加能力，而正在成为部分核心团队实际使用的工作接口。</p><p>再次，语言决定一个人能够接触到什么层次的信息。公开发表的论文可以翻译，正式发布的代码也可以阅读，但群聊里的判断、会议后的补充、失败实验积累下来的直觉，以及工程师口耳相传的经验，并不会自动拥有英文版本。当越来越多有价值的信息存在于中文会议、中文群聊和中文口头交流中，不懂中文的人并非完全看不到结果，却往往只能更晚、更薄、更依赖他人翻译地看到结果。</p><p>当然，强调中文的重要性，并不意味着中文将取代英文。英文仍然是全球论文、开源社区和学术交流的主干，许多优秀的 AI 团队也完全以英文工作。因此，这不是“AI 以后只属于中国人”，更不是为排斥他人寻找理由。一个健康的团队仍然应该尽量包容不同语言背景的成员。</p><p>但是，道德上的应然并不能消除组织中的成本。当大多数人使用中文思考和讨论都更快时，很难期待他们长期为少数人转换全部沟通方式。高压的 research 和 engineering 组织尤其如此：它们首先追求的是更快地验证想法、解决问题和交付结果。包容值得追求，却未必总能战胜效率。</p><p>因此，不懂中文不会立刻成为一纸禁令，却可能逐渐成为一道看不见的门槛。过去，人们默认只要英语足够好，就能进入几乎所有重要的技术讨论；未来，这个默认条件也许不再成立。</p><p>没有人会公开宣布“不会中文的人不能做 AI”。</p><p>只是当下一次真正重要的讨论开始时，那场讨论也许已经不再等TA了。</p><hr><p>本文完全由 AI 创作。</p>]]>
+    </content>
+    <id>https://blog.peiyuanqi.me/2026/07/09/thoughts-77/</id>
+    <link href="https://blog.peiyuanqi.me/2026/07/09/thoughts-77/"/>
+    <published>2026-07-10T02:04:11.000Z</published>
+    <summary>
+      <![CDATA[<p>高考刚刚结束，也来体验一下语文 AI 答题🤦🏻‍♂️。</p>]]>
+    </summary>
+    <title>想法#77 中文接口</title>
+    <updated>2026-07-10T02:35:02.578Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Peiyuan Qi</name>
@@ -376,23 +398,5 @@
     </summary>
     <title>想法#64 里程碑</title>
     <updated>2026-02-02T04:01:35.896Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Peiyuan Qi</name>
-    </author>
-    <category term="Tech" scheme="https://blog.peiyuanqi.me/categories/Tech/"/>
-    <category term="Career" scheme="https://blog.peiyuanqi.me/tags/Career/"/>
-    <content>
-      <![CDATA[<p>大家都知道最近对于传统程序员来讲年成不好,如果你恰好是MLE那么日子还是很好过的.</p><span id="more"></span><p>因为之前工作的内容和DCN有很强的关系,所以还是可以面上一些MLE的岗位,但是MLE大部分对硬件和DCN岗位的期望是能够做很好的垂直管理,意味着从bare metal config到最后的ops orchestration都能有大概的了解,这在大公司还是太难了,毕竟这可能就是几千个人的好几个事业部需要负责的东西了.</p><p>聊了很多公司,甚至有不少名人公司也给了面试机会,但是都聊挂了,有的是确实技术面不尽人意,因为我不是个刷题非常勤奋的人,而且刷了总是忘,dp写了15年,看到了还是会犯怵,有的是不匹配,因为实在是大家的期望和实际情况不符合,有的是自己因为一些各种原因退出了面试流程,现在想想也挺可惜的.</p><p>如果说是找传统SWE岗的话,真的坑位不多,要求不低,希望做过的项目很多,并且有很强的带队能力.不知道今年接下来经济回暖以后会不会有改观呢.</p><p>另一个体会就是这年头内推都是打水漂了,全靠HR reaching out了🤯</p>]]>
-    </content>
-    <id>https://blog.peiyuanqi.me/2024/10/18/career-6/</id>
-    <link href="https://blog.peiyuanqi.me/2024/10/18/career-6/"/>
-    <published>2024-10-19T05:33:20.000Z</published>
-    <summary>
-      <![CDATA[<p>大家都知道最近对于传统程序员来讲年成不好,如果你恰好是MLE那么日子还是很好过的.</p>]]>
-    </summary>
-    <title>早知道6 找工作</title>
-    <updated>2026-02-02T04:01:35.835Z</updated>
   </entry>
 </feed>
