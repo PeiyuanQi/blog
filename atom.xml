@@ -10,7 +10,28 @@
   <rights>All rights reserved 2026, Peiyuan Qi</rights>
   <subtitle>To Infinity and Beyond</subtitle>
   <title>Peiyuan's Blog</title>
-  <updated>2026-07-10T02:35:02.578Z</updated>
+  <updated>2026-07-20T06:06:14.995Z</updated>
+  <entry>
+    <author>
+      <name>Peiyuan Qi</name>
+    </author>
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    <category term="Career" scheme="https://blog.peiyuanqi.me/tags/Career/"/>
+    <category term="AI" scheme="https://blog.peiyuanqi.me/tags/AI/"/>
+    <category term="Software" scheme="https://blog.peiyuanqi.me/tags/Software/"/>
+    <content>
+      <![CDATA[<p>Agent.Agent.Agent.</p><span id="more"></span><p>这是最近半年来最热的词了.</p><p>还是记录一下自己的想法:</p><p>首先是agent提供了一套能够落地的系统将ML inference这种概率计算落定并且scale到生产级别.</p><p>就好比来量子计算都算完成了,也得要很好的infra来让他落地一样,agent就是ml inference的product infra.</p><p>这也是为什么token在去年就会被老黄寄予厚望.每一次inference都是DC里面的CPU的一次计算的话,那自然是巨大的市场.</p><p>当下的agent还是比较粗放的,根本没有到精细设计的程度.毕竟首先是力大砖飞,看看砖在力大的时候大概能飞多远.之后才是精细优化,性能提升,走上metrics driven和ab testing的老路.</p><p>所以必然所有计算都用agent的ml inference自然是不合算的,也不会是最后的形态.</p><p>相比之下,一种基于传统算法和ML inference结合的落地形式可能会出现.</p><p>这大概就是后面会出现的最优秀的engineering产品了.</p><p>不过最后宣传的时候必然不会是这样的,因为这毫无卖点,也没有想象空间.</p><p>所以最后如何就让我们拭目以待吧.</p>]]>
+    </content>
+    <id>https://blog.peiyuanqi.me/2026/07/19/thoughts-78/</id>
+    <link href="https://blog.peiyuanqi.me/2026/07/19/thoughts-78/"/>
+    <published>2026-07-20T05:46:10.000Z</published>
+    <summary>
+      <![CDATA[<p>Agent.Agent.Agent.</p>]]>
+    </summary>
+    <title>想法#78 Agent到底在hype什么</title>
+    <updated>2026-07-20T06:06:14.995Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Peiyuan Qi</name>
@@ -379,24 +400,5 @@
     </summary>
     <title>想法#65 国内技术水平高低迷思🐶</title>
     <updated>2026-02-02T04:01:35.897Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Peiyuan Qi</name>
-    </author>
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    <category term="呓语" scheme="https://blog.peiyuanqi.me/tags/%E5%91%93%E8%AF%AD/"/>
-    <content>
-      <![CDATA[<p>这篇想法又带上了呓语的tag.</p><span id="more"></span><p>因为我想起来我还有这么一个tag. :D</p><p>之前同学对我的博文进行了快速考古,我不禁也简单考了个古,主要是针对想法系列的.</p><p>首先呢得承认环境对人的想法还是有很大的影响的,会让人的看法和思考内容很容易局限在当时的环境,问题,可能存在的方法上.</p><p>特别是结合时间点进行复盘.这个放在后面的段落讲述.</p><p>可以发现2018年到现在,所谓的这么多想法, 大概可以压缩成以下这么主要的几条:</p><ul><li>草台班子,这个是最早发现的,2018-2019的样子,但是草台班子的流行语比我概括得更好.</li><li>对美国人文化的理解和解读.</li><li>对第一性原理的提升认知和运用.</li><li>对什么是经济增加了认知.</li><li>对人的一生如何日渐平庸的过程多了体会.</li><li>对日渐平凡的挣扎.</li><li>多年如一日的看轻ai发展.</li></ul><p>挺有意思的.</p><p>近十年的思想的变化,只有这么一点点,不知道是不是算进步缓慢呢?但感觉每年也都挺忙的,都有一点变化.</p><p>回到之前说的“结合时间点进行复盘.” 如果回顾AI编年史的话,2014-2018是井喷前最后的预兆,有着时间差的国内,还没有迎来硅谷的AI狂潮的洗礼,但是那时候我担心的,只是我的小小的学业和其他,从那时候装起第一次cuda driver,装到现在,还是接近原地踏步.</p><p>在2018的文章里,甚至将<em>“新模型的应用即将为代码生成速度提供…”</em>和科技达到了顶峰,但是人类还需要设计放在了一起.回过头来在2024年看来,这是多么的可笑.本质上模型能写代码,模型就能进行所谓的人类的“设计”.</p><p>所以说科幻小说家永远预言不了未来,因为基于自身的知识局限性.大概就是这个意思吧.</p><p>但是作为从业人员,是不是能做的更好一点呢,比如将自己的想法,变成现实呢?</p><p>这大概就是需要努力的方向了吧.</p>]]>
-    </content>
-    <id>https://blog.peiyuanqi.me/2024/10/21/thoughts-64/</id>
-    <link href="https://blog.peiyuanqi.me/2024/10/21/thoughts-64/"/>
-    <published>2024-10-22T06:00:58.000Z</published>
-    <summary>
-      <![CDATA[<p>这篇想法又带上了呓语的tag.</p>]]>
-    </summary>
-    <title>想法#64 里程碑</title>
-    <updated>2026-02-02T04:01:35.896Z</updated>
   </entry>
 </feed>
