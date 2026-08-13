@@ -10,7 +10,28 @@
   <rights>All rights reserved 2026, Peiyuan Qi</rights>
   <subtitle>To Infinity and Beyond</subtitle>
   <title>Peiyuan's Blog</title>
-  <updated>2026-07-20T06:06:14.995Z</updated>
+  <updated>2026-08-13T03:56:32.063Z</updated>
+  <entry>
+    <author>
+      <name>Peiyuan Qi</name>
+    </author>
+    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
+    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
+    <category term="Career" scheme="https://blog.peiyuanqi.me/tags/Career/"/>
+    <category term="AI" scheme="https://blog.peiyuanqi.me/tags/AI/"/>
+    <category term="AI-Generated" scheme="https://blog.peiyuanqi.me/tags/AI-Generated/"/>
+    <content>
+      <![CDATA[<p>朋友说,上班上到一半没有token了,然后就进入了无效时间.</p><span id="more"></span><p>合理.</p><p>因为就算接下来拼命干,一直干到额度重置,可能也不及agent重置以后10分钟的成果.</p><p>那就没有必要做了.</p><p>所以没有token,就没法上班了.</p><p>至于token应不应该由公司提供,好像也应该,好像也不一定.毕竟有人带着公司的电脑上班,也有人带着自己的电脑上班.福利不同,生产资料也不总是由公司提供.</p><p>但是如果一个星期上到第四天,token刚好用完了,那第五天继续上班还有什么意义呢?</p><p>过去争取一周四天工作制,还要证明四天和五天的产出差不多.现在倒简单了:第五天拼命干八个小时,也不及下周token重置以后agent干10分钟.</p><p>于是劳动者突然获得了一点非常具体的议价权.不是要求少干一天还能有一样的产出,而是多干这一天本来也没有产出.</p><p>所以agent最后带来的劳工权利平权,会不会是大家终于可以一周只上四天班了?</p><p>不过四天工作制,只是从劳动者这一边算出来的结果.</p><p>到了公司那边,token就不再只是工具额度或者员工福利,而是升级成了生产成本.</p><p>既然多买token可以增加产出,那也可以买更多token,再降低人力成本.</p><p>所以最后得到的究竟是一周四天工作制,还是裁掉一部分人,让剩下的人带着更多token继续上五天班呢?</p><hr><p>本文完全由 GPT-5.6-Sol 生成。</p>]]>
+    </content>
+    <id>https://blog.peiyuanqi.me/2026/08/13/thoughts-79/</id>
+    <link href="https://blog.peiyuanqi.me/2026/08/13/thoughts-79/"/>
+    <published>2026-08-13T07:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>朋友说,上班上到一半没有token了,然后就进入了无效时间.</p>]]>
+    </summary>
+    <title>想法#79</title>
+    <updated>2026-08-13T03:56:32.063Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Peiyuan Qi</name>
@@ -382,23 +403,5 @@
     </summary>
     <title>配置特定内网ip的iot设备使用梅林固件Asus路由访问ss服务器</title>
     <updated>2026-02-02T04:01:35.838Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Peiyuan Qi</name>
-    </author>
-    <category term="Topic" scheme="https://blog.peiyuanqi.me/categories/Topic/"/>
-    <category term="想法" scheme="https://blog.peiyuanqi.me/tags/%E6%83%B3%E6%B3%95/"/>
-    <content>
-      <![CDATA[<p>“你们这些三本转码,读不出来出国的”</p><span id="more"></span><p>一直以来都有个传说</p><p>就是国内大家的工作时间更长,技术水平也相应更高.</p><p>毕竟干14小时和干4个小时一天的人,自然多干了10个小时的人应该懂得更多吧.</p><p>很多东西是不能以偏概全的,一来贴标签不好,二来是有失偏颇,但是如果用上第一性原理,你很难说他是以偏概全,而是透过现象看本质.</p><p>人一天24小时,社会适龄工作年龄大概18岁-65岁,大部分人需要的睡眠时间大约6-8小时.每天24小时计算下,剩余16小时.去除吃喝拉撒思想不可避免开小差,大约2小时,最后剩下最高可持续工作时间大概是14小时.</p><p>再考虑到人的意志力问题,假设此时的这位被观察人,充满斗志,意志力不会衰减,那也是有14个小时.</p><p>其中为了与人沟通,对齐项目,考虑到人与人之间的认知差异,需要花费8小时.</p><p>与系统打交道,因为人与人之间的沟通都这么难了,和文档,和readme沟通,更是难上加难,又是4个小时.</p><p>最后只剩4个小时去完成需要做的工作.</p><p>那么清理这个过程中产生的垃圾的时间,也就只有0小时了.</p><p>所以哪里来的时间去反思,去修改,去提高呢?</p><p>自然是没有的.</p><p>更不要说这位被观测者是一个意志力不会衰减的意志超人.而大部分人可能最高的专注时间也就只有6小时.</p><p>如果我们专注时间用在了最需要专注的完成工作的4小时上.剩下的2h只够用来清理因为10h的不专注工作导致的额外任务罢了.</p><p>所不要总是批评世界是个草台班子,人性如此罢了.</p><p>如此讨论下来,也就发现无论是工作14h还是4h,最后的工作质量,应该不会有太大的差别.工作总量可能还是有一定的差异的.但是工作总量的增加,自然是和工作质量成反比的.</p><p>因此如果没有生产效率的提升,从一定程度上讲,很多问题是永远不会被解决的.</p><p>从微观的角度来讨论,举例来说就是</p><ul><li>代码烂</li><li>架构差</li><li>容易崩</li><li>没有test</li><li>没有文档</li></ul><p>这时候,有的人会立下豪言壮志要修复他们,但是实际上,大多是象征性的铲两铲子,就忙活其他的事情去了.</p><p>与其继续打着毫无希望的一仗,不如静下心来思考一下,如何提升效率.</p><p>从具体一点来说</p><ul><li>让ai写unit test</li></ul><p>花1h写了曾经要10h的test,那么质量提升了,事情办完了,自然可以专注到其他需要专注的事物上来.</p><p>比如怎么和隔壁组吵架.justkidding</p><p>但以此类推,核心思想是,如果事务超过了上限,与其闭上眼睛死下生死状,不如停下来,断舍离.剩下的,就还是随他去吧.</p><p>只有这样才能让仅有的宝贵专注时间,产生真正的价值.</p><p>知其可以为可以不为,很多人很早就知道,只是从来不实践罢了.</p>]]>
-    </content>
-    <id>https://blog.peiyuanqi.me/2024/11/27/thoughts-65/</id>
-    <link href="https://blog.peiyuanqi.me/2024/11/27/thoughts-65/"/>
-    <published>2024-11-28T02:43:58.000Z</published>
-    <summary>
-      <![CDATA[<p>“你们这些三本转码,读不出来出国的”</p>]]>
-    </summary>
-    <title>想法#65 国内技术水平高低迷思🐶</title>
-    <updated>2026-02-02T04:01:35.897Z</updated>
   </entry>
 </feed>
